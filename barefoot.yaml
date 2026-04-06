@@ -1,0 +1,15 @@
+barefoot:
+  do: |-
+    (five toes:1.2),(foot focus),from below,pov,barefoot,soles,
+    __barefoot/expressions__,
+    __barefoot/poses__,
+    __barefoot/equipments__,
+    __common__
+  expressions:
+    - light smile
+    - smirk,{|closed mouth}
+  poses:
+    - standing on one leg,{hand on hip|crossed arms}
+    - sitting on chair,{|crossed legs},{|head rest}
+  equipments:
+    - "{5::|1::latex bra,latex elbow gloves,[latex panties],bare legs}"

@@ -1,0 +1,17 @@
+leather_thighboots:
+  do: |-
+    __leather_thighboots/expressions__,
+    __leather_thighboots/poses__,
+    footwear focus,outsoles,from below,looking at viewer,
+    __leather_thighboots/equipments__,
+    __common__
+  expressions:
+    - expressionless
+    - light smile
+    - smirk
+    - smug
+  poses:
+    - standing,hand on hip,knee up
+    - sitting on chair,{|crossed legs},{|head rest}
+  equipments:
+    - black thigh boots,{{|zettai ryouiki},white shirt,{|navel},leather jacket,open clothes,{blue|black} shorts|latex bra,latex elbow gloves,latex panties},
