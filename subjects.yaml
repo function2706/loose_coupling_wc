@@ -1,6 +1,6 @@
 subjects:
   random:
-    - "{__subjects/copyrights/*__|}"
+    - "{__subjects/copyrights/*__|__subjects/profiles/random__}"
   copyrights:
     arknights:
       - amiya \(arknights\)
@@ -343,7 +343,6 @@ subjects:
           - crown braid
           - single hair intake
       bangs:
-        - arched bangs
         - asymmetrical bangs
         - bangs pinned back
         - blunt bangs
@@ -392,52 +391,40 @@ subjects:
             - uneven twintails
             - wide ponytail
         updos:
-          - ballerina bun
-          - blunt bangs
-          - boho updo
           - braided bun
-          - braided updo
           - bun cover
           - cone hair bun
           - double bun
           - doughnut hair bun
           - hair bun
-          - low bun
-          - messy bun
-          - messy updo
           - single hair bun
           - single side bun
           - tied hair
       sidelocks:
-        - asymmetrical sidelocks
-        - drill sidelocks
-        - low-tied sidelocks
-        - side braid
-        - side braids
         - sidelocks
         - single sidelock
       bases:
         do:
-          - __subjects/profiles/hair/bases/length__ __subjects/profiles/hair/bases/style__ hair,__subjects/profiles/hair/bases/option__
+          - __subjects/profiles/hair/bases/length__,__subjects/profiles/hair/bases/style__ ,__subjects/profiles/hair/bases/option__
         length:
-          - bob
-          - long
-          - medium
-          - pixie
-          - short
-          - very long
+          - bob cut
+          - long hair
+          - medium hair
+          - pixie cut
+          - short hair
+          - very long hair
           - very short
         style:
           - " "
-          - asymmetrical
-          - curly
-          - curtained
-          - drill
-          - flipped
-          - messy
-          - spiked
-          - straight
-          - wavy
+          - asymmetrical hair
+          - curly hair
+          - curtained hair
+          - drill hair
+          - flipped hair
+          - messy hair
+          - spiked hair
+          - straight hair
+          - wavy hair
         option:
           - " "
           - blunt ends
@@ -449,15 +436,17 @@ subjects:
         - inverted bob
         - low-braided long hair
         - undercut
-        - voluminous curls
-        - wolf cut
       colors:
         - black
         - blonde
+        - blue
         - brown
-        - dark brown
-        - gray
+        - dark blue
+        - grey
+        - green
         - light brown
+        - pink
+        - purple
         - red
         - white
     eye:
@@ -472,15 +461,16 @@ subjects:
           - horizontal pupils
           - slit pupils
       color:
-        - amber
+        - aqua
         - black
         - blue
         - brown
-        - dark brown
-        - gray
+        - grey
         - green
         - hazel
-        - light brown
+        - orange
+        - pink
+        - purple
         - red
         - yellow
     ear:
@@ -495,26 +485,22 @@ subjects:
         - rabbit ears
     skin:
       - " "
-      - blue
+      - blue skin
       - dark skin
-      - fair skin
-      - green
-      - light brown skin
-      - medium skin
+      - green skin
+      - grey skin
       - pale skin
-      - purple
-      - red
-      - tan skin
+      - purple skin
+      - red skin
       - tanlines
       - tanned skin
-      - wheat skin
     breasts:
       - "{flat|small} chest"
       - large breasts
       - medium breasts
     misc:
       do:
-        - "{1-5$$__subjects/profiles/misc/option__}"
+        - "{2::|1::{1-5$$__subjects/profiles/misc/option__}}"
       option:
         - "{antennae|halo|horn|horns}"
         - "{|bat }wings"
