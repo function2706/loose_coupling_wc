@@ -1,142 +1,524 @@
 subjects:
-  blue-archive:
-    - aru \(blue archive\)
-    - ayane \(blue archive\)
-    - hina \(blue archive\)
-    - iori \(blue archive\)
-    - iroha \(blue archive\)
-    - izuna \(blue archive\)
-    - kayoko \(blue archive\)
-    - mutsuki \(blue archive\)
-    - nonomi \(blue archive\)
-    - serika \(blue archive\)
-    - shiroko \(blue archive\)
-  cardcaptor-sakura:
-    - kinomoto sakura
-  doraemon:
-    - minamoto shizuka
-  dragon-quest:
-    - alena \(dq4\)
-    - bianca \(dq5\)
-    - hero's daughter \(dq5\)
-    - jessica albert
-    - maribel \(dq7\)
-    - priest \(dq3\)
-  fate:
-    - bb {\(fate\)|\(fate/extra\)}
-    - saber \(fate\)
-    - shuten douji \(fate\)
-    - tohsaka rin \(fate/zero\)
-  final-fantasy:
-    - tifa lockhart
-    - yuna \(ff10\)
-  genshin-impact:
-    - hu tao \(genshin impact\)
-  ghibli:
-    - kiki \(majo no takkyuubin\)
-  gochi-usa:
-    - kafuu chino
-  idolmaster:
-    - amami haruka
-    - futami ami
-    - futami mami
-    - ganaha hibiki
-    - minase iori
-    - sakurai momoka
-  ikamusume:
-    - ikamusume
-  k-on:
-    - akiyama mio
-    - hirasawa ui
-    - hirasawa yui
-    - nakano azusa
-    - tainaka ritsu
-  kancolle:
-    - kaga \(kancolle\)
-    - maya \(kancolle\)
-    - ro-500 \(kancolle\)
-    - shimakaze \(kancolle\)
-    - yuugumo \(kancolle\)
-  kimetsu-no-yaiba:
-    - kochou shinobu
-  kino-no-tabi:
-    - kino \(kino no tabi\)
-  kirby:
-    - adeleine \(kirby\)
-  mario:
-    - ashley \(warioware\)
-    - princess daisy
-    - princess peach
-    - rosalina \(mario\)
-  pokemon:
-    - bea \(pokemon\)
-    - cheryl \(pokemon\)
-    - courtney \(pokemon\)
-    - dawn \(pokemon\)
-    - elesa \(pokemon\)
-    - erika \(pokemon\)
-    - gloria \(pokemon\)
-    - hilda \(pokemon\)
-    - leaf \(pokemon\)
-    - may \(pokemon\)
-    - misty \(pokemon\)
-    - rosa \(pokemon\)
-    - sabrina \(pokemon\)
-    - serena \(pokemon\),short hair
-    - skyla \(pokemon\)
-  powerpuff-girls:
-    - blossom \(ppg\)
-    - bubbles \(ppg\)
-    - buttercup \(ppg\)
-  puyopuyo:
-    - arle nadja
-    - draco \(puyopuyo\)
-  spy-x-family:
-    - anya \(spy x family\)
-  sousou-no-frieren:
-    - frieren
-  suzumiya-haruhi:
-    - nagato yuki
-    - suzumiya haruhi
-  to-love-ru:
-    - konjiki no yami
-    - lala satalin deviluke
-    - momo velia deviluke
-    - yuuki mikan
-  touhou:
-    - alice margatroid
-    - chen
-    - flandre scarlet
-    - houjuu nue
-    - houraisan kaguya
-    - kirisame marisa
-    - kishin sagume
-    - komeiji koishi
-    - komeiji satori
-    - konpaku youmu
-    - kudamaki tsukasa,fox ears,fox tail,yellow eyes,[small breasts]
-    - kurokoma saki
-    - luna child
-    - nazrin,mouse ears,mouse tail,[small breasts]
-    - niwatari kutaka
-    - remilia scarlet,slit pupils,bat wings,[small breasts],[toe claws],[sharp toenails]
-    - rumia
-    - shameimaru aya
-    - star sapphire
-    - sunny milk
-    - tatara kogasa
-    - toutetsu yuuma,horizontal pupils,[sharp teeth],[small breasts]
-    - yakumo ran
-    - yakumo yukari
-    - yorigami jo'on,(tsurime:0.8)
-  vocaloid:
-    - hatsune miku \(vocaloid\)
-    - kagamine rin
-    - kotonoha akane
-    - kotonoha aoi
-    - touhoku kiritan
-    - zundamon
-  yu-gi-oh:
-    - dark magician girl
-  yumenikki:
-    - madotsuki
+  random:
+    - "{__subjects/copyrights/*__|}"
+  copyrights:
+    arknights:
+      - amiya \(arknights\)
+    blue-archive:
+      - arona \(blue archive\)
+      - aru \(blue archive\)
+      - ayane \(blue archive\)
+      - cherino \(blue archive\)
+      - hina \(blue archive\)
+      - hoshino \(blue archive\)
+      - iori \(blue archive\)
+      - iroha \(blue archive\)
+      - izuna \(blue archive\)
+      - kayoko \(blue archive\)
+      - mutsuki \(blue archive\)
+      - nonomi \(blue archive\)
+      - serika \(blue archive\)
+      - shiroko \(blue archive\)
+    cardcaptor-sakura:
+      - daidouji tomoyo
+      - kinomoto sakura
+    code-geass:
+      - c.c.
+    detective-conan:
+      - haibara ai
+    digimon:
+      - amano nene \(digimon xros wars\)
+      - hinomoto akari \(digimon\)
+      - karan eri \(digimon\)
+      - makino ruki \(digimon\)
+      - tachikawa mimi \(digimon\)
+      - takenouchi sora \(digimon\)
+      - yagami hikari \(digimon\)
+    doki-doki-literature-club:
+      - monika \(doki doki literature club\)
+      - natsuki \(doki doki literature club\)
+      - sayori \(doki doki literature club\)
+      - yuri \(doki doki literature club\)
+    doraemon:
+      - minamoto shizuka
+    dragon-ball:
+      - android 18
+      - bulma
+      - chi-chi \(dragon ball\)
+    dragon-quest:
+      - alena \(dq4\)
+      - bianca \(dq5\)
+      - hero's daughter \(dq5\)
+      - jessica albert
+      - maribel \(dq7\)
+      - priest \(dq3\)
+    evangelion:
+      - akagi ritsuko
+      - ayanami rei
+      - katsuragi misato
+      - souryuu asuka langley
+    fate:
+      - bb {\(fate\)|\(fate/extra\)}
+      - saber \(fate\)
+      - shuten douji \(fate\)
+      - tohsaka rin \(fate/zero\)
+    final-fantasy:
+      - tifa lockhart
+      - yuna \(ff10\)
+    genshin-impact:
+      - hu tao \(genshin impact\)
+    ghibli:
+      - arrietty
+      - kiki \(majo no takkyuubin\)
+      - nausicaa
+      - san {\(mononoke hime\)|\(princess mononoke\)}
+      - sheeta \(tenkuu no shiro laputa\)
+    gochi-usa:
+      - kafuu chino
+    granblue-fantasy:
+      - djeeta \(granblue fantasy\)
+    higurashi:
+      - furude rika
+      - houjou satoko
+      - ryuuguu rena
+    idolmaster:
+      - amami haruka
+      - futami ami
+      - futami mami
+      - ganaha hibiki
+      - sakurai momoka
+    ikamusume:
+      - ikamusume
+    k-on:
+      - akiyama mio
+      - hirasawa ui
+      - hirasawa yui
+      - kotobuki tsumugi
+      - nakano azusa
+      - tainaka ritsu
+    kancolle:
+      - kaga \(kancolle\)
+      - maya \(kancolle\)
+      - ro-500 \(kancolle\)
+      - shimakaze \(kancolle\)
+      - yuugumo \(kancolle\)
+    kimetsu-no-yaiba:
+      - kochou shinobu
+      - tsuyuri kanao
+    kino-no-tabi:
+      - kino \(kino no tabi\)
+    kirby:
+      - adeleine \(kirby\)
+    lyrical-nanoha:
+      - fate testarossa
+      - takamachi nanoha
+    madoka-magica:
+      - akemi homura
+      - kaname madoka
+      - sakura kyoko
+      - tomoe mami
+    mario:
+      - ashley \(warioware\)
+      - princess daisy
+      - princess peach
+      - rosalina \(mario\)
+    monogatari:
+      - oshino shinobu
+    nikke:
+      - anis \(nikke\)
+      - privaty \(nikke\)
+    pokemon:
+      - bea \(pokemon\)
+      - cheryl \(pokemon\)
+      - courtney \(pokemon\)
+      - dawn \(pokemon\)
+      - elesa \(pokemon\)
+      - erika \(pokemon\)
+      - gloria \(pokemon\)
+      - hilda \(pokemon\)
+      - leaf \(pokemon\)
+      - may \(pokemon\)
+      - misty \(pokemon\)
+      - rosa \(pokemon\)
+      - sabrina \(pokemon\)
+      - serena \(pokemon\),{|short hair}
+      - skyla \(pokemon\)
+    powerpuff-girls:
+      - blossom \(ppg\)
+      - bubbles \(ppg\)
+      - buttercup \(ppg\)
+    puyopuyo:
+      - amitie \(puyopuyo\)
+      - arle nadja
+      - draco \(puyopuyo\)
+      - raffina \(puyopuyo\)
+      - witch \(puyopuyo\)
+    rozen-maiden:
+      - hinaichigo \(rozen maiden\),doll joints
+      - kanaria,doll joints
+      - shinku,doll joints
+      - souseiseki,heterochromia,doll joints
+      - suigintou,doll joints
+      - suiseiseki,heterochromia,doll joints
+    sailor-moon:
+      - aino minako
+      - hino rei
+      - kino makoto
+      - mizuno ami
+      - tsukino usagi
+    spy-x-family:
+      - anya \(spy x family\)
+      - yor {briar|forger}
+    sousou-no-frieren:
+      - frieren
+    street-fighter:
+      - chun-li
+    strike-witches:
+      - erica hartmann
+      - miyafuji yoshika
+    suzumiya-haruhi:
+      - nagato yuki
+      - suzumiya haruhi
+    to-love-ru:
+      - konjiki no yami
+      - lala satalin deviluke
+      - momo velia deviluke
+      - yuuki mikan
+    touhou:
+      - aki minoriko
+      - aki shizuha
+      - alice margatroid
+      - chen
+      - cirno
+      - clownpiece
+      - daiyousei
+      - doremy sweet
+      - ebisu eika
+      - ellen \(touhou\)
+      - elly \(touhou\)
+      - flandre scarlet
+      - fujiwara no mokou
+      - goutokuji mike
+      - hakurei reimu
+      - haniyasushin keiki
+      - hata no kokoro
+      - hecatia lapislazuli
+      - hieda no akyuu
+      - hijiri byakuren
+      - himekaidou hatate
+      - hinanawi tenshi
+      - hong meiling
+      - horikawa raiko
+      - houjuu nue
+      - houraisan kaguya
+      - ibaraki kasen
+      - ibuki suika
+      - iizunamaru megumu
+      - imaizumi kagerou
+      - inaba tewi
+      - inubashiri momiji
+      - izayoi sakuya
+      - kaenbyou rin
+      - kagiyama hina
+      - kaku seiga
+      - kamishirasawa keine
+      - kana anaberal
+      - kasodani kyouko
+      - kawashiro nitori
+      - kazami yuuka
+      - kicchou yachie
+      - kijin seija
+      - kirisame marisa
+      - kishin sagume
+      - koakuma
+      - kochiya sanae
+      - komano aunn
+      - komeiji koishi
+      - komeiji satori
+      - konpaku youmu
+      - kudamaki tsukasa,fox ears,fox tail,yellow eyes
+      - kumoi ichirin
+      - kurodani yamame
+      - kurokoma saki
+      - lily white
+      - luna child
+      - lunasa prismriver
+      - lyrica prismriver
+      - maribel hearn
+      - matara okina
+      - medicine melancholy
+      - merlin prismriver
+      - mitsugashira enoko
+      - miyako yoshika
+      - mizuhashi parsee
+      - mononobe no futo
+      - moriya suwako
+      - motoori kosuzu
+      - murasa minamitsu
+      - mystia lorelei
+      - nagae iku
+      - nazrin,mouse ears,mouse tail
+      - nishida satono
+      - niwatari kutaka
+      - okazaki yumemi
+      - okunoda miyoi
+      - onozuka komachi
+      - patchouli knowledge
+      - reisen \(touhou bougetsushou\)
+      - reisen udongein inaba
+      - reiuji utsuho
+      - remilia scarlet,slit pupils,bat wings
+      - ringo \(touhou\)
+      - rumia
+      - saigyouji yuyuko
+      - seiran \(touhou\)
+      - sekibanki
+      - shameimaru aya
+      - shiki eiki
+      - shinki \(touhou\)
+      - son biten
+      - star sapphire
+      - sukuna shinmyoumaru
+      - sunny milk
+      - tamatsukuri misumaru
+      - tanned cirno
+      - tatara kogasa
+      - teireida mai
+      - tenkajin chiyari
+      - tenkyuu chimata
+      - tokiko \(touhou\)
+      - toramaru shou
+      - toutetsu yuuma,horizontal pupils,sharp teeth
+      - toyosatomimi no miko
+      - tsukumo benben
+      - tsukumo yatsuhashi
+      - usami renko
+      - usami sumireko
+      - ushizaki urumi
+      - watatsuki no toyohime
+      - watatsuki no yorihime
+      - wriggle nightbug
+      - yagokoro eirin
+      - yakumo ran
+      - yakumo yukari
+      - yamashiro takane
+      - yasaka kanako
+      - yorigami jo'on,(tsurime:0.8)
+      - yorigami shion
+    vocaloid:
+      - hatsune miku \(vocaloid\)
+      - kagamine rin
+      - kotonoha akane
+      - kotonoha aoi
+      - touhoku kiritan
+      - zundamon
+    yu-gi-oh:
+      - dark magician girl
+    yumenikki:
+      - madotsuki
+  profiles:
+    random:
+      - "{1-6$$__subject/profiles/hair/do__|__subject/profiles/eye/random__|__subject/profiles/ear/random__|__subject/profiles/skin__|__subject/profiles/breasts__|__subject/profiles/misc/do__}"
+    hair:
+      do:
+        - __subjects/profiles/hair/colors__ {1::__subjects/profiles/hair/wholes__|3::__subjects/profiles/hair/random__}
+      random:
+        - __subjects/profiles/hair/bases/do__,{0-4$$__subjects/profiles/hair/list__}
+      list:
+        - __subjects/profiles/hair/decorations/do__
+        - __subjects/profiles/hair/bangs__
+        - __subjects/profiles/hair/extensions/do__
+        - __subjects/profiles/hair/sidelocks__
+      decorations:
+        do:
+          - __subjects/profiles/hair/decorations/ahoges__
+          - __subjects/profiles/hair/decorations/patterns__
+        ahoges:
+          - ahoge
+          - antenna hair
+          - heart ahoge
+          - heart antenna hair
+          - huge ahoge
+        patterns:
+          - crown braid
+          - single hair intake
+      bangs:
+        - arched bangs
+        - asymmetrical bangs
+        - bangs pinned back
+        - blunt bangs
+        - braided bangs
+        - crossed bangs
+        - diagonal bangs
+        - hair between eyes
+        - hair over eyes
+        - hair over one eye
+        - hair pulled back
+        - hair slicked back
+        - long bangs
+        - parted bangs
+        - short bangs
+        - swept bangs
+      extensions:
+        do:
+          - __subjects/profiles/hair/extensions/tails/do__
+          - __subjects/profiles/hair/extensions/updos__
+        tails:
+          do:
+            - __subjects/profiles/hair/extensions/tails/position__ __subjects/profiles/hair/extensions/tails/length__ __subjects/profiles/hair/extensions/tails/type__
+            - __subjects/profiles/hair/extensions/tails/misc__
+          type:
+            - ponytail
+            - single braid
+            - twin braids
+            - twintails
+          length:
+            - " "
+            - long
+            - short
+          position:
+            - " "
+            - high
+            - low
+            - side
+          misc:
+            - braided ponytail
+            - drill ponytail
+            - folded ponytail
+            - one side up
+            - split ponytail
+            - twin drills
+            - two side up
+            - uneven twintails
+            - wide ponytail
+        updos:
+          - ballerina bun
+          - blunt bangs
+          - boho updo
+          - braided bun
+          - braided updo
+          - bun cover
+          - cone hair bun
+          - double bun
+          - doughnut hair bun
+          - hair bun
+          - low bun
+          - messy bun
+          - messy updo
+          - single hair bun
+          - single side bun
+          - tied hair
+      sidelocks:
+        - asymmetrical sidelocks
+        - drill sidelocks
+        - low-tied sidelocks
+        - side braid
+        - side braids
+        - sidelocks
+        - single sidelock
+      bases:
+        do:
+          - __subjects/profiles/hair/bases/length__ __subjects/profiles/hair/bases/style__ hair,__subjects/profiles/hair/bases/option__
+        length:
+          - bob
+          - long
+          - medium
+          - pixie
+          - short
+          - very long
+          - very short
+        style:
+          - " "
+          - asymmetrical
+          - curly
+          - curtained
+          - drill
+          - flipped
+          - messy
+          - spiked
+          - straight
+          - wavy
+        option:
+          - " "
+          - blunt ends
+          - hair flaps
+          - hair intakes
+      wholes:
+        - bowl cut
+        - hime cut
+        - inverted bob
+        - low-braided long hair
+        - undercut
+        - voluminous curls
+        - wolf cut
+      colors:
+        - black
+        - blonde
+        - brown
+        - dark brown
+        - gray
+        - light brown
+        - red
+        - white
+    eye:
+      random:
+        - "{|__subjects/profiles/eye/style/shape__},{9::|1::__subjects/profiles/eye/style/pupil__},__subjects/profiles/eye/color__ eye"
+      style:
+        shape:
+          - " "
+          - tareme
+          - tsurime
+        pupil:
+          - heterochromia
+          - horizontal pupils
+          - slit pupils
+      color:
+        - amber
+        - black
+        - blue
+        - brown
+        - dark brown
+        - gray
+        - green
+        - hazel
+        - light brown
+        - red
+        - yellow
+    ear:
+      random:
+        - "{9::|1::__subjects/profiles/ear/list__}"
+      list:
+        - animal ears
+        - floppy ears
+        - horse ears
+        - long pointy ears
+        - pointy ears
+        - rabbit ears
+    skin:
+      - " "
+      - blue
+      - dark skin
+      - fair skin
+      - green
+      - light brown skin
+      - medium skin
+      - pale skin
+      - purple
+      - red
+      - tan skin
+      - tanlines
+      - tanned skin
+      - wheat skin
+    breasts:
+      - "{flat|small} chest"
+      - large breasts
+      - medium breasts
+    misc:
+      do:
+        - "{0-5$$__subjects/profiles/misc/option__}"
+      option:
+        - "{antennae|halo|horn|horns}"
+        - "{|bat }wings"
+        - fang{s|}
+        - tail
+        - whiskers
