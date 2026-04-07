@@ -318,7 +318,7 @@ subjects:
       - madotsuki
   profiles:
     random:
-      - "{1-6$$__subject/profiles/hair/do__|__subject/profiles/eye/random__|__subject/profiles/ear/random__|__subject/profiles/skin__|__subject/profiles/breasts__|__subject/profiles/misc/do__}"
+      - "{1-6$$__subjects/profiles/hair/do__|__subjects/profiles/eye/random__|__subjects/profiles/ear/random__|__subjects/profiles/skin__|__subjects/profiles/breasts__|__subjects/profiles/misc/do__}"
     hair:
       do:
         - __subjects/profiles/hair/colors__ {1::__subjects/profiles/hair/wholes__|3::__subjects/profiles/hair/random__}
@@ -465,7 +465,6 @@ subjects:
         - "{|__subjects/profiles/eye/style/shape__},{9::|1::__subjects/profiles/eye/style/pupil__},__subjects/profiles/eye/color__ eye"
       style:
         shape:
-          - " "
           - tareme
           - tsurime
         pupil:
@@ -515,7 +514,7 @@ subjects:
       - medium breasts
     misc:
       do:
-        - "{0-5$$__subjects/profiles/misc/option__}"
+        - "{1-5$$__subjects/profiles/misc/option__}"
       option:
         - "{antennae|halo|horn|horns}"
         - "{|bat }wings"
