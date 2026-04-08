@@ -318,12 +318,12 @@ subjects:
       - madotsuki
   profiles:
     random:
-      - "{1-6$$__subjects/profiles/hair/do__|__subjects/profiles/eye/random__|__subjects/profiles/ear/random__|__subjects/profiles/skin__|__subjects/profiles/breasts__|__subjects/profiles/misc/do__}"
+      - "{1-6$$,$$__subjects/profiles/hair/do__|__subjects/profiles/eye/random__|__subjects/profiles/ear/random__|__subjects/profiles/skin__|__subjects/profiles/breasts__|__subjects/profiles/misc/do__}"
     hair:
       do:
         - __subjects/profiles/hair/colors__ {1::__subjects/profiles/hair/wholes__|3::__subjects/profiles/hair/random__}
       random:
-        - __subjects/profiles/hair/bases/do__,{0-4$$__subjects/profiles/hair/list__}
+        - __subjects/profiles/hair/bases/do__,{0-4$$,$$__subjects/profiles/hair/list__}
       list:
         - __subjects/profiles/hair/decorations/do__
         - __subjects/profiles/hair/bangs__
@@ -500,9 +500,9 @@ subjects:
       - medium breasts
     misc:
       do:
-        - "{2::|1::{1-5$$__subjects/profiles/misc/option__}}"
+        - "{2::|1::{1-5$$,$$__subjects/profiles/misc/option__}}"
       option:
-        - "{antennae|halo|horn|horns}"
+        - "{1::antennae|2::halo|1::horn|5::horns}"
         - "{|bat }wings"
         - fang{s|}
         - tail

@@ -9,17 +9,17 @@ boots-maker:
     - "{|buckled |fur{|-trimmed} |{cross-laced|lace-up} |zipper }boots{|,{stiletto heels|wedge heels|high heel boots}|,platform boots}"
 boots-setups:
   casual-dress:
-    - "{__boots-maker/ankle_boots__|__boots-maker/knee_boots__|__boots-maker/thigh_boots__},{{|black |white }camisole|knit|oversized shirt|pinafore|slip|sweater} dress,{0-$$hat|{necklace|pendant}}"
+    - "{__boots-maker/ankle_boots__|__boots-maker/knee_boots__|__boots-maker/thigh_boots__},{{|black |white }camisole|knit|oversized shirt|pinafore|slip|sweater} dress,{0-$$,$$hat|{necklace|pendant}}"
   formal-dress:
-    - "{__boots-maker/ankle_boots__|__boots-maker/knee_boots__},{cocktail|halter|pencil|tube|turtleneck|v neck} dress,pantyhose,{0-$$necklace|pendant}"
+    - "{__boots-maker/ankle_boots__|__boots-maker/knee_boots__},{cocktail|halter|pencil|tube|turtleneck|v neck} dress,pantyhose,{0-$$,$$necklace|pendant}"
   hakama:
     - "__boots-maker/ankle_boots__,kimono,hakama skirt{|,kanzashi}"
   pants:
     - "{__boots-maker/ankle_boots__|__boots-maker/knee_boots__},{down jacket|long coat{|,shirt|,sweater}|oversized cardigan|shirt},{{|skinny }jeans|pants},pants tucked in{|,belt}"
   coat-skirt:
-    - "{black|brown} {__boots-maker/ankle_boots__|__boots-maker/knee_boots__},{brown |grey |red |white }{long|trench} coat,{brown|grey|white} {shirt|sweater},{{black|brown|white} {|plaid |pleated mini}skirt|{|denim }shorts{|,pants rolled up}},{black|brown} pantyhose,{0-$${|black |red |white }scarf|{necklace|pendant}|{black|brown|white} gloves}"
+    - "{black|brown} {__boots-maker/ankle_boots__|__boots-maker/knee_boots__},{brown |grey |red |white }{long|trench} coat,{brown|grey|white} {shirt|sweater},{{black|brown|white} {|plaid |pleated mini}skirt|{|denim }shorts{|,pants rolled up}},{black|brown} pantyhose,{0-$$,$${|black |red |white }scarf|{necklace|pendant}|{black|brown|white} gloves}"
   shorts:
-    - "{__boots-maker/knee_boots__|__boots-maker/thigh_boots__{|,zettai ryouiki}},{black leather jacket{|,sleeves {rolled|pushed} up},white short {|t-}shirt{|,navel}|black vest{|,open clothes},white {|t-}shirt,{|sleeves {rolled|pushed} up}{|,navel}|camisole},{|black |blue }{|denim }shorts{|,pants rolled up},{0-$$belt|necklace}"
+    - "{__boots-maker/knee_boots__|__boots-maker/thigh_boots__{|,zettai ryouiki}},{black leather jacket{|,sleeves {rolled|pushed} up},white short {|t-}shirt{|,navel}|black vest{|,open clothes},white {|t-}shirt,{|sleeves {rolled|pushed} up}{|,navel}|camisole},{|black |blue }{|denim }shorts{|,pants rolled up},{0-$$,$$belt|necklace}"
   skirt:
     - "{__boots-maker/ankle_boots__{|,kneehighs|,thighhighs}|__boots-maker/knee_boots__{|,thighhighs}|__boots-maker/thigh_boots__},{2::{{|frilled }shirt|{|oversized }sweater}{|,{off|single}-shoulder}|1::fur coat},{flare|pleated} {|mini}skirt{|,belt}"
   after-rain:
@@ -31,7 +31,7 @@ boots-setups:
   bookstore:
     - "{black|brown} __boots-maker/knee_boots__,{grey|white} long coat,{black|white} turtleneck sweater,{black|grey} skinny pants,pants tucked in{3::|1::,round glasses}"
   cafe:
-    - "{brown|black} __boots-maker/ankle_boots__,{beige|brown|white} cardigan,{white|black} shirt,{denim|navy} straight pants,{0-$${|{brown} glasses}|simple bracelet}"
+    - "{brown|black} __boots-maker/ankle_boots__,{beige|brown|white} cardigan,{white|black} shirt,{denim|navy} straight pants,{0-$$,$${|{brown} glasses}|simple bracelet}"
   campus:
     - "{black|brown} __boots-maker/ankle_boots__,{grey|navy|white} hoodie,denim shorts,{black|white} thighhigh socks"
   illumination:
@@ -39,11 +39,11 @@ boots-setups:
   museum:
     - "{black|dark brown} {__boots-maker/ankle_boots__|__boots-maker/knee_boots__},{black|white} turtleneck top,grey long coat,{black|dark green} pleated long skirt,black pantyhose"
   riverbed:
-    - "{brown|white} __boots-maker/ankle_boots__,{white|light pink} loose shirt,{beige|denim} shorts,{0-$${white|pink} hat|bracelet}"
+    - "{brown|white} __boots-maker/ankle_boots__,{white|light pink} loose shirt,{beige|denim} shorts,{0-$$,$${white|pink} hat|bracelet}"
   snap:
-    - "{black|white} {__boots-maker/ankle_boots__|__boots-maker/knee_boots__|__boots-maker/thigh_boots__},{black|grey} cropped jacket,{black|white|red} miniskirt,black pantyhose,{0-$${|black sunglasses}|choker}"
+    - "{black|white} {__boots-maker/ankle_boots__|__boots-maker/knee_boots__|__boots-maker/thigh_boots__},{black|grey} cropped jacket,{black|white|red} miniskirt,black pantyhose,{0-$$,$${|black sunglasses}|choker}"
   all-night:
-    - "{black|red} __boots-maker/ankle_boots__,{black|red|white} cropped top,{black|red} miniskirt,{black|brown} pantyhose,{0-$$necklace|bracelet}"
+    - "{black|red} __boots-maker/ankle_boots__,{black|red|white} cropped top,{black|red} miniskirt,{black|brown} pantyhose,{0-$$,$$necklace|bracelet}"
   cherry-blossom:
     - "{white|pink} __boots-maker/knee_boots__,{white|pink} cardigan,white pleated skirt{|,white pantyhose}{|,white hair ribbon}"
   library:
