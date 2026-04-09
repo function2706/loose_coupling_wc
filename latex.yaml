@@ -2,14 +2,13 @@ latex:
   do: |-
     __latex/equipments__{|,from below},
     __latex/expressions__,looking at viewer,
-    __latex/poses__,
+    {1::|2::__latex/poses__},
     __common__
   expressions:
     - light smile
     - smirk{|,closed mouth}
     - smug
   poses:
-    - ""
     - standing{ on one leg}{|,hand on hip}{|,outsoles}
     - sitting on chair{|,crossed legs{|,outsoles}|knee up}{|,head rest}
   equipments:

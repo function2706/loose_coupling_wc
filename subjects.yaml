@@ -1,6 +1,6 @@
 subjects:
   random:
-    - "{__subjects/copyrights/*__|__subjects/profiles/random__}"
+    - "{__subjects/copyrights/*__|__subjects/profiles/human__|__subjects/profiles/demi_human__}"
   copyrights:
     arknights:
       - amiya \(arknights\)
@@ -22,8 +22,6 @@ subjects:
     cardcaptor-sakura:
       - daidouji tomoyo
       - kinomoto sakura
-    code-geass:
-      - c.c.
     detective-conan:
       - haibara ai
     digimon:
@@ -34,17 +32,8 @@ subjects:
       - tachikawa mimi \(digimon\)
       - takenouchi sora \(digimon\)
       - yagami hikari \(digimon\)
-    doki-doki-literature-club:
-      - monika \(doki doki literature club\)
-      - natsuki \(doki doki literature club\)
-      - sayori \(doki doki literature club\)
-      - yuri \(doki doki literature club\)
     doraemon:
       - minamoto shizuka
-    dragon-ball:
-      - android 18
-      - bulma
-      - chi-chi \(dragon ball\)
     dragon-quest:
       - alena \(dq4\)
       - bianca \(dq5\)
@@ -52,11 +41,6 @@ subjects:
       - jessica albert
       - maribel \(dq7\)
       - priest \(dq3\)
-    evangelion:
-      - akagi ritsuko
-      - ayanami rei
-      - katsuragi misato
-      - souryuu asuka langley
     fate:
       - bb {\(fate\)|\(fate/extra\)}
       - saber \(fate\)
@@ -77,10 +61,6 @@ subjects:
       - kafuu chino
     granblue-fantasy:
       - djeeta \(granblue fantasy\)
-    higurashi:
-      - furude rika
-      - houjou satoko
-      - ryuuguu rena
     idolmaster:
       - amami haruka
       - futami ami
@@ -109,14 +89,6 @@ subjects:
       - kino \(kino no tabi\)
     kirby:
       - adeleine \(kirby\)
-    lyrical-nanoha:
-      - fate testarossa
-      - takamachi nanoha
-    madoka-magica:
-      - akemi homura
-      - kaname madoka
-      - sakura kyoko
-      - tomoe mami
     mario:
       - ashley \(warioware\)
       - princess daisy
@@ -141,7 +113,7 @@ subjects:
       - misty \(pokemon\)
       - rosa \(pokemon\)
       - sabrina \(pokemon\)
-      - serena \(pokemon\),{|short hair}
+      - serena \(pokemon\){|,short hair}
       - skyla \(pokemon\)
     powerpuff-girls:
       - blossom \(ppg\)
@@ -179,11 +151,6 @@ subjects:
     suzumiya-haruhi:
       - nagato yuki
       - suzumiya haruhi
-    to-love-ru:
-      - konjiki no yami
-      - lala satalin deviluke
-      - momo velia deviluke
-      - yuuki mikan
     touhou:
       - aki minoriko
       - aki shizuha
@@ -317,8 +284,10 @@ subjects:
     yumenikki:
       - madotsuki
   profiles:
-    random:
-      - "{1-6$$,$$__subjects/profiles/hair/do__|__subjects/profiles/eye/random__|__subjects/profiles/ear/random__|__subjects/profiles/skin__|__subjects/profiles/breasts__|__subjects/profiles/misc/do__}"
+    human:
+      - "{1-$$,$$__subjects/profiles/hair/do__|__subjects/profiles/eye/human__|__subjects/profiles/skin/human__|{2::|1::{flat|small} chest}}"
+    demi_human:
+      - "{1-$$,$$__subjects/profiles/hair/do__|__subjects/profiles/eye/demi_human__|__subjects/profiles/skin/demi_human__|{2::|1::{flat|small} chest}|__subjects/profiles/misc/do__}"
     hair:
       do:
         - __subjects/profiles/hair/colors__ {1::__subjects/profiles/hair/wholes__|3::__subjects/profiles/hair/random__}
@@ -364,7 +333,7 @@ subjects:
           - __subjects/profiles/hair/extensions/updos__
         tails:
           do:
-            - __subjects/profiles/hair/extensions/tails/position__ __subjects/profiles/hair/extensions/tails/length__ __subjects/profiles/hair/extensions/tails/type__
+            - "{|__subjects/profiles/hair/extensions/tails/position__ }{|__subjects/profiles/hair/extensions/tails/length__ }__subjects/profiles/hair/extensions/tails/type__"
             - __subjects/profiles/hair/extensions/tails/misc__
           type:
             - ponytail
@@ -372,11 +341,9 @@ subjects:
             - twin braids
             - twintails
           length:
-            - " "
             - long
             - short
           position:
-            - " "
             - high
             - low
             - side
@@ -405,7 +372,7 @@ subjects:
         - single sidelock
       bases:
         do:
-          - __subjects/profiles/hair/bases/length__,__subjects/profiles/hair/bases/style__ ,__subjects/profiles/hair/bases/option__
+          - __subjects/profiles/hair/bases/length__{|,__subjects/profiles/hair/bases/style__}{|,__subjects/profiles/hair/bases/option__}
         length:
           - bob cut
           - long hair
@@ -415,7 +382,6 @@ subjects:
           - very long hair
           - very short
         style:
-          - " "
           - asymmetrical hair
           - curly hair
           - curtained hair
@@ -426,22 +392,19 @@ subjects:
           - straight hair
           - wavy hair
         option:
-          - " "
           - blunt ends
           - hair flaps
           - hair intakes
       wholes:
-        - bowl cut
         - hime cut
         - inverted bob
         - low-braided long hair
-        - undercut
       colors:
         - black
         - blonde
         - blue
         - brown
-        - dark blue
+        - deep blue
         - grey
         - green
         - light brown
@@ -450,60 +413,49 @@ subjects:
         - red
         - white
     eye:
-      random:
-        - "{|__subjects/profiles/eye/style/shape__},{9::|1::__subjects/profiles/eye/style/pupil__},__subjects/profiles/eye/color__ eye"
-      style:
-        shape:
-          - tareme
-          - tsurime
-        pupil:
-          - heterochromia
-          - horizontal pupils
-          - slit pupils
+      human:
+        - "__subjects/profiles/eye/color/make__{6::|1::,{tareme|1::tsurime}}"
+      demi_human:
+        - __subjects/profiles/eye/human__{|,{horizontal|slit} pupils}
       color:
-        - aqua
-        - black
-        - blue
-        - brown
-        - grey
-        - green
-        - hazel
-        - orange
-        - pink
-        - purple
-        - red
-        - yellow
-    ear:
-      random:
-        - "{9::|1::__subjects/profiles/ear/list__}"
-      list:
+        make:
+          - "{20::__subjects/profiles/eye/color/normal__|1::__subjects/profiles/eye/color/heterochromia__}"
+        normal:
+          - __subjects/profiles/eye/color/list__
+        heterochromia:
+          - heterochromia,{2$$,$$__subjects/profiles/eye/color/list__}
+        list:
+          - aqua eye
+          - black eye
+          - blue eye
+          - brown eye
+          - grey eye
+          - green eye
+          - hazel eye
+          - orange eye
+          - pink eye
+          - purple eye
+          - red eye
+          - yellow eye
+    skin:
+      human:
+        - "{dark|fair|pale|{|tanlines,}tanned} skin"
+      demi_human:
+        - "{4::__subjects/profiles/skin/human__|6::{blue|green|grey|pink|purple|red} skin}"
+    misc:
+      do:
+        - "{|{1-3$$,$$__subjects/profiles/misc/option__}}"
+      option:
+        - "{halo|horn|horns|__subjects/profiles/misc/ear__}"
+        - "{|bat }wings"
+        - "{|whiskers}"
+        - fang{s|}
+        - tail
+      ear:
+        - antennae
         - animal ears
         - floppy ears
         - horse ears
         - long pointy ears
         - pointy ears
         - rabbit ears
-    skin:
-      - " "
-      - blue skin
-      - dark skin
-      - green skin
-      - grey skin
-      - pale skin
-      - purple skin
-      - red skin
-      - tanlines
-      - tanned skin
-    breasts:
-      - "{flat|small} chest"
-      - large breasts
-      - medium breasts
-    misc:
-      do:
-        - "{2::|1::{1-5$$,$$__subjects/profiles/misc/option__}}"
-      option:
-        - "{1::antennae|2::halo|1::horn|5::horns}"
-        - "{|bat }wings"
-        - fang{s|}
-        - tail
-        - whiskers
