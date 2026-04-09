@@ -19,7 +19,7 @@ boots-setups:
   coat-skirt:
     - "{black|brown} {__boots-maker/ankle_boots__|__boots-maker/knee_boots__},{brown |grey |red |white }{long|trench} coat,{brown|grey|white} {shirt|sweater},{{black|brown|white} {|plaid |pleated mini}skirt|{|denim }shorts{|,pants rolled up}},{black|brown} pantyhose,{0-$$,$${|black |red |white }scarf|{necklace|pendant}|{black|brown|white} gloves}"
   shorts:
-    - "{__boots-maker/knee_boots__|__boots-maker/thigh_boots__{|,zettai ryouiki}},{black leather jacket{|,sleeves {rolled|pushed} up},white short {|t-}shirt{|,navel}|black vest{|,open clothes},white {|t-}shirt,{|sleeves {rolled|pushed} up}{|,navel}|camisole},{|black |blue }{|denim }shorts{|,pants rolled up},{0-$$,$$belt|necklace}"
+    - "{__boots-maker/knee_boots__|__boots-maker/thigh_boots__{|,zettai ryouiki}},{black leather jacket{|,sleeves {rolled|pushed} up},white short {|t-}shirt{|,navel}|black vest{|,open clothes},white {|t-}shirt{|,sleeves {rolled|pushed} up}{|,navel}|camisole},{|black |blue }{|denim }shorts{|,pants rolled up},{0-$$,$$belt|necklace}"
   skirt:
     - "{__boots-maker/ankle_boots__{|,kneehighs|,thighhighs}|__boots-maker/knee_boots__{|,thighhighs}|__boots-maker/thigh_boots__},{2::{{|frilled }shirt|{|oversized }sweater}{|,{off|single}-shoulder}|1::fur coat},{flare|pleated} {|mini}skirt{|,belt}"
   after-rain:
@@ -48,6 +48,34 @@ boots-setups:
     - "{white|pink} __boots-maker/knee_boots__,{white|pink} cardigan,white pleated skirt{|,white pantyhose}{|,white hair ribbon}"
   library:
     - "{brown|black} __boots-maker/ankle_boots__,{beige|brown} knit sweater,{black|navy} long skirt{3::|1::,brown glasses}"
+  picnic:
+    - "{brown|white} __boots-maker/ankle_boots__,{beige|light green} cardigan,{white|light yellow} blouse,{beige|denim} wide pants{|,straw hat}{|,simple bracelet}"
+  hospital-visit:
+    - "{black|white} __boots-maker/ankle_boots__,{white|light grey} blouse,{navy|black} straight pants,{0-$$,$$simple necklace}"
+  date-night:
+    - "{black|brown} {__boots-maker/knee_boots__|__boots-maker/thigh_boots__},{black|dark red} wrap dress{|,{necklace|pendant}}"
+  concert:
+    - "{black|white} {__boots-maker/knee_boots__|__boots-maker/thigh_boots__},{black leather jacket,{white|grey} t-shirt|black cropped top},{black|grey} {|distressed }jeans,{0-$$,$$belt|wristband}"
+  night-out:
+    - "{black|silver} {__boots-maker/knee_boots__|__boots-maker/thigh_boots__},stiletto heels,{black|red} {slip|tube} dress,black pantyhose,{0-$$,$$choker|earrings}"
+  studio-session:
+    - "{black|white} {__boots-maker/knee_boots__|__boots-maker/thigh_boots__},{black|grey} oversized hoodie,{black|grey} biker shorts{|,pants rolled up}{|,scrunchie}"
+  rainy-day:
+    - "{black|dark navy} __boots-maker/knee_boots__,{yellow|beige} trench coat,{white|grey} shirt,{dark grey|navy} straight pants,pants tucked in,pantyhose"
+  winter-market:
+    - "{black|dark brown} {__boots-maker/knee_boots__|__boots-maker/thigh_boots__},{grey|navy} long coat,{black|white} turtleneck sweater,{grey|charcoal} skinny pants,pantyhose,{0-$$,$$knit hat|plaid scarf}"
+  art-gallery:
+    - "{black|white} {__boots-maker/ankle_boots__|__boots-maker/knee_boots__},{black|ivory} turtleneck top,{camel|grey} wide trousers,{3::|1::,simple {necklace|bracelet}}"
+  autumn-walk:
+    - "{brown|dark brown} {__boots-maker/ankle_boots__|__boots-maker/knee_boots__},{camel|rust} long coat,{cream|beige} turtleneck knit,{brown|olive} {straight pants|wide pants},pants tucked in{|,scarf}"
+  flea-market:
+    - "{brown|tan} {__boots-maker/ankle_boots__|__boots-maker/knee_boots__},{olive|mustard} oversized jacket,{white|cream} loose shirt,{beige|black} wide pants{|,belt}"
+  vintage-shop:
+    - "{brown|tan} {__boots-maker/ankle_boots__|__boots-maker/knee_boots__},{olive|burgundy} {long coat|oversized cardigan},{white|cream} shirt,{brown|black} {corduroy|straight} pants{|,belt}{3::|1::,round glasses}"
+  garden-party:
+    - "{white|nude} {__boots-maker/ankle_boots__|__boots-maker/knee_boots__},{white|floral} midi dress,{0-$$,$$flower hair clip|pearl bracelet|sun hat}"
+  sunday-brunch:
+    - "{white|nude} {__boots-maker/ankle_boots__|__boots-maker/knee_boots__},{white|pink} blouse,{beige|white} {flare|pleated} midi skirt{|,straw hat}{|,small earrings}"
 boots-show: |-
   {|{light }smile}
   __boots-setups/*__,
@@ -67,4 +95,4 @@ bootsdom:
     - smug
   poses:
     - standing,hand on hip,knee up
-    - sitting on chair,{|crossed legs},{|head rest}
+    - sitting on chair{|,crossed legs}{|,head rest}
