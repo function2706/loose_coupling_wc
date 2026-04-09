@@ -54,7 +54,7 @@ costumes:
     {0-$$,$${{|black |white }kneehighs|{|beige |black |brown }pantyhose|ankle socks|loose socks|socks},{loafers|mary janes|sneakers|uwabaki}|{1-$$,$$glasses|name tag}}
   summer: >-
     {{strapless shirt|{short sleeves,|sleeves {rolled|pushed} up,}t-shirt|camisole},{{|short }{shorts|skirt}|hot pants|pants,sleeves {rolled|pushed} up|pleated skirt}|{{short sleeves,|sleeves {rolled|pushed} up,}casual |{short sleeves,|sleeves {rolled|pushed} up,}pinafore |sailor |sun}dress},
-    {0-$$,$${flip-flops|sandals|sneakers,{black|white} {ankle socks|knee socks|kneehighs|thighhighs}}}{|,{{|visor }cap|snapback}|{|straw |sun }hat{|,hat {bow|flower}}|bandana|boater|bucket hat|headpin|panama hat}
+    {0-$$,$${flip-flops|sandals|sneakers,{black|white} {ankle socks|knee socks|kneehighs|thighhighs}}|{1-2$$,$${{|visor }cap|snapback}|{|straw |sun }hat{|,hat {bow|flower}}|bandana|boater|bucket hat|headpin|panama hat}}
   swimwear: >-
     {one-piece swimsuit|{|competition |old |new }school swimsuit|{front-tie|side-tie} bikini|backless swimsuit|bikini shorts,swimsuit|competition swimsuit|cross halter neck bikini|dress swimsuit|front zipper swimsuit|micro bikini|monokini|o-ring bikini|o-ring swimsuit|sailor bikini|sarong bikini|side-tie swimsuit|slingshot bikini|slingshot swimsuit|sports bikini|strapless bikini|string bikini|swim briefs,swimsuit|swimsuit|swimsuit skirt,swimsuit|tankini},
     {0-$$,$${flip-flops|sandals}|{1-$$,$${necklace|pendant}|anklet|bracelet|earrings|open jacket{|,hood up}|{{|sun |straw }hat|flower ornament|{sunglasses|goggles} on head}}}
@@ -62,8 +62,7 @@ costumes:
     teacher,{formal jacket|shirt|vest},pencil skirt{|,{beige|black|brown} pantyhose},
     {0-$$,$${heels|pumps|sandals|shoes}|{1-$$,$$glasses|lanyard|necktie}}
   waitress: >-
-    waitress,apron,
-    {0-$$,$${shirt|vest}|{|frilled }skirt{|,{black|brown|white} pantyhose}|{heels|mary janes}|{1-$$,$${bow|neck}tie|name tag|sleeves rolled up}}
+    waitress,apron,{0-$$,$${shirt|vest}|{|frilled }skirt{|,{black|brown|white} pantyhose}|{heels|mary janes}|{1-$$,$${bow|neck}tie|name tag|sleeves rolled up}}
   warm-sets: >-
     {cardigan|hooded shirt|loungewear|polo shirt|sweater|turtleneck shirt}{|,sleeves {pushed|rolled} up},{jeans|pants{|,drawstring}|sweatpants}
   winter: >-
