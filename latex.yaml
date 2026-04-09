@@ -1,6 +1,6 @@
 latex:
   do: |-
-    __latex/equipments__{|,from below},
+    __latex/equipments/*__{|,from below},
     __latex/expressions__,looking at viewer,
     {1::|2::__latex/poses__},
     __common__
@@ -12,5 +12,18 @@ latex:
     - standing{ on one leg}{|,hand on hip}{|,outsoles}
     - sitting on chair{|,crossed legs{|,outsoles}|knee up}{|,head rest}
   equipments:
-    - black {knee|thigh} latex boots,black latex bra,black latex elbow gloves,black latex panties
-    - red {knee|thigh} latex boots,red latex bra,red latex elbow gloves,red latex panties
+    black: >-
+      black {latex thigh boots|latex knee boots{|,garter belt|,{|fishnet }thighhighs}|{|stiletto }heels{|,garter belt|,{|fishnet }thighhighs}},
+      black latex {|strapless }bra,black latex {panties|miniskirt}{|,black latex elbow gloves},{0-$$,$$corset|choker|earrings|pendant}
+    blue: >-
+      blue {latex thigh boots|latex knee boots{|,garter belt|,{|fishnet }thighhighs}|{|stiletto }heels{|,garter belt|,{|fishnet }thighhighs}},
+      blue latex {|strapless }bra,blue latex {panties|miniskirt}{|,blue latex elbow gloves},{0-$$,$$corset|choker|earrings|pendant}
+    pink: >-
+      pink {latex thigh boots|latex knee boots{|,garter belt|,{|fishnet }thighhighs}|{|stiletto }heels{|,garter belt|,{|fishnet }thighhighs}},
+      pink latex {|strapless }bra,pink latex {panties|miniskirt}{|,pink latex elbow gloves},{0-$$,$$corset|choker|earrings|pendant}
+    red: >-
+      red {latex thigh boots|latex knee boots{|,garter belt|,{|fishnet }thighhighs}|{|stiletto }heels{|,garter belt|,{|fishnet }thighhighs}},
+      red latex {|strapless }bra,red latex {panties|miniskirt}{|,red latex elbow gloves},{0-$$,$$corset|choker|earrings|pendant}
+    white: >-
+      white {latex thigh boots|latex knee boots{|,garter belt|,{|fishnet }thighhighs}|{|stiletto }heels{|,garter belt|,{|fishnet }thighhighs}},
+      white latex {|strapless }bra,white latex {panties|miniskirt}{|,white latex elbow gloves},{0-$$,$$corset|choker|earrings|pendant}
