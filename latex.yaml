@@ -1,17 +1,17 @@
 latex:
   do: |-
-    __latex/equipments__,{|from below},
+    __latex/equipments__{|,from below},
     __latex/expressions__,looking at viewer,
     __latex/poses__,
     __common__
   expressions:
     - light smile
-    - smirk,{|closed mouth}
+    - smirk{|,closed mouth}
     - smug
   poses:
     - ""
-    - standing{ on one leg},{|hand on hip},{|outsoles}
-    - sitting on chair,{|crossed legs,{|outsoles}|knee up},{|head rest}
+    - standing{ on one leg}{|,hand on hip}{|,outsoles}
+    - sitting on chair{|,crossed legs{|,outsoles}|knee up}{|,head rest}
   equipments:
     - black {knee|thigh} latex boots,black latex bra,black latex elbow gloves,black latex panties
     - red {knee|thigh} latex boots,red latex bra,red latex elbow gloves,red latex panties
