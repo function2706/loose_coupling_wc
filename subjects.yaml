@@ -285,9 +285,9 @@ subjects:
       - madotsuki
   profiles:
     human:
-      - "{1-$$,$$__subjects/profiles/hair/do__|__subjects/profiles/eye/human__|__subjects/profiles/skin/human__|{2::|1::{flat|small} chest}}"
+      - "{1-$$,$$__subjects/profiles/hair/do__|__subjects/profiles/eye/human__|__subjects/profiles/skin/human__|{flat chest|small breasts|middle breasts|large breasts}}"
     demi_human:
-      - "{1-$$,$$__subjects/profiles/hair/do__|__subjects/profiles/eye/demi_human__|__subjects/profiles/skin/demi_human__|{2::|1::{flat|small} chest}|__subjects/profiles/misc/do__}"
+      - "{1-$$,$$__subjects/profiles/hair/do__|__subjects/profiles/eye/demi_human__|__subjects/profiles/skin/demi_human__|{flat chest|small breasts|middle breasts|large breasts}|__subjects/profiles/misc/do__}"
       - __subjects/profiles/species/*__,{1-$$,$$__subjects/profiles/hair/do__|__subjects/profiles/eye/human__|{flat chest|small breasts|middle breasts|large breasts}}
     hair:
       do:
@@ -445,7 +445,7 @@ subjects:
         - "{4::__subjects/profiles/skin/human__|6::{blue|green|grey|pink|purple|red} skin}"
     misc:
       do:
-        - "{|{1-3$$,$$__subjects/profiles/misc/option__}}"
+        - "{1-3$$,$$__subjects/profiles/misc/option__}"
       option:
         - "{halo|horn|horns|__subjects/profiles/misc/ear__}"
         - "{|bat }wings"
@@ -463,43 +463,26 @@ subjects:
     species:
       real:
         - alpaca girl,animal ears{|,tail}
-        - antelope girl,horns,animal ears{|,tail}
         - bear girl,animal ears{|,fangs}{|,tail}
         - bee girl,antennae
-        - buffalo girl,animal ears{|,tail}
         - cat girl,animal ears{|,slit pupils},whiskers{|,fangs}{|,tail}
         - cow girl,animal ears{|,horizontal pupils}{|,tail}
-        - coyote girl,animal ears{|,fangs}{|,tail}
         - deer girl,horns,animal ears{|,tail}
         - dog girl,animal ears{|,tail}
         - donkey girl,animal ears{|,tail}
-        - dormouse girl,animal ears{|,tail}
         - ferret girl,animal ears{|,tail}
         - fox girl,animal ears{|,fangs}{|,tail}
         - goat girl,horns,animal ears{|,horizontal pupils}
-        - hare girl,animal ears{|,tail}
         - horse girl,animal ears{|,tail}
-        - hyena girl,animal ears{|,tail}
-        - impala girl,horns,animal ears{|,tail}
         - jackal girl,animal ears{|,fangs}{|,tail}
-        - kangaroo girl,animal ears{|,tail}
         - leopard girl,animal ears{|,slit pupils}{|,fangs}{|,tail}
-        - lion girl,animal ears{|,fangs}{|,tail}
-        - llama girl,animal ears{|,tail}
-        - lynx girl,animal ears{|,slit pupils}{|,fangs}{|,tail}
-        - moose girl,horns,animal ears{|,tail}
         - moth girl,antennae
         - mouse girl,animal ears{|,whiskers}{|,tail}
-        - okapi girl,animal ears{|,tail}
-        - polar bear girl,animal ears{|,tail}
         - rabbit girl,animal ears{|,tail}
-        - rat girl,animal ears{|,whiskers}{|,tail}
         - sheep girl,animal ears{|,horizontal pupils}{|,tail}
         - skunk girl,animal ears{|,tail}
         - squirrel girl,animal ears{|,tail}
-        - tiger girl,animal ears{|,slit pupils}{|,fangs}{|,tail}
         - weasel girl,animal ears{|,tail}
-        - wildcat girl,animal ears{|,slit pupils}{|,fangs}{|,tail}
         - wolf girl,animal ears{|,fangs}{|,tail}
         - yak girl,horns,animal ears{|,tail}
       unreal:
@@ -511,25 +494,18 @@ subjects:
         - demon girl,horns{|,tail}{|,{dark|red|purple} skin}
         - devil girl,horns,wings{|,tail}{|,{dark|red|purple} skin}
         - dryad girl{|,green skin}
-        - dwarf girl
         - elf girl,pointy ears
         - fairy girl,wings{|,fair skin}
-        - ghoul girl{|,gray skin}
         - gnome girl
         - goblin girl,pointy ears{|,green skin}
         - hobgoblin girl,pointy ears{|,red skin}
         - ifrit girl,horns{|,red skin}
         - imp girl,horns,wings{|,tail}{|,{fair|pale|pink} skin}
         - kitsune girl,fox ears{|,tails}
-        - lich girl{|,pale skin}
         - nymph girl{|,fair skin}
         - ogre girl{|,horns}{|,{green|red} skin}
         - oni girl,horns{|,{red|blue} skin}
-        - orc girl{|,fangs|,tusks}{|,{green|grey|red} skin}
-        - pixie girl,wings{|,fair skin}
         - salamander girl{|,red skin}
         - succubus girl,horns,wings{|,tail}{|,{dark|fair|pale|pink} skin}
-        - sylph girl,wings{|,fair skin}
         - undine girl{|,blue skin}
         - vampire girl{|,slit pupils},pointy ears{|,fangs}{|,pale skin}
-        - wraith girl{|,pale skin}
