@@ -1,15 +1,27 @@
 barefoot:
-  do: |-
-    (five toes:1.2),(foot focus),from below,pov,barefoot,{0-$$,$$toes|soles|toenails},
-    __barefoot/expressions__,
-    __barefoot/poses__,
-    __barefoot/equipments__,
-    __common__
+  do:
+    - __barefoot/below/make__
+    - __barefoot/not_below/make__
+  below:
+    make: |-
+      (five toes:1.2),(foot focus),from below,pov,barefoot,{0-$$,$$toes|soles|toenails|spread toes},
+      __barefoot/expressions__,
+      __barefoot/below/poses__,
+      __barefoot/equipments__,
+      __common__
+    poses:
+      - standing on one leg,{hand on hip|crossed arms}
+      - sitting on chair,{|crossed legs},{|head rest}
+  not_below:
+    make: |-
+      __barefoot/expressions__,(looking at viewer),full body,
+      (five toes:1.2),(foot focus),barefoot,{0-$$,$$toes|soles|toenails|spread toes},
+      __barefoot/not_below/poses__,
+      __common__
+    poses:
+      - sitting,legs together,feet together,extending legs,stretched legs out,arms behind back,
   expressions:
     - light smile
     - smirk,{|closed mouth}
-  poses:
-    - standing on one leg,{hand on hip|crossed arms}
-    - sitting on chair,{|crossed legs},{|head rest}
   equipments:
     - "{5::|1::latex bra,latex elbow gloves,[latex panties],bare legs}"
