@@ -22,6 +22,8 @@ pussy:
       {negligee|nightwear|pajamas}{|,{mob cap|nightcap}}{|,panties aside}
     bunny-girl: >-
       {|black |blue |pink |red |white }playboy bunny,{0-$$,$${bustier|tailcoat}{|,bottomwear aside}|heels|{1-$$,$$bowtie|wrist cuffs}}
+    cheerleader: >-
+      cheerleader,{0-$$crop top|pleated {|mini}skirt{|,panties aside}|{{|ankle }socks|kneehighs|thighhighs}|sneakers}
     china: >-
       {|blue |green |purple |red |yellow }china dress,{0-$$,$$white elbow gloves|{{|stiletto }heels|chinese shoes}|{1-$$,$$bracelet|earrings|hairpin|necklace}}
     cool-sets: >-
@@ -58,6 +60,8 @@ pussy:
     police: >-
       police uniform,{blazer jacket|shirt,{long|short} sleeves},{1-$$,$$pencil skirt|panties aside},
       {0-$$,$$white gloves|{1-$$,$${hat|peaked cap}|badge|necktie}}
+    race-queen: >-
+      race queen,miniskirt{|,panties aside},{0-$${crop top|halter dress|sleeveless shirt}|{heels|thigh boots}|{1-$$belt|gloves|sunglasses on head}}
     santa: >-
       {black|red} santa costume{|,panties aside},{0-$$,$$fur {|ankle |knee |thigh }boots|{1-$$,$${|elbow }gloves|hat}}
     school: >-
