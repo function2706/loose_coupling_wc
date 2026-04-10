@@ -227,12 +227,12 @@ subjects:
       - marina \(blue archive\)
       - mashiro \(blue archive\)
       - megu \(blue archive\)
-      - meru \(blue archive\),
+      - meru \(blue archive\)
       - michiru \(blue archive\)
       - midori \(blue archive\)
       - mika \(blue archive\)
       - mimori \(blue archive\)
-      - mina \(blue archive\),
+      - mina \(blue archive\)
       - mine \(blue archive\)
       - minori \(blue archive\)
       - misaki \(blue archive\)
@@ -554,7 +554,7 @@ subjects:
       - trieste \(azur lane\)
       - u-47 \(azur lane\)
       - u-81 \(azur lane\)
-      - u-96 \(azur lane\),
+      - u-96 \(azur lane\)
       - ulrich von hutten \(azur lane\)
       - unicorn \(azur lane\)
       - universal bulin \(azur lane\)
@@ -1503,7 +1503,7 @@ subjects:
       - akizuki \(kancolle\)
       - amagi \(kancolle\)
       - amagi kai \(kancolle\)
-      - amagiri \(kancolle\),
+      - amagiri \(kancolle\)
       - amatsukaze \(kancolle\)
       - amatsukaze kai ni \(kancolle\)
       - aoba \(kancolle\)
@@ -1664,7 +1664,7 @@ subjects:
       - kasuga maru \(kancolle\)
       - kasumi \(kancolle\)
       - kasumi kai ni \(kancolle\)
-      - katori \(kancolle\),
+      - katori \(kancolle\)
       - katsuragi \(kancolle\)
       - katsuragi kai \(kancolle\)
       - kawakaze \(kancolle\)
@@ -1676,7 +1676,7 @@ subjects:
       - kinu kai ni \(kancolle\)
       - kinugasa \(kancolle\)
       - kinugasa kai ni \(kancolle\)
-      - kirishima \(kancolle\),
+      - kirishima \(kancolle\)
       - kirishima kai ni \(kancolle\)
       - kisaragi \(kancolle\)
       - kisaragi kai ni \(kancolle\)
@@ -1728,7 +1728,7 @@ subjects:
       - miyuki \(kancolle\)
       - miyuki kai ni \(kancolle\)
       - mizuho \(kancolle\)
-      - mochizuki \(kancolle\),
+      - mochizuki \(kancolle\)
       - mogami \(kancolle\)
       - mogami kai ni \(kancolle\)
       - momo \(kancolle\)
@@ -1776,7 +1776,7 @@ subjects:
       - ooshio \(kancolle\)
       - ooshio kai ni \(kancolle\)
       - ooyodo \(kancolle\)
-      - ooyodo kai \(kancolle\),
+      - ooyodo kai \(kancolle\)
       - oyashio \(kancolle\)
       - oyashio kai ni \(kancolle\)
       - perth \(kancolle\)
@@ -1995,6 +1995,12 @@ subjects:
       - yoneme mei
       - yuki setsuna
       - zhong lanzhu
+    madoka-magica:
+      - akemi homura
+      - kaname madoka
+      - miki sayaka
+      - sakura kyoko
+      - tomoe mami
     mario:
       - ashley \(warioware\)
       - bowsette
@@ -2159,6 +2165,40 @@ subjects:
       - blossom \(ppg\)
       - bubbles \(ppg\)
       - buttercup \(ppg\)
+    princess-connect:
+      - chieru \(princess connect!\)
+      - chloe \(princess connect!\)
+      - christina \(princess connect!\)
+      - eriko \(princess connect!\)
+      - hatsune \(princess connect!\)
+      - io \(princess connect!\)
+      - kaori \(princess connect!\)
+      - karyl \(princess connect!\)
+      - kasumi \(princess connect!\)
+      - kokkoro \(princess connect!\)
+      - kuka \(princess connect!\)
+      - kyoka \(princess connect!\)
+      - lyrael \(princess connect!\)
+      - maho \(princess connect!\)
+      - makoto \(princess connect!\)
+      - mimi \(princess connect!\)
+      - misato \(princess connect!\)
+      - misogi \(princess connect!\)
+      - misora \(princess connect!\)
+      - miyako \(princess connect!\)
+      - neneka \(princess connect!\)
+      - nozomi \(princess connect!\)
+      - pecorine \(princess connect!\)
+      - rei \(princess connect!\)
+      - rino \(princess connect!\)
+      - saren \(princess connect!\)
+      - shiori \(princess connect!\)
+      - shizuru \(princess connect!\)
+      - suzuna \(princess connect!\)
+      - tamaki \(princess connect!\)
+      - tsumugi \(princess connect!\)
+      - yui \(princess connect!\)
+      - yuni \(princess connect!\)
     puyopuyo:
       - amitie \(puyopuyo\)
       - arle nadja
@@ -2260,6 +2300,16 @@ subjects:
       - nagato yuki
       - suzumiya haruhi
       - tsuruya
+    toaru-majutsu-no-index:
+      - frenda seivelun
+      - index \(toaru majutsu no index\)
+      - last order \(toaru majutsu no index\)
+      - misaka mikoto
+      - mugino shizuri
+      - saten ruiko
+      - shirai kuroko
+      - shokuhou misaki
+      - uiharu kazari
     touhou:
       - aki minoriko
       - aki shizuha
@@ -2324,8 +2374,8 @@ subjects:
       - komeiji satori
       - konngara \(touhou\)
       - konpaku youmu
-      - kotohime \(touhou\)
-      - kudamaki tsukasa
+      - kotohime \(touhou\),yellow ribbon
+      - kudamaki tsukasa,fox ears,fox tail,yellow eyes
       - kumoi ichirin
       - kurodani yamame
       - kurokoma saki
@@ -2349,7 +2399,7 @@ subjects:
       - murasa minamitsu
       - mystia lorelei
       - nagae iku
-      - nazrin
+      - nazrin,mouse ears,mouse tail
       - nippaku zanmu
       - nishida satono
       - niwatari kutaka
@@ -2360,18 +2410,17 @@ subjects:
       - reisen \(touhou bougetsushou\)
       - reisen udongein inaba
       - reiuji utsuho
-      - remilia scarlet
+      - remilia scarlet,slit pupils,bat wings
       - ringo \(touhou\)
       - rumia
       - saigyouji yuyuko
-      - sakata nemuno
+      - sakata nemuno,sharp teeth
       - seiran \(touhou\)
       - sekibanki
       - shameimaru aya
       - shameimaru aya \(newsboy\)
       - shiki eiki
       - shinki \(touhou\)
-      - soga no tojiko
       - son biten
       - star sapphire
       - sukuna shinmyoumaru
@@ -2384,7 +2433,7 @@ subjects:
       - tenkyuu chimata
       - tokiko \(touhou\)
       - toramaru shou
-      - toutetsu yuuma
+      - toutetsu yuuma,horizontal pupils,sharp teeth
       - toyosatomimi no miko
       - tsukumo benben
       - tsukumo yatsuhashi
@@ -2401,10 +2450,10 @@ subjects:
       - yamashiro takane
       - yasaka kanako
       - yatadera narumi
-      - yomotsu hisami
-      - yorigami jo'on
+      - yomotsu hisami,flower over eyes
+      - yorigami jo'on,(tsurime:0.8)
       - yorigami shion
-      - yumeko \(touhou\)
+      - yumeko \(touhou\),yellow eyes
     umamusume:
       - admire vega \(umamusume\)
       - admire vega's twin sister \(umamusume\)
@@ -2541,6 +2590,14 @@ subjects:
       - zundamon
     yu-gi-oh:
       - dark magician girl
+      - hiiragi yuzu
+      - izayoi aki
+      - kujaku mai
+      - mazaki anzu
+      - mizuki kotori \(yu-gi-oh!\)
+      - silent magician
+      - tenjouin asuka
+      - zaizen aoi
     yumenikki:
       - madotsuki
   copyrights-pickup:
