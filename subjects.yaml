@@ -1,7 +1,7 @@
 subjects:
   random:
     - "{__subjects/copyrights/*__|__subjects/copyrights-pickup/*__|__subjects/profiles/human__|__subjects/profiles/demi_human__}"
-  copyright:
+  copyrights:
     arknights:
       - absinthe \(arknights\)
       - aciddrop \(arknights\)
