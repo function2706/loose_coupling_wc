@@ -4,7 +4,7 @@ barefoot:
     - __barefoot/not_below/make__
   below:
     make: |-
-      (five toes:1.2),(foot focus),from below,pov,barefoot,{0-$$,$$toes|soles|toenails|spread toes},
+      (five toes:1.2),(foot focus),from below,pov,barefoot,{0-$$,$$toes|soles|toenails}{7::|1::,spread toes},
       __barefoot/expressions__,
       __barefoot/below/poses__,
       {|__barefoot/equipments/*__},
@@ -15,7 +15,7 @@ barefoot:
   not_below:
     make: |-
       __barefoot/expressions__,(looking at viewer),full body,
-      (five toes:1.2),(foot focus),barefoot,{0-$$,$$toes|soles|toenails|spread toes},
+      (five toes:1.2),(foot focus),barefoot,{0-$$,$$toes|soles|toenails}{7::|1::,spread toes},
       __barefoot/not_below/poses__,
       {|__barefoot/equipments/*__},
       __common__
@@ -50,7 +50,7 @@ barefoot:
     cool-sets: >-
       {{t-shirt,short sleeves|tank top},{denim shorts|dolphin shorts|skirt|shorts{|,drawstring}}|{babydoll|camisole}}
     cottage-core: >-
-      {|floral |linen }{|prairie }dress,{|puff }sleeves,{|floral |lace }apron,{0-$$,$${|straw }hat|{1-$$,$$hair ribbon|wicker basket|floral hairpin|cardigan}}
+      {|floral |linen }{|prairie }dress,{|puff }sleeves,{|floral |lace }apron,{0-$$,$${|straw }hat|{1-$$,$$hair ribbon|floral hairpin|cardigan}}
     cross-dressing: >-
       {black|white} formal clothes,pants,
       {0-$$,$${{|butler }tailcoat|pant suit|suit jacket|tailored jacket|trench coat|tuxedo jacket|vest{|,sleeves pushed up|,sleeves rolled up}|waistcoat}|white gloves|{1-$$,$${|fedora |top }hat|{bow|neck}tie|monocle|pocket square}}
@@ -91,7 +91,7 @@ barefoot:
     medieval-noble: >-
       {|elaborate }medieval {|court }{gown|dress},{|puffed }{|long }sleeves,{0-$$,$${|lace }{|elbow }gloves|{|jeweled }{belt|girdle}|{|fur }{capelet|shawl}|{1-$$,$$tiara|crown|brooch|pendant|earrings|veil}}
     mori-girl: >-
-      {|floral |linen |lace }{|layered }dress,{|knit |lace }cardigan,{0-$$,$${|straw }hat|{1-$$,$$hair ribbon|wicker basket|floral hairpin|scarf}}
+      {|floral |linen |lace }{|layered }dress,{|knit |lace }cardigan,{0-$$,$${|straw }hat|{1-$$,$$hair ribbon|floral hairpin|scarf}}
     nurse: >-
       nurse,{lab coat|scrub suit},{0-$$,$$maxi skirt|{1-$$,$$lanyard|nurse cap}}
     office-lady: >-

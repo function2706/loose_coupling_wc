@@ -26,7 +26,7 @@ costumes:
   cool-sets: >-
     {{t-shirt,short sleeves|tank top},{denim shorts|dolphin shorts|skirt|shorts{|,drawstring}}|{babydoll|camisole}}
   cottage-core: >-
-    {|floral |linen }{|prairie }dress,{|puff }sleeves,{|floral |lace }apron,{0-$$,$${|ankle }boots|{flat shoes|mary janes}|{|straw }hat|{1-$$,$$hair ribbon|wicker basket|floral hairpin|cardigan}}
+    {|floral |linen }{|prairie }dress,{|puff }sleeves,{|floral |lace }apron,{0-$$,$${|ankle }boots|{flat shoes|mary janes}|{|straw }hat|{1-$$,$$hair ribbon|floral hairpin|cardigan}}
   cross-dressing: >-
     {black|white} formal clothes,pants,
     {0-$$,$${{|butler }tailcoat|pant suit|suit jacket|tailored jacket|trench coat|tuxedo jacket|vest{|,sleeves pushed up|,sleeves rolled up}|waistcoat}|white gloves|{1-$$,$${|fedora |top }hat|{bow|neck}tie|monocle|pocket square}}
@@ -73,7 +73,7 @@ costumes:
     {0-$$,$${|lace }{|elbow }gloves|{|pearl |jeweled }{|pointed }heels|{|jeweled }{belt|girdle}|{|fur }{capelet|shawl}|{1-$$,$$tiara|crown|brooch|pendant|earrings|veil}}
   mori-girl: >-
     {|floral |linen |lace }{|layered }dress,{|knit |lace }cardigan,
-    {0-$$,$${{|ankle }boots|flat shoes|loafers}|{|knit }{thighhighs|leg warmers}|{|straw }hat|{1-$$,$$hair ribbon|wicker basket|floral hairpin|scarf}}
+    {0-$$,$${|ankle }boots|{flat shoes|loafers}|{|knit }{thighhighs|leg warmers}|{|straw }hat|{1-$$,$$hair ribbon|floral hairpin|scarf}}
   nurse: >-
     nurse,{lab coat|scrub suit},{0-$$,$$maxi skirt,{white|beige|black|brown} pantyhose|sandals|{1-$$,$$lanyard|nurse cap}}
   office-lady: >-
