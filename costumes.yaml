@@ -1,6 +1,6 @@
 costumes:
   90s-grunge: >-
-    {|plaid |flannel }shirt,{|ripped }{jeans|shorts},{|graphic }t-shirt,{0-$$,$${combat boots|chunky sneakers}|{|sheer }tights|{1-$$,$$choker|bracelet|beanie|slip dress}}
+    {|plaid |flannel }shirt,{|ripped }{jeans|shorts},{|graphic }t-shirt,{0-$$,$${combat boots|chunky sneakers}|{|sheer }pantyhose|{1-$$,$$choker|bracelet|beanie|slip dress}}
   athleisure: >-
     {sports bra|crop top|athletic top},{|high-waist }{leggings|biker shorts|jogger pants},{0-$$,$${sneakers|running shoes}|{|zip-up }hoodie|{1-$$,$$scrunchie|cap|headband|wristband|socks}}
   barbiecore: >-
@@ -14,7 +14,7 @@ costumes:
   bedding: >-
     {negligee|nightwear|pajamas}{|,{mob cap|nightcap}}
   bodycon: >-
-    {|black |red |white }{|strapless |off-shoulder }bodycon dress,{0-$$,$${|fishnet }{thighhighs|tights}|{|stiletto |block }heels|{1-$$,$$choker|earrings|bracelet|clutch}}
+    {|black |red |white }{|strapless |off-shoulder }bodycon dress,{0-$$,$${|fishnet }{thighhighs|pantyhose}|{|stiletto |block }heels|{1-$$,$$choker|earrings|bracelet|clutch}}
   boho: >-
     {|flowy |printed }{maxi dress|maxi skirt,crop top},{|fringed }vest,{0-$$,$${sandals|ankle boots}|{|layered }necklace|{1-$$,$$headband|bracelet|anklet|earrings|hat}}
   bunny-girl: >-
@@ -34,7 +34,7 @@ costumes:
     dancer,{arabian clothes|harem outfit},{1-$$,$$amulet|anklet|armlet|bracelet|choker|earrings|necklace|pelvic curtain}
   decora: >-
     decora fashion,{|pastel |colorful }{dress|skirt,top},
-    {0-$$,$$platform shoes|{|colorful |striped }{thighhighs|kneehighs}|{1-$$,$$hair clip,hair clip,hair clip|bracelet|earrings|printed tights|pins}}
+    {0-$$,$$platform shoes|{|colorful |striped |printed }{thighhighs|kneehighs}|{1-$$,$$hair clip|bracelet|earrings|pins}}
   disco-70s: >-
     {|sequined |metallic }{halter top|wrap dress|jumpsuit},{|bell-bottom |flared }pants,{0-$$,$${platform shoes|platform boots|heels}|{|wide }belt|{1-$$,$$hoop earrings|pendant|bracelet|sunglasses}}
   doctor: >-
@@ -47,7 +47,7 @@ costumes:
     {0-$$,$${chunky sneakers|platform boots}|{|striped }{thighhighs|kneehighs}|{1-$$,$$heart hair clip|chain necklace|bracelet|eyeliner}}
   fairy-kei: >-
     {|pastel }{tutu skirt|puff skirt|layered skirt},{|pastel |printed }top,
-    {0-$$,$$platform {shoes|sneakers}|{|pastel |star |heart }printed {thighhighs|kneehighs}|{1-$$,$$star hair clip|bow|wristcuffs|toy pendant|bracelet|printed tights}}
+    {0-$$,$$platform {shoes|sneakers}|{|pastel |star |heart }printed {thighhighs|kneehighs|pantyhose}|{1-$$,$$star hair clip|bow|wristcuffs|toy pendant|bracelet}}
   goth-roli: >-
     {goth fashion|gothic lolita},
     {0-$$,$${{|high-neck collar }shirt|corset}|{bell|jumper} skirt|lace gloves|{{|striped }thighhighs|{|white }pantyhose}|{platform boots|mary jane}|{1-$$,$$brooch|choker|lace headband|ribbons}}
@@ -73,7 +73,7 @@ costumes:
     {0-$$,$${|lace }{|elbow }gloves|{|pearl |jeweled }{|pointed }heels|{|jeweled }{belt|girdle}|{|fur }{capelet|shawl}|{1-$$,$$tiara|crown|brooch|pendant|earrings|veil}}
   mori-girl: >-
     {|floral |linen |lace }{|layered }dress,{|knit |lace }cardigan,
-    {0-$$,$${|ankle }boots|{flat shoes|loafers}|{|knit }{thighhighs|leg warmers}|{|straw }hat|{1-$$,$$hair ribbon|wicker basket|floral hairpin|scarf}}
+    {0-$$,$${{|ankle }boots|flat shoes|loafers}|{|knit }{thighhighs|leg warmers}|{|straw }hat|{1-$$,$$hair ribbon|wicker basket|floral hairpin|scarf}}
   nurse: >-
     nurse,{lab coat|scrub suit},{0-$$,$$maxi skirt,{white|beige|black|brown} pantyhose|sandals|{1-$$,$$lanyard|nurse cap}}
   office-lady: >-
@@ -81,8 +81,8 @@ costumes:
   police: >-
     police uniform,{blazer jacket|shirt,{long|short} sleeves},pencil skirt{|,{black|brown} pantyhose},{0-$$,$$white gloves|{1-$$,$${hat|peaked cap}|badge|necktie}}
   punk: >-
-    {|torn }{|graphic }t-shirt,{|ripped }{jeans|shorts|skirt},
-    {0-$$,$$leather jacket|{|platform }{boots|shoes}|{|fishnet }{thighhighs|gloves|tights}|{|studded }choker|{1-$$,$${|safety pin }earrings|bracelet|belt|arm warmers}}
+    {|torn }{|graphic }t-shirt{|,leather jacket},{|ripped }{jeans|shorts|skirt},
+    {0-$$,$${|platform }{boots|shoes}|{|fishnet }{thighhighs|pantyhose}|{|studded }choker|{1-$$,$${|safety pin }earrings|bracelet|belt|{arm warmers|{|fishnet }gloves}}}
   race-queen: >-
     race queen,miniskirt,{0-$${crop top|halter dress|sleeveless shirt}|{heels|thigh boots}|{1-$$belt|gloves|sunglasses on head}}
   ryousangata: >-
@@ -95,7 +95,7 @@ costumes:
     {long|short} pleated skirt,
     {0-$$,$${{|black |white }kneehighs|{|beige |black |brown }pantyhose|ankle socks|loose socks|socks},{loafers|mary janes|sneakers|uwabaki}|{1-$$,$$glasses|name tag}}
   street-casual: >-
-    {|oversized }{hoodie|sweatshirt},{|baggy }{jeans|cargo pants|shorts},{0-$$,$${sneakers|chunky sneakers}|{cap|snapback|beanie}|{1-$$,$$chain necklace|bracelet|earrings|socks}}
+    {|oversized }{hoodie|sweatshirt},{|baggy }{jeans|cargo pants|shorts},{0-$$,$${sneakers|chunky sneakers}|socks|{cap|snapback|beanie}|{1-$$,$$chain necklace|bracelet|earrings}}
   summer: >-
     {{strapless shirt|{short sleeves,|sleeves {rolled|pushed} up,}t-shirt|camisole},{{|short }{shorts|skirt}|hot pants|pants,sleeves {rolled|pushed} up|pleated skirt}|{{short sleeves,|sleeves {rolled|pushed} up,}casual |{short sleeves,|sleeves {rolled|pushed} up,}pinafore |sailor |sun}dress},
     {0-$$,$${flip-flops|sandals|sneakers,{black|white} {ankle socks|knee socks|kneehighs|thighhighs}}|{1-2$$,$${{|visor }cap|snapback}|{|straw |sun }hat{|,hat {bow|flower}}|bandana|boater|bucket hat|headpin|panama hat}}
@@ -112,7 +112,7 @@ costumes:
   warm-sets: >-
     {cardigan|hooded shirt|loungewear|polo shirt|sweater|turtleneck shirt}{|,sleeves {pushed|rolled} up},{jeans|pants{|,drawstring}|sweatpants}
   western: >-
-    {|plaid |flannel }{shirt|crop top},{|denim }shorts,cowboy hat,{0-$$,$${|cowboy }boots|{belt,|belt with }buckle|{bandana|neckerchief}|{1-$$,$$vest|fringe jacket|gloves}}
+    {|plaid |flannel }{shirt|crop top},{|denim }shorts,cowboy hat,{0-$$,$${|cowboy }boots|belt{| with buckle}|{bandana|neckerchief}|{1-$$,$$vest|fringe jacket|gloves}}
   winter: >-
     {collared coat|down jacket|duffel coat|fur{|-trimmed} coat|fur{|-trimmed} jacket|hooded coat|leather jacket|long coat|overcoat|padded jacket|parka|quilted jacket|trench coat|winter coat},
     {{|long }{pants|skirt{|,pantyhose}}|jeans|layered skirt{|,pantyhose}|pleated {pants|skirt{|,pantyhose}}},

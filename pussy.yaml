@@ -12,6 +12,12 @@ pussy:
     - standing{|,hand on hip}
     - sitting on chair,knee up{|,head rest}
   equipments:
+    90s-grunge: >-
+      {|plaid |flannel }shirt,{|ripped }shorts,shorts aside,{|graphic }t-shirt,{0-$$,$${combat boots|chunky sneakers}|{1-$$,$$choker|bracelet|beanie|slip dress}}
+    athleisure: >-
+      {sports bra|crop top|athletic top},biker shorts,shorts aside,{0-$$,$${sneakers|running shoes}|{|zip-up }hoodie|{1-$$,$$scrunchie|cap|headband|wristband|socks}}
+    barbiecore: >-
+      {|hot |bubblegum }pink {|mini |maxi }{dress|skirt}{|,panties aside},{0-$$,$${|pink }{heels|mules|sneakers}|{|pink }sunglasses|{1-$$,$$bracelet|earrings|hair ribbon|tiara}}
     bathing: >-
       {bathrobe|naked towel},{0-$$,$$towel on head|towel on neck}
     bdsm: >-
@@ -20,6 +26,10 @@ pussy:
       {0-$$,$$corset|choker|earrings|pendant}
     bedding: >-
       {negligee|nightwear|pajamas}{|,{mob cap|nightcap}}{|,panties aside}
+    bodycon: >-
+      {|black |red |white }{|strapless |off-shoulder }bodycon dress{|,panties aside},{0-$$,$${|fishnet }thighhighs|{|stiletto |block }heels|{1-$$,$$choker|earrings|bracelet|clutch}}
+    boho: >-
+      {|flowy |printed }{maxi dress|maxi skirt,crop top}{|,panties aside},{|fringed }vest,{0-$$,$${sandals|ankle boots}|{|layered }necklace|{1-$$,$$headband|bracelet|anklet|earrings|hat}}
     bunny-girl: >-
       {|black |blue |pink |red |white }playboy bunny,{0-$$,$${bustier|tailcoat}{|,bottomwear aside}|heels|{1-$$,$$bowtie|wrist cuffs}}
     cheerleader: >-
@@ -28,31 +38,55 @@ pussy:
       {|blue |green |purple |red |yellow }china dress,{0-$$,$$white elbow gloves|{{|stiletto }heels|chinese shoes}|{1-$$,$$bracelet|earrings|hairpin|necklace}}
     cool-sets: >-
       {{t-shirt,short sleeves|tank top},{panties aside|denim shorts,shorts aside|dolphin shorts,shorts aside|skirt{|,panties aside}|shorts{|,drawstring},shorts aside}|{babydoll|camisole}{|,panties aside}}
+    cottage-core: >-
+      {|floral |linen }{|prairie }dress{|,panties aside},{|puff }sleeves,{|floral |lace }apron,{0-$$,$${|ankle }boots|{flat shoes|mary janes}|{|straw }hat|{1-$$,$$hair ribbon|wicker basket|floral hairpin|cardigan}}
     cross-dressing: >-
       {black|white} formal clothes,{|,panties aside},
       {0-$$,$${{|butler }tailcoat|pant suit|suit jacket|tailored jacket|trench coat|tuxedo jacket|vest{|,sleeves pushed up|,sleeves rolled up}|waistcoat}|white gloves|{1-$$,$${|fedora |top }hat|{bow|neck}tie|monocle|pocket square}}
     dancer: >-
       dancer,{arabian clothes|harem outfit},{1-$$,$$amulet|anklet|armlet|bracelet|choker|earrings|necklace|pelvic curtain}
+    decora: >-
+      decora fashion,{|pastel |colorful }{dress|skirt,top}{|,panties aside},
+      {0-$$,$$platform shoes|{|colorful |striped |printed }{thighhighs|kneehighs}|{1-$$,$$hair clip|bracelet|earrings|pins}}
+    disco-70s: >-
+      {|sequined |metallic }{halter top|wrap dress|jumpsuit}{|,panties aside},{0-$$,$${platform shoes|platform boots|heels}|{|wide }belt|{1-$$,$$hoop earrings|pendant|bracelet|sunglasses}}
     doctor: >-
       doctor,lab coat,{0-$$,$${1-$$,$${1-$$,$$maxi skirt|panties aside},heels}|{1-$$,$${10::|1::{|light blue |white }surgical mask}|glasses|lanyard|stethoscope on neck}}
     dress: >-
       {|black |red |white }{cocktail |halter |high slit |pencil |tube |wedding }dress{|,panties aside},
       {0-$$,$${|lace }{|elbow }gloves|heels|{1-$$,$${{|sun }hat|tiara|veil}|earrings|{ascot|brooch|locket|pendant|scarf|shawl}|{|badge|corsage}}}
+    e-girl: >-
+      {|graphic |band }t-shirt,{|plaid |striped }mini skirt{|,panties aside},{|long-sleeve }layered top,
+      {0-$$,$${chunky sneakers|platform boots}|{|striped }{thighhighs|kneehighs}|{1-$$,$$heart hair clip|chain necklace|bracelet|eyeliner}}
+    fairy-kei: >-
+      {|pastel }{tutu skirt|puff skirt|layered skirt}{|,panties aside},{|pastel |printed }top,
+      {0-$$,$$platform {shoes|sneakers}|{|pastel |star |heart }printed {thighhighs|kneehighs}|{1-$$,$$star hair clip|bow|wristcuffs|toy pendant|bracelet}}
     goth-roli: >-
       {goth fashion|gothic lolita},
       {0-$$,$${{|high-neck collar }shirt|corset}|{1-$$,$${bell|jumper} skirt|panties aside}|lace gloves|{|striped }thighhighs|{platform boots|mary jane}|{1-$$,$$brooch|choker|lace headband|ribbons}}
     gym: >-
       gym uniform,
       {0-$$,$${1::{|white }t-shirt|2::{|blue |red |white }{jersey|track{ jacket|suit}}}|{{bike|gym} shorts,shorts aside|buruma,buruma aside|panties aside}|{{|ankle }socks|kneehighs|thighhighs}|sneakers|{1-$$,$$headband|towel on neck|wristband}}
+    hiphop-90s: >-
+      {|oversized }{|graphic }{jersey|hoodie|tracksuit jacket},{|,panties aside},
+      {0-$$,$${sneakers|chunky sneakers}|{|bucket }hat|{cap|snapback|backwards cap}|{1-$$,$$chain necklace|bracelet|bandana|belt}}
     idol: >-
       {|{|light }blue |{|light }green |{|light }magenta |{|light }orange |{|light }pink |{|light }purple |{|light }red |{|light }yellow |black |white }idol clothes,
       {crop top|frilled shirt|stage dress},puffy {|short }sleeves,{1-$$,$${long|short} {frilled|pleated} skirt},
       {0-$$,$${|elbow }gloves|{kneehighs|thighhighs}|{{ankle|knee|thigh} boots|{flat shoes|mary janes}}|{1-$$,$${hair{ ornament|pin}|{|mini }hat|headset}|{{bow|neck}tie|choker}|ribbons}}
     japan: >-
       {1::miko,red hakama|4::{|{|light }blue |{|light }green |{|light }pink |{|light }purple |{|light }red |{|light }yellow }{furisode|jinbei|kimono|yukata}},{0-$$,$${geta|sandals|tabi}|kanzashi}
+    jirai-kei: >-
+      {|black |white }{|lace }blouse,{|black |white }{|plaid |lace }mini skirt{|,panties aside},{0-$$,$$platform {boots|mary janes}|{|striped }{thighhighs|kneehighs}|{1-$$,$$choker|hair clip|bow|bandage|wristband}}
     maid: >-
       maid,apron,
       {0-$$,$${shirt|maid dress{|,puffy sleeves}}|{1-$$,$$frilled skirt|panties aside}|{|lace }{|elbow }gloves|{1::white socks|2::{black|brown|white} {garter belt|thighhighs}}|{braided ankle boots|heels|mary janes}|{1-$$,$$choker|headdress|ribbon}}
+    medieval-noble: >-
+      {|elaborate }medieval {|court }{gown|dress},{|puffed }{|long }sleeves,
+      {0-$$,$${|lace }{|elbow }gloves|{|pearl |jeweled }{|pointed }heels|{|jeweled }{belt|girdle}|{|fur }{capelet|shawl}|{1-$$,$$tiara|crown|brooch|pendant|earrings|veil}}
+    mori-girl: >-
+      {|floral |linen |lace }{|layered }dress{|,panties aside},{|knit |lace }cardigan,
+      {0-$$,$${{|ankle }boots|flat shoes|loafers}|{|knit }{thighhighs|leg warmers}|{|straw }hat|{1-$$,$$hair ribbon|wicker basket|floral hairpin|scarf}}
     nurse: >-
       nurse,{lab coat|scrub suit},{0-$$,$${1-$$,$$maxi skirt|panties aside}|sandals|{1-$$,$$lanyard|nurse cap}}
     office-lady: >-
@@ -60,8 +94,13 @@ pussy:
     police: >-
       police uniform,{blazer jacket|shirt,{long|short} sleeves},{1-$$,$$pencil skirt|panties aside},
       {0-$$,$$white gloves|{1-$$,$${hat|peaked cap}|badge|necktie}}
+    punk: >-
+      {|torn }{|graphic }t-shirt{|,leather jacket},{|ripped }{shorts,shorts aside|skirt{|,panties aside}},
+      {0-$$,$${|platform }{boots|shoes}|{|fishnet }thighhighs|{|studded }choker|{1-$$,$${|safety pin }earrings|bracelet|belt|{arm warmers|{|fishnet }gloves}}}
     race-queen: >-
       race queen,miniskirt{|,panties aside},{0-$${crop top|halter dress|sleeveless shirt}|{heels|thigh boots}|{1-$$belt|gloves|sunglasses on head}}
+    ryousangata: >-
+      {|black |navy }{hoodie|cardigan},{|plaid }mini skirt{|,panties aside},{0-$$,$${|platform }{mary janes|loafers}|{|black |white }{thighhighs|kneehighs}|{1-$$,$$hair clip|scrunchie|choker|bow}}
     santa: >-
       {black|red} santa costume{|,panties aside},{0-$$,$$fur {|ankle |knee |thigh }boots|{1-$$,$${|elbow }gloves|hat}}
     school: >-
@@ -69,6 +108,8 @@ pussy:
       {shirt,{{|loose }necktie|bowtie},{short sleeves|long sleeves{|,sleeves pushed up|sleeves rolled up}}|blazer jacket,shirt,{{|loose }necktie|bowtie}|sailor collar,neckerchief,{short sleeves|long sleeves{|,sleeves pushed up|sleeves rolled up}}|sailor collar,neckerchief,cardigan},
       {1-$$,$${long|short} pleated skirt|panties aside},
       {0-$$,$${{|black |white }kneehighs|ankle socks|loose socks|socks},{loafers|mary janes|sneakers|uwabaki}|{1-$$,$$glasses|name tag}}
+    street-casual: >-
+      {|oversized }{hoodie|sweatshirt},{|baggy }shorts,shorts aside,{0-$$,$${sneakers|chunky sneakers}|{cap|snapback|beanie}|{1-$$,$$chain necklace|bracelet|earrings|socks}}
     summer: >-
       {{strapless shirt|{short sleeves,|sleeves {rolled|pushed} up,}t-shirt|camisole},{{|short }{shorts,shorts aside|skirt,panties aside}|hot pants,shorts aside|pleated skirt{|,panties aside}|panties aside}|{{short sleeves,|sleeves {rolled|pushed} up,}casual |{short sleeves,|sleeves {rolled|pushed} up,}pinafore |sailor |sun}dress},
       {0-$$,$${flip-flops|sandals|sneakers,{black|white} {ankle socks|knee socks|kneehighs|thighhighs}}|{1-2$$,$${{|visor }cap|snapback}|{|straw |sun }hat{|,hat {bow|flower}}|bandana|boater|bucket hat|headpin|panama hat}}
@@ -78,11 +119,18 @@ pussy:
     teacher: >-
       teacher,{formal jacket|shirt|vest},{1-$$,$$pencil skirt|panties aside},
       {0-$$,$${heels|pumps|sandals|shoes}|{1-$$,$$glasses|lanyard|necktie}}
+    victorian: >-
+      {|black |white }{|elaborate }victorian dress,{|puffed |leg-of-mutton }sleeves,{|ruffled }skirt{|,panties aside},
+      {0-$$,$${|lace }{|elbow }gloves|{|laced |heeled }{ankle|knee} boots|{|feathered }{hat|fascinator}|{|lace }{capelet|shawl}|{1-$$,$$brooch|pendant|earrings}}
     waitress: >-
       waitress,apron,{0-$$,$${shirt|vest}|{1-$$,$${|frilled }skirt|panties aside}|{heels|mary janes}|{1-$$,$${bow|neck}tie|name tag|sleeves rolled up}}
     warm-sets: >-
       {cardigan|hooded shirt|loungewear|polo shirt|sweater|turtleneck shirt}{|,sleeves {pushed|rolled} up}{|,panties aside}
+    western: >-
+      {|plaid |flannel }{shirt|crop top},{|denim }shorts,shorts aside,cowboy hat,{0-$$,$${|cowboy }boots|belt{| with buckle}|{bandana|neckerchief}|{1-$$,$$vest|fringe jacket|gloves}}
     winter: >-
       {collared coat|down jacket|duffel coat|fur{|-trimmed} coat|fur{|-trimmed} jacket|hooded coat|leather jacket|long coat|overcoat|padded jacket|parka|quilted jacket|trench coat|winter coat},
       {1-$$,$${{|long }{skirt}|layered skirt|pleated skirt}|panties aside},
       {0-$$,$${|black |brown }{{|ankle |knee }boots|loafers|shoes}|{1-$$,$${1-2$$,$$beanie|earmuffs|fur hat|paddy cap|ushanka}|{capelet|scarf|shawl}|gloves}}
+    y2k: >-
+      {|low-rise }mini skirt{|,panties aside},{|crop }top,{0-$$,$$platform {boots|sneakers|sandals}|{|butterfly |heart }hair clip|{|tinted }sunglasses|{1-$$,$$choker|pendant|bracelet|belly chain|tube top}}

@@ -26,7 +26,7 @@ barefoot:
     - smirk,{|closed mouth}
   equipments:
     90s-grunge: >-
-      {|plaid |flannel }shirt,{|ripped }{jeans|shorts},{|graphic }t-shirt,{0-$$,$${|sheer }tights|{1-$$,$$choker|bracelet|beanie|slip dress}}
+      {|plaid |flannel }shirt,{|ripped }{jeans|shorts},{|graphic }t-shirt,{0-$$,$$choker|bracelet|beanie|slip dress}
     athleisure: >-
       {sports bra|crop top|athletic top},{|high-waist }{leggings|biker shorts|jogger pants},{0-$$,$${|zip-up }hoodie|{1-$$,$$scrunchie|cap|headband|wristband}}
     barbiecore: >-
@@ -57,7 +57,7 @@ barefoot:
     dancer: >-
       dancer,{arabian clothes|harem outfit},{1-$$,$$amulet|anklet|armlet|bracelet|choker|earrings|necklace|pelvic curtain}
     decora: >-
-      decora fashion,{|pastel |colorful }{dress|skirt,top},{0-$$,$$hair clip,hair clip,hair clip|bracelet|earrings|pins}
+      decora fashion,{|pastel |colorful |printed }{dress|skirt,top},{0-$$,$$hair clip|bracelet|earrings|pins}
     disco-70s: >-
       {|sequined |metallic }{halter top|wrap dress|jumpsuit},{|bell-bottom |flared }pants,{0-$$,$${|wide }belt|{1-$$,$$hoop earrings|pendant|bracelet|sunglasses}}
     doctor: >-
@@ -99,7 +99,7 @@ barefoot:
     police: >-
       police uniform,{blazer jacket|shirt,{long|short} sleeves},pencil skirt,{0-$$,$$white gloves|{1-$$,$${hat|peaked cap}|badge|necktie}}
     punk: >-
-      {|torn }{|graphic }t-shirt,{|ripped }{jeans|shorts|skirt},{0-$$,$$leather jacket|{|studded }choker|{1-$$,$${|safety pin }earrings|bracelet|belt|arm warmers}}
+      {|torn }{|graphic }t-shirt{|,leather jacket},{|ripped }{jeans|shorts|skirt},{0-$$,$${|studded }choker|{1-$$,$${|safety pin }earrings|bracelet|belt|{arm warmers|{|fishnet }gloves}}}}
     race-queen: >-
       race queen,miniskirt,{0-$${crop top|halter dress|sleeveless shirt}|{1-$$belt|gloves|sunglasses on head}}
     ryousangata: >-
@@ -128,7 +128,7 @@ barefoot:
     warm-sets: >-
       {cardigan|hooded shirt|loungewear|polo shirt|sweater|turtleneck shirt}{|,sleeves {pushed|rolled} up},{jeans|pants{|,drawstring}|sweatpants}
     western: >-
-      {|plaid |flannel }{shirt|crop top},{|denim }shorts,cowboy hat,{0-$$,$${belt,|belt with }buckle|{bandana|neckerchief}|{1-$$,$$vest|fringe jacket|gloves}}
+      {|plaid |flannel }{shirt|crop top},{|denim }shorts,cowboy hat,{0-$$,$$belt{| with buckle}|{bandana|neckerchief}|{1-$$,$$vest|fringe jacket|gloves}}
     winter: >-
       {collared coat|down jacket|duffel coat|fur{|-trimmed} coat|fur{|-trimmed} jacket|hooded coat|leather jacket|long coat|overcoat|padded jacket|parka|quilted jacket|trench coat|winter coat},
       {{|long }{pants|skirt}|jeans|layered skirt|pleated {pants|skirt}},
