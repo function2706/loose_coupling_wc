@@ -6,6 +6,8 @@ latex:
     __common__
   expressions:
     - light smile
+    - naughty face
+    - seductive smile
     - smirk{|,closed mouth}
     - smug
   poses:

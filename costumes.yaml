@@ -4,7 +4,7 @@ costumes:
   athleisure: >-
     {sports bra|crop top|athletic top},{|high-waist }{leggings|biker shorts|jogger pants},{0-$$,$${sneakers|running shoes}|{|zip-up }hoodie|{1-$$,$$scrunchie|cap|headband|wristband|socks}}
   barbiecore: >-
-    {|hot |bubblegum }pink {|mini |maxi }{dress|skirt,top|jumpsuit},{0-$$,$${|pink }{heels|mules|sneakers}|{|pink }sunglasses|{1-$$,$$bracelet|earrings|hair ribbon|tiara}}
+    {|hot |bubblegum }pink {|mini }{dress|skirt,top|jumpsuit},{0-$$,$${|pink }{heels|mules|sneakers}|{|pink }sunglasses|{1-$$,$$bracelet|earrings|hair ribbon|tiara}}
   bathing: >-
     {bathrobe|naked towel},{0-$$,$$towel on head|towel on neck}
   bdsm: >-
@@ -16,7 +16,7 @@ costumes:
   bodycon: >-
     {|black |red |white }{|strapless |off-shoulder }bodycon dress,{0-$$,$${|fishnet }{thighhighs|pantyhose}|{|stiletto |block }heels|{1-$$,$$choker|earrings|bracelet|clutch}}
   boho: >-
-    {|flowy |printed }{maxi dress|maxi skirt,crop top},{|fringed }vest,{0-$$,$${sandals|ankle boots}|{|layered }necklace|{1-$$,$$headband|bracelet|anklet|earrings|hat}}
+    {|flowy |printed }{dress|skirt,crop top},{|fringed }vest,{0-$$,$${sandals|ankle boots}|{|layered }necklace|{1-$$,$$headband|bracelet|anklet|earrings|hat}}
   bunny-girl: >-
     {|black |blue |pink |red |white }playboy bunny,{0-$$,$${bustier|tailcoat}|{garter belt|pantyhose|fishnet pantyhose}|heels|{1-$$,$$bowtie|wrist cuffs}}
   cheerleader: >-
@@ -38,7 +38,7 @@ costumes:
   disco-70s: >-
     {|sequined |metallic }{halter top|wrap dress|jumpsuit},{|bell-bottom |flared }pants,{0-$$,$${platform shoes|platform boots|heels}|{|wide }belt|{1-$$,$$hoop earrings|pendant|bracelet|sunglasses}}
   doctor: >-
-    doctor,lab coat,{0-$$,$$maxi skirt,{white|beige|black|brown} pantyhose,heels|{1-$$,$${10::|1::{|light blue |white }surgical mask}|glasses|lanyard|stethoscope on neck}}
+    doctor,lab coat,{0-$$,$$skirt,{white|beige|black|brown} pantyhose,heels|{1-$$,$${10::|1::{|light blue |white }surgical mask}|glasses|lanyard|stethoscope on neck}}
   dress: >-
     {|black |red |white }{cocktail |halter |high slit |pencil |tube |wedding }dress,
     {0-$$,$${|lace }{|elbow }gloves|pantyhose|heels|{1-$$,$${{|sun }hat|tiara|veil}|earrings|{ascot|brooch|locket|pendant|scarf|shawl}|{|badge|corsage}}}
@@ -75,7 +75,7 @@ costumes:
     {|floral |linen |lace }{|layered }dress,{|knit |lace }cardigan,
     {0-$$,$${|ankle }boots|{flat shoes|loafers}|{|knit }{thighhighs|leg warmers}|{|straw }hat|{1-$$,$$hair ribbon|floral hairpin|scarf}}
   nurse: >-
-    nurse,{lab coat|scrub suit},{0-$$,$$maxi skirt,{white|beige|black|brown} pantyhose|sandals|{1-$$,$$lanyard|nurse cap}}
+    nurse,{lab coat|scrub suit},{0-$$,$$skirt,{white|beige|black|brown} pantyhose|sandals|{1-$$,$$lanyard|nurse cap}}
   office-lady: >-
     office lady,{0-$$,$${blazer jacket|shirt|office-lady suit|cardigan}|pencil skirt,{beige|brown|black} pantyhose|{pumps|heels}|{1-$$,$$glasses|lanyard}}
   police: >-
