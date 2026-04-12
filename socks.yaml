@@ -1,0 +1,108 @@
+socks-maker: >-
+  {4::{|black |blue |brown |green |red |white |yellow |striped |polka dot }{socks|ankle socks|kneehighs|thighhighs}|1::{fishnet {socks|thighhighs}|garter belt|garter straps|loose socks}}
+pantyhose-maker: >-
+  {|black |beige |brown |red |white |fishnet }pantyhose
+socks:
+  do:
+    - __socks/below/make__
+    - __socks/not_below/make__
+  below:
+    make: |-
+      (foot focus),from below,pov,{0-$$,$$toes|soles},five toes,
+      __socks/expressions__,
+      __socks/below/poses__,
+      {__socks-maker__|__pantyhose-maker__|__socks/equipments/*__}
+    poses:
+      - standing on one leg,{hand on hip|crossed arms}
+      - sitting on chair,{|crossed legs},{|head rest}
+  not_below:
+    make: |-
+      __socks/expressions__,(looking at viewer),full body,
+      (foot focus),{0-$$,$$toes|soles},five toes,
+      __socks/not_below/poses__,
+      {__socks-maker__|__pantyhose-maker__|__socks/equipments/*__}
+    poses:
+      - sitting,legs together,feet together,extending legs,stretched legs out,arms behind back,
+  expressions:
+    - light smile
+    - naughty face
+    - seductive smile
+    - smirk{|,closed mouth}
+    - smug
+  equipments:
+    90s-grunge: >-
+      {white|black} socks,__barefoot/equipments/90s-grunge__
+    athleisure: >-
+      {white|black} {socks|ankle socks|kneehighs|thighhighs},__barefoot/equipments/athleisure__
+    barbiecore: >-
+      {|fishnet }pantyhose,__barefoot/equipments/barbiecore__
+    bdsm: >-
+      {{|fishnet }pantyhose|{garter belt|garter straps}},__barefoot/equipments/bdsm__
+    bedding: >-
+      {|frilled }{|ankle }socks,__barefoot/equipments/bedding__
+    bodycon: >-
+      {|fishnet }pantyhose,__barefoot/equipments/bodycon__
+    bunny-girl: >-
+      {{|fishnet }pantyhose|{garter belt|garter straps}},__barefoot/equipments/bunny-girl__
+    cheerleader: >-
+      {|black |blue |green |red |white |yellow }{socks|ankle socks|kneehighs|thighhighs},__barefoot/equipments/cheerleader__
+    china: >-
+      pantyhose,__barefoot/equipments/china__
+    cool-sets: >-
+      {|black |blue |brown |green |red |white |yellow |striped |polka dot }{socks|ankle socks|kneehighs|thighhighs},__barefoot/equipments/cool-sets__
+    cottage-core: >-
+      {|frilled }{|ankle }socks,__barefoot/equipments/cottage-core__
+    cross-dressing: >-
+      socks,__barefoot/equipments/cross-dressing__
+    decora: >-
+      {|striped |polka dot }{|frilled }{socks|ankle socks|kneehighs|thighhighs},__barefoot/equipments/decora__
+    doctor: >-
+      {pantyhose|{garter belt|garter straps}},__barefoot/equipments/doctor__
+    dress: >-
+      pantyhose,__barefoot/equipments/dress__
+    e-girl: >-
+      {kneehighs|thighhighs},__barefoot/equipments/e-girl__
+    fairy-kei: >-
+      {|frilled }{socks|kneehighs|thighhighs},__barefoot/equipments/fairy-kei__
+    goth-roli: >-
+      {{|fishnet |white }pantyhose|fishnet socks},__barefoot/equipments/goth-roli__
+    gym: >-
+      {white|black} socks,__barefoot/equipments/gym__
+    hiphop-90s: >-
+      {white|black} socks,__barefoot/equipments/hiphop-90s__
+    idol: >-
+      {|striped |polka dot }{|frilled }{socks|kneehighs|thighhighs},__barefoot/equipments/idol__
+    jirai-kei: >-
+      {|frilled }{kneehighs|thighhighs},__barefoot/equipments/jirai-kei__
+    maid: >-
+      {pantyhose|{garter belt|garter straps}|thighhighs},__barefoot/equipments/maid__
+    mori-girl: >-
+      {|frilled }{|ankle }socks,__barefoot/equipments/mori-girl__
+    nurse: >-
+      white pantyhose,__barefoot/equipments/nurse__
+    office-lady: >-
+      pantyhose,__barefoot/equipments/office-lady__
+    police: >-
+      pantyhose,__barefoot/equipments/police__
+    punk: >-
+      fishnet {thighhighs|pantyhose},__barefoot/equipments/punk__
+    ryousangata: >-
+      {|frilled }{|ankle }socks,__barefoot/equipments/ryousangata__
+    santa: >-
+      white pantyhose,__barefoot/equipments/santa__
+    school: >-
+      {{white|black} {socks|ankle socks|kneehighs}|pantyhose},__barefoot/equipments/school__
+    street-casual: >-
+      {white|black} socks,__barefoot/equipments/street-casual__
+    summer: >-
+      {|frilled }{|ankle }socks,__barefoot/equipments/summer__
+    teacher: >-
+      {pantyhose|{garter belt|garter straps}},__barefoot/equipments/teacher__
+    waitress: >-
+      {pantyhose|{garter belt|garter straps}|{|frilled }thighhighs},__barefoot/equipments/waitress__
+    warm-sets: >-
+      socks,__barefoot/equipments/warm-sets__
+    winter: >-
+      {socks|pantyhose},__barefoot/equipments/winter__
+    y2k: >-
+      {|striped |polka dot }{|frilled }{socks|ankle socks|kneehighs|thighhighs},__barefoot/equipments/y2k__
