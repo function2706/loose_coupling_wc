@@ -1,6 +1,6 @@
-socks-maker: >-
+socks_maker: >-
   {4::{|black |blue |brown |green |red |white |yellow |striped |polka dot }{socks|ankle socks|kneehighs|thighhighs}|1::{fishnet {socks|thighhighs}|garter belt|garter straps|loose socks}}
-pantyhose-maker: >-
+pantyhose_maker: >-
   {|black |beige |brown |red |white |fishnet }pantyhose
 socks:
   do:
@@ -11,7 +11,7 @@ socks:
       (foot focus),from below,pov,{0-$$,$$toes|soles},five toes,
       __socks/expressions__,
       __socks/below/poses__,
-      {__socks-maker__|__pantyhose-maker__|__socks/equipments/*__}
+      {__socks_maker__|__pantyhose_maker__|__socks/equipments/*__}
     poses:
       - standing on one leg,{hand on hip|crossed arms}
       - sitting on chair,{|crossed legs},{|head rest}
@@ -20,7 +20,7 @@ socks:
       __socks/expressions__,(looking at viewer),full body,
       (foot focus),{0-$$,$$toes|soles},five toes,
       __socks/not_below/poses__,
-      {__socks-maker__|__pantyhose-maker__|__socks/equipments/*__}
+      {__socks_maker__|__pantyhose_maker__|__socks/equipments/*__}
     poses:
       - sitting,legs together,feet together,extending legs,stretched legs out,arms behind back,
   expressions:
@@ -30,8 +30,8 @@ socks:
     - smirk{|,closed mouth}
     - smug
   equipments:
-    90s-grunge: >-
-      {white|black} socks,__barefoot/equipments/90s-grunge__
+    90s_grunge: >-
+      {white|black} socks,__barefoot/equipments/90s_grunge__
     athleisure: >-
       {white|black} {socks|ankle socks|kneehighs|thighhighs},__barefoot/equipments/athleisure__
     barbiecore: >-
@@ -42,46 +42,46 @@ socks:
       {|frilled }{|ankle }socks,__barefoot/equipments/bedding__
     bodycon: >-
       {|fishnet }pantyhose,__barefoot/equipments/bodycon__
-    bunny-girl: >-
-      {{|fishnet }pantyhose|{garter belt|garter straps}},__barefoot/equipments/bunny-girl__
+    bunny_girl: >-
+      {{|fishnet }pantyhose|{garter belt|garter straps}},__barefoot/equipments/bunny_girl__
     cheerleader: >-
       {|black |blue |green |red |white |yellow }{socks|ankle socks|kneehighs|thighhighs},__barefoot/equipments/cheerleader__
     china: >-
       pantyhose,__barefoot/equipments/china__
-    cool-sets: >-
-      {|black |blue |brown |green |red |white |yellow |striped |polka dot }{socks|ankle socks|kneehighs|thighhighs},__barefoot/equipments/cool-sets__
-    cottage-core: >-
-      {|frilled }{|ankle }socks,__barefoot/equipments/cottage-core__
-    cross-dressing: >-
-      socks,__barefoot/equipments/cross-dressing__
+    cool_sets: >-
+      {|black |blue |brown |green |red |white |yellow |striped |polka dot }{socks|ankle socks|kneehighs|thighhighs},__barefoot/equipments/cool_sets__
+    cottage_core: >-
+      {|frilled }{|ankle }socks,__barefoot/equipments/cottage_core__
+    cross_dressing: >-
+      socks,__barefoot/equipments/cross_dressing__
     decora: >-
       {|striped |polka dot }{|frilled }{socks|ankle socks|kneehighs|thighhighs},__barefoot/equipments/decora__
     doctor: >-
       {pantyhose|{garter belt|garter straps}},__barefoot/equipments/doctor__
     dress: >-
       pantyhose,__barefoot/equipments/dress__
-    e-girl: >-
-      {kneehighs|thighhighs},__barefoot/equipments/e-girl__
-    fairy-kei: >-
-      {|frilled }{socks|kneehighs|thighhighs},__barefoot/equipments/fairy-kei__
-    goth-roli: >-
-      {{|fishnet |white }pantyhose|fishnet socks},__barefoot/equipments/goth-roli__
+    e_girl: >-
+      {kneehighs|thighhighs},__barefoot/equipments/e_girl__
+    fairy_kei: >-
+      {|frilled }{socks|kneehighs|thighhighs},__barefoot/equipments/fairy_kei__
+    goth_roli: >-
+      {{|fishnet |white }pantyhose|fishnet socks},__barefoot/equipments/goth_roli__
     gym: >-
       {white|black} socks,__barefoot/equipments/gym__
-    hiphop-90s: >-
-      {white|black} socks,__barefoot/equipments/hiphop-90s__
+    hiphop_90s: >-
+      {white|black} socks,__barefoot/equipments/hiphop_90s__
     idol: >-
       {|striped |polka dot }{|frilled }{socks|kneehighs|thighhighs},__barefoot/equipments/idol__
-    jirai-kei: >-
-      {|frilled }{kneehighs|thighhighs},__barefoot/equipments/jirai-kei__
+    jirai_kei: >-
+      {|frilled }{kneehighs|thighhighs},__barefoot/equipments/jirai_kei__
     maid: >-
       {pantyhose|{garter belt|garter straps}|thighhighs},__barefoot/equipments/maid__
-    mori-girl: >-
-      {|frilled }{|ankle }socks,__barefoot/equipments/mori-girl__
+    mori_girl: >-
+      {|frilled }{|ankle }socks,__barefoot/equipments/mori_girl__
     nurse: >-
       white pantyhose,__barefoot/equipments/nurse__
-    office-lady: >-
-      pantyhose,__barefoot/equipments/office-lady__
+    office_lady: >-
+      pantyhose,__barefoot/equipments/office_lady__
     police: >-
       pantyhose,__barefoot/equipments/police__
     punk: >-
@@ -92,16 +92,16 @@ socks:
       white pantyhose,__barefoot/equipments/santa__
     school: >-
       {{white|black} {socks|ankle socks|kneehighs}|pantyhose},__barefoot/equipments/school__
-    street-casual: >-
-      {white|black} socks,__barefoot/equipments/street-casual__
+    street_casual: >-
+      {white|black} socks,__barefoot/equipments/street_casual__
     summer: >-
       {|frilled }{|ankle }socks,__barefoot/equipments/summer__
     teacher: >-
       {pantyhose|{garter belt|garter straps}},__barefoot/equipments/teacher__
     waitress: >-
       {pantyhose|{garter belt|garter straps}|{|frilled }thighhighs},__barefoot/equipments/waitress__
-    warm-sets: >-
-      socks,__barefoot/equipments/warm-sets__
+    warm_sets: >-
+      socks,__barefoot/equipments/warm_sets__
     winter: >-
       {socks|pantyhose},__barefoot/equipments/winter__
     y2k: >-

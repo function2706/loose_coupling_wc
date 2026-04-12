@@ -1,6 +1,6 @@
 subjects:
   random:
-    - "{__subjects/copyrights/*__|__subjects/copyrights-pickup/*__|__subjects/profiles/human__|__subjects/profiles/demi_human__}"
+    - "{__subjects/copyrights/*__|__subjects/copyrights_pickup/*__|__subjects/profiles/human__|__subjects/profiles/demi_human__}"
   copyrights:
     arknights:
       - absinthe \(arknights\)
@@ -160,7 +160,7 @@ subjects:
       - whislash \(arknights\)
       - whisperain \(arknights\)
       - zima \(arknights\)
-    blue-archive:
+    blue_archive:
       - airi \(blue archive\)
       - akane \(blue archive\)
       - ako \(blue archive\)
@@ -295,7 +295,7 @@ subjects:
       - yume \(blue archive\)
       - yuuka \(blue archive\)
       - yuzu \(blue archive\)
-    azur-lane:
+    azur_lane:
       - abercrombie \(azur lane\)
       - admiral graf spee \(azur lane\)
       - admiral hipper \(azur lane\)
@@ -583,7 +583,7 @@ subjects:
       - zara \(azur lane\)
       - zeppy \(azur lane\)
       - zuikaku \(azur lane\)
-    bocchi-the-rock:
+    bocchi_the_rock:
       - gotoh futari
       - gotoh hitori
       - hiroi kikuri
@@ -592,10 +592,10 @@ subjects:
       - kita ikuyo
       - pa-san
       - yamada ryo
-    cardcaptor-sakura:
+    cardcaptor_sakura:
       - daidouji tomoyo
       - kinomoto sakura
-    detective-conan:
+    detective_conan:
       - haibara ai
       - mouri ran
     digimon:
@@ -606,14 +606,14 @@ subjects:
       - tachikawa mimi \(digimon\)
       - takenouchi sora \(digimon\)
       - yagami hikari \(digimon\)
-    doki-doki-literature-club:
+    doki_doki_literature_club:
       - monika \(doki doki literature club\)
       - natsuki \(doki doki literature club\)
       - sayori \(doki doki literature club\)
       - yuri \(doki doki literature club\)
     doraemon:
       - minamoto shizuka
-    dragon-quest:
+    dragon_quest:
       - alena \(dq4\)
       - barbara \(dq6\)
       - bianca \(dq5\)
@@ -836,7 +836,7 @@ subjects:
       - yu mei-ren \(fate\)
       - yui shousetsu \(fate\)
       - zenobia \(fate\)
-    final-fantasy:
+    final_fantasy:
       - elena \(ff7\)
       - fran \(ff12\)
       - hilda ware
@@ -849,7 +849,7 @@ subjects:
       - trance terra branford
       - white mage \(final fantasy\)
       - yuna \(ff10\)
-    fire-emblem:
+    fire_emblem:
       - alear \(fire emblem\)
       - altina \(fire emblem\)
       - anna \(fire emblem\)
@@ -1009,7 +1009,7 @@ subjects:
       - yunaka \(spirited envoy\)
       - zelestia \(fire emblem\)
       - zephia \(fire emblem\)
-    genshin-impact:
+    genshin_impact:
       - amber \(genshin impact\)
       - arlecchino \(genshin impact\)
       - barbara \(genshin impact\)
@@ -1084,7 +1084,7 @@ subjects:
       - nausicaa
       - san {\(mononoke hime\)|\(princess mononoke\)}
       - sheeta \(tenkuu no shiro laputa\)
-    girls-and-panzer:
+    girls_and_panzer:
       - akaboshi koume
       - aki \(girls und panzer\)
       - akiyama yukari
@@ -1163,13 +1163,13 @@ subjects:
       - wallaby \(girls und panzer\)
       - yamagou ayumi
       - youko \(girls und panzer\)
-    go-toubun-no-hanayome:
+    go_toubun_no_hanayome:
       - nakano ichika
       - nakano itsuki
       - nakano miku
       - nakano nino
       - nakano yotsuba
-    gochi-usa:
+    gochi_usa:
       - hoto cocoa
       - hoto mocha
       - jouga maya
@@ -1177,7 +1177,7 @@ subjects:
       - kirima syaro
       - tedeza rize
       - ujimatsu chiya
-    granblue-fantasy:
+    granblue_fantasy:
       - alexiel \(granblue fantasy\)
       - alicia \(granblue fantasy\)
       - aliza \(granblue fantasy\)
@@ -1465,7 +1465,7 @@ subjects:
       - zaizen tokiko
     ikamusume:
       - ikamusume
-    k-on:
+    k_on:
       - akiyama mio
       - hirasawa ui
       - hirasawa yui
@@ -1476,7 +1476,7 @@ subjects:
       - tachibana himeko
       - tainaka ritsu
       - yamanaka sawako,{|glasses}
-    kaguya-sama:
+    kaguya_sama:
       - fujiwara chika
       - hayasaka ai
       - iino miko
@@ -1913,7 +1913,7 @@ subjects:
       - zuikaku \(kancolle\)
       - zuikaku kai \(kancolle\)
       - zuikaku kai ni \(kancolle\)
-    kimetsu-no-yaiba:
+    kimetsu_no_yaiba:
       - daki \(kimetsu no yaiba\)
       - kamado nezuko
       - kanroji mitsuri
@@ -1922,11 +1922,11 @@ subjects:
       - kochou shinobu
       - tamayo \(kimetsu no yaiba\)
       - tsuyuri kanao
-    kino-no-tabi:
+    kino_no_tabi:
       - kino \(kino no tabi\)
     kirby:
       - adeleine \(kirby\)
-    league-of-legends:
+    league_of_legends:
       - ahri \(league of legends\)
       - annie \(league of legends\)
       - ashe \(league of legends\)
@@ -1946,7 +1946,7 @@ subjects:
       - sona \(league of legends\)
       - vi \(league of legends\)
       - zeri \(league of legends\)
-    love-live:
+    love_live:
       - arashi chisato
       - asaka karin
       - ayase alisa
@@ -1995,7 +1995,7 @@ subjects:
       - yoneme mei
       - yuki setsuna
       - zhong lanzhu
-    madoka-magica:
+    madoka_magica:
       - akemi homura
       - kaname madoka
       - miki sayaka
@@ -2161,11 +2161,11 @@ subjects:
       - wicke \(pokemon\)
       - winona \(pokemon\)
       - zinnia \(pokemon\)
-    powerpuff-girls:
+    powerpuff_girls:
       - blossom \(ppg\)
       - bubbles \(ppg\)
       - buttercup \(ppg\)
-    princess-connect:
+    princess_connect:
       - chieru \(princess connect!\)
       - chloe \(princess connect!\)
       - christina \(princess connect!\)
@@ -2208,7 +2208,7 @@ subjects:
       - raffina \(puyopuyo\)
       - rulue \(puyopuyo\)
       - witch \(puyopuyo\)
-    re-zero:
+    re_zero:
       - beatrice \(re:zero\)
       - crusch karsten
       - echidna \(re:zero\)
@@ -2222,14 +2222,14 @@ subjects:
       - rem \(re:zero\)
       - satella \(re:zero\)
       - shaula \(re:zero\)
-    rozen-maiden:
+    rozen_maiden:
       - hinaichigo \(rozen maiden\),doll joints
       - kanaria,doll joints
       - shinku,doll joints
       - souseiseki,heterochromia,doll joints
       - suigintou,doll joints
       - suiseiseki,heterochromia,doll joints
-    sailor-moon:
+    sailor_moon:
       - aino minako
       - chibi usa
       - hino rei
@@ -2239,22 +2239,14 @@ subjects:
       - mizuno ami
       - tomoe hotaru
       - tsukino usagi
-    sousou-no-frieren:
-      - aura \(sousou_no_frieren\)
-      - fern \(sousou_no_frieren\)
+    sousou_no_frieren:
       - frieren
-      - lawine \(sousou_no_frieren\)
-      - linie \(sousou_no_frieren\)
-      - methode \(sousou_no_frieren\)
-      - sense \(sousou_no_frieren\)
-      - serie \(sousou_no_frieren\)
-      - ubel \(sousou_no_frieren\)
-    spy-x-family:
+    spy_x_family:
       - anya \(spy x family\)
       - becky blackbell
       - fiona frost
       - yor {briar|forger}
-    street-fighter:
+    street_fighter:
       - a.k.i. \(street fighter\)
       - black widow
       - blue mary
@@ -2265,7 +2257,7 @@ subjects:
       - ibuki \(street fighter\)
       - makoto \(street fighter\)
       - menat
-    strike-witches:
+    strike_witches:
       - amelie planchard
       - anabuki tomoko
       - aurora e. juutilainen
@@ -2295,12 +2287,12 @@ subjects:
       - ursula hartmann,{|glasses}
       - waltrud krupinski
       - wilma bishop
-    suzumiya-haruhi:
+    suzumiya_haruhi:
       - asahina mikuru
       - nagato yuki
       - suzumiya haruhi
       - tsuruya
-    toaru-majutsu-no-index:
+    toaru_majutsu_no_index:
       - frenda seivelun
       - index \(toaru majutsu no index\)
       - last order \(toaru majutsu no index\)
@@ -2588,7 +2580,7 @@ subjects:
       - yuezheng ling
       - yuzuki yukari
       - zundamon
-    yu-gi-oh:
+    yu_gi_oh:
       - dark magician girl
       - hiiragi yuzu
       - izayoi aki
@@ -2600,10 +2592,10 @@ subjects:
       - zaizen aoi
     yumenikki:
       - madotsuki
-  copyrights-pickup:
+  copyrights_pickup:
     arknights:
       - amiya \(arknights\)
-    blue-archive:
+    blue_archive:
       - arona \(blue archive\)
       - aru \(blue archive\)
       - ayane \(blue archive\)
@@ -2618,10 +2610,10 @@ subjects:
       - nonomi \(blue archive\)
       - serika \(blue archive\)
       - shiroko \(blue archive\)
-    cardcaptor-sakura:
+    cardcaptor_sakura:
       - daidouji tomoyo
       - kinomoto sakura
-    detective-conan:
+    detective_conan:
       - haibara ai
     digimon:
       - amano nene \(digimon xros wars\)
@@ -2633,7 +2625,7 @@ subjects:
       - yagami hikari \(digimon\)
     doraemon:
       - minamoto shizuka
-    dragon-quest:
+    dragon_quest:
       - alena \(dq4\)
       - bianca \(dq5\)
       - hero's daughter \(dq5\)
@@ -2645,10 +2637,10 @@ subjects:
       - saber \(fate\)
       - shuten douji \(fate\)
       - tohsaka rin \(fate/zero\)
-    final-fantasy:
+    final_fantasy:
       - tifa lockhart
       - yuna \(ff10\)
-    genshin-impact:
+    genshin_impact:
       - hu tao \(genshin impact\)
     ghibli:
       - arrietty
@@ -2656,7 +2648,7 @@ subjects:
       - nausicaa
       - san {\(mononoke hime\)|\(princess mononoke\)}
       - sheeta \(tenkuu no shiro laputa\)
-    gochi-usa:
+    gochi_usa:
       - kafuu chino
     granblue-fantasy:
       - djeeta \(granblue fantasy\)
@@ -2668,7 +2660,7 @@ subjects:
       - sakurai momoka
     ikamusume:
       - ikamusume
-    k-on:
+    k_on:
       - akiyama mio
       - hirasawa ui
       - hirasawa yui
@@ -2681,10 +2673,10 @@ subjects:
       - ro-500 \(kancolle\)
       - shimakaze \(kancolle\)
       - yuugumo \(kancolle\)
-    kimetsu-no-yaiba:
+    kimetsu_no_yaiba:
       - kochou shinobu
       - tsuyuri kanao
-    kino-no-tabi:
+    kino_no_tabi:
       - kino \(kino no tabi\)
     kirby:
       - adeleine \(kirby\)
@@ -2714,7 +2706,7 @@ subjects:
       - sabrina \(pokemon\)
       - serena \(pokemon\){|,short hair}
       - skyla \(pokemon\)
-    powerpuff-girls:
+    powerpuff_girls:
       - blossom \(ppg\)
       - bubbles \(ppg\)
       - buttercup \(ppg\)
@@ -2724,30 +2716,30 @@ subjects:
       - draco \(puyopuyo\)
       - raffina \(puyopuyo\)
       - witch \(puyopuyo\)
-    rozen-maiden:
+    rozen_maiden:
       - hinaichigo \(rozen maiden\),doll joints
       - kanaria,doll joints
       - shinku,doll joints
       - souseiseki,heterochromia,doll joints
       - suigintou,doll joints
       - suiseiseki,heterochromia,doll joints
-    sailor-moon:
+    sailor_moon:
       - aino minako
       - hino rei
       - kino makoto
       - mizuno ami
       - tsukino usagi
-    spy-x-family:
+    spy_x_family:
       - anya \(spy x family\)
       - yor {briar|forger}
-    sousou-no-frieren:
+    sousou_no_frieren:
       - frieren
-    street-fighter:
+    street_fighter:
       - chun-li
-    strike-witches:
+    strike_witches:
       - erica hartmann
       - miyafuji yoshika
-    suzumiya-haruhi:
+    suzumiya_haruhi:
       - nagato yuki
       - suzumiya haruhi
     touhou:
@@ -2878,7 +2870,7 @@ subjects:
       - kotonoha aoi
       - touhoku kiritan
       - zundamon
-    yu-gi-oh:
+    yu_gi_oh:
       - dark magician girl
     yumenikki:
       - madotsuki
