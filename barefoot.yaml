@@ -7,8 +7,7 @@ barefoot:
       (five toes:1.2),(foot focus),from below,pov,barefoot,{0-$$,$$toes|soles|toenails}{7::|1::,spread toes},
       __barefoot/expressions__,
       __barefoot/below/poses__,
-      {|__barefoot/equipments/*__},
-      __common__
+      {|__barefoot/equipments/*__}
     poses:
       - standing on one leg,{hand on hip|crossed arms}
       - sitting on chair,{|crossed legs},{|head rest}
@@ -17,8 +16,7 @@ barefoot:
       __barefoot/expressions__,(looking at viewer),full body,
       (five toes:1.2),(foot focus),barefoot,{0-$$,$$toes|soles|toenails}{7::|1::,spread toes},
       __barefoot/not_below/poses__,
-      {|__barefoot/equipments/*__},
-      __common__
+      {|__barefoot/equipments/*__}
     poses:
       - sitting,legs together,feet together,extending legs,stretched legs out,arms behind back,
   expressions:

@@ -2,8 +2,7 @@ latex:
   do: |-
     __latex/equipments/*__{|,from below},
     __latex/expressions__,looking at viewer,
-    {1::|2::__latex/poses__},
-    __common__
+    {1::|2::__latex/poses__}
   expressions:
     - light smile
     - naughty face

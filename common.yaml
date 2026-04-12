@@ -1,2 +1,3 @@
 common:
-  - 1girl,solo,masterpiece,best quality,amazing quality
+  solo:
+    - 1girl,solo,masterpiece,best quality,amazing quality

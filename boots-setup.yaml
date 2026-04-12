@@ -79,15 +79,13 @@ boots-setups:
 boots-show: |-
   {|{light }smile}
   __boots-setups/*__,
-  {|city|street|shop|room},
-  __common__
+  {|city|street|shop|room}
 bootsdom:
   do: |-
     __bootsdom/expressions__,
     __bootsdom/poses__,
     footwear focus,outsoles,from below,looking at viewer,
-    __boots-setups/*__,
-    __common__
+    __boots-setups/*__
   expressions:
     - expressionless
     - light smile
