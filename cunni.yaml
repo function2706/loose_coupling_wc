@@ -2,7 +2,7 @@ cunni:
   do: |-
     (cunnilingus:1.5),pussy,pussy juice,from below,
     (__cunni/expressions__:1.2){|,blush},
-    __cunni/poses__,(looking at boy),hand on boy's head,
+    __cunni/poses__,(looking at boy){|,hand on boy's head},
     faceless boy,(boy kneeling),
     {clothed female|__cunni/equipments/*__}
   expressions:
@@ -11,6 +11,7 @@ cunni:
     - smirk
   poses:
     - (standing:1.2){|,hand on hip}
+    - sitting on chair,knee up,spread legs{|,head rest}
   equipments:
     90s_grunge: >-
       {|plaid |flannel }shirt,{|ripped }shorts,shorts around one leg,{|graphic }t-shirt,{0-$$,$${combat boots|chunky sneakers}|{1-$$,$$choker|bracelet|beanie|slip dress}}
