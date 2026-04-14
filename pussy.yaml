@@ -11,7 +11,7 @@ pussy:
     - smirk{|,closed mouth}
   poses:
     - standing{|,hand on hip}
-    - sitting on chair,knee up{|,head rest}
+    - sitting on chair,knee up,spread legs{|,head rest}
   equipments:
     90s_grunge: >-
       {|plaid |flannel }shirt,{|ripped }shorts,shorts {around one leg|aside},{|graphic }t-shirt,{0-$$,$${combat boots|chunky sneakers}|{1-$$,$$choker|bracelet|beanie|slip dress}}

@@ -9,7 +9,7 @@ barefoot:
       __barefoot/below/poses__,
       {|__barefoot/equipments/*__}
     poses:
-      - standing on one leg,{hand on hip|crossed arms}
+      - standing on one leg{|,hand on hip}
       - sitting on chair,{|crossed legs},{|head rest}
   not_below:
     make: |-

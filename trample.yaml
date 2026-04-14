@@ -2,9 +2,6 @@ trample:
   do: |-
     (face trample:1.2),(five toes:1.2),(foot focus),from below,barefoot,
     (__barefoot/expressions__:1.2),
-    __trample/poses__,
+    __barefoot/poses__,
     {|__barefoot/equipments/*__},
     faceless boy{|,boy licking feet},boy {ly|kneel}ing
-  poses:
-    - standing on one leg{|,hand on hip}
-    - sitting on chair,{|crossed legs},{|head rest}
