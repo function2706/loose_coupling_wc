@@ -63,7 +63,7 @@ boots_setups:
   night_out:
     - "{black|silver} {__boots_maker/knee_boots__|__boots_maker/thigh_boots__},stiletto heels,{black|red} {slip|tube} dress,black pantyhose,{0-$$,$$choker|earrings}"
   studio_session:
-    - "{black|white} {__boots_maker/knee_boots__|__boots_maker/thigh_boots__},{black|grey} oversized hoodie,{black|grey} biker shorts{|,pants rolled up}{|,scrunchie}"
+    - "{black|white} {__boots_maker/knee_boots__|__boots_maker/thigh_boots__},{black|grey} oversized hoodie,{black|grey} bike shorts{|,pants rolled up}{|,scrunchie}"
   rainy_day:
     - "{black|dark navy} __boots_maker/knee_boots__,{yellow|beige} trench coat,{white|grey} shirt,{dark grey|navy} straight pants,pants tucked in,pantyhose"
   winter_market:

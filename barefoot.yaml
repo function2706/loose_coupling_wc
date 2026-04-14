@@ -29,7 +29,7 @@ barefoot:
     90s_grunge: >-
       {|plaid |flannel }shirt,{|ripped }{jeans|shorts},{|graphic }t-shirt,{0-$$,$$choker|bracelet|beanie|slip dress}
     athleisure: >-
-      {sports bra|crop top|athletic top},{|high-waist }{biker shorts|jogger pants},{0-$$,$${|zip-up }hoodie|{1-$$,$$scrunchie|cap|headband|wristband}}
+      {sports bra|crop top|athletic top},{|high-waist }{bike shorts|jogger pants},{0-$$,$${|zip-up }hoodie|{1-$$,$$scrunchie|cap|headband|wristband}}
     barbiecore: >-
       {|hot |bubblegum }pink {|mini }{dress|skirt,top|jumpsuit},{0-$$,$${|pink }sunglasses|{1-$$,$$bracelet|earrings|hair ribbon|tiara}}
     bathing: >-
