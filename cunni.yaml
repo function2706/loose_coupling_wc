@@ -84,7 +84,7 @@ cunni:
       {0-$$,$${shirt|maid dress{|,puffy sleeves}}|{1-$$,$$frilled skirt|panties around one leg}|{|lace }{|elbow }gloves|{1::white socks|2::{black|brown|white} {garter belt|thighhighs}}|{cross-laced ankle boots|heels|mary janes}|{1-$$,$$choker|headdress|ribbon}}
     medieval_noble: >-
       {|elaborate }medieval {|court }{gown|dress},{|puffed }{|long }sleeves,
-      {0-$$,$${|lace }{|elbow }gloves|{|pearl |jeweled }{|pointed }heels|{|jeweled }{belt|girdle}|{|fur }{capelet|shawl}|{1-$$,$$tiara|crown|brooch|pendant|earrings|veil}}
+      {0-$$,$${|lace }{|elbow }gloves|{|pearl |jeweled }{|stiletto }heels|{|jeweled }{belt|girdle}|{|fur }{capelet|shawl}|{1-$$,$$tiara|crown|brooch|pendant|earrings|veil}}
     mori_girl: >-
       {|floral |linen |lace }{|layered }dress{|,panties around one leg},{|knit |lace }cardigan,
       {0-$$,$${{|ankle }boots|flat shoes|loafers}|{|knit }{thighhighs|leg warmers}|{|straw }hat|{1-$$,$$hair ribbon|wicker basket|floral hairpin|scarf}}
@@ -122,7 +122,7 @@ cunni:
       {0-$$,$${heels|pumps|sandals|shoes}|{1-$$,$$glasses|lanyard|necktie}}
     victorian: >-
       {|black |white }{|elaborate }victorian dress,{|puffed |leg-of-mutton }sleeves,{|ruffled }skirt{|,panties around one leg},
-      {0-$$,$${|lace }{|elbow }gloves|{|laced |heeled }{ankle|knee} boots|{|feathered }{hat|fascinator}|{|lace }{capelet|shawl}|{1-$$,$$brooch|pendant|earrings}}
+      {0-$$,$${|lace }{|elbow }gloves|{1-$$,$$cross-laced |stiletto }{ankle|knee} boots|{|feathered }{hat|fascinator}|{|lace }{capelet|shawl}|{1-$$,$$brooch|pendant|earrings}}
     waitress: >-
       waitress,apron,{0-$$,$${shirt|vest}|{1-$$,$${|frilled }skirt|panties around one leg}|{heels|mary janes}|{1-$$,$${bow|neck}tie|name tag|sleeves rolled up}}
     warm_sets: >-

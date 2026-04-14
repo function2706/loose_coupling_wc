@@ -70,10 +70,10 @@ costumes:
     {0-$$,$${shirt|maid dress{|,puffy sleeves}}|frilled skirt|{|lace }{|elbow }gloves|{1::white socks|3::{black|brown|white} {garter belt|pantyhose|thighhighs}}|{cross-laced ankle boots|heels|mary janes}|{1-$$,$$choker|headdress|ribbon}}
   medieval_noble: >-
     {|elaborate }medieval {|court }{gown|dress},{|puffed }{|long }sleeves,
-    {0-$$,$${|lace }{|elbow }gloves|{|pearl |jeweled }{|pointed }heels|{|jeweled }{belt|girdle}|{|fur }{capelet|shawl}|{1-$$,$$tiara|crown|brooch|pendant|earrings|veil}}
+    {0-$$,$${|lace }{|elbow }gloves|{|pearl |jeweled }{|stiletto }heels|{|jeweled }{belt|girdle}|{|fur }{capelet|shawl}|{1-$$,$$tiara|crown|brooch|pendant|earrings|veil}}
   mori_girl: >-
     {|floral |linen |lace }{|layered }dress,{|knit |lace }cardigan,
-    {0-$$,$${|ankle }boots|{flat shoes|loafers}|{|knit }{thighhighs|leg warmers}|{|straw }hat|{1-$$,$$hair ribbon|floral hairpin|scarf}}
+    {0-$$,$${{|ankle }boots|{flat shoes|loafers}}|{|knit }{thighhighs|leg warmers}|{|straw }hat|{1-$$,$$hair ribbon|floral hairpin|scarf}}
   nurse: >-
     nurse,{lab coat|scrub suit},{0-$$,$$skirt,{white|beige|black|brown} pantyhose|sandals|{1-$$,$$lanyard|nurse cap}}
   office_lady: >-
@@ -106,7 +106,7 @@ costumes:
     teacher,{formal jacket|shirt|vest},pencil skirt{|,{beige|black|brown} pantyhose},{0-$$,$${heels|pumps|sandals|shoes}|{1-$$,$$glasses|lanyard|necktie}}
   victorian: >-
     {|black |white }{|elaborate }victorian dress,{|puffed |leg-of-mutton }sleeves,{|ruffled }skirt,
-    {0-$$,$${|lace }{|elbow }gloves|{|laced |heeled }{ankle|knee} boots|{|feathered }{hat|fascinator}|{|lace }{capelet|shawl}|{1-$$,$$brooch|pendant|earrings}}
+    {0-$$,$${|lace }{|elbow }gloves|{1-$$,$$cross-laced |stiletto }{ankle|knee} boots|{|feathered }{hat|fascinator}|{|lace }{capelet|shawl}|{1-$$,$$brooch|pendant|earrings}}
   waitress: >-
     waitress,apron,{0-$$,$${shirt|vest}|{|frilled }skirt{|,{black|brown|white} pantyhose}|{heels|mary janes}|{1-$$,$${bow|neck}tie|name tag|sleeves rolled up}}
   warm_sets: >-
