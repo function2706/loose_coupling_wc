@@ -3145,7 +3145,7 @@ subjects:
       - __subjects/profiles_favorite/human__
       - __subjects/profiles_favorite/demi_human__
     human:
-      - __subjects/profiles_favorite/hair__,__subjects/profiles_favorite/eye/human__{|,{dark|fair|pale} skin}{|,flat chest|small breasts|medium breasts}
+      - __subjects/profiles_favorite/hair__,__subjects/profiles_favorite/eye/human__{|,{dark|fair|pale} skin}{|,{flat chest|small breasts|medium breasts}}
     demi_human:
       - __subjects/profiles_favorite/hair__,__subjects/profiles_favorite/eye/demi_human__,{|,{dark|fair|pale} skin}{|,{flat chest|small breasts|medium breasts}},{0-$$,$${halo|horns|{animal|{|long }pointy} ears}|{|bat }wings|tail}
       - __subjects/profiles_favorite/species/*__,__subjects/profiles_favorite/hair__,__subjects/profiles_favorite/eye/human__,{|,{flat chest|small breasts|medium breasts}}
