@@ -34,6 +34,8 @@ socks:
       {white|black} socks,__barefoot/equipments/90s_grunge__
     athleisure: >-
       {white|black} {socks|ankle socks|kneehighs|thighhighs},__barefoot/equipments/athleisure__
+    ballerina: >-
+      pantyhose,__barefoot/equipments/ballerina__
     barbiecore: >-
       {|fishnet }pantyhose,__barefoot/equipments/barbiecore__
     bdsm: >-
@@ -48,6 +50,8 @@ socks:
       {|black |blue |green |red |white |yellow }{socks|ankle socks|kneehighs|thighhighs},__barefoot/equipments/cheerleader__
     china: >-
       pantyhose,__barefoot/equipments/china__
+    commander: >-
+      pantyhose,__barefoot/equipments/commander__
     cool_sets: >-
       {|black |blue |brown |green |red |white |yellow |striped |polka dot }{socks|ankle socks|kneehighs|thighhighs},__barefoot/equipments/cool_sets__
     cottage_core: >-
@@ -74,16 +78,22 @@ socks:
       {|striped |polka dot }{|frilled }{socks|kneehighs|thighhighs},__barefoot/equipments/idol__
     jirai_kei: >-
       {|frilled }{kneehighs|thighhighs},__barefoot/equipments/jirai_kei__
+    magical: >-
+      {{|striped }kneehighs|{|striped }thighhighs|{|white }pantyhose},__barefoot/equipments/magical__
     maid: >-
       {pantyhose|{garter belt|garter straps}|thighhighs},__barefoot/equipments/maid__
     mori_girl: >-
       {|frilled }{|ankle }socks,__barefoot/equipments/mori_girl__
+    musician: >-
+      fishnet pantyhose,__barefoot/equipments/musician__
     nurse: >-
       white pantyhose,__barefoot/equipments/nurse__
     office_lady: >-
       pantyhose,__barefoot/equipments/office_lady__
     police: >-
       pantyhose,__barefoot/equipments/police__
+    priest: >-
+      {|black |white }pantyhose,__barefoot/equipments/priest__
     punk: >-
       fishnet {thighhighs|pantyhose},__barefoot/equipments/punk__
     ryousangata: >-
@@ -92,6 +102,8 @@ socks:
       white pantyhose,__barefoot/equipments/santa__
     school: >-
       {{white|black} {socks|ankle socks|kneehighs}|pantyhose},__barefoot/equipments/school__
+    sports: >-
+      {white|black} socks,__barefoot/equipments/sports__
     street_casual: >-
       {white|black} socks,__barefoot/equipments/street_casual__
     summer: >-
@@ -102,7 +114,11 @@ socks:
       {pantyhose|{garter belt|garter straps}|{|frilled }thighhighs},__barefoot/equipments/waitress__
     warm_sets: >-
       socks,__barefoot/equipments/warm_sets__
+    wedding: >-
+      {pantyhose|{garter belt|garter straps}},__barefoot/equipments/wedding__
     winter: >-
       {socks|pantyhose},__barefoot/equipments/winter__
+    witch: >-
+      {fishnet pantyhose|pantyhose|thighhighs},__barefoot/equipments/witch__
     y2k: >-
       {|striped |polka dot }{|frilled }{socks|ankle socks|kneehighs|thighhighs},__barefoot/equipments/y2k__
