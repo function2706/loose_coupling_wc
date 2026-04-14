@@ -1,3 +1,7 @@
+boots_show: |-
+  {|{light }smile}
+  {3::__boots_setups/*__|1::__boots_maker/*__},
+  {|city|street|shop|room}
 boots_maker:
   ankle_boots:
     - ankle boots,__boots_maker/option__
@@ -76,21 +80,3 @@ boots_setups:
     - "{white|nude} {__boots_maker/ankle_boots__|__boots_maker/knee_boots__},{white|floral} midi dress,{0-$$,$$flower hair clip|pearl bracelet|sun hat}"
   sunday_brunch:
     - "{white|nude} {__boots_maker/ankle_boots__|__boots_maker/knee_boots__},{white|pink} blouse,{beige|white} {flare|pleated} midi skirt{|,straw hat}{|,small earrings}"
-boots_show: |-
-  {|{light }smile}
-  __boots_setups/*__,
-  {|city|street|shop|room}
-bootsdom:
-  do: |-
-    __bootsdom/expressions__,
-    __bootsdom/poses__,
-    footwear focus,outsoles,from below,looking at viewer,
-    __boots_setups/*__
-  expressions:
-    - expressionless
-    - light smile
-    - smirk
-    - smug
-  poses:
-    - standing,hand on hip,knee up
-    - sitting on chair{|,crossed legs}{|,head rest}
