@@ -54,7 +54,7 @@ pussy:
     doctor: >-
       doctor,lab coat,{0-$$,$${1-$$,$${1-$$,$$skirt|panties aside},heels}|{1-$$,$${10::|1::{|light blue |white }surgical mask}|glasses|lanyard|stethoscope on neck}}
     dress: >-
-      {|black |red |white }{cocktail |halter |high slit |pencil |tube |wedding }dress{|,panties aside},
+      {|black |red |white }{cocktail |halter |high slit |pencil |tube }dress{|,panties aside},
       {0-$$,$${|lace }{|elbow }gloves|heels|{1-$$,$${{|sun }hat|tiara|veil}|earrings|{ascot|brooch|locket|pendant|scarf|shawl}|{|badge|corsage}}}
     e_girl: >-
       {|graphic |band }t-shirt,{|plaid |striped }mini skirt{|,panties aside},{|long-sleeve }layered top,

@@ -71,6 +71,8 @@ costumes:
     {1::miko,red hakama|4::{|{|light }blue |{|light }green |{|light }pink |{|light }purple |{|light }red |{|light }yellow }{furisode|jinbei|kimono|yukata}},{0-$$,$${geta|sandals|tabi}|kanzashi}
   jirai_kei: >-
     {|black |white }{|lace }blouse,{|black |white }{|plaid |lace }mini skirt,{0-$$,$$platform {boots|mary janes}|{|striped }{thighhighs|kneehighs}|{1-$$,$$choker|hair clip|bow|bandage|wristband}}
+  kunoichi: >-
+    {|black |purple |red }kunoichi,{1-$$,$$dagger on waist|cloak|scarf|sash on waist},{0-$$,$${long sleeves|short sleeves|sleeveless}|hakama|tabi{|,sandal}}
   magical: >-
     {|{4::{|light }{blue|green|magenta|orange|pink|purple|red|yellow}|1::{black|white}} }magical girl,frilled dress,layered skirt,
     {4-$$,$$amulet|{beret|hair{ ornament|pin}|tiara}|brooch|capelet|choker|earrings},
@@ -86,8 +88,6 @@ costumes:
     {0-$$,$${{|ankle }boots|{flat shoes|loafers}}|{|knit }{thighhighs|leg warmers}|{|straw }hat|{1-$$,$$hair ribbon|floral hairpin|scarf}}
   musician: >-
     {1-$$,$${|print }t-shirt|{leather jacket|vest}},{|leather |torn }{shorts|skirt},{0-$$cross-laced|platform} {knee boots{|,fishnet pantyhose}|thigh boots},{0-$$,$$choker|headset|wristband}
-  kunoichi: >-
-    {|black |purple |red }kunoichi,{1-$$,$$dagger on waist|cloak|scarf|sash on waist},{0-$$,$${long sleeves|short sleeves|sleeveless}|hakama|tabi{|,sandal}}
   nurse: >-
     nurse,{lab coat|scrub suit},{0-$$,$$skirt,{white|beige|black|brown} pantyhose|sandals|{1-$$,$$lanyard|nurse cap}}
   office_lady: >-

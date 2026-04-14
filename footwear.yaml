@@ -36,7 +36,7 @@ footwear:
     doctor: >-
       heels,{white|beige|black|brown} pantyhose,doctor,lab coat,skirt,{0-$$,$$|{1-$$,$${10::|1::{|light blue |white }surgical mask}|glasses|lanyard|stethoscope on neck}}
     dress: >-
-      {|stiletto }heels,{|black |red |white }{cocktail |halter |high slit |pencil |tube |wedding }dress,
+      {|stiletto }heels,{|black |red |white }{cocktail |halter |high slit |pencil |tube }dress,
       {0-$$,$${|lace }{|elbow }gloves|pantyhose|{1-$$,$${{|sun }hat|tiara|veil}|earrings|{ascot|brooch|locket|pendant|scarf|shawl}|{|badge|corsage}}}
     e_girl: >-
       {|platform }boots,{|graphic |band }t-shirt,{|plaid |striped }mini skirt,{|long-sleeve }layered top,
