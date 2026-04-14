@@ -40,7 +40,7 @@ cunni:
     cool_sets: >-
       {{t-shirt,short sleeves|tank top},{panties around one leg|denim shorts,shorts around one leg|dolphin shorts,shorts around one leg|skirt{|,panties around one leg}|shorts{|,drawstring},shorts around one leg}|{babydoll|camisole}{|,panties around one leg}}
     cottage_core: >-
-      {|floral |linen }{|prairie }dress{|,panties around one leg},{|puff }sleeves,{|floral |lace }apron,{0-$$,$${|ankle }boots|{flat shoes|mary janes}|{|straw }hat|{1-$$,$$hair ribbon|wicker basket|floral hairpin|cardigan}}
+      {|floral |linen }{|prairie }dress{|,panties around one leg},{|puff }sleeves,{|floral |lace }apron,{0-$$,$${{|ankle }boots|{flat shoes|mary janes}}|{|straw }hat|{1-$$,$$hair ribbon|wicker basket|floral hairpin|cardigan}}
     cross_dressing: >-
       {black|white} formal clothes,{|,panties around one leg},
       {0-$$,$${{|butler }tailcoat|pant suit|suit jacket|tailored jacket|trench coat|tuxedo jacket|vest{|,sleeves pushed up|,sleeves rolled up}|waistcoat}|white gloves|{1-$$,$${|fedora |top }hat|{bow|neck}tie|monocle|pocket square}}

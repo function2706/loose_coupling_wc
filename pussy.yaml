@@ -40,7 +40,7 @@ pussy:
     cool_sets: >-
       {{t-shirt,short sleeves|tank top},{panties aside|denim shorts,shorts aside|dolphin shorts,shorts aside|skirt{|,panties aside}|shorts{|,drawstring},shorts aside}|{babydoll|camisole}{|,panties aside}}
     cottage_core: >-
-      {|floral |linen }{|prairie }dress{|,panties aside},{|puff }sleeves,{|floral |lace }apron,{0-$$,$${|ankle }boots|{flat shoes|mary janes}|{|straw }hat|{1-$$,$$hair ribbon|wicker basket|floral hairpin|cardigan}}
+      {|floral |linen }{|prairie }dress{|,panties aside},{|puff }sleeves,{|floral |lace }apron,{0-$$,$${{|ankle }boots|{flat shoes|mary janes}}|{|straw }hat|{1-$$,$$hair ribbon|wicker basket|floral hairpin|cardigan}}
     cross_dressing: >-
       {black|white} formal clothes,{|,panties aside},
       {0-$$,$${{|butler }tailcoat|pant suit|suit jacket|tailored jacket|trench coat|tuxedo jacket|vest{|,sleeves pushed up|,sleeves rolled up}|waistcoat}|white gloves|{1-$$,$${|fedora |top }hat|{bow|neck}tie|monocle|pocket square}}
