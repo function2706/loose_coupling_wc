@@ -1,6 +1,6 @@
 subjects:
   random:
-    - "{__subjects/original/*__|__subjects/copyrights/*__|__subjects/copyrights_pickup/*__|__subjects/profiles/human__|__subjects/profiles/demi_human__}"
+    - "{__subjects/original/*__|__subjects/copyrights/*__|__subjects/copyrights_pickup/*__|__subjects/profiles/random__|__subjects/profiles_favorite/random__}"
   original:
     human-girl-1:
       - girl,brown hair,short hair,asymmetrical bangs,brown eyes,tsurime,tan skin,small breasts
@@ -2912,6 +2912,9 @@ subjects:
     yumenikki:
       - madotsuki
   profiles:
+    random:
+      - __subjects/profiles/human__
+      - __subjects/profiles/demi_human__
     human:
       - "{1-$$,$$__subjects/profiles/hair/do__|__subjects/profiles/eye/human__|__subjects/profiles/skin/human__|{flat chest|small breasts|middle breasts|large breasts}}"
     demi_human:
@@ -3043,9 +3046,9 @@ subjects:
         - white
     eye:
       human:
-        - "__subjects/profiles/eye/color/make__{6::|1::,{tareme|1::tsurime}}"
+        - __subjects/profiles/eye/color/make__{6::|1::,{tareme|tsurime}}
       demi_human:
-        - __subjects/profiles/eye/human__{|,{horizontal|slit} pupils}
+        - __subjects/profiles/eye/human__{6::|1::,{horizontal|slit} pupils}
       color:
         make:
           - "{20::__subjects/profiles/eye/color/normal__|1::__subjects/profiles/eye/color/heterochromia__}"
@@ -3128,12 +3131,50 @@ subjects:
         - goblin girl,pointy ears{|,green skin}
         - hobgoblin girl,pointy ears{|,red skin}
         - ifrit girl,horns{|,red skin}
-        - imp girl,horns,wings{|,tail}{|,{fair|pale|pink} skin}
+        - imp girl,horns,wings{|,tail}{|,{fair|pink} skin}
         - kitsune girl,fox ears{|,tails}
         - nymph girl{|,fair skin}
         - ogre girl{|,horns}{|,{green|red} skin}
         - oni girl,horns{|,{red|blue} skin}
         - salamander girl{|,red skin}
-        - succubus girl,horns,wings{|,tail}{|,{dark|fair|pale|pink} skin}
+        - succubus girl,horns,wings{|,tail}{|,{dark|fair|pink} skin}
+        - undine girl{|,blue skin}
+        - vampire girl{|,slit pupils},pointy ears{|,fangs}{|,pale skin}
+  profiles_favorite:
+    random:
+      - __subjects/profiles_favorite/human__
+      - __subjects/profiles_favorite/demi_human__
+    human:
+      - "{1-$$,$$__subjects/profiles_favorite/hair__|__subjects/profiles_favorite/eye/human__|{dark|fair|pale} skin|{flat chest|small breasts|medium breasts}}"
+    demi_human:
+      - "{1-$$,$$__subjects/profiles_favorite/hair__|__subjects/profiles_favorite/eye/demi_human__|{dark|fair|pale} skin|{flat chest|small breasts|medium breasts}|{1-$$,$${halo|horns|{animal|{|long }pointy} ears}|{|bat }wings|tail}}"
+      - __subjects/profiles_favorite/species/*__,{1-$$,$$__subjects/profiles_favorite/hair__|__subjects/profiles_favorite/eye/human__|{flat chest|small breasts|medium breasts}}
+    hair: >-
+      {|black hair,|grey hair,|white hair,}{bob cut|pixie cut|short hair|very long hair|very short}{|,{curly|flipped|straight|wavy} hair}{7::|1::,blunt ends},
+      {0-$$,$${4::{asymmetrical|blunt|short|swept} bangs|1::hair between eyes}|{{|low }{|short }ponytail|side single braid}|sidelocks}
+    eye:
+      human:
+        - __subjects/profiles/eye/color/make__{6::|1::,tsurime}
+      demi_human:
+        - __subjects/profiles_favorite/eye/human__{6::|1::,slit pupils}
+    species:
+      real:
+        - cat girl,animal ears{|,slit pupils},whiskers{|,fangs}{|,tail}
+        - fox girl,animal ears{|,fangs}{|,tail}
+        - moth girl,antennae
+        - mouse girl,animal ears{|,whiskers}{|,tail}
+        - rabbit girl,animal ears{|,tail}
+        - sheep girl,animal ears{|,horizontal pupils}{|,tail}
+        - wolf girl,animal ears{|,fangs}{|,tail}
+      unreal:
+        - angel girl,halo,wings{|,{dark|fair} skin}
+        - dark elf girl,pointy ears
+        - demon girl,horns{|,tail}{|,dark skin}
+        - devil girl,horns,wings{|,tail}{|,dark skin}
+        - dryad girl{|,green skin}
+        - elf girl,pointy ears
+        - fairy girl,wings{|,fair skin}
+        - imp girl,horns,wings{|,tail}{|,fair skin}
+        - succubus girl,horns,wings{|,tail}{|,{dark|fair} skin}
         - undine girl{|,blue skin}
         - vampire girl{|,slit pupils},pointy ears{|,fangs}{|,pale skin}
