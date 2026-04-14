@@ -1,7 +1,8 @@
 boots_show: |-
   {|{light }smile}
   {3::__boots_setups/*__|1::__boots_maker/*__},
-  {|city|street|shop|room}
+  {|city|simple background},
+  {standing|sitting}
 boots_maker:
   ankle_boots:
     - ankle boots,__boots_maker/option__

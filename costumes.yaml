@@ -1,3 +1,8 @@
+fashion_show: |-
+  {|{light }smile}
+  {5::__costumes/*__|3::__boots_setups/*__|1::__boots_maker/*__},
+  {|city|simple background},
+  {standing|sitting}
 costumes:
   90s_grunge: >-
     {|plaid |flannel }shirt,{|ripped }{jeans|shorts},{|graphic }t-shirt,{0-$$,$${combat boots|chunky sneakers}|{|sheer }pantyhose|{1-$$,$$choker|bracelet|beanie|slip dress}}
