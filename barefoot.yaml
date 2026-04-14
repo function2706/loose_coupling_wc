@@ -45,7 +45,7 @@ barefoot:
     bunny_girl: >-
       {|black |blue |pink |red |white }playboy bunny,{0-$$,$${bustier|tailcoat}|{1-$$,$$bowtie|wrist cuffs}}
     cheerleader: >-
-      cheerleader,{0-$$crop top|pleated {|mini}skirt}
+      cheerleader,{0-$$,$$crop top|pleated {|mini}skirt}
     china: >-
       {|blue |green |purple |red |yellow }china dress,{0-$$,$$white elbow gloves|{1-$$,$$bracelet|earrings|hairpin|necklace}}
     cool_sets: >-
@@ -102,7 +102,7 @@ barefoot:
     punk: >-
       {|torn }{|graphic }t-shirt{|,leather jacket},{|ripped }{jeans|shorts|skirt},{0-$$,$${|studded }choker|{1-$$,$${|safety pin }earrings|bracelet|belt|{arm warmers|{|fishnet }gloves}}}
     race_queen: >-
-      race queen,miniskirt,{0-$${crop top|halter dress|sleeveless shirt}|{1-$$belt|gloves|sunglasses on head}}
+      race queen,miniskirt,{0-$$,$${crop top|halter dress|sleeveless shirt}|{1-$$,$$belt|gloves|sunglasses on head}}
     ryousangata: >-
       {|black |navy }{hoodie|cardigan},{|plaid }mini skirt,{0-$$,$$hair clip|scrunchie|choker|bow}
     santa: >-

@@ -65,7 +65,7 @@ footwear:
       {|platform }boots,{|torn }{|graphic }t-shirt{|,leather jacket},{|ripped }{jeans|shorts|skirt},
       {0-$$,$${|fishnet }{thighhighs|pantyhose}|{|studded }choker|{1-$$,$${|safety pin }earrings|bracelet|belt|{arm warmers|{|fishnet }gloves}}}
     race_queen: >-
-      {heels|thigh boots},race queen,miniskirt,{0-$${crop top|halter dress|sleeveless shirt}|{1-$$belt|gloves|sunglasses on head}}
+      {heels|thigh boots},race queen,miniskirt,{0-$$,$${crop top|halter dress|sleeveless shirt}|{1-$$,$$belt|gloves|sunglasses on head}}
     santa: >-
       fur {|ankle |knee |thigh }boots,{black|red} santa costume,{0-$$,$${black|brown|white} pantyhose|{1-$$,$${|elbow }gloves|hat}}
     teacher: >-

@@ -34,7 +34,7 @@ pussy:
     bunny_girl: >-
       {|black |blue |pink |red |white }playboy bunny,{0-$$,$${bustier|tailcoat}{|,bottomwear aside}|heels|{1-$$,$$bowtie|wrist cuffs}}
     cheerleader: >-
-      cheerleader,{0-$$crop top|pleated {|mini}skirt{|,panties aside}|{{|ankle }socks|kneehighs|thighhighs}|sneakers}
+      cheerleader,{0-$$,$$crop top|pleated {|mini}skirt{|,panties aside}|{{|ankle }socks|kneehighs|thighhighs}|sneakers}
     china: >-
       {|blue |green |purple |red |yellow }china dress,{0-$$,$$white elbow gloves|{{|stiletto }heels|chinese shoes}|{1-$$,$$bracelet|earrings|hairpin|necklace}}
     cool_sets: >-
@@ -99,7 +99,7 @@ pussy:
       {|torn }{|graphic }t-shirt{|,leather jacket},{|ripped }{shorts,shorts aside|skirt{|,panties aside}},
       {0-$$,$${|platform }{boots|shoes}|{|fishnet }thighhighs|{|studded }choker|{1-$$,$${|safety pin }earrings|bracelet|belt|{arm warmers|{|fishnet }gloves}}}
     race_queen: >-
-      race queen,miniskirt{|,panties aside},{0-$${crop top|halter dress|sleeveless shirt}|{heels|thigh boots}|{1-$$belt|gloves|sunglasses on head}}
+      race queen,miniskirt{|,panties aside},{0-$$,$${crop top|halter dress|sleeveless shirt}|{heels|thigh boots}|{1-$$,$$belt|gloves|sunglasses on head}}
     ryousangata: >-
       {|black |navy }{hoodie|cardigan},{|plaid }mini skirt{|,panties aside},{0-$$,$${|platform }{mary janes|loafers}|{|black |white }{thighhighs|kneehighs}|{1-$$,$$hair clip|scrunchie|choker|bow}}
     santa: >-
