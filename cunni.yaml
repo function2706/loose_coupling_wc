@@ -90,7 +90,7 @@ cunni:
     magical: >-
       {|{4::{|light }{blue|green|magenta|orange|pink|purple|red|yellow}|1::{black|white}} }magical girl,frilled dress,layered skirt{|,panties around one leg},
       {4-$$,$$amulet|{beret|hair{ ornament|pin}|tiara}|brooch|capelet|choker|earrings},
-      {0-$$,$${|elbow }gloves|{{|striped }kneehighs|{|striped }tighthighs}|{{ankle|knee|thigh} boots|flats|loafers|mary janes}}
+      {0-$$,$${|elbow }gloves|{{|striped }kneehighs|{|striped }thighhighs}|{{ankle|knee|thigh} boots|flats|loafers|mary janes}}
     maid: >-
       maid,apron,
       {0-$$,$${shirt|maid dress{|,puffy sleeves}}|{1-$$,$$frilled skirt|panties around one leg}|{|lace }{|elbow }gloves|{1::white socks|2::{black|brown|white} {garter belt|thighhighs}}|{cross-laced ankle boots|heels|mary janes}|{1-$$,$$choker|headdress|ribbon}}
@@ -158,6 +158,6 @@ cunni:
       {0-$$,$${|black |brown }{{|ankle |knee }boots|loafers|shoes}|{1-$$,$${1-2$$,$$beanie|earmuffs|fur hat|paddy cap|ushanka}|{capelet|scarf|shawl}|gloves}}
     witch: >-
       witch hat,{|black |blue |green |purple |red }{cocktail|evening|long} dress{|,long sleeves|,off-shoulder|,puffy {|long |short }sleeves|,short sleeves|,sleeveless}{|,panties around one leg},
-      {0-$$,$${2::thighhighs,{ankle|knee} boots|1::thigh boots}|{1-$$,$${|elbow }gloves|choker|hoop earrings|pentagram charm}}
+      {0-$$,$${2::{|thighhighs,}{ankle|knee} boots|1::thigh boots}|{1-$$,$${|elbow }gloves|choker|hoop earrings|pentagram charm}}
     y2k: >-
       {|low-rise }mini skirt{|,panties around one leg},{|crop }top,{0-$$,$$platform {boots|sneakers|sandals}|{|butterfly |heart }hair clip|{|tinted }sunglasses|{1-$$,$$choker|pendant|bracelet|belly chain|tube top}}

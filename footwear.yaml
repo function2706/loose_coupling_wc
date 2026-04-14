@@ -21,6 +21,8 @@ footwear:
       {latex thigh boots|latex knee boots{|,garter belt|,{|fishnet }thighhighs}|{|stiletto }heels{|,garter belt|,{|fishnet }thighhighs}}
       latex {|strapless }bra,latex {panties|miniskirt}{|,latex elbow gloves},
       {0-$$,$$corset|choker|earrings|pendant}
+    bikini-armor: >-
+      {|knee }boots,{|blue |gold |green |red |silver |yellow }bikini armor{|,{|elbow }gloves}
     bodycon: >-
       {|stiletto |block }heels,{|black |red |white }{|strapless |off-shoulder }bodycon dress,{0-$$,$${|fishnet }{thighhighs|pantyhose}|{1-$$,$$choker|earrings|bracelet|clutch}}
     boho: >-
@@ -29,6 +31,8 @@ footwear:
       {|stiletto }heels,{|black |blue |pink |red |white }playboy bunny,{0-$$,$${bustier|tailcoat}|{garter belt|pantyhose|fishnet pantyhose}|{1-$$,$$bowtie|wrist cuffs}}
     china: >-
       heels,{|blue |green |purple |red |yellow }china dress,{0-$$,$$white elbow gloves|{1-$$,$$bracelet|earrings|hairpin|necklace}}
+    commander: >-
+      heels,military uniform,{0-$$,$${fatigues|suit}|{skirt{|,pantyhose}|pants}|{|white }gloves|{1-$$,$$aiguillette|badge|epaulettes|peaked cap|ribbon bar}}
     cottage_core: >-
       {|ankle }boots,{|floral |linen }{|prairie }dress,{|puff }sleeves,{|floral |lace }apron,{0-$$,$${|straw }hat|{1-$$,$$hair ribbon|floral hairpin|cardigan}}
     disco_70s: >-
@@ -50,6 +54,11 @@ footwear:
       {0-$$,$${|elbow }gloves|{kneehighs|thighhighs}|{1-$$,$${hair{ ornament|pin}|{|mini }hat|headset}|{{bow|neck}tie|choker}|ribbons}}
     jirai_kei: >-
       {|platform }boots,{|black |white }{|lace }blouse,{|black |white }{|plaid |lace }mini skirt,{0-$$,$${|striped }{thighhighs|kneehighs}|{1-$$,$$choker|hair clip|bow|bandage|wristband}}
+    magical: >-
+      {ankle|knee|thigh} boots,
+      {|{4::{|light }{blue|green|magenta|orange|pink|purple|red|yellow}|1::{black|white}} }magical girl,frilled dress,layered skirt,
+      {4-$$,$$amulet|{beret|hair{ ornament|pin}|tiara}|brooch|capelet|choker|earrings},
+      {0-$$,$${|elbow }gloves|{{|striped }kneehighs|{|striped }thighhighs|{|white }pantyhose}}
     maid: >-
       {cross-laced ankle boots|heels},maid,apron,
       {0-$$,$${shirt|maid dress{|,puffy sleeves}}|frilled skirt|{|lace }{|elbow }gloves|{1::white socks|3::{black|brown|white} {garter belt|pantyhose|thighhighs}}|{1-$$,$$choker|headdress|ribbon}}
@@ -59,8 +68,12 @@ footwear:
     mori_girl: >-
       {|ankle }boots,{|floral |linen |lace }{|layered }dress,{|knit |lace }cardigan,
       {0-$$,$${|knit }{thighhighs|leg warmers}|{|straw }hat|{1-$$,$$hair ribbon|floral hairpin|scarf}}
+    musician: >-
+      {0-$$cross-laced|platform} {knee boots{|,fishnet pantyhose}|thigh boots},{1-$$,$${|print }t-shirt|{leather jacket|vest}},{|leather |torn }{shorts|skirt},{0-$$,$$choker|headset|wristband}
     office_lady: >-
       {heels|pumps},office lady,{0-$$,$${blazer jacket|shirt|office-lady suit|cardigan}|pencil skirt,{beige|brown|black} pantyhose|{1-$$,$$glasses|lanyard}}
+    priest: >-
+      heels,{{cassock|surplice}|{|black |blue |white }wimple},{0-$$,$${|elbow }gloves|pantyhose|{1-$$,$${|cross }pendant|mitre|rosary}}
     punk: >-
       {|platform }boots,{|torn }{|graphic }t-shirt{|,leather jacket},{|ripped }{jeans|shorts|skirt},
       {0-$$,$${|fishnet }{thighhighs|pantyhose}|{|studded }choker|{1-$$,$${|safety pin }earrings|bracelet|belt|{arm warmers|{|fishnet }gloves}}}
@@ -68,6 +81,8 @@ footwear:
       {heels|thigh boots},race queen,miniskirt,{0-$$,$${crop top|halter dress|sleeveless shirt}|{1-$$,$$belt|gloves|sunglasses on head}}
     santa: >-
       fur {|ankle |knee |thigh }boots,{black|red} santa costume,{0-$$,$${black|brown|white} pantyhose|{1-$$,$${|elbow }gloves|hat}}
+    shady: >-
+      boots,dagger on waist,sash on waist,{1-$$,$${|black |purple |deep red }{long sleeves|short sleeves|sleeveless} shirt|{|black |purple |deep red }{cape|cloak|tunic}},{0-$$,$$gloves|scarf}
     teacher: >-
       {heels|pumps},teacher,{formal jacket|shirt|vest},pencil skirt{|,{beige|black|brown} pantyhose},{0-$$,$$glasses|lanyard|necktie}
     victorian: >-
@@ -75,6 +90,8 @@ footwear:
       {0-$$,$${|lace }{|elbow }gloves|{|feathered }{hat|fascinator}|{|lace }{capelet|shawl}|{1-$$,$$brooch|pendant|earrings}}
     waitress: >-
       heels,waitress,apron,{0-$$,$${shirt|vest}|{|frilled }skirt{|,{black|brown|white} pantyhose}|{1-$$,$${bow|neck}tie|name tag|sleeves rolled up}}
+    wedding: >-
+      heels,{0-$${off-shoulder|strapless}|frilled} wedding dress,{0-1$$,$$elbow gloves|veil}
     western: >-
       {|cowboy }boots,{|plaid |flannel }{shirt|crop top},{|denim }shorts,cowboy hat,{0-$$,$$belt{| with buckle}|{bandana|neckerchief}|{1-$$,$$vest|fringe jacket|gloves}}
     winter: >-
@@ -82,6 +99,10 @@ footwear:
       {collared coat|down jacket|duffel coat|fur{|-trimmed} coat|fur{|-trimmed} jacket|hooded coat|leather jacket|long coat|overcoat|padded jacket|parka|quilted jacket|trench coat|winter coat},
       {{|long }{pants|skirt{|,pantyhose}}|jeans|layered skirt{|,pantyhose}|pleated {pants|skirt{|,pantyhose}}},
       {0-$$,$${1-$$,$${1-2$$,$$beanie|earmuffs|fur hat|paddy cap|ushanka}|{capelet|scarf|shawl}|gloves}}
+    witch: >-
+      {2::{|fishnet pantyhose,|pantyhose,|thighhighs,}{ankle|knee} boots|1::thigh boots},
+      witch hat,{|black |blue |green |purple |red }{cocktail|evening|long} dress{|,long sleeves|,off-shoulder|,puffy {|long |short }sleeves|,short sleeves|,sleeveless},
+      {0-$$,$${|elbow }gloves|choker|hoop earrings|pentagram charm}
     y2k: >-
       {|platform }boots,{|low-rise }{mini skirt|cargo pants|flared pants},{|crop }top,
       {0-$$,$${|butterfly |heart }hair clip|{|tinted }sunglasses|{1-$$,$$choker|pendant|bracelet|belly chain|tube top}}

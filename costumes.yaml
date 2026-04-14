@@ -76,7 +76,7 @@ costumes:
   magical: >-
     {|{4::{|light }{blue|green|magenta|orange|pink|purple|red|yellow}|1::{black|white}} }magical girl,frilled dress,layered skirt,
     {4-$$,$$amulet|{beret|hair{ ornament|pin}|tiara}|brooch|capelet|choker|earrings},
-    {0-$$,$${|elbow }gloves|{{|striped }kneehighs|{|striped }tighthighs|{|white }pantyhose}|{{ankle|knee|thigh} boots|flats|loafers|mary janes}}
+    {0-$$,$${|elbow }gloves|{{|striped }kneehighs|{|striped }thighhighs|{|white }pantyhose}|{{ankle|knee|thigh} boots|flats|loafers|mary janes}}
   maid: >-
     maid,apron,
     {0-$$,$${shirt|maid dress{|,puffy sleeves}}|frilled skirt|{|lace }{|elbow }gloves|{1::white socks|3::{black|brown|white} {garter belt|pantyhose|thighhighs}}|{cross-laced ankle boots|heels|mary janes}|{1-$$,$$choker|headdress|ribbon}}
@@ -141,7 +141,7 @@ costumes:
     {0-$$,$${|black |brown }{{|ankle |knee }boots|loafers|shoes}|{1-$$,$${1-2$$,$$beanie|earmuffs|fur hat|paddy cap|ushanka}|{capelet|scarf|shawl}|gloves}}
   witch: >-
     witch hat,{|black |blue |green |purple |red }{cocktail|evening|long} dress{|,long sleeves|,off-shoulder|,puffy {|long |short }sleeves|,short sleeves|,sleeveless},
-    {0-$$,$${2::{fishnet pantyhose|pantyhose|thighhighs},{ankle|knee} boots|1::thigh boots}|{1-$$,$${|elbow }gloves|choker|hoop earrings|pentagram charm}}
+    {0-$$,$${2::{|fishnet pantyhose,|pantyhose,|thighhighs,}{ankle|knee} boots|1::thigh boots}|{1-$$,$${|elbow }gloves|choker|hoop earrings|pentagram charm}}
   y2k: >-
     {|low-rise }{mini skirt|cargo pants|flared pants},{|crop }top,
     {0-$$,$$platform {boots|sneakers|sandals}|{|butterfly |heart }hair clip|{|tinted }sunglasses|{1-$$,$$choker|pendant|bracelet|belly chain|tube top}}
