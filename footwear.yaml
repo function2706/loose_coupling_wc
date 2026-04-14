@@ -73,7 +73,7 @@ footwear:
     office_lady: >-
       {heels|pumps},office lady,{0-$$,$${blazer jacket|shirt|office-lady suit|cardigan}|pencil skirt,{beige|brown|black} pantyhose|{1-$$,$$glasses|lanyard}}
     priest: >-
-      heels,{{cassock|surplice}|{|black |blue |white }wimple},{0-$$,$${|elbow }gloves|pantyhose|{1-$$,$${|cross }pendant|mitre|rosary}}
+      heels,priest,{{cassock|surplice}|{|black |blue |white }wimple},{0-$$,$${|elbow }gloves|pantyhose|{1-$$,$${|cross }pendant|mitre|rosary}}
     punk: >-
       {|platform }boots,{|torn }{|graphic }t-shirt{|,leather jacket},{|ripped }{jeans|shorts|skirt},
       {0-$$,$${|fishnet }{thighhighs|pantyhose}|{|studded }choker|{1-$$,$${|safety pin }earrings|bracelet|belt|{arm warmers|{|fishnet }gloves}}}
@@ -82,9 +82,11 @@ footwear:
     santa: >-
       fur {|ankle |knee |thigh }boots,{black|red} santa costume,{0-$$,$${black|brown|white} pantyhose|{1-$$,$${|elbow }gloves|hat}}
     shady: >-
-      boots,dagger on waist,sash on waist,{1-$$,$${|black |purple |deep red }{long sleeves|short sleeves|sleeveless} shirt|{|black |purple |deep red }{cape|cloak|tunic}},{0-$$,$$gloves|scarf}
+      boots,{|thief,}dagger on waist,sash on waist,{1-$$,$${|black |purple |deep red }{long sleeves|short sleeves|sleeveless} shirt|{|black |purple |deep red }{cape|cloak|tunic}},{0-$$,$$gloves|scarf}
     teacher: >-
       {heels|pumps},teacher,{formal jacket|shirt|vest},pencil skirt{|,{beige|black|brown} pantyhose},{0-$$,$$glasses|lanyard|necktie}
+    travel_attendant: >-
+      heels,travel attendant,{|pencil }skirt,{0-$$,$$pantyhose|white {|elbow }gloves|{1-$$,$${|blue |green |orange |red |white |yellow }neckerchief|lanyard|sash on waist|badge|hat|name tag|corsage}}
     victorian: >-
       {1-$$,$$cross-laced |stiletto }{ankle|knee} boots,{|black |white }{|elaborate }victorian dress,{|puffed |leg-of-mutton }sleeves,{|ruffled }skirt,
       {0-$$,$${|lace }{|elbow }gloves|{|feathered }{hat|fascinator}|{|lace }{capelet|shawl}|{1-$$,$$brooch|pendant|earrings}}
@@ -93,7 +95,7 @@ footwear:
     wedding: >-
       heels,{0-$${off-shoulder|strapless}|frilled} wedding dress,{0-1$$,$$elbow gloves|veil}
     western: >-
-      {|cowboy }boots,{|plaid |flannel }{shirt|crop top},{|denim }shorts,cowboy hat,{0-$$,$$belt{| with buckle}|{bandana|neckerchief}|{1-$$,$$vest|fringe jacket|gloves}}
+      {|cowboy }boots,cowboy western,{|plaid |flannel }{shirt|crop top},{|denim }shorts,cowboy hat,{0-$$,$$belt{| with buckle}|{bandana|neckerchief}|{1-$$,$$vest|fringe jacket|gloves}}
     winter: >-
       {|black |brown }{{|ankle |knee }boots},
       {collared coat|down jacket|duffel coat|fur{|-trimmed} coat|fur{|-trimmed} jacket|hooded coat|leather jacket|long coat|overcoat|padded jacket|parka|quilted jacket|trench coat|winter coat},

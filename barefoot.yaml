@@ -64,7 +64,7 @@ barefoot:
     dancer: >-
       dancer,{arabian clothes|harem outfit},{1-$$,$$amulet|anklet|armlet|bracelet|choker|earrings|necklace|pelvic curtain}
     decora: >-
-      decora fashion,{|pastel |colorful |printed }{dress|skirt,top},{0-$$,$$hair clip|bracelet|earrings|pins}
+      decora,{|pastel |colorful |printed }{dress|skirt,top},{0-$$,$$hair clip|bracelet|earrings|pins}
     disco_70s: >-
       {|sequined |metallic }{halter top|wrap dress|jumpsuit},{|bell-bottom |flared }pants,{0-$$,$${|wide }belt|{1-$$,$$hoop earrings|pendant|bracelet|sunglasses}}
     doctor: >-
@@ -93,7 +93,7 @@ barefoot:
     jirai_kei: >-
       {|black |white }{|lace }blouse,{|black |white }{|plaid |lace }mini skirt,{0-$$,$$choker|hair clip|bow|bandage|wristband}
     kunoichi: >-
-      {|black |purple |red }kunoichi,{1-$$,$$dagger on waist|cloak|scarf|sash on waist},{0-$$,$${long sleeves|short sleeves|sleeveless}|hakama}
+      {|black |purple |red }ninja,{1-$$,$$dagger on waist|cloak|scarf|sash on waist},{0-$$,$${long sleeves|short sleeves|sleeveless}|hakama}
     maid: >-
       maid,apron,
       {0-$$,$${shirt|maid dress{|,puffy sleeves}}|frilled skirt|{|lace }{|elbow }gloves|{1-$$,$$choker|headdress|ribbon}}
@@ -113,7 +113,7 @@ barefoot:
     police: >-
       police uniform,{blazer jacket|shirt,{long|short} sleeves},pencil skirt,{0-$$,$$white gloves|{1-$$,$${hat|peaked cap}|badge|necktie}}
     priest: >-
-      {{cassock|surplice}|{|black |blue |white }wimple},{0-$$,$${|elbow }gloves|{1-$$,$${|cross }pendant|mitre|rosary}}
+      priest,{{cassock|surplice}|{|black |blue |white }wimple},{0-$$,$${|elbow }gloves|{1-$$,$${|cross }pendant|mitre|rosary}}
     punk: >-
       {|torn }{|graphic }t-shirt{|,leather jacket},{|ripped }{jeans|shorts|skirt},{0-$$,$${|studded }choker|{1-$$,$${|safety pin }earrings|bracelet|belt|{arm warmers|{|fishnet }gloves}}}
     race_queen: >-
@@ -127,7 +127,7 @@ barefoot:
       {shirt,{{|loose }necktie|bowtie},{short sleeves|long sleeves{|,sleeves pushed up|sleeves rolled up}}|blazer jacket,shirt,{{|loose }necktie|bowtie}|sailor collar,neckerchief,{short sleeves|long sleeves{|,sleeves pushed up|sleeves rolled up}}|sailor collar,neckerchief,cardigan},
       {long|short} pleated skirt,{0-$$,$$glasses|name tag}
     shady: >-
-      dagger on waist,sash on waist,{1-$$,$${|black |purple |deep red }{long sleeves|short sleeves|sleeveless} shirt|{|black |purple |deep red }{cape|cloak|tunic}},{0-$$,$$gloves|scarf}
+      {|thief,}dagger on waist,sash on waist,{1-$$,$${|black |purple |deep red }{long sleeves|short sleeves|sleeveless} shirt|{|black |purple |deep red }{cape|cloak|tunic}},{0-$$,$$gloves|scarf}
     sports: >-
       {basketball uniform,{0-$$,$$tank top|shorts}|tennis uniform,{0-$$,$$short sleeves|{pleated }skirt}|track uniform,{0-$$,$${|cropped }tank top|{|bike }shorts}}{|,towel on neck}
     street_casual: >-
@@ -140,6 +140,8 @@ barefoot:
       {0-$$,$${1-$$,$${necklace|pendant}|anklet|bracelet|earrings|open jacket{|,hood up}|{{|sun |straw }hat|flower ornament|{sunglasses|goggles} on head}}}
     teacher: >-
       teacher,{formal jacket|shirt|vest},pencil skirt,{0-$$,$$glasses|lanyard|necktie}
+    travel_attendant: >-
+      travel attendant,{|pencil }skirt,{0-$$,$$white {|elbow }gloves|{1-$$,$${|blue |green |orange |red |white |yellow }neckerchief|lanyard|sash on waist|badge|hat|name tag|corsage}}
     victorian: >-
       {|black |white }{|elaborate }victorian dress,{|puffed |leg-of-mutton }sleeves,{|ruffled }skirt,
       {0-$$,$${|lace }{|elbow }gloves|{|feathered }{hat|fascinator}|{|lace }{capelet|shawl}|{1-$$,$$brooch|pendant|earrings}}
@@ -150,7 +152,7 @@ barefoot:
     wedding: >-
       {0-$${off-shoulder|strapless}|frilled} wedding dress,{0-1$$,$$elbow gloves|veil}
     western: >-
-      {|plaid |flannel }{shirt|crop top},{|denim }shorts,cowboy hat,{0-$$,$$belt{| with buckle}|{bandana|neckerchief}|{1-$$,$$vest|fringe jacket|gloves}}
+      cowboy western,{|plaid |flannel }{shirt|crop top},{|denim }shorts,cowboy hat,{0-$$,$$belt{| with buckle}|{bandana|neckerchief}|{1-$$,$$vest|fringe jacket|gloves}}
     winter: >-
       {collared coat|down jacket|duffel coat|fur{|-trimmed} coat|fur{|-trimmed} jacket|hooded coat|leather jacket|long coat|overcoat|padded jacket|parka|quilted jacket|trench coat|winter coat},
       {{|long }{pants|skirt}|jeans|layered skirt|pleated {pants|skirt}},

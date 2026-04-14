@@ -53,7 +53,7 @@ pussy:
     dancer: >-
       dancer,{arabian clothes|harem outfit},{1-$$,$$amulet|anklet|armlet|bracelet|choker|earrings|necklace|pelvic curtain}
     decora: >-
-      decora fashion,{|pastel |colorful }{dress|skirt,top}{|,panties {around one leg|aside}},
+      decora,{|pastel |colorful }{dress|skirt,top}{|,panties {around one leg|aside}},
       {0-$$,$$platform shoes|{|colorful |striped |printed }{thighhighs|kneehighs}|{1-$$,$$hair clip|bracelet|earrings|pins}}
     disco_70s: >-
       {|sequined |metallic }{halter top|wrap dress|jumpsuit}{|,panties {around one leg|aside}},{0-$$,$${platform shoes|platform boots|heels}|{|wide }belt|{1-$$,$$hoop earrings|pendant|bracelet|sunglasses}}
@@ -86,7 +86,7 @@ pussy:
     jirai_kei: >-
       {|black |white }{|lace }blouse,{|black |white }{|plaid |lace }mini skirt{|,panties {around one leg|aside}},{0-$$,$$platform {boots|mary janes}|{|striped }{thighhighs|kneehighs}|{1-$$,$$choker|hair clip|bow|bandage|wristband}}
     kunoichi: >-
-      {|black |purple |red }kunoichi,{1-$$,$$dagger on waist|cloak|scarf|sash on waist},{0-$$,$${long sleeves|short sleeves|sleeveless}|hakama|tabi{|,sandal}}
+      {|black |purple |red }ninja,{1-$$,$$dagger on waist|cloak|scarf|sash on waist},{0-$$,$${long sleeves|short sleeves|sleeveless}|hakama|tabi{|,sandal}}
     magical: >-
       {|{4::{|light }{blue|green|magenta|orange|pink|purple|red|yellow}|1::{black|white}} }magical girl,frilled dress,layered skirt{|,panties {around one leg|aside}},
       {4-$$,$$amulet|{beret|hair{ ornament|pin}|tiara}|brooch|capelet|choker|earrings},
@@ -111,7 +111,7 @@ pussy:
       police uniform,{blazer jacket|shirt,{long|short} sleeves},{1-$$,$$pencil skirt|panties {around one leg|aside}},
       {0-$$,$$white gloves|{1-$$,$${hat|peaked cap}|badge|necktie}}
     priest: >-
-      {{cassock|surplice}|{|black |blue |white }wimple}{|,panties {around one leg|aside}},{0-$$,$${|elbow }gloves|heels|{1-$$,$${|cross }pendant|mitre|rosary}}
+      priest,{{cassock|surplice}|{|black |blue |white }wimple}{|,panties {around one leg|aside}},{0-$$,$${|elbow }gloves|heels|{1-$$,$${|cross }pendant|mitre|rosary}}
     punk: >-
       {|torn }{|graphic }t-shirt{|,leather jacket},{|ripped }{shorts,shorts {around one leg|aside}|skirt{|,panties {around one leg|aside}}},
       {0-$$,$${|platform }{boots|shoes}|{|fishnet }thighhighs|{|studded }choker|{1-$$,$${|safety pin }earrings|bracelet|belt|{arm warmers|{|fishnet }gloves}}}
@@ -127,7 +127,7 @@ pussy:
       {1-$$,$${long|short} pleated skirt|panties {around one leg|aside}},
       {0-$$,$${{|black |white }kneehighs|ankle socks|loose socks|socks},{loafers|mary janes|sneakers|uwabaki}|{1-$$,$$glasses|name tag}}
     shady: >-
-      dagger on waist,sash on waist,{1-$$,$${|black |purple |deep red }{long sleeves|short sleeves|sleeveless} shirt|{|black |purple |deep red }{cape|cloak|tunic}}{|,panties {around one leg|aside}},{0-$$,$$gloves|boots|scarf}
+      {|thief,}dagger on waist,sash on waist,{1-$$,$${|black |purple |deep red }{long sleeves|short sleeves|sleeveless} shirt|{|black |purple |deep red }{cape|cloak|tunic}}{|,panties {around one leg|aside}},{0-$$,$$gloves|boots|scarf}
     sports: >-
       {basketball uniform,{0-$$,$$tank top|shorts,shorts {around one leg|aside}}|tennis uniform,{0-$$,$$short sleeves|{pleated }skirt{|,panties {around one leg|aside}}}|track uniform,{0-$$,$${|cropped }tank top|{|bike }shorts,shorts {around one leg|aside}}}{|,towel on neck}
     street_casual: >-
@@ -141,6 +141,9 @@ pussy:
     teacher: >-
       teacher,{formal jacket|shirt|vest},{1-$$,$$pencil skirt|panties {around one leg|aside}},
       {0-$$,$${heels|pumps|sandals|shoes}|{1-$$,$$glasses|lanyard|necktie}}
+    travel_attendant: >-
+      travel attendant,{|pencil }skirt{|,panties {around one leg|aside}},
+      {0-$$,$${heels|pumps}|white {|elbow }gloves|{1-$$,$${|blue |green |orange |red |white |yellow }neckerchief|lanyard|sash on waist|badge|hat|name tag|corsage}}
     victorian: >-
       {|black |white }{|elaborate }victorian dress,{|puffed |leg-of-mutton }sleeves,{|ruffled }skirt{|,panties {around one leg|aside}},
       {0-$$,$${|lace }{|elbow }gloves|{1-$$,$$cross-laced |stiletto }{ankle|knee} boots|{|feathered }{hat|fascinator}|{|lace }{capelet|shawl}|{1-$$,$$brooch|pendant|earrings}}
@@ -151,7 +154,7 @@ pussy:
     wedding: >-
       {0-$${off-shoulder|strapless}|frilled} wedding dress{|,panties {around one leg|aside}},{0-1$$,$$elbow gloves|veil}
     western: >-
-      {|plaid |flannel }{shirt|crop top},{|denim }shorts,shorts {around one leg|aside},cowboy hat,{0-$$,$${|cowboy }boots|belt{| with buckle}|{bandana|neckerchief}|{1-$$,$$vest|fringe jacket|gloves}}
+      cowboy western,{|plaid |flannel }{shirt|crop top},{|denim }shorts,shorts {around one leg|aside},cowboy hat,{0-$$,$${|cowboy }boots|belt{| with buckle}|{bandana|neckerchief}|{1-$$,$$vest|fringe jacket|gloves}}
     winter: >-
       {collared coat|down jacket|duffel coat|fur{|-trimmed} coat|fur{|-trimmed} jacket|hooded coat|leather jacket|long coat|overcoat|padded jacket|parka|quilted jacket|trench coat|winter coat},
       {1-$$,$${{|long }{skirt}|layered skirt|pleated skirt}|panties {around one leg|aside}},
