@@ -15,7 +15,7 @@ costumes:
     {0-$$,$$corset|choker|earrings|pendant}
   bedding: >-
     {negligee|nightwear|pajamas}{|,{mob cap|nightcap}}
-  bikini-armor: >-
+  bikini_armor: >-
     {|blue |gold |green |red |silver |yellow }bikini armor,{0-$$,$${|elbow }gloves|{|knee }boots}
   bodycon: >-
     {|black |red |white }{|strapless |off-shoulder }bodycon dress,{0-$$,$${|fishnet }{thighhighs|pantyhose}|{|stiletto |block }heels|{1-$$,$$choker|earrings|bracelet|clutch}}

@@ -2916,10 +2916,10 @@ subjects:
       - __subjects/profiles/human__
       - __subjects/profiles/demi_human__
     human:
-      - "{1-$$,$$__subjects/profiles/hair/do__|__subjects/profiles/eye/human__|__subjects/profiles/skin/human__|{flat chest|small breasts|middle breasts|large breasts}}"
+      - __subjects/profiles/hair/do__,__subjects/profiles/eye/human__,__subjects/profiles/skin/human__{|,{flat chest|small breasts|middle breasts|large breasts}}
     demi_human:
-      - "{1-$$,$$__subjects/profiles/hair/do__|__subjects/profiles/eye/demi_human__|__subjects/profiles/skin/demi_human__|{flat chest|small breasts|middle breasts|large breasts}|__subjects/profiles/misc/do__}"
-      - __subjects/profiles/species/*__,{1-$$,$$__subjects/profiles/hair/do__|__subjects/profiles/eye/human__|{flat chest|small breasts|middle breasts|large breasts}}
+      - __subjects/profiles/hair/do__,__subjects/profiles/eye/demi_human__,__subjects/profiles/skin/demi_human__{|,{flat chest|small breasts|middle breasts|large breasts}},__subjects/profiles/misc/do__
+      - __subjects/profiles/species/*__,__subjects/profiles/hair/do__,__subjects/profiles/eye/human__{|,{flat chest|small breasts|middle breasts|large breasts}}
     hair:
       do:
         - __subjects/profiles/hair/colors__ {1::__subjects/profiles/hair/wholes__|3::__subjects/profiles/hair/random__}
@@ -3012,7 +3012,7 @@ subjects:
           - pixie cut
           - short hair
           - very long hair
-          - very short
+          - very short hair
         style:
           - asymmetrical hair
           - curly hair
@@ -3145,13 +3145,13 @@ subjects:
       - __subjects/profiles_favorite/human__
       - __subjects/profiles_favorite/demi_human__
     human:
-      - "{1-$$,$$__subjects/profiles_favorite/hair__|__subjects/profiles_favorite/eye/human__|{dark|fair|pale} skin|{flat chest|small breasts|medium breasts}}"
+      - __subjects/profiles_favorite/hair__,__subjects/profiles_favorite/eye/human__{|,{dark|fair|pale} skin}{|,flat chest|small breasts|medium breasts}
     demi_human:
-      - "{1-$$,$$__subjects/profiles_favorite/hair__|__subjects/profiles_favorite/eye/demi_human__|{dark|fair|pale} skin|{flat chest|small breasts|medium breasts}|{1-$$,$${halo|horns|{animal|{|long }pointy} ears}|{|bat }wings|tail}}"
-      - __subjects/profiles_favorite/species/*__,{1-$$,$$__subjects/profiles_favorite/hair__|__subjects/profiles_favorite/eye/human__|{flat chest|small breasts|medium breasts}}
+      - __subjects/profiles_favorite/hair__,__subjects/profiles_favorite/eye/demi_human__,{|,{dark|fair|pale} skin}{|,{flat chest|small breasts|medium breasts}},{0-$$,$${halo|horns|{animal|{|long }pointy} ears}|{|bat }wings|tail}
+      - __subjects/profiles_favorite/species/*__,__subjects/profiles_favorite/hair__,__subjects/profiles_favorite/eye/human__,{|,{flat chest|small breasts|medium breasts}}
     hair: >-
-      {|black hair,|grey hair,|white hair,}{bob cut|pixie cut|short hair|very long hair|very short}{|,{curly|flipped|straight|wavy} hair}{7::|1::,blunt ends},
-      {0-$$,$${4::{asymmetrical|blunt|short|swept} bangs|1::hair between eyes}|{{|low }{|short }ponytail|side single braid}|sidelocks}
+      {|black hair,|grey hair,|white hair,}{bob cut|pixie cut|short hair|very short hair}{|,{curly|flipped|straight|wavy} hair}{7::|1::,blunt ends},
+      {0-$$,$${4::{asymmetrical|blunt|swept} bangs|1::hair between eyes}|{{|low }{|short }ponytail|side single braid}|sidelocks}
     eye:
       human:
         - __subjects/profiles/eye/color/make__{6::|1::,tsurime}
