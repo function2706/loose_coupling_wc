@@ -1,8 +1,6 @@
 fashion_show: |-
-  {|{light }smile}
-  {5::__costumes/*__|3::__boots_setups/*__|1::__boots_maker/*__},
-  {|city|simple background},
-  {standing|sitting}
+  {5::__costumes/*__|3::__boots_setups/*__|1::__boots_maker/*__}{|,city}{|,{light }smile,{0-$$,$$one eye closed|open mouth}},
+  {standing,{0-$$,$${v over {eye|mouth}|arms behind head}|crossed legs}|sitting,{0-$$,$${v over {eye|mouth}|head rest|arms behind {head|back}}|crossed legs}|contrapposto}
 costumes:
   90s_grunge: >-
     {|plaid |flannel }shirt,{|ripped }{jeans|shorts},{|graphic }t-shirt,{0-$$,$${combat boots|chunky sneakers}|{|sheer }pantyhose|{1-$$,$$choker|bracelet|beanie|slip dress}}
