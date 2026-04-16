@@ -30,14 +30,18 @@ socks:
     - smirk{|,closed mouth}
     - smug
   equipments:
-    90s_grunge: >-
-      {white|black} socks,__barefoot/equipments/90s_grunge__
+    artist: >-
+      white socks,__barefoot/equipments/artist__
     athleisure: >-
       {white|black} {socks|ankle socks|kneehighs|thighhighs},__barefoot/equipments/athleisure__
     ballerina: >-
       pantyhose,__barefoot/equipments/ballerina__
     barbiecore: >-
       {|fishnet }pantyhose,__barefoot/equipments/barbiecore__
+    barista: >-
+      white socks,__barefoot/equipments/barista__
+    bartender: >-
+      white socks,__barefoot/equipments/bartender__
     bdsm: >-
       {{|fishnet }pantyhose|{garter belt|garter straps}},__barefoot/equipments/bdsm__
     bedding: >-
@@ -48,6 +52,8 @@ socks:
       {{|fishnet }pantyhose|{garter belt|garter straps}},__barefoot/equipments/bunny_girl__
     cheerleader: >-
       {|black |blue |green |red |white |yellow }{socks|ankle socks|kneehighs|thighhighs},__barefoot/equipments/cheerleader__
+    chef: >-
+      white socks,__barefoot/equipments/chef__
     china: >-
       pantyhose,__barefoot/equipments/china__
     commander: >-
@@ -60,24 +66,40 @@ socks:
       socks,__barefoot/equipments/cross_dressing__
     decora: >-
       {|striped |polka dot }{|frilled }{socks|ankle socks|kneehighs|thighhighs},__barefoot/equipments/decora__
+    demon: >-
+      {fishnet pantyhose|pantyhose|thighhighs}__barefoot/equipments/demon__
+    detective: >-
+      white socks,__barefoot/equipments/detective__
     doctor: >-
       {pantyhose|{garter belt|garter straps}},__barefoot/equipments/doctor__
     dress: >-
       pantyhose,__barefoot/equipments/dress__
     e_girl: >-
       {kneehighs|thighhighs},__barefoot/equipments/e_girl__
+    explorer: >-
+      white socks,__barefoot/equipments/explorer__
+    fairy: >-
+      {socks|kneehighs|thighhighs},__barefoot/equipments/fairy__
     fairy_kei: >-
       {|frilled }{socks|kneehighs|thighhighs},__barefoot/equipments/fairy_kei__
+    fallen-angel: >-
+      fallen angel,cosplay,{|black |purple }halo,black feather wings,__socks/equipments/bdsm__
     goth_roli: >-
       {{|fishnet |white }pantyhose|fishnet socks},__barefoot/equipments/goth_roli__
+    grunge: >-
+      {white|black} socks,__barefoot/equipments/grunge__
     gym: >-
       {white|black} socks,__barefoot/equipments/gym__
     hiphop_90s: >-
       {white|black} socks,__barefoot/equipments/hiphop_90s__
+    hunter: >-
+      socks,__barefoot/equipments/hunter__
     idol: >-
       {|striped |polka dot }{|frilled }{socks|kneehighs|thighhighs},__barefoot/equipments/idol__
     jirai_kei: >-
       {|frilled }{kneehighs|thighhighs},__barefoot/equipments/jirai_kei__
+    lingerie: >-
+      {{garter belt|garter straps}|thighhighs|pantyhose},__barefoot/equipments/lingerie__
     magical: >-
       {{|striped }kneehighs|{|striped }thighhighs|{|white }pantyhose},__barefoot/equipments/magical__
     maid: >-
@@ -94,6 +116,10 @@ socks:
       pantyhose,__barefoot/equipments/police__
     priest: >-
       {|black |white }pantyhose,__barefoot/equipments/priest__
+    prince: >-
+      white socks,__barefoot/equipments/prince__
+    princess: >-
+      {pantyhose|{garter belt|garter straps}},__barefoot/equipments/princess__
     punk: >-
       fishnet {thighhighs|pantyhose},__barefoot/equipments/punk__
     ryousangata: >-
@@ -102,16 +128,22 @@ socks:
       white pantyhose,__barefoot/equipments/santa__
     school: >-
       {{white|black} {socks|ankle socks|kneehighs}|pantyhose},__barefoot/equipments/school__
+    soldier: >-
+      white socks,__barefoot/equipments/soldier__
     sports: >-
       {white|black} socks,__barefoot/equipments/sports__
     street_casual: >-
       {white|black} socks,__barefoot/equipments/street_casual__
+    succubus: >-
+      {{garter belt|garter straps}|fishnet pantyhose|pantyhose|thighhighs},__barefoot/equipments/succubus__
     summer: >-
       {|frilled }{|ankle }socks,__barefoot/equipments/summer__
     teacher: >-
       {pantyhose|{garter belt|garter straps}},__barefoot/equipments/teacher__
     travel_attendant: >-
       pantyhose,__barefoot/equipments/travel_attendant__
+    vampire: >-
+      white socks,__barefoot/equipments/vampire__
     waitress: >-
       {pantyhose|{garter belt|garter straps}|{|frilled }thighhighs},__barefoot/equipments/waitress__
     warm_sets: >-

@@ -66,7 +66,7 @@ costumes:
     {|graphic |band }t-shirt,{|plaid |striped }mini skirt,{|long-sleeve }layered top,
     {0-$$,$${chunky sneakers|platform boots}|{|striped }{thighhighs|kneehighs}|{1-$$,$$heart hair clip|chain necklace|bracelet|eyeliner}}
   elf: >-
-    elf,cosplay,{|light }green {dress|tunic|robe},{0-$$,$${cape|cloak}|{boots|sandals|shoes}|{|leaf |floral }crown|{1-$$,$$bracelet|necklace|earrings|armlet|ring}}
+    elf,cosplay,{|light }green {dress|tunic|robe},{0-$$,$${cape|cloak}|{boots|sandals|shoes}|{leaf|floral} crown|{1-$$,$$bracelet|necklace|earrings|armlet|ring}}
   explorer: >-
     safari jacket,{long sleeves|short sleeves|sleeves {rolled|pushed} up}{|,hat},{0-$$,$${|half }pants|socks,{{|desert |hiking }boots|shoes}|{1-$$,$$binoculars on neck|gloves|goggles on head|neckerchief}}
   fairy: >-
@@ -103,7 +103,7 @@ costumes:
   kunoichi: >-
     {|black |purple |red }ninja,{1-$$,$$dagger on waist|cloak|scarf|sash on waist},{0-$$,$${long sleeves|short sleeves|sleeveless}|hakama|tabi{|,sandal}}
   lingerie: >-
-    {|black |white |red |pink }{bra,panties|babydoll,{thong|panties}|chemise|teddy},
+    {|black |white |red |pink }{bra,panties|babydoll,{thong|panties}|chemise},
     {0-$$,$${|lace }{|elbow }gloves|{{garter belt|garter straps}|thighhighs|pantyhose}|{|stiletto }heels|{1-$$,$$choker|earrings|necklace|bracelet}}
   magical: >-
     {|{4::{|light }{blue|green|magenta|orange|pink|purple|red|yellow}|1::{black|white}} }magical girl,frilled dress,layered skirt,

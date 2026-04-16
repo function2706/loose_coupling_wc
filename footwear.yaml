@@ -13,10 +13,8 @@ footwear:
     - standing{ on one leg|,knee up},hand on hip
     - sitting on chair{|,crossed legs}{|,head rest}
   equipments:
-    90s_grunge: >-
-      combat boots,{|plaid |flannel }shirt,{|ripped }{jeans|shorts},{|graphic }t-shirt,{0-$$,$${|sheer }pantyhose|{1-$$,$$choker|bracelet|beanie|slip dress}}
     barbiecore: >-
-      {|pink }heels,{|hot |bubblegum }pink {|mini }{dress|skirt,top|jumpsuit},{0-$$,$${|pink }sunglasses|{1-$$,$$bracelet|earrings|hair ribbon|tiara}}
+      {|pink }heels,{|hot |bubblegum }pink {|mini }{dress|skirt,shirt},{0-$$,$${|pink }sunglasses|{1-$$,$$bracelet|earrings|hair ribbon|tiara}}
     bdsm: >-
       {latex thigh boots|latex knee boots{|,garter belt|,{|fishnet }thighhighs}|{|stiletto }heels{|,garter belt|,{|fishnet }thighhighs}}
       latex {|strapless }bra,latex {panties|miniskirt}{|,latex elbow gloves},
@@ -35,8 +33,11 @@ footwear:
       heels,military uniform,{0-$$,$${fatigues|suit}|{skirt{|,pantyhose}|pants}|{|white }gloves|{1-$$,$$aiguillette|badge|epaulettes|peaked cap|ribbon bar}}
     cottage_core: >-
       {|ankle }boots,{|floral |linen }{|prairie }dress,{|puff }sleeves,{|floral |lace }apron,{0-$$,$${|straw }hat|{1-$$,$$hair ribbon|floral hairpin|cardigan}}
-    disco_70s: >-
-      {{|platform }boots|heels},{|sequined |metallic }{halter top|wrap dress|jumpsuit},{|bell-bottom |flared }pants,{0-$$,$${|wide }belt|{1-$$,$$hoop earrings|pendant|bracelet|sunglasses}}
+    demon: >-
+      {{|fishnet pantyhose,|pantyhose,|thighhighs,}knee boots|thigh boots,short skirt},demon,cosplay,{black |deep red |deep purple }dress,demon horns,bat wings,
+      {0-$$,$$demon tail|{1-$$,$$bracelet|choker|earrings|pendant}}
+    disco: >-
+      {{|platform }boots|heels},{|sequined |metallic }{halter top|wrap dress},{|bell-bottom |flared }pants,{0-$$,$${|wide }belt|{1-$$,$$hoop earrings|pendant|bracelet|sunglasses}}
     doctor: >-
       heels,{white|beige|black|brown} pantyhose,doctor,lab coat,skirt,{0-$$,$$|{1-$$,$${10::|1::{|light blue |white }surgical mask}|glasses|lanyard|stethoscope on neck}}
     dress: >-
@@ -45,15 +46,30 @@ footwear:
     e_girl: >-
       {|platform }boots,{|graphic |band }t-shirt,{|plaid |striped }mini skirt,{|long-sleeve }layered top,
       {0-$$,$${|striped }{thighhighs|kneehighs}|{1-$$,$$heart hair clip|chain necklace|bracelet|eyeliner}}
+    elf: >-
+      boots,elf,cosplay,{|light }green {dress|tunic|robe},{0-$$,$${cape|cloak}|{|leaf |floral }crown|{1-$$,$$bracelet|necklace|earrings|armlet|ring}}
+    explorer: >-
+      socks,{|desert |hiking }boots,safari jacket,{long sleeves|short sleeves|sleeves {rolled|pushed} up}{|,hat},{0-$$,$${|half }pants|{1-$$,$$binoculars on neck|gloves|goggles on head|neckerchief}}
+    fairy: >-
+      {ankle boots,{socks|kneehighs}|knee boots,thighhighs},fairy,cosplay,wings,{|pastel }{minidress|crop top,skirt},{0-$$,$$floral crown||{1-$$,$$bracelet|anklet|earrings}}
+    fallen-angel: >-
+      fallen angel,cosplay,{|black |purple }halo,black feather wings,__footwear/equipments/bdsm__
     goth_roli: >-
       {|platform }boots,{goth fashion|gothic lolita},
       {0-$$,$${{|high-neck collar }shirt|corset}|{bell|jumper} skirt|lace gloves|{{|striped }thighhighs|{|white }pantyhose}|{1-$$,$$brooch|choker|lace headband|ribbons}}
+    grunge: >-
+      combat boots,{|plaid |flannel }shirt,{|ripped }{jeans|shorts},{0-$$,$$pantyhose|{1-$$,$${bandana|beanie}|bracelet|choker}}
+    hunter: >-
+      {socks,boots|knee boots},{|brown|green }{tunic|vest},pants,{0-$$,$${cape|cloak}|{|leather {|cuirass }}gloves|{1-$$,$$bracer|belt|hood|binoculars on neck|knife on waist|quiver}}
     idol: >-
       {ankle|knee|thigh} boots,{|{|light }blue |{|light }green |{|light }magenta |{|light }orange |{|light }pink |{|light }purple |{|light }red |{|light }yellow |black |white }idol clothes,
       {crop top|frilled shirt|stage dress},puffy {|short }sleeves,{long|short} {frilled|pleated} skirt,
       {0-$$,$${|elbow }gloves|{kneehighs|thighhighs}|{1-$$,$${hair{ ornament|pin}|{|mini }hat|headset}|{{bow|neck}tie|choker}|ribbons}}
     jirai_kei: >-
       {|platform }boots,{|black |white }{|lace }blouse,{|black |white }{|plaid |lace }mini skirt,{0-$$,$${|striped }{thighhighs|kneehighs}|{1-$$,$$choker|hair clip|bow|bandage|wristband}}
+    lingerie: >-
+      {|stiletto }heels,{|black |white |red |pink }{bra,panties|babydoll,{thong|panties}|chemise},
+      {0-$$,$${|lace }{|elbow }gloves|{{garter belt|garter straps}|thighhighs|pantyhose}|{1-$$,$$choker|earrings|necklace|bracelet}}
     magical: >-
       {ankle|knee|thigh} boots,
       {|{4::{|light }{blue|green|magenta|orange|pink|purple|red|yellow}|1::{black|white}} }magical girl,frilled dress,layered skirt,
@@ -74,6 +90,8 @@ footwear:
       {heels|pumps},office lady,{0-$$,$${blazer jacket|shirt|office-lady suit|cardigan}|pencil skirt,{beige|brown|black} pantyhose|{1-$$,$$glasses|lanyard}}
     priest: >-
       heels,priest,{{cassock|surplice}|{|black |blue |white }wimple},{0-$$,$${|elbow }gloves|pantyhose|{1-$$,$${|cross }pendant|mitre|rosary}}
+    princess: >-
+      {|stiletto }heels,princess,tiara,{|frilled |fur trimmed |lace trimmed }{dress|gown}{|,{layered|long|short} skirt},{|puffy }{long sleeves{|,gloves}|short sleeves{|,elbow gloves}}
     punk: >-
       {|platform }boots,{|torn }{|graphic }t-shirt{|,leather jacket},{|ripped }{jeans|shorts|skirt},
       {0-$$,$${|fishnet }{thighhighs|pantyhose}|{|studded }choker|{1-$$,$${|safety pin }earrings|bracelet|belt|{arm warmers|{|fishnet }gloves}}}
@@ -83,10 +101,19 @@ footwear:
       fur {|ankle |knee |thigh }boots,{black|red} santa costume,{0-$$,$${black|brown|white} pantyhose|{1-$$,$${|elbow }gloves|hat}}
     shady: >-
       boots,{|thief,}dagger on waist,sash on waist,{1-$$,$${|black |purple |deep red }{long sleeves|short sleeves|sleeveless} shirt|{|black |purple |deep red }{cape|cloak|tunic}},{0-$$,$$gloves|scarf}
+    soldier: >-
+      combat boots,military uniform,{||brown |green }fatigues{|,camouflage uniform},pants,{0-$$,$${garrison cap|helmet}|name tag}
+    succubus: >-
+      {2::{|{garter belt|garter straps},|fishnet pantyhose,|pantyhose,|thighhighs,}{knee boots|{|stiletto }heels}|{|{garter belt|garter straps},}thigh boots},
+      succubus,cosplay,{|demon horns,}bat wings,{black |red |pink |purple }{|latex }{{corset|bra,{|latex }panties}},
+      {0-$$,$$|demon tail|{1-$$,$${|latex }elbow gloves|bracelet|choker|earrings|necklace|pendant}}
     teacher: >-
       {heels|pumps},teacher,{formal jacket|shirt|vest},pencil skirt{|,{beige|black|brown} pantyhose},{0-$$,$$glasses|lanyard|necktie}
     travel_attendant: >-
       heels,travel attendant,{|pencil }skirt,{0-$$,$$pantyhose|white {|elbow }gloves|{1-$$,$${|blue |green |orange |red |white |yellow }neckerchief|lanyard|sash on waist|badge|hat|name tag|corsage}}
+    vampire: >-
+      boots{|,stiletto heels},vampire,cosplay,{|deep red |black |dark }{cape|cloak},{|gothic }{|lace |ruffled }{dress|gown}{|,{|lace }{|elbow }gloves},
+      {0-$$,$$choker|pendant|earrings|brooch|fangs}
     victorian: >-
       {1-$$,$$cross-laced |stiletto }{ankle|knee} boots,{|black |white }{|elaborate }victorian dress,{|puffed |leg-of-mutton }sleeves,{|ruffled }skirt,
       {0-$$,$${|lace }{|elbow }gloves|{|feathered }{hat|fascinator}|{|lace }{capelet|shawl}|{1-$$,$$brooch|pendant|earrings}}
