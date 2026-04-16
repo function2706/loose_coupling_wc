@@ -3,15 +3,15 @@ fashion_show: |-
   {standing,{0-$$,$${v over {eye|mouth}|arms behind {head|back}}|crossed legs}|sitting,{0-$$,$${v over {eye|mouth}|head rest|arms behind {head|back}}|crossed legs}|contrapposto}
 costumes:
   angel: >-
-    white {|mini }dress,{|golden |yellow }halo,white feather wings,{0-$$,$$sandals|{1-$$,$$anklet|bracelet|earrings|pendant}}
+    angel,cosplay,white dress,yellow halo,white feather wings,{0-$$,$$sandals|{1-$$,$$anklet|bracelet|earrings|pendant}}
   artist: >-
-    {brown|green} apron,paint on apron,{t-}shirt,{skirt|pants}{|,beret|bandana}
+    artist painter,{brown|green} apron,paint on apron,{t-}shirt,{skirt|pants}{|,beret|bandana}
   athleisure: >-
     {sports bra|crop top|athletic top},{|high-waist }{leggings|bike shorts|jogger pants},{0-$$,$${sneakers|running shoes}|{|zip-up }hoodie|{1-$$,$$scrunchie|cap|headband|wristband|socks}}
   barbiecore: >-
     {|hot |bubblegum }pink {|mini }{dress|skirt,shirt},{0-$$,$${|pink }{heels|mules|sneakers}|{|pink }sunglasses|{1-$$,$$bracelet|earrings|hair ribbon|tiara}}
   barista: >-
-    apron,shirt,sleeves rolled up,{bow|neck}tie,{0-$$,$${{|skinny }jeans|pants}|cap}
+    barista,apron,{|t-}shirt,sleeves rolled up,{bow|neck}tie,{0-$$,$${{|skinny }jeans|pants}|cap}
   bartender: >-
     white shirt,vest,black pants,{0-$$,$${bow|neck}tie|sleeves rolled up}
   ballerina: >-
@@ -51,8 +51,8 @@ costumes:
     decora,{|pastel |colorful }{dress|skirt,top},
     {0-$$,$$platform shoes|{|colorful |striped |printed }{thighhighs|kneehighs}|{1-$$,$$hair clip|bracelet|earrings|pins}}
   demon: >-
-    {black |deep red |deep purple }{corset|leotard},demon horns,bat wings,
-    {0-$$,$${{|fishnet pantyhose,|pantyhose,|thighhighs,}knee boots|thigh boots}|demon tail|{1-$$,$$bracelet|choker|earrings|pendant}}
+    demon,cosplay,{black |deep red |deep purple }dress,demon horns,bat wings,
+    {0-$$,$${{|fishnet pantyhose,|pantyhose,|thighhighs,}knee boots|thigh boots,short skirt}|demon tail|{1-$$,$$bracelet|choker|earrings|pendant}}
   detective: >-
     detective,trench coat,{0-$$,$${capelet|vest}|{1-$$,$$gloves|hat|pen in pocket}}
   disco: >-
@@ -66,19 +66,19 @@ costumes:
     {|graphic |band }t-shirt,{|plaid |striped }mini skirt,{|long-sleeve }layered top,
     {0-$$,$${chunky sneakers|platform boots}|{|striped }{thighhighs|kneehighs}|{1-$$,$$heart hair clip|chain necklace|bracelet|eyeliner}}
   elf: >-
-    {|light }green {dress|tunic|robe},{0-$$,$${cape|cloak}|{boots|sandals|shoes}|{|leaf |floral }crown|{1-$$,$$bracelet|necklace|earrings|armlet|ring}}
+    elf,cosplay,{|light }green {dress|tunic|robe},{0-$$,$${cape|cloak}|{boots|sandals|shoes}|{|leaf |floral }crown|{1-$$,$$bracelet|necklace|earrings|armlet|ring}}
   explorer: >-
     safari jacket,{long sleeves|short sleeves|sleeves {rolled|pushed} up}{|,hat},{0-$$,$${|half }pants|socks,{{|desert |hiking }boots|shoes}|{1-$$,$$binoculars on neck|gloves|goggles on head|neckerchief}}
   fairy: >-
-    {|butterfly |dragonfly }wings,{|pastel }{minidress|crop top,skirt},
-    {0-$$,$${|floral }crown|{|shoes,{socks|kneehighs}|ankle boots,{socks|kneehighs}|knee boots,thighhighs}|{1-$$,$$bracelet|anklet|earrings}}
+    fairy,cosplay,wings,{|pastel }{minidress|crop top,skirt},
+    {0-$$,$$floral crown|{|shoes,{socks|kneehighs}|ankle boots,{socks|kneehighs}|knee boots,thighhighs}|{1-$$,$$bracelet|anklet|earrings}}
   fairy_kei: >-
     {|pastel }{tutu skirt|puff skirt|layered skirt},{|pastel |printed }top,
     {0-$$,$$platform {shoes|sneakers}|{|pastel |star |heart }printed {thighhighs|kneehighs|pantyhose}|{1-$$,$$star hair clip|bow|wristcuffs|toy pendant|bracelet}}
   fallen-angel: >-
-    {|black |purple }halo,black feather wings,__costumes/bdsm__
+    fallen angel,cosplay,{|black |purple }halo,black feather wings,__costumes/bdsm__
   goddess: >-
-    white {toga|chiton|himation|peplos},laurel crown,{0-$$,$$sandals|{1-$$,$$bracelet|anklet|earrings|pendant}}
+    goddess,cosplay,white robe,laurel crown,{0-$$,$$sandals|{1-$$,$$bracelet|anklet|earrings|pendant}}
   goth_roli: >-
     {goth fashion|gothic lolita},
     {0-$$,$${{|high-neck collar }shirt|corset}|{bell|jumper} skirt|lace gloves|{{|striped }thighhighs|{|white }pantyhose}|{platform boots|mary jane}|{1-$$,$$brooch|choker|lace headband|ribbons}}
@@ -89,7 +89,7 @@ costumes:
     {0-$$,$${1::{|white }t-shirt|2::{|blue |red |white }{jersey|track{ jacket|suit}}}|{{bike|gym} shorts|{gym |sweat}pants|buruma}|{{|ankle }socks|kneehighs|thighhighs}|sneakers|{1-$$,$$headband|towel on neck|wristband}}
   harem: >-
     {arabian clothes|harem outfit},
-    {0-$$,$${crop top|bustier}|{harem pants|skirt}|{barefoot|sandals}|{1-$$,$${|face }veil|amulet|anklet|armlet|bracelet|choker|earrings|necklace|pelvic curtain}}
+    {0-$$,$${crop top|bustier}|{harem pants|skirt}|{barefoot|sandals}|{1-$$,$$veil|amulet|anklet|armlet|bracelet|choker|earrings|necklace|pelvic curtain}}
   hunter: >-
     {|brown|green }{tunic|vest},pants,{0-$$,$${cape|cloak}|{|leather {|cuirass }}gloves|{socks,boots|knee boots}|{1-$$,$$bracer|belt|hood|binoculars on neck|knife on waist|quiver}}
   idol: >-
@@ -120,8 +120,6 @@ costumes:
     {0-$$,$${{|ankle }boots|{flat shoes|loafers}}|{|knit }{thighhighs|leg warmers}|{|straw }hat|{1-$$,$$hair ribbon|floral hairpin|scarf}}
   musician: >-
     {1-$$,$${|print }t-shirt|{leather jacket|vest}},{|leather |torn }{shorts|skirt},{0-$$cross-laced|platform} {knee boots{|,fishnet pantyhose}|thigh boots},{0-$$,$$choker|headset|wristband}
-  necromancer: >-
-    {|black |dark }{robe|cloak},skull necklace,{0-$$,$${|knee |thigh }boots|{|hooded }cape|{1-$$,$$ring|choker|earrings|bracelet}}
   nurse: >-
     nurse,{lab coat|scrub suit},{0-$$,$$skirt,{white|beige|black|brown} pantyhose|sandals|{1-$$,$$lanyard|nurse cap}}
   office_lady: >-
@@ -131,7 +129,7 @@ costumes:
   priest: >-
     priest,{{cassock|surplice}|{|black |blue |white }wimple},{0-$$,$${|elbow }gloves|pantyhose|heels|{1-$$,$${|cross }pendant|mitre|rosary}}
   prince: >-
-    prince costume,{deep green|white|wine red} jacket,epaulettes,pants,{0-$$,$$aiguillette|ascot|gloves}
+    {deep green|white|wine red} jacket,epaulettes,pants,{0-$$,$$aiguillette|ascot|gloves}
   princess: >-
     princess,tiara,{|frilled |fur trimmed |lace trimmed }{dress|gown}{|,{layered|long|short} skirt},{|puffy }{long sleeves{|,gloves}|short sleeves{|,elbow gloves}}
   punk: >-
@@ -155,9 +153,9 @@ costumes:
   sports: >-
     {basketball uniform,{0-$$,$$tank top|shorts}|tennis uniform,{0-$$,$$short sleeves|{pleated }skirt}|track uniform,{0-$$,$${|cropped }tank top|{|bike }shorts}}{|,towel on neck}
   street_casual: >-
-    {|oversized }{hoodie|sweatshirt},{|baggy }{jeans|cargo pants|shorts},{0-$$,$${sneakers|chunky sneakers}|socks|{cap|snapback|beanie|bandana}|{1-$$,$$chain necklace|bracelet|earrings|belt}}
+    {|oversized }{hoodie|sweatshirt},{|baggy }{jeans|cargo pants|shorts},{0-$$,$${sneakers|chunky sneakers}|socks|{cap|snapback|beanie|bandana}|{1-$$,$$chain necklace|bracelet|earrings}}
   succubus: >-
-    {|demon horns,}bat wings,{black |red |pink |purple }{|latex }{{corset|leotard|bra,{black |red |pink |purple }{|latex }panties}},
+    succubus,cosplay,{|demon horns,}bat wings,{black |red |pink |purple }{|latex }{{corset|bra,{|latex }panties}},
     {0-$$,$${2::{|{garter belt|garter straps},|fishnet pantyhose,|pantyhose,|thighhighs,}{knee boots|{|stiletto }heels}|{|{garter belt|garter straps},}thigh boots}|demon tail|{1-$$,$${|latex }elbow gloves|bracelet|choker|earrings|necklace|pendant}}
   summer: >-
     {{strapless shirt|{short sleeves,|sleeves {rolled|pushed} up,}t-shirt|camisole},{{|short }{shorts|skirt}|hot pants|pants,sleeves {rolled|pushed} up|pleated skirt}|{{short sleeves,|sleeves {rolled|pushed} up,}casual |{short sleeves,|sleeves {rolled|pushed} up,}pinafore |sailor |sun}dress},
@@ -170,8 +168,8 @@ costumes:
   travel_attendant: >-
     travel attendant,{|pencil }skirt,{0-$$,$$pantyhose|{heels|pumps}|white {|elbow }gloves|{1-$$,$${|blue |green |orange |red |white |yellow }neckerchief|lanyard|sash on waist|badge|hat|name tag|corsage}}
   vampire: >-
-    fangs,{|deep red |black |dark }{{cape|cloak},{|gothic }{|lace |ruffled }{dress|gown}{|,{|lace }{|elbow }gloves}{|,boots{|,stiletto heels}}|formal clothes,pants{|,gloves}},
-    {0-$$,$$choker|pendant|earrings|brooch}
+    vampire,cosplay,{|deep red |black |dark }{{cape|cloak},{|gothic }{|lace |ruffled }{dress|gown}{|,{|lace }{|elbow }gloves}{|,boots{|,stiletto heels}}|formal clothes,pants{|,gloves}},
+    {0-$$,$$choker|pendant|earrings|brooch|fangs}
   victorian: >-
     {|black |white }{|elaborate }victorian dress,{|puffed |leg-of-mutton }sleeves,{|ruffled }skirt,
     {0-$$,$${|lace }{|elbow }gloves|{1-$$,$$cross-laced |stiletto }{ankle|knee} boots|{|feathered }{hat|fascinator}|{|lace }{capelet|shawl}|{1-$$,$$brooch|pendant|earrings}}
