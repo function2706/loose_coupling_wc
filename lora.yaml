@@ -1,6 +1,6 @@
 lora:
   make: >-
-    {1-$$,$$__lora/expression__|__lora/pose/random__|__lora/fashion__|__lora/background__|__lora/meta__},1girl,solo
+    {1-$$,$$__lora/expression__|__lora/pose/random__|__lora/fashion__|__lora/background__},1girl,solo,__lora/meta__
   expression: >-
     {|annoyed|bored|curious|disgust|embarrassed|excited|expressionless|grin|in heat|light smile|naughty face|nervous|sad|sad smile|scared|seductive smile|smile|smirk|smug|surprised|worried},
     {0-$$,$${2::closed eyes|1::jitome|1::narrowed eyes|2::one eye closed}|{2::closed mouth|1::licking lips|2::open mouth}|{4::|1::blush}}
