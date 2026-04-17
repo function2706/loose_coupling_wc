@@ -33,7 +33,7 @@ socks:
     artist: >-
       white socks,__barefoot/equipments/artist__
     athleisure: >-
-      {white|black} {socks|ankle socks|kneehighs|thighhighs},__barefoot/equipments/athleisure__
+      {12::|1::dirty }{white|black} {socks,|ankle socks|kneehighs|thighhighs},__barefoot/equipments/athleisure__
     ballerina: >-
       pantyhose,__barefoot/equipments/ballerina__
     barbiecore: >-
@@ -51,7 +51,7 @@ socks:
     bunny_girl: >-
       {{|fishnet }pantyhose|{garter belt|garter straps}},__barefoot/equipments/bunny_girl__
     cheerleader: >-
-      {|black |blue |green |red |white |yellow }{socks|ankle socks|kneehighs|thighhighs},__barefoot/equipments/cheerleader__
+      {12::|1::dirty }{|black |blue |green |red |white |yellow }{socks|ankle socks|kneehighs|thighhighs},__barefoot/equipments/cheerleader__
     chef: >-
       white socks,__barefoot/equipments/chef__
     china: >-
@@ -76,24 +76,28 @@ socks:
       pantyhose,__barefoot/equipments/dress__
     e_girl: >-
       {kneehighs|thighhighs},__barefoot/equipments/e_girl__
+    employee: >-
+      socks,__barefoot/equipments/employee__
     explorer: >-
-      white socks,__barefoot/equipments/explorer__
+      {12::|1::dirty }white socks,__barefoot/equipments/explorer__
     fairy: >-
       {socks|kneehighs|thighhighs},__barefoot/equipments/fairy__
     fairy_kei: >-
       {|frilled }{socks|kneehighs|thighhighs},__barefoot/equipments/fairy_kei__
     fallen-angel: >-
       fallen angel,cosplay,{|black |purple }halo,black feather wings,__socks/equipments/bdsm__
+    farmer: >-
+      {12::|1::dirty }socks,__barefoot/equipments/farmer__
     goth_roli: >-
       {{|fishnet |white }pantyhose|fishnet socks},__barefoot/equipments/goth_roli__
     grunge: >-
-      {white|black} socks,__barefoot/equipments/grunge__
+      {12::|1::dirty }{white|black} socks,__barefoot/equipments/grunge__
     gym: >-
-      {white|black} socks,__barefoot/equipments/gym__
+      {12::|1::dirty }{white|black} socks,__barefoot/equipments/gym__
     hiphop_90s: >-
-      {white|black} socks,__barefoot/equipments/hiphop_90s__
+      {12::|1::dirty }{white|black} socks,__barefoot/equipments/hiphop_90s__
     hunter: >-
-      socks,__barefoot/equipments/hunter__
+      {12::|1::dirty }socks,__barefoot/equipments/hunter__
     idol: >-
       {|striped |polka dot }{|frilled }{socks|kneehighs|thighhighs},__barefoot/equipments/idol__
     jirai_kei: >-
@@ -129,11 +133,11 @@ socks:
     school: >-
       {{white|black} {socks|ankle socks|kneehighs}|pantyhose},__barefoot/equipments/school__
     soldier: >-
-      white socks,__barefoot/equipments/soldier__
+      {12::|1::dirty }white socks,__barefoot/equipments/soldier__
     sports: >-
-      {white|black} socks,__barefoot/equipments/sports__
+      {12::|1::dirty }{white|black} socks,__barefoot/equipments/sports__
     street_casual: >-
-      {white|black} socks,__barefoot/equipments/street_casual__
+      {12::|1::dirty }{white|black} socks,__barefoot/equipments/street_casual__
     succubus: >-
       {{garter belt|garter straps}|fishnet pantyhose|pantyhose|thighhighs},__barefoot/equipments/succubus__
     summer: >-

@@ -86,6 +86,8 @@ barefoot:
       {|graphic |band }t-shirt,{|plaid |striped }mini skirt,{|long-sleeve }layered top,{0-$$,$$heart hair clip|chain necklace|bracelet|eyeliner}
     elf: >-
       elf,cosplay,{|light }green {dress|tunic|robe},{0-$$,$${cape|cloak}|{leaf|floral} crown|{1-$$,$$bracelet|necklace|earrings|armlet|ring}}
+    employee: >-
+      employee uniform,{{|striped }shirt|polo shirt|vest},{0-$$,$$pants|{1-$$,$${lanyard|name tag}|apron|cap|sleeves rolled up}}
     explorer: >-
       safari jacket,{long sleeves|short sleeves|sleeves {rolled|pushed} up}{|,hat},{0-$$,$${|half }pants|{1-$$,$$binoculars on neck|gloves|goggles on head|neckerchief}}
     fairy: >-
@@ -94,6 +96,8 @@ barefoot:
       {|pastel }{tutu skirt|puff skirt|layered skirt},{|pastel |printed }top,{0-$$,$$star hair clip|bow|wristcuffs|toy pendant|bracelet}
     fallen-angel: >-
       fallen angel,cosplay,{|black |purple }halo,black feather wings,__barefoot/equipments/bdsm__
+    farmer: >-
+      farmer,{overalls,shirt|shirt,jeans}{|,straw hat}
     goddess: >-
       goddess,cosplay,white robe,laurel crown,{0-$$,$$bracelet|anklet|earrings|pendant}
     goth_roli: >-
@@ -136,6 +140,8 @@ barefoot:
       nurse,{lab coat|scrub suit},{0-$$,$$skirt|{1-$$,$$lanyard|nurse cap}}
     office_lady: >-
       office lady,{0-$$,$${blazer jacket|shirt|office-lady suit|cardigan}|pencil skirt|{1-$$,$$glasses|lanyard}}
+    pirate: >-
+      pirate hat,open coat,{0-$$,$${pistol|sword} on waist|eye patch|sash}
     police: >-
       police uniform,{blazer jacket|shirt,{long|short} sleeves},pencil skirt,{0-$$,$$white gloves|{1-$$,$${hat|peaked cap}|badge|necktie}}
     priest: >-

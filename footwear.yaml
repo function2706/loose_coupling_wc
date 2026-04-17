@@ -88,6 +88,8 @@ footwear:
       {0-$$cross-laced|platform} {knee boots{|,fishnet pantyhose}|thigh boots},{1-$$,$${|print }t-shirt|{leather jacket|vest}},{|leather |torn }{shorts|skirt},{0-$$,$$choker|headset|wristband}
     office_lady: >-
       {heels|pumps},office lady,{0-$$,$${blazer jacket|shirt|office-lady suit|cardigan}|pencil skirt,{beige|brown|black} pantyhose|{1-$$,$$glasses|lanyard}}
+    pirate: >-
+      boots,pirate hat,open coat,{0-$$,$${pistol|sword} on waist|eye patch|sash}
     priest: >-
       heels,priest,{{cassock|surplice}|{|black |blue |white }wimple},{0-$$,$${|elbow }gloves|pantyhose|{1-$$,$${|cross }pendant|mitre|rosary}}
     princess: >-
