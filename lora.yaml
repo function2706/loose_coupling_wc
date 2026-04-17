@@ -1,0 +1,26 @@
+lora:
+  make: >-
+    {1-$$,$$__lora/expression__|__lora/pose/random__|__lora/fashion__|__lora/background__|__lora/meta__},1girl,solo
+  expression: >-
+    {|annoyed|bored|curious|disgust|embarrassed|excited|expressionless|grin|in heat|light smile|naughty face|nervous|sad|sad smile|scared|seductive smile|smile|smirk|smug|surprised|worried},
+    {0-$$,$${2::closed eyes|1::jitome|1::narrowed eyes|2::one eye closed}|{2::closed mouth|1::licking lips|2::open mouth}|{4::|1::blush}}
+  pose:
+    random: >-
+      {4::__lora/pose/standing__|4::__lora/pose/sitting_on__|2::__lora/pose/kneeling__|2::__lora/pose/sitting_down__|1::__lora/pose/laying__}
+    standing: >-
+      {1::contrapposto|10::standing{| on one leg|,crossed legs}{|,v arm|,double v|,v{| over {eye|mouth}}|,arms behind {head|back}|,claw pose|,paw pose|,crossed arms|,hand{|s} on hip}}
+      {|,looking {at another|at viewer}}
+    sitting_on: >-
+      {sitting{|,crossed legs}{|,knee up}}{|,head rest|,double v|,v{| over {eye|mouth}}|,claw pose|,paw pose|,crossed arms}{|,looking {at another|at viewer}}
+    kneeling: >-
+      {hugging own legs{|,crossed legs}|kneeling|on one knee|squatting}{|,double v|,v{| over {eye|mouth}}|,claw pose|,paw pose}{|,looking {at another|at viewer}}
+    sitting_down: >-
+      {knees {apart|together} feet {apart|together}|indian style|seiza|wariza|yokozuwari}{|,double v|,v{| over {eye|mouth}}|,arms behind back}{|,looking {at another|at viewer}}
+    laying: >-
+      {lying|on back{|,looking {at another|at viewer}}|on side{|,looking {at another|at viewer}}|on stomach|fetal position}
+  fashion: >-
+    {5::__costumes/*__|3::__boots_setups/*__|2::__tailor/make__}
+  background: >-
+    {{room|kitchen|office|classroom|gym|shop}|{harbor|market|park|city|beach|desert|lake|ocean|rooftop}{|,day|,night}|simple background}
+  meta: >-
+    {|from {above|below|side}},{0-$$,$$masterpiece|best quality|amazing quality}

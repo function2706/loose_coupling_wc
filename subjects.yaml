@@ -2946,6 +2946,7 @@ subjects:
           - crown braid
           - single hair intake
       bangs:
+        - arched bangs
         - asymmetrical bangs
         - bangs pinned back
         - blunt bangs
@@ -2992,16 +2993,28 @@ subjects:
             - uneven twintails
             - wide ponytail
         updos:
+          - ballerina bun
+          - blunt bangs
+          - boho updo
           - braided bun
+          - braided updo
           - bun cover
           - cone hair bun
           - double bun
           - doughnut hair bun
           - hair bun
+          - low bun
+          - messy bun
+          - messy updo
           - single hair bun
           - single side bun
           - tied hair
       sidelocks:
+        - asymmetrical sidelocks
+        - drill sidelocks
+        - low-tied sidelocks
+        - side braid
+        - side braids
         - sidelocks
         - single sidelock
       bases:
@@ -3033,6 +3046,8 @@ subjects:
         - hime cut
         - inverted bob
         - low-braided long hair
+        - voluminous curls
+        - wolf cut
       colors:
         - black
         - blonde

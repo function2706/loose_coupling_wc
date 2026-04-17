@@ -1,6 +1,44 @@
 fashion_show: |-
   {5::__costumes/*__|3::__boots_setups/*__|1::__boots_maker/*__}{|,city}{|,{light }smile{|,open mouth}},
-  {standing,{0-$$,$${v over {eye|mouth}|arms behind {head|back}}|crossed legs}|sitting,{0-$$,$${v over {eye|mouth}|head rest|arms behind {head|back}}|crossed legs}|contrapposto}
+  {standing,{0-$$,$${v{| over {eye|mouth}}|double v|arms behind {head|back}}|crossed legs}|sitting,{0-$$,$${v{| over {eye|mouth}}|double v|head rest|arms behind {head|back}}|crossed legs}|contrapposto}
+tailor:
+  make: >-
+    {1-$$,$${__tailor/tops/random__,__tailor/bottoms__|__tailor/unis__}|__tailor/footwear/random__|__tailor/accessories/random__}
+  tops:
+    random: >-
+      {__tailor/tops/outer__|__tailor/tops/inner__{8::|1::,cape}|__tailor/tops/outer__,__tailor/tops/inner__}
+    outer: >-
+      {|open }{{6::{|hooded |blazer |down |jean |leather |suit }jacket|1::cardigan}|{{|duffel |hooded |trench }coat}}
+    inner: >-
+      {1::camisole|1::{|{off|single}-shoulder }sweater|3::{{polo |turtleneck }shirt|{|{off|single}-shoulder |turtleneck }t-shirt|tunic}{8::|1::,vest}}{|,long sleeves|,short sleeves|,sleeves {pushed|rolled} up}
+  bottoms: >-
+    {{4::|3::denim |1::bell-bottom,}pants|{3::|1::bike |1::dolphin |2::denim }shorts|{|short |long |layered |pencil |pleated }skirt}
+  unis: >-
+    {8::{|long|short}{|casual |cocktail |evening |halter |pencil |pinafore |sun}dress|1::tuxedo}
+  footwear:
+    random: >-
+      {3::__tailor/footwear/boots__|2::__tailor/footwear/heels__|1::__tailor/footwear/sandals__|3::__tailor/footwear/shoes__}
+    boots: >-
+      {__boots_maker/ankle_boots__{|,socks|,kneehighs|,thighhighs|,{4::|1::fishnet }pantyhose}|__boots_maker/knee_boots__{|,thighhighs|,{4::|1::fishnet }pantyhose}|__boots_maker/thigh_boots__{|,{4::|1::fishnet }pantyhose}}
+    heels: >-
+      {|platform |stiletto |strappy }heels{|,{4::|1::fishnet }pantyhose}
+    sandals: >-
+      {2::{|wedge }sandals|1::flip-flops}
+    shoes: >-
+      {3::{|flat |leather }shoes|1::loafers|1::mary janes|1::sneakers}{|,socks|,kneehighs|,thighhighs|,{4::|1::fishnet }pantyhose}
+  accessories:
+    random: >-
+      {1-$$,$$__tailor/accessories/head__|__tailor/accessories/face__|__tailor/accessories/neck__|__tailor/accessories/gloves__|__tailor/accessories/one_point__}
+    head: >-
+      {hat|cap|hair{pin| ornament| ribbon| scrunchie}}
+    face: >-
+      {1-$$,$$earrings|{|sun}glasses{| on head}}
+    neck: >-
+      {necklace|choker|{|loose }necktie|ascot|bowtie|brooch|capelet|neckerchief|pendant|scarf|shawl}
+    gloves: >-
+      {8::|1::gloves}
+    one_point: >-
+      {badge|corsage}
 costumes:
   angel: >-
     angel,cosplay,white dress,yellow halo,white feather wings,{0-$$,$$sandals|{1-$$,$$anklet|bracelet|earrings|pendant}}

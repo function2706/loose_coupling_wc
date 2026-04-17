@@ -18,7 +18,7 @@ barefoot:
       __barefoot/not_below/poses__,
       {|__barefoot/equipments/*__}
     poses:
-      - sitting,legs together,feet together,extending legs,stretched legs out,arms behind back,
+      - sitting,legs together,feet together,extending legs,stretched legs out,arms behind back
   expressions:
     - light smile
     - naughty face
