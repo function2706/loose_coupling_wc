@@ -3,7 +3,7 @@ fashion_show: |-
   {standing,{0-$$,$${v{| over {eye|mouth}}|double v|arms behind {head|back}}|crossed legs}|sitting,{0-$$,$${v{| over {eye|mouth}}|double v|head rest|arms behind {head|back}}|crossed legs}|contrapposto}
 tailor:
   make: >-
-    {1-$$,$${__tailor/tops/random__,__tailor/bottoms__|__tailor/unis__}|__tailor/footwear/random__|__tailor/accessories/random__}
+    {__tailor/tops/random__,__tailor/bottoms__|__tailor/unis__},__tailor/footwear/random__,__tailor/accessories/random__
   tops:
     random: >-
       {__tailor/tops/outer__|__tailor/tops/inner__{8::|1::,cape}|__tailor/tops/outer__,__tailor/tops/inner__}
@@ -28,7 +28,7 @@ tailor:
       {3::{|flat |leather }shoes|1::loafers|1::mary janes|1::sneakers}{|,socks|,kneehighs|,thighhighs|,{4::|1::fishnet }pantyhose}
   accessories:
     random: >-
-      {1-$$,$$__tailor/accessories/head__|__tailor/accessories/face__|__tailor/accessories/neck__|__tailor/accessories/gloves__|__tailor/accessories/one_point__}
+      {0-$$,$$__tailor/accessories/head__|__tailor/accessories/face__|__tailor/accessories/neck__|__tailor/accessories/gloves__|__tailor/accessories/one_point__}
     head: >-
       {hat|cap|hair{pin| ornament| ribbon| scrunchie}}
     face: >-
