@@ -31,7 +31,7 @@ barefoot:
     angel: >-
       angel,cosplay,white dress,yellow halo,white feather wings,{0-$$,$$anklet|bracelet|earrings|pendant}
     artist: >-
-      artist painter,{brown|green} apron,paint on apron,{t-}shirt,{skirt|pants}{|,beret|bandana}
+      artist painter,{brown|green} apron,paint on apron,{t-}shirt,{skirt|pants}{|,beret|,bandana}
     athleisure: >-
       {sports bra|crop top|athletic top},{|high-waist }{bike shorts|jogger pants},{0-$$,$${|zip-up }hoodie|{1-$$,$$scrunchie|cap|headband|wristband}}
     barbiecore: >-
