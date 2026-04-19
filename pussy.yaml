@@ -13,6 +13,9 @@ pussy:
     - standing{|,hand on hip}
     - sitting on chair,knee up,spread legs{|,head rest}
   equipments:
+    tailor: >-
+      {__tailor/tops/random__,{3::|1::bike |1::dolphin |2::denim }shorts{|,shorts {around one leg|aside}}|__tailor/unis__{|,panties {around one leg|aside}}},
+      __tailor/footwear/random__,__tailor/accessories/random__
     angel: >-
       angel,cosplay,white dress{|,panties {around one leg|aside}},yellow halo,white feather wings,{0-$$,$$sandals|{1-$$,$$anklet|bracelet|earrings|pendant}}
     artist: >-

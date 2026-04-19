@@ -26,6 +26,8 @@ barefoot:
     - smirk{|,closed mouth}
     - smug
   equipments:
+    tailor: >-
+      {__tailor/tops/random__,__tailor/bottoms__|__tailor/unis__},__tailor/accessories/random__
     angel: >-
       angel,cosplay,white dress,yellow halo,white feather wings,{0-$$,$$anklet|bracelet|earrings|pendant}
     artist: >-

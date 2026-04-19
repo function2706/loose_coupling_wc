@@ -14,7 +14,7 @@ tailor:
   bottoms: >-
     {{4::|3::denim |1::bell-bottom,}pants|{3::|1::bike |1::dolphin |2::denim }shorts|{|short |long |layered |pencil |pleated }skirt}
   unis: >-
-    {8::{|long|short}{|casual |cocktail |evening |halter |pencil |pinafore |sun}dress|1::tuxedo}
+    {8::{|long |short }{|casual |cocktail |evening |halter |pencil |pinafore |sun}dress|1::tuxedo}
   footwear:
     random: >-
       {3::__tailor/footwear/boots__|2::__tailor/footwear/heels__|1::__tailor/footwear/sandals__|3::__tailor/footwear/shoes__}

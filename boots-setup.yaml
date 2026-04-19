@@ -4,14 +4,18 @@ boots_show: |-
   {standing,{0-$$,$${v{| over {eye|mouth}}|double v|arms behind {head|back}}|crossed legs}|sitting,{0-$$,$${v{| over {eye|mouth}}|double v|head rest|arms behind {head|back}}|crossed legs}|contrapposto}
 boots_maker:
   ankle_boots: >-
-    ankle boots,__boots_maker/option__
+    ankle boots,{|buckled |fur{|-trimmed} |{cross-laced|lace-up} |zipper }boots{|,{stiletto heels|wedge heels|high heel boots}|,platform boots}
   knee_boots: >-
-    knee boots,__boots_maker/option__
+    knee boots,{|buckled |fur{|-trimmed} |{cross-laced|lace-up} |zipper }boots{|,{stiletto heels|wedge heels|high heel boots}|,platform boots}
   thigh_boots: >-
-    thigh boots,__boots_maker/option__
-  option: >-
-    {|buckled |fur{|-trimmed} |{cross-laced|lace-up} |zipper }boots{|,{stiletto heels|wedge heels|high heel boots}|,platform boots}
+    thigh boots,{|buckled |fur{|-trimmed} |{cross-laced|lace-up} |zipper }boots{|,{stiletto heels|wedge heels|high heel boots}|,platform boots}
 boots_setups:
+  tailor: >-
+    {__tailor/tops/random__,{__boots_maker/ankle_boots__{|,socks},{4::|3::denim |1::bell-bottom,}pants|
+    {__boots_maker/ankle_boots__{|,{socks|kneehighs|thighhighs|pantyhose}}|__boots_maker/knee_boots__{|,{thighhighs|pantyhose}}|__boots_maker/thigh_boots__{|,pantyhose}},{3::|1::bike |1::dolphin |2::denim }shorts|
+    {__boots_maker/ankle_boots__{|,{socks|kneehighs|thighhighs|pantyhose}}|__boots_maker/knee_boots__{|,{thighhighs|pantyhose}}|__boots_maker/thigh_boots__{|,pantyhose}},{|short |long |layered |pencil |pleated }skirt}|
+    {__boots_maker/ankle_boots__{|,{socks|kneehighs|thighhighs|pantyhose}}|__boots_maker/knee_boots__{|,{thighhighs|pantyhose}}|__boots_maker/thigh_boots__{|,pantyhose}},{|long |short }{|casual |cocktail |evening |halter |pencil |pinafore |sun}dress},
+    __tailor/accessories/random__
   casual_dress: >-
     {__boots_maker/ankle_boots__|__boots_maker/knee_boots__|__boots_maker/thigh_boots__},{{|black |white }camisole|knit|oversized shirt|pinafore|slip|sweater} dress,{0-$$,$$hat|{necklace|pendant}}
   formal_dress: >-
