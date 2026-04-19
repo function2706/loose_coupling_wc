@@ -1,5 +1,13 @@
 urethra:
   do: |-
     urethra,urethral fingering,finger in penis,blood from urethra{|,blood on penis{|,blood on face}},
-    {bored|smirk|in heat|expressionless|light smile}{|,one eye closed|,licking lips},looking at {viewer|penis},
-    pov,penis{|,twitching penis}
+    __urethra/expressions__{|,one eye closed|,licking lips},looking at {viewer|penis},
+    pov,penis{|,twitching penis},
+  #{|__urethra/equipments/*__}
+  expressions:
+    - light smile
+    - naughty face
+    - seductive smile
+    - smirk{|,closed mouth}
+    - bored
+    - in heat

@@ -5,7 +5,7 @@ barefoot:
   below:
     make: |-
       (five toes:1.2),(foot focus),from below,pov,barefoot,{0-$$,$$toes|soles|toenails}{7::|1::,spread toes},
-      __barefoot/expressions__,
+      __barefoot/expressions__,looking at viewer,
       __barefoot/below/poses__,
       {|__barefoot/equipments/*__}
     poses:
