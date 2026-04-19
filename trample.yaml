@@ -11,7 +11,7 @@ trample:
       (looking down:1.2),(__trample/expressions__:1.2),
       __trample/poses__,
       {{8::__boots_maker/*__|1::{|stiletto }heels}|__footwear/equipments/*__},
-      shota,boy lying,blood on boy's face{|,blood splatter}
+      shota,boy lying,blood on boy's face{|,blood splatter}{|,boy's corpse}{|,boy {0-$$,$${closed eyes|narrowed eyes}|no pupils}}
   on_penis: |-
     (stepped on penis:1.2),(trample penis){|,outsoles},from below{|,foreshortening},blood from urethra{|,blood on penis{|,blood on footwear}},guro,pov,footjob,
     (looking at {viewer|penis}:1.2),(__trample/expressions__:1.2),
@@ -21,5 +21,5 @@ trample:
     - standing on one leg,{0-$$,$$hand on hip|leaning forward}
   expressions:
     - light smile{|,closed mouth}
-    - naughty face,{0-$$,$$closed mouth|{3::|1::wide-eyed|1::constricted pupils}}
-    - smirk,{0-$$,$$closed mouth|{3::|1::wide-eyed|1::constricted pupils}}
+    - naughty face,{0-$$,$$closed mouth|{3::|1::wide-eyed}}
+    - smirk,{0-$$,$$closed mouth|{3::|1::wide-eyed}}
