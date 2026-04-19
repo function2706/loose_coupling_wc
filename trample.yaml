@@ -1,7 +1,25 @@
 trample:
-  do: |-
-    (stepped on boy's face:1.2),(five toes:1.2),(foot focus),from below{|,foreshortening},barefoot,
-    (looking down:1.2),(__barefoot/expressions__:1.2),
-    __barefoot/below/poses__,
-    {|__barefoot/equipments/*__},
-    shota,faceless boy{|,boy licking feet},boy {ly|kneel}ing
+  on_face:
+    barefoot: |-
+      (stepped on boy's face:1.2),(five toes:1.2),from below{|,foreshortening},barefoot,
+      (looking down:1.2),(__barefoot/expressions__:1.2),
+      __trample/poses__,
+      {|__barefoot/equipments/*__},
+      shota{|,boy licking feet},boy {ly|kneel}ing
+    footwear: |-
+      (stepped on boy's face:1.2),{|,outsoles},from below{|,foreshortening},guro,
+      (looking down:1.2),(__trample/expressions__:1.2),
+      __trample/poses__,
+      {{8::__boots_maker/*__|1::{|stiletto }heels}|__footwear/equipments/*__},
+      shota,boy lying,blood on boy's face{|,blood_splatter}
+  on_penis: |-
+    (stepped on penis:1.2),(trample penis){|,outsoles},from below{|,foreshortening},blood from urethra{|,blood on penis{|,blood on footwear}}{|,blood_splatter},guro,pov,footjob,
+    (looking at {viewer|penis}:1.2),(__trample/expressions__:1.2),
+    __trample/poses__,
+    {{8::__boots_maker/*__|1::{|stiletto }heels}|__footwear/equipments/*__}
+  poses:
+    - standing on one leg,{0-$$,$$hand on hip|leaning forward}
+  expressions:
+    - light smile{|,closed mouth}
+    - naughty face,{0-$$,$$closed mouth|{3::|1::wide-eyed|1::constricted pupils}}
+    - smirk,{0-$$,$$closed mouth|{3::|1::wide-eyed|1::constricted pupils}}
