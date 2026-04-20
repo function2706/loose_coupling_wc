@@ -3,7 +3,7 @@ footwear:
     __footwear/expressions__,
     __footwear/poses__,
     (footwear focus),(outsoles),from below,looking at viewer,
-    {4::__boots_setups/*__|4::__footwear/equipments/*__|1::__boots_maker/*__|1::{stiletto }heels}
+    {4::__boots_setups/*__|4::__footwear/equipments/*__|1::__boots_maker/*__|1::{|stiletto }heels}
   expressions:
     - expressionless
     - light smile

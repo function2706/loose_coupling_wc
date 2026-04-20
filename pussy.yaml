@@ -19,7 +19,7 @@ pussy:
     angel: >-
       angel,cosplay,white dress{|,panties {around one leg|aside}},yellow halo,white feather wings,{0-$$,$$sandals|{1-$$,$$anklet|bracelet|earrings|pendant}}
     artist: >-
-      artist painter,{brown|green} apron,paint on apron,{t-}shirt{|,skirt}{|,panties {around one leg|aside}}{|,beret|,bandana}
+      artist painter,{brown|green} apron,paint on apron,{|t-}shirt{|,skirt}{|,panties {around one leg|aside}}{|,beret|,bandana}
     athleisure: >-
       {sports bra|crop top|athletic top},bike shorts,shorts {around one leg|aside},{0-$$,$${sneakers|running shoes}|{|zip-up }hoodie|{1-$$,$$scrunchie|cap|headband|wristband|socks}}
     barbiecore: >-
@@ -177,7 +177,7 @@ pussy:
     soldier: >-
       military uniform,{||brown |green }fatigues{|,camouflage uniform}{|,panties {around one leg|aside}},{0-$$,$$combat boots|{1-$$,$${garrison cap|helmet}|name tag}}
     sports: >-
-      {basketball uniform,{0-$$,$$tank top|shorts,shorts {around one leg|aside}}|tennis uniform,{0-$$,$$short sleeves|{pleated }skirt{|,panties {around one leg|aside}}}|track uniform,{0-$$,$${|cropped }tank top|{|bike }shorts,shorts {around one leg|aside}}}{|,towel on neck}
+      {basketball uniform,{0-$$,$$tank top|shorts,shorts {around one leg|aside}}|tennis uniform,{0-$$,$$short sleeves|{|pleated }skirt{|,panties {around one leg|aside}}}|track uniform,{0-$$,$${|cropped }tank top|{|bike }shorts,shorts {around one leg|aside}}}{|,towel on neck}
     street_casual: >-
       {|oversized }{hoodie|sweatshirt},{|baggy }shorts,shorts {around one leg|aside},{0-$$,$${sneakers|chunky sneakers}|socks|{cap|snapback|beanie|bandana}|{1-$$,$$chain necklace|bracelet|earrings}}
     succubus: >-
@@ -211,7 +211,7 @@ pussy:
       cowboy western,{|plaid |flannel }{shirt|crop top},{|denim }shorts,shorts {around one leg|aside},cowboy hat,{0-$$,$${|cowboy }boots|belt{| with buckle}|{bandana|neckerchief}|{1-$$,$$vest|fringe jacket|gloves}}
     winter: >-
       {collared coat|down jacket|duffel coat|fur{|-trimmed} coat|fur{|-trimmed} jacket|hooded coat|leather jacket|long coat|overcoat|padded jacket|parka|quilted jacket|trench coat|winter coat},
-      {1-$$,$${{|long }{skirt}|layered skirt|pleated skirt}|panties {around one leg|aside}},
+      {1-$$,$${{|long }skirt|layered skirt|pleated skirt}|panties {around one leg|aside}},
       {0-$$,$${|black |brown }{{|ankle |knee }boots|loafers|shoes}|{1-$$,$${1-2$$,$$beanie|earmuffs|fur hat|paddy cap|ushanka}|{capelet|scarf|shawl}|gloves}}
     witch: >-
       witch hat,{|black |blue |green |purple |red }{cocktail|evening|long} dress{|,long sleeves|,off-shoulder|,puffy {|long |short }sleeves|,short sleeves|,sleeveless}{|,panties {around one leg|aside}},

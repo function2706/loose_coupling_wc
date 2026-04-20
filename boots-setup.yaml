@@ -1,6 +1,6 @@
 boots_show: |-
   {3::__boots_setups/*__|1::__boots_maker/*__},
-  {|,city}{|,{light }smile{|,open mouth}},
+  {|,city}{|,{|light }smile{|,open mouth}},
   {standing,{0-$$,$${v{| over {eye|mouth}}|double v|arms behind {head|back}}|crossed legs}|sitting,{0-$$,$${v{| over {eye|mouth}}|double v|head rest|arms behind {head|back}}|crossed legs}|contrapposto}
 boots_maker:
   ankle_boots: >-
@@ -39,7 +39,7 @@ boots_setups:
   bookstore: >-
     {black|brown} __boots_maker/knee_boots__,{grey|white} long coat,{black|white} turtleneck sweater,{black|grey} skinny pants,pants tucked in{3::|1::,round glasses}
   cafe: >-
-    {brown|black} __boots_maker/ankle_boots__,{beige|brown|white} cardigan,{white|black} shirt,{denim|navy} straight pants,{0-$$,$${|{brown} glasses}|simple bracelet}
+    {brown|black} __boots_maker/ankle_boots__,{beige|brown|white} cardigan,{white|black} shirt,{denim|navy} straight pants,{0-$$,$${|{|brown} glasses}|simple bracelet}
   campus: >-
     {black|brown} __boots_maker/ankle_boots__,{grey|navy|white} hoodie,denim shorts,{black|white} thighhigh socks
   illumination: >-
@@ -59,7 +59,7 @@ boots_setups:
   picnic: >-
     {brown|white} __boots_maker/ankle_boots__,{beige|light green} cardigan,{white|light yellow} blouse,{beige|denim} wide pants{|,straw hat}{|,simple bracelet}
   hospital_visit: >-
-    {black|white} __boots_maker/ankle_boots__,{white|light grey} blouse,{navy|black} straight pants,{0-$$,$$simple necklace}
+    {black|white} __boots_maker/ankle_boots__,{white|light grey} blouse,{navy|black} straight pants{|,simple necklace}
   date_night: >-
     {black|brown} {__boots_maker/knee_boots__|__boots_maker/thigh_boots__},{black|dark red} wrap dress{|,{necklace|pendant}}
   concert: >-

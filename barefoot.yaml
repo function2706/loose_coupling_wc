@@ -1,7 +1,13 @@
 barefoot:
-  do:
+  random:
+    - __barefoot/casual__
+    - __barefoot/cosplay__
+  casual:
     - __barefoot/below/make__
     - __barefoot/not_below/make__
+  cosplay: |-
+    __barefoot/casual__,
+    __barefoot/equipments/*__
   below:
     make: |-
       (five toes:1.2),(foot focus),from below,pov,barefoot,{0-$$,$$toes|soles|toenails}{7::|1::,spread toes},
@@ -31,7 +37,7 @@ barefoot:
     angel: >-
       angel,cosplay,white dress,yellow halo,white feather wings,{0-$$,$$anklet|bracelet|earrings|pendant}
     artist: >-
-      artist painter,{brown|green} apron,paint on apron,{t-}shirt,{skirt|pants}{|,beret|,bandana}
+      artist painter,{brown|green} apron,paint on apron,{|t-}shirt,{skirt|pants}{|,beret|,bandana}
     athleisure: >-
       {sports bra|crop top|athletic top},{|high-waist }{bike shorts|jogger pants},{0-$$,$${|zip-up }hoodie|{1-$$,$$scrunchie|cap|headband|wristband}}
     barbiecore: >-
@@ -169,7 +175,7 @@ barefoot:
     soldier: >-
       military uniform,{||brown |green }fatigues{|,camouflage uniform},pants,{0-$$,$${garrison cap|helmet}|name tag}
     sports: >-
-      {basketball uniform,{0-$$,$$tank top|shorts}|tennis uniform,{0-$$,$$short sleeves|{pleated }skirt}|track uniform,{0-$$,$${|cropped }tank top|{|bike }shorts}}{|,towel on neck}
+      {basketball uniform,{0-$$,$$tank top|shorts}|tennis uniform,{0-$$,$$short sleeves|{|pleated }skirt}|track uniform,{0-$$,$${|cropped }tank top|{|bike }shorts}}{|,towel on neck}
     street_casual: >-
       {|oversized }{hoodie|sweatshirt},{|baggy }{jeans|cargo pants|shorts},{0-$$,$${cap|snapback|beanie|bandana}|{1-$$,$$chain necklace|bracelet|earrings}}
     succubus: >-

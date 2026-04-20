@@ -1,5 +1,5 @@
 fashion_show: |-
-  {5::__costumes/*__|3::__boots_setups/*__|1::__boots_maker/*__}{|,city}{|,{light }smile{|,open mouth}},
+  {5::__costumes/*__|3::__boots_setups/*__|1::__boots_maker/*__|1::__tailor/make__}{|,city}{|,{|light }smile{|,open mouth}},
   {standing,{0-$$,$${v{| over {eye|mouth}}|double v|arms behind {head|back}}|crossed legs}|sitting,{0-$$,$${v{| over {eye|mouth}}|double v|head rest|arms behind {head|back}}|crossed legs}|contrapposto}
 tailor:
   make: >-
@@ -43,7 +43,7 @@ costumes:
   angel: >-
     angel,cosplay,white dress,yellow halo,white feather wings,{0-$$,$$sandals|{1-$$,$$anklet|bracelet|earrings|pendant}}
   artist: >-
-    artist painter,{brown|green} apron,paint on apron,{t-}shirt,{skirt|pants}{|,beret|,bandana}
+    artist painter,{brown|green} apron,paint on apron,{|t-}shirt,{skirt|pants}{|,beret|,bandana}
   athleisure: >-
     {sports bra|crop top|athletic top},{|high-waist }{leggings|bike shorts|jogger pants},{0-$$,$${sneakers|running shoes}|{|zip-up }hoodie|{1-$$,$$scrunchie|cap|headband|wristband|socks}}
   barbiecore: >-
@@ -195,7 +195,7 @@ costumes:
   soldier: >-
     military uniform,{||brown |green }fatigues{|,camouflage uniform},pants,{0-$$,$$combat boots|{1-$$,$${garrison cap|helmet}|name tag}}
   sports: >-
-    {basketball uniform,{0-$$,$$tank top|shorts}|tennis uniform,{0-$$,$$short sleeves|{pleated }skirt}|track uniform,{0-$$,$${|cropped }tank top|{|bike }shorts}}{|,towel on neck}
+    {basketball uniform,{0-$$,$$tank top|shorts}|tennis uniform,{0-$$,$$short sleeves|{|pleated }skirt}|track uniform,{0-$$,$${|cropped }tank top|{|bike }shorts}}{|,towel on neck}
   street_casual: >-
     {|oversized }{hoodie|sweatshirt},{|baggy }{jeans|cargo pants|shorts},{0-$$,$${sneakers|chunky sneakers}|socks|{cap|snapback|beanie|bandana}|{1-$$,$$chain necklace|bracelet|earrings}}
   succubus: >-
