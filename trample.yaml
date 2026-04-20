@@ -6,35 +6,35 @@ trample:
         - __trample/on_face/barefoot/cosplay__
       casual: |-
         __trample/on_face/barefoot/core__,
-        __trample/on_face/boy__
+        __trample/on_face/barefoot/boy__
       cosplay: |-
         __trample/on_face/barefoot/casual__,
         __barefoot/equipments/*__,
-        __trample/on_face/boy__
+        __trample/on_face/barefoot/boy__
       core: |-
         (stepped on boy's face:1.2),(five toes:1.2),from below{|,foreshortening},barefoot,
         (looking down:1.2),(__barefoot/expressions__:1.2),
         __trample/poses__
       boy: |-
-        shota{|,boy licking feet},boy {ly|kneel}ing
+        {|shota,}{|boy licking feet,}boy {ly|kneel}ing
     footwear:
       ramdom:
         - __trample/on_face/footwear/casual__
         - __trample/on_face/footwear/cosplay__
       casual: |-
-        __trample/on_face/barefoot/core__,
+        __trample/on_face/footwear/core__,
         {8::__boots_maker/*__|1::{|stiletto }heels},
-        __trample/on_face/boy__
+        __trample/on_face/footwear/boy__
       cosplay: |-
-        __trample/on_face/barefoot/casual__,
+        __trample/on_face/footwear/casual__,
         __footwear/equipments/*__,
-        __trample/on_face/boy__
+        __trample/on_face/footwear/boy__
       core: |-
         (stepped on boy's face:1.2),{|,outsoles},from below{|,foreshortening},guro,
         (looking down:1.2),(__trample/expressions__:1.2),
         __trample/poses__
       boy: |-
-        shota,boy lying,blood on boy's face{|,blood splatter}{|,boy's corpse}{|,boy {0-$$,$${closed eyes|narrowed eyes}|no pupils}}
+        {|shota,}boy lying,blood on boy's face{|,blood splatter}{|,boy's corpse}{|,boy {0-$$,$${closed eyes|narrowed eyes}|no pupils}}
   on_penis:
     ramdom:
       - __trample/on_face/footwear/casual__
