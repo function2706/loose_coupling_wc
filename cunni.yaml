@@ -1,10 +1,18 @@
 cunni:
-  do: |-
+  random:
+    - __cunni/casual__
+    - __cunni/cosplay__
+  casual: |-
+    __cunni/core__,
+    clothed female
+  cosplay: |-
+    __cunni/core__,
+    __pussy/equipments/*__
+  core: |-
     (cunnilingus:1.5),pussy,pussy juice,from below,
     (__pussy/expressions__:1.2){|,blush},
     __cunni/poses__{|,hand on boy's head},
-    shota,faceless boy,(boy kneeling),
-    {clothed female|__pussy/equipments/*__}
+    shota,faceless boy,(boy kneeling)
   poses:
     - (standing:1.2){|,hand on hip}
     - sitting on chair,knee up,spread legs{|,head rest}

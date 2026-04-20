@@ -1,8 +1,13 @@
 pussy:
-  do: |-
+  random:
+    - __pussy/casual__
+    - __pussy/cosplay__
+  casual: |-
     (pussy),clitoris{|,(pussy juice)|,(peeing{| on viewer})},pov,from below,
     __pussy/expressions__,
-    {|spread pussy},__pussy/poses__,spread legs,
+    {|spread pussy},__pussy/poses__,spread legs
+  cosplay: |-
+    __pussy/casual__,
     __pussy/equipments/*__
   expressions:
     - light smile

@@ -1,8 +1,14 @@
 urethra:
-  do: |-
+  random:
+    - __urethra/casual__
+    - __urethra/cosplay__
+  casual: |-
     urethra,urethral fingering,finger in penis,blood from urethra{|,blood on penis{|,blood on face}},guro,
     __urethra/expressions__,{0-$$,$${one eye closed|narrowed eyes}|{{closed|open} mouth|licking lips}},looking at {viewer|penis},
-    pov,penis{|,twitching penis}{|,__urethra/equipments/*__}
+    pov,penis{|,twitching penis}
+  cosplay: |-
+    __urethra/casual__,
+    __urethra/equipments/*__
   expressions:
     - light smile
     - naughty face

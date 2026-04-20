@@ -1,22 +1,54 @@
 trample:
   on_face:
-    barefoot: |-
-      (stepped on boy's face:1.2),(five toes:1.2),from below{|,foreshortening},barefoot,
-      (looking down:1.2),(__barefoot/expressions__:1.2),
-      __trample/poses__,
-      {|__barefoot/equipments/*__},
-      shota{|,boy licking feet},boy {ly|kneel}ing
-    footwear: |-
-      (stepped on boy's face:1.2),{|,outsoles},from below{|,foreshortening},guro,
-      (looking down:1.2),(__trample/expressions__:1.2),
-      __trample/poses__,
-      {{8::__boots_maker/*__|1::{|stiletto }heels}|__footwear/equipments/*__},
-      shota,boy lying,blood on boy's face{|,blood splatter}{|,boy's corpse}{|,boy {0-$$,$${closed eyes|narrowed eyes}|no pupils}}
-  on_penis: |-
-    (stepped on penis:1.2),(trample penis){|,outsoles},from below{|,foreshortening},blood from urethra{|,blood on penis{|,blood on footwear}},guro,pov,footjob,
-    (looking at {viewer|penis}:1.2),(__trample/expressions__:1.2),
-    __trample/poses__,
-    {{8::__boots_maker/*__|1::{|stiletto }heels}|__footwear/equipments/*__}
+    barefoot:
+      ramdom:
+        - __trample/on_face/barefoot/casual__
+        - __trample/on_face/barefoot/cosplay__
+      casual: |-
+        __trample/on_face/barefoot/core__,
+        __trample/on_face/boy__
+      cosplay: |-
+        __trample/on_face/barefoot/casual__,
+        __barefoot/equipments/*__,
+        __trample/on_face/boy__
+      core: |-
+        (stepped on boy's face:1.2),(five toes:1.2),from below{|,foreshortening},barefoot,
+        (looking down:1.2),(__barefoot/expressions__:1.2),
+        __trample/poses__
+      boy: |-
+        shota{|,boy licking feet},boy {ly|kneel}ing
+    footwear:
+      ramdom:
+        - __trample/on_face/footwear/casual__
+        - __trample/on_face/footwear/cosplay__
+      casual: |-
+        __trample/on_face/barefoot/core__,
+        {8::__boots_maker/*__|1::{|stiletto }heels},
+        __trample/on_face/boy__
+      cosplay: |-
+        __trample/on_face/barefoot/casual__,
+        __footwear/equipments/*__,
+        __trample/on_face/boy__
+      core: |-
+        (stepped on boy's face:1.2),{|,outsoles},from below{|,foreshortening},guro,
+        (looking down:1.2),(__trample/expressions__:1.2),
+        __trample/poses__
+      boy: |-
+        shota,boy lying,blood on boy's face{|,blood splatter}{|,boy's corpse}{|,boy {0-$$,$${closed eyes|narrowed eyes}|no pupils}}
+  on_penis:
+    ramdom:
+      - __trample/on_face/footwear/casual__
+      - __trample/on_face/footwear/cosplay__
+    casual: |-
+      __trample/on_penis/core__,
+      {8::__boots_maker/*__|1::{|stiletto }heels}
+    cosplay: |-
+      __trample/on_penis/casual__,
+      __footwear/equipments/*__
+    core: |-
+      (stepped on penis:1.2),(trample penis){|,outsoles},from below{|,foreshortening},blood from urethra{|,blood on penis{|,blood on footwear}},guro,pov,footjob,
+      (looking at {viewer|penis}:1.2),(__trample/expressions__:1.2),
+      __trample/poses__
   poses:
     - standing on one leg,{0-$$,$$hand on hip|leaning forward}
   expressions:

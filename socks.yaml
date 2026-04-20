@@ -3,15 +3,20 @@ socks_maker: >-
 pantyhose_maker: >-
   {|black |beige |brown |red |white |fishnet }pantyhose
 socks:
-  do:
-    - __socks/below/make__
-    - __socks/not_below/make__
+  random:
+    - __socks/casual__
+    - __socks/cosplay__
+  casual:
+    - __socks/below/make__,{__socks_maker__|__pantyhose_maker__}
+    - __socks/not_below/make__,{__socks_maker__|__pantyhose_maker__}
+  cosplay:
+    - __socks/below/make__,__socks/equipments/*__
+    - __socks/not_below/make__,__socks/equipments/*__
   below:
     make: |-
       (foot focus),from below,pov,{0-$$,$$toes|soles},five toes,
       __socks/expressions__,
-      __socks/below/poses__,
-      {__socks_maker__|__pantyhose_maker__|__socks/equipments/*__}
+      __socks/below/poses__
     poses:
       - standing on one leg,{hand on hip|crossed arms}
       - sitting on chair,{|crossed legs},{|head rest}
@@ -19,8 +24,7 @@ socks:
     make: |-
       __socks/expressions__,(looking at viewer),full body,
       (foot focus),{0-$$,$$toes|soles},five toes,
-      __socks/not_below/poses__,
-      {__socks_maker__|__pantyhose_maker__|__socks/equipments/*__}
+      __socks/not_below/poses__
     poses:
       - sitting,legs together,feet together,extending legs,stretched legs out,arms behind back,
   expressions:
