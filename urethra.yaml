@@ -2,6 +2,9 @@ urethra:
   random:
     - __urethra/casual__
     - __urethra/cosplay__
+  random_with_lora_token: |-
+    <lora:0\Illustrious_Urethral_Fingering:0.6:0.6>,
+    __urethra/random__
   casual: |-
     urethra,(urethral fingering),(finger in penis),blood from urethra{|,blood on penis{|,blood on face}},guro,
     __urethra/expressions__,{0-$$,$${one eye closed|narrowed eyes}|{{closed|open} mouth|licking lips}},looking at {viewer|penis},
