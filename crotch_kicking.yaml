@@ -1,0 +1,33 @@
+crotch_kicking:
+  barefoot:
+    random:
+      - __crotch_kicking/barefoot/casual__
+      - __crotch_kicking/barefoot/cosplay__
+    casual: |-
+      <lora:0\Crotch_Kick_-_Low_POV_FEMDOM_-_Concept_Illustrious:0.6:0.6>,
+      (crotch kick),(ball busting),high kick,
+      (five toes:1.2),(foot focus),from below,pov,barefoot,
+      standing on one leg,__barefoot/expressions__{|,wide-eyed},
+      clothed female nude male,testicles,penis,blood from penis,guro
+    cosplay: |-
+      __crotch_kicking/barefoot/casual__,
+      __barefoot/equipments/*__
+  footwear:
+    random:
+      - __crotch_kicking/footwear/casual__
+      - __crotch_kicking/footwear/cosplay__
+    casual: |-
+      <lora:0\Crotch_Kick_-_Low_POV_FEMDOM_-_Concept_Illustrious:0.6:0.6>,
+      (crotch kick),(ball busting),high kick,
+      (footwear focus){|,outsoles},from below,pov,
+      standing on one leg,__barefoot/expressions__{|,wide-eyed},
+      clothed female nude male,testicles,penis,(blood from penis),guro,
+      {|knee |thigh }boots
+    cosplay: |-
+      __crotch_kicking/footwear/casual__,
+      __footwear/equipments/*__
+  expressions:
+    - excited
+    - naughty face
+    - smirk{|,closed mouth}
+    - smug
