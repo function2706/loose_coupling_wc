@@ -4,10 +4,10 @@ footwear:
     - __footwear/cosplay__
   casual: |-
     __footwear/core__,
-    {__boots_maker/*__|{|stiletto }heels}
+    {__boots_maker/knee_boots__|__boots_maker/thigh_boots__}
   cosplay: |-
     __footwear/core__,
-    {__boots_setups/*__|__footwear/equipments/*__}
+    __footwear/equipments/*__
   core: |-
     __footwear/expressions__,
     __footwear/poses__,

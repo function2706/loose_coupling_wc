@@ -1,0 +1,73 @@
+giantess:
+  barefoot:
+    on_boy:
+      random:
+        - __giantess/barefoot/on_boy/casual__
+        - __giantess/barefoot/on_boy/cosplay__
+      casual: |-
+        giantess,(stepped on boy),(trample boy),five toes,foot focus,from below{|,foreshortening},barefoot,{0-$$,$$toes|soles|toenails}{7::|1::,spread toes},
+        (__giantess/expressions__),(looking down),
+        __trample/poses__,
+        __giantess/object/boy__
+      cosplay: |-
+        __giantess/barefoot/on_boy/casual__,
+        __barefoot/equipments/*__
+    on_city:
+      random:
+        - __giantess/barefoot/on_city/casual__
+        - __giantess/barefoot/on_city/cosplay__
+      casual: |-
+        giantess,five toes,foot focus,from below{|,foreshortening},barefoot,{0-$$,$$toes|soles|toenails}{7::|1::,spread toes},dirty sole,
+        (__giantess/expressions__),(looking down),
+        {standing on one leg{|,hand on hip|,claw pose}|sitting,{knees up,spread legs|legs together,feet together,extending legs,stretched legs out},arms behind back},
+        __giantess/object/city__
+      cosplay: |-
+        __giantess/barefoot/on_city/casual__,
+        __barefoot/equipments/*__
+  footwear:
+    random:
+      - __giantess/footwear/on_boy/random__
+      - __giantess/footwear/on_city/random__
+    on_boy:
+      random:
+        - __giantess/footwear/on_boy/casual__
+        - __giantess/footwear/on_boy/cosplay__
+      casual: |-
+        __giantess/footwear/on_boy/core__,
+        {shoes|boots|{|stiletto }heels}
+      cosplay: |-
+        __giantess/footwear/on_boy/core__,
+        __footwear/equipments/*__
+      core: |-
+        (__giantess/expressions__:1.2),(looking down:1.2),(full body:1.2),
+        giantess,(stepped on boy),(trample boy),(footwear focus:0.9),from below{|,foreshortening}{|,outsoles},
+        __trample/poses__,
+        __giantess/object/boy__,
+    on_city:
+      random:
+        - __giantess/footwear/on_city/casual__
+        - __giantess/footwear/on_city/cosplay__
+      casual: |-
+        __giantess/footwear/on_city/core__,
+        {__boots_maker/knee_boots__|__boots_maker/thigh_boots__}
+      cosplay: |-
+        __giantess/footwear/on_city/core__,
+        __footwear/equipments/*__
+      core: |-
+        (__giantess/expressions__),(looking down),(full body),
+        giantess,footwear focus,from below{|,foreshortening},{|,outsoles},dirty sole,
+        standing on one leg{|,hand on hip|,claw pose},
+        __giantess/object/city__
+  object:
+    boy:
+      - "{|mini }boy,(boy crawling){|,boy's corpse},blood on sole,guro"
+    city:
+      - city,building,destruction,{0-$$,$${|red }sky,cloud|ground vehicle|(fire on whole city),smoke|{day|night}}
+  expressions:
+    - bored
+    - excited
+    - expressionless
+    - light smile
+    - naughty face
+    - smirk{|,closed mouth}
+    - smug
