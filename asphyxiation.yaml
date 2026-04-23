@@ -1,0 +1,16 @@
+asphyxiation:
+  random:
+    - __asphyxiation/casual__
+    - __asphyxiation/cosplay__
+  casual: |-
+    (strangling boy's neck:1.2),(hands on boy's neck:1.2),femdom,boy asphyxiation,
+    (sitting on boy),wariza,__asphyxiation/expressions__,(looking down),
+    shota,(boy on back),boy crying with eyes open,boy {upturned eyes|white pupils},
+    {0-$$,$$boy trembling|boy's tongue out|boy shaded face}
+  cosplay: |-
+    __asphyxiation/casual__,
+    __costumes/*__
+  expressions:
+    - evil smile
+    - light smile
+    - smirk{|,closed mouth}

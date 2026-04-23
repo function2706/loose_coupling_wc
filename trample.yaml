@@ -16,7 +16,7 @@ trample:
         (looking down:1.2),(__barefoot/expressions__:1.2),
         __trample/poses__
       boy: |-
-        {|shota,}{|boy licking feet,}boy {ly|kneel}ing
+        shota,{|boy licking feet,}boy {ly|kneel}ing
     footwear:
       random:
         - __trample/on_face/footwear/casual__
@@ -34,7 +34,7 @@ trample:
         (looking down:1.2),(__trample/expressions__:1.2),
         __trample/poses__
       boy: |-
-        {|shota,}boy lying,blood on boy's face{|,blood splatter}{|,boy's corpse}{|,boy {0-$$,$${closed eyes|narrowed eyes}|no pupils}}
+        shota,boy lying,blood on boy's face{|,blood splatter}{|,boy's corpse}{|,boy {0-$$,$${closed eyes|narrowed eyes}|no pupils}}
   on_penis:
     random:
       - __trample/on_penis/casual__
