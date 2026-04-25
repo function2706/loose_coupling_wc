@@ -3,10 +3,11 @@ grabbing_chin:
     - __grabbing_chin/standing__
     - __grabbing_chin/kneeling__
   standing: |-
+    <lora:grabbing_chin_standing>,
     femdom,(grabbing boy's chin:1.2),(height difference:1.2),standing,
     __grabbing_chin/core__
   kneeling: |-
-    <lora:0\grabbing_chin>,
+    <lora:grabbing_chin_kneeling>,
     femdom,(girl standing:1.5),(boy kneeling:1.5),(grabbing boy's chin:1.2),
     __grabbing_chin/core__
   core: |-
