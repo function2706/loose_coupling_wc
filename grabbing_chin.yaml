@@ -1,0 +1,20 @@
+grabbing_chin:
+  random:
+    - __grabbing_chin/standing__
+    - __grabbing_chin/kneeling__
+  standing: |-
+    femdom,(grabbing boy's chin:1.2),(height difference:1.2),standing,
+    __grabbing_chin/core__
+  kneeling: |-
+    <lora:0\grabbing_chin>,
+    femdom,(girl standing:1.5),(boy kneeling:1.5),(grabbing boy's chin:1.2),
+    __grabbing_chin/core__
+  core: |-
+    boy arms behind back,(boy looking up),(girl looking down),looking at boy,
+    __grabbing_chin/expressions__,
+    shota,clothed female nude male{|,precum}{|,boy chastity cage}
+  expressions:
+    - evil smile
+    - light smile
+    - naughty face
+    - smirk{|,closed mouth}
