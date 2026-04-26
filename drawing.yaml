@@ -1,0 +1,47 @@
+drawing:
+  all: >-
+    {6::__drawing/casual__|6::__drawing/cosplay__|1::__drawing/costume__}
+  casual:
+    - __asphyxiation/casual__
+    - __barefoot/casual__
+    - __crotch_kicking/barefoot/casual__
+    - __crotch_kicking/footwear/casual__
+    - __cunni/casual__
+    - __footwear/casual__
+    - __giantess/barefoot/on_boy/casual__
+    - __giantess/barefoot/on_city/casual__
+    - __giantess/footwear/on_boy/casual__
+    - __giantess/footwear/on_city/casual__
+    - __grabbing_chin/standing/random__
+    - __grabbing_chin/kneeling/random__
+    - __pussy/casual__
+    - __socks/casual__
+    - __trample/on_face/barefoot/casual__
+    - __trample/on_face/footwear/casual__
+    - __trample/on_penis/casual__
+    - __urethra/casual__
+  casual_costume: >-
+    {6::__drawing/casual__|1::__drawing/costume__}
+  cosplay:
+    - __asphyxiation/cosplay__
+    - __barefoot/cosplay__
+    - __crotch_kicking/barefoot/cosplay__
+    - __crotch_kicking/footwear/cosplay__
+    - __cunni/cosplay__
+    - __footwear/cosplay__
+    - __giantess/barefoot/on_boy/cosplay__
+    - __giantess/barefoot/on_city/cosplay__
+    - __giantess/footwear/on_boy/cosplay__
+    - __giantess/footwear/on_city/cosplay__
+    - __pussy/cosplay__
+    - __socks/cosplay__
+    - __trample/on_face/barefoot/cosplay__
+    - __trample/on_face/footwear/cosplay__
+    - __trample/on_penis/cosplay__
+    - __urethra/cosplay__
+  cosplay_costume: >-
+    {6::__drawing/cosplay__|1::__drawing/costume__}
+  costume:
+    - __latex/random__
+    - __boots_show__
+    - __fashion_show__
