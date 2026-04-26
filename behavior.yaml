@@ -1,0 +1,72 @@
+hang_out:
+  - __subject_here__,__behavior/*__,__bp_solo_q____NEG...____negative/general__
+behavior:
+  acrobatic: >-
+    {jumping|running},{|looking at viewer},{city|park|street},
+    {0-$$,$${__costumes/athleisure__|__costumes/barbiecore__|__costumes/boho__|__costumes/cheerleader__|__costumes/cool_sets__|__costumes/e_girl__|
+      __costumes/fairy_kei__|__costumes/grunge__|__costumes/jirai_kei__|__costumes/mori_girl__|__costumes/ryousangata__|__costumes/school__|
+      __costumes/street_casual__|__costumes/summer__|__costumes/warm_sets__|__costumes/winter__|__costumes/y2k__}|{1-$$,$${excited|smile}|open mouth}}
+  atacking: >-
+    {{kicking|incoming kick}{|,high kick}|{punching|incoming punch}|incoming attack},{0-$$,$$v-shaped eyebrows|open mouth}
+  bathing: >-
+    bathing,{head on arm|hand on own {chest|shoulder}|hugging own legs},{|looking at viewer},
+    {0-$$,$${1-$$,$$onsen|steam}|towel {around neck|on head}{4::|1::,nipples}|{happy|relaxing},{|closed eyes}}
+  boxing: >-
+    boxing,{|looking at viewer},{0-$$,$$boxer briefs|{1-$$,$$v-shaped eyebrows|open mouth}|{punching|incoming punch}}
+  cleaning: >-
+    sweeping,{|looking at viewer},{room,indoors|outdoors},
+    {0-$$,$${__costumes/artist__|__costumes/barista__|__costumes/bartender__|__costumes/cool_sets__|__costumes/cottage_core__|__costumes/employee__|__costumes/maid__|
+          __costumes/nurse__|__costumes/office_lady__|__costumes/school__|__costumes/summer__|__costumes/teacher__|__costumes/warm_sets__|__costumes/winter__}|{|light }smile,{|open mouth}}
+  cooking: >-
+    cooking,{__costumes/chef__|__costumes/cool_sets__|__costumes/maid__|__costumes/warm_sets__},{|apron}
+  cycling: >-
+    bicycle{|,cycling uniform}
+  dancing: >-
+    {ballet{|,__costumes/ballerina__}|ballroom dancing|belly dancing{|,__costumes/harem__}|dancing|pole dancing}
+  eating: >-
+    eating {apple|banana|cake|donut|egg|fig|grape|honey|icecream|jam|kiwi|lemon|mango|noodle|
+            orange|pizza|quinoa|ramen|strawberry|tomato|udon|vanilla|watermelon|xnipec|yogurt|zucchini}
+  exercise: >-
+    {running|stretching},{city|street|gym|outdoors},{__costumes/cheerleader__|__costumes/gym__|__costumes/sports__},
+    {0-$$,$${expressionless|{|light }smile|tired},{0-$$,$$one eye closed|open mouth|v-shaped eyebrows}}
+  giving: >-
+    incoming {gift|letter|food|drink},{0-$$,$$blush|v-shaped eyebrows|looking away|closed mouth}
+  hiking: >-
+    hiking,{mountain|forest|river|lake},{0-$$,$$backpack|{smile|excited|tired}}
+  loving: >-
+    incoming {hug|kiss|pocky kiss},{0-$$,$$blush|looking away|closed mouth|smile}
+  picnick: >-
+    sitting,{wariza|seiza|indian style},{|drinking|,eating},{|looking at viewer},{outdoors,{day|night},picnick sheet,{|{|cherry blossom |maple }tree}},
+    {0-$$,$${__barefoot/equipments/fairy_kei__|__barefoot/equipments/jirai_kei__|__barefoot/equipments/mori_girl__|__barefoot/equipments/ryousangata__|
+      __barefoot/equipments/summer__|__barefoot/equipments/warm_sets__|__barefoot/equipments/winter__}|{{|light }smile|grin},{0-$$,$${closed eyes|one eye closed}|open mouth}}
+  playing: >-
+    holding gamepad,sitting on {chair|floor|sofa},{|indian style|,seiza|,wariza},{|looking at viewer},room,indoors,{0-$$,$$table|television},
+    {0-$$,$${__barefoot/equipments/cool_sets__|__barefoot/equipments/e_girl__|__barefoot/equipments/fairy_kei__|__barefoot/equipments/mori_girl__|
+      __barefoot/equipments/ryousangata__|__barefoot/equipments/school__|__barefoot/equipments/warm_sets__}|
+    {excited|laughing|smile},{0-$$,$$open mouth|v-shaped eyebrows}}
+  reading: >-
+    reading{| book| letter| newspaper| paper}{|,room|,forest|,park|,city|,school|,lake|,river}
+  showering: >-
+    showering,{|sitting},{|hand{|s} on own {chest|head|hip}|,holding shower head},{|looking at viewer},
+    {0-$$,$$steam|nipples|full body,{|pov}|{happy|relaxing},{|closed eyes}}
+  singing: >-
+    singing,{karaoke|stage},{holding microphone|headset}{|,__costumes/idol__|,__costumes/musician__}
+  skating: >-
+    {figure |}skating
+  sleeping: >-
+    {sleeping|yawning}{|,on back{|,arms behind heads}|,on stomach{|,head rest}|,on side{|,head rest}|,fetal position}{|,__costumes/bedding__|,__costumes/cool_sets__}
+  smoking: >-
+    smoking{1::|1::,room|1::,through window|3::{|,park|,street|,ocean}{|,day|,evening|,night}}
+  soaking: >-
+    {soaking feet,{|pool}|wading,bare legs,{|ocean|,river|,pool}}{|,standing|,sitting}
+  teaching: >-
+    standing,{holding {book|clipboard|pointer}},{|looking at viewer},classroom,indoors,{0-$$,$$lectern|blackboard},__costumes/teacher__,
+    {0-$$,$$straight-on,{|pov}|{expressionless|smile},{|open mouth}}
+  teatime: >-
+    sitting,looking at viewer,{|head rest|holding cup},
+    {{cafe|restaurant|room},indoors,table,coffee,{0-$$,$$cake|table cloth|window}},
+    {0-$$,$$straight-on,{|pov}|{{|light }smile|grin},{0-$$,$${closed eyes|one eye closed}|open mouth}}
+  working: >-
+    {standing,{crossed arms|hand on own {chin|hip|shoulder}|holding {cup|paper{|s}|smartphone|tablet pc}}|
+    sitting,{|crossed legs},{crossed arms|hand on own {chin|ear|shoulder}|hands on own {head|knee|neck}|head rest|holding {cup|paper{|s}|smartphone}|typing}},
+    {|looking at viewer},{office,indoors},__costumes/office_lady__{|,expressionless|,light smile|,serious}
