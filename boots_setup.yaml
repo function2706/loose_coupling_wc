@@ -1,7 +1,11 @@
-boots_show: |-
+boots_show: >-
   {3::__boots_setups/*__|1::__boots_maker/*__},
   {|,city}{|,{|light }smile{|,open mouth}},
-  {standing,{0-$$,$${v{| over {eye|mouth}}|double v|arms behind {head|back}}|crossed legs}|sitting,{0-$$,$${v{| over {eye|mouth}}|double v|head rest|arms behind {head|back}}|crossed legs}|contrapposto}
+  {standing,{0-$$,$${v{| over {eye|mouth}}|double v|arms behind {head|back}}|crossed legs}|sitting,{0-$$,$${v{| over {eye|mouth}}|double v|head rest|arms behind {head|back}}|crossed legs}|contrapposto},
+  __SUBJECT_HERE__,
+  __bp_solo_q__
+  __NEG...__
+  __negative/general__
 boots_maker:
   ankle_boots: >-
     ankle boots,{|buckled |fur{|-trimmed} |{cross-laced|lace-up} |zipper }boots{|,{stiletto heels|wedge heels|high heel boots}|,platform boots}

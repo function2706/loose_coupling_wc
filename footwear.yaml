@@ -2,13 +2,21 @@ footwear:
   random:
     - __footwear/casual__
     - __footwear/cosplay__
-  casual: |-
+  casual: >-
     __footwear/core__,
-    {__boots_maker/knee_boots__|__boots_maker/thigh_boots__}
-  cosplay: |-
+    {__boots_maker/knee_boots__|__boots_maker/thigh_boots__},
+    __SUBJECT_HERE__,
+    __bp_solo_q__
+    __NEG...__
+    __footwear/negative__
+  cosplay: >-
     __footwear/core__,
-    __footwear/equipments/*__
-  core: |-
+    __footwear/equipments/*__,
+    __SUBJECT_HERE__,
+    __bp_solo_q__
+    __NEG...__
+    __footwear/negative__
+  core: >-
     __footwear/expressions__,
     __footwear/poses__,
     (footwear focus),(outsoles),from below,looking at viewer
@@ -151,3 +159,12 @@ footwear:
     y2k: >-
       {|platform }boots,{|low-rise }{mini skirt|cargo pants|flared pants},{|crop }top,
       {0-$$,$${|butterfly |heart }hair clip|{|tinted }sunglasses|{1-$$,$$choker|pendant|bracelet|belly chain|tube top}}
+  negative: >-
+    (barefoot:1.5),(monochrome),
+    (extra feet:1.2),(missing foot),(bad leg),(extra legs:1.2),(missing leg),
+    (extra digits),fewer digits,missing digits,bad hands,mutated hands,
+    extra hands,missing hand,bad arm,extra arms,missing arm,
+    six toes,extra toes,fewer toes,missing toes,bad feet,mutated feet,
+    (amputee),(bad anatomy),(extra limbs),(missing limb),multiple heads,shaded face,
+    motion lines,speed lines,3d,(shiny skin:1.2),worst detail,text,logo,cropped,deformed,blurry,
+    worst quality,low quality

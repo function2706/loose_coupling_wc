@@ -3,13 +3,13 @@ barefoot:
     - __barefoot/casual__
     - __barefoot/cosplay__
   casual:
-    - __barefoot/below/make__
-    - __barefoot/not_below/make__
-  cosplay: |-
-    __barefoot/casual__,
-    __barefoot/equipments/*__
+    - __barefoot/below/make__,__SUBJECT_HERE__,__bp_solo_q____NEG...____barefoot/negative__
+    - __barefoot/not_below/make__,__SUBJECT_HERE__,__bp_solo_q____NEG...____barefoot/negative__
+  cosplay:
+    - __barefoot/below/make__,__barefoot/equipments/*__,__SUBJECT_HERE__,__bp_solo_q____NEG...____barefoot/negative__
+    - __barefoot/not_below/make__,__barefoot/equipments/*__,__SUBJECT_HERE__,__bp_solo_q____NEG...____barefoot/negative__
   below:
-    make: |-
+    make: >-
       (five toes:1.2),(foot focus),from below,pov,barefoot,{0-$$,$$toes|soles|toenails}{7::|1::,spread toes},
       __barefoot/expressions__,looking at viewer,
       __barefoot/below/poses__
@@ -17,7 +17,7 @@ barefoot:
       - standing on one leg{|,hand on hip}
       - sitting on chair,{|crossed legs},{|head rest}
   not_below:
-    make: |-
+    make: >-
       __barefoot/expressions__,(looking at viewer),full body,
       (five toes:1.2),(foot focus),barefoot,{0-$$,$$toes|soles|toenails}{7::|1::,spread toes},
       __barefoot/not_below/poses__
@@ -213,3 +213,12 @@ barefoot:
     y2k: >-
       {|low-rise }{mini skirt|cargo pants|flared pants},{|crop }top,
       {0-$$,$${|butterfly |heart }hair clip|{|tinted }sunglasses|{1-$$,$$choker|pendant|bracelet|belly chain|tube top}}
+  negative: >-
+    (footjob:1.2),
+    (six toes:1.5),(extra toes:1.5),fewer toes,missing toes,bad feet,mutated feet,
+    (extra feet:1.2),(missing foot),(bad leg),(extra legs:1.2),(missing leg),
+    (extra digits),fewer digits,missing digits,bad hands,mutated hands,
+    extra hands,missing hand,bad arm,extra arms,missing arm,
+    (amputee),(bad anatomy),(extra limbs),(missing limb),multiple heads,shaded face,
+    (monochrome),motion lines,speed lines,3d,(shiny skin:1.2),worst detail,text,logo,cropped,deformed,blurry,
+    worst quality,low quality

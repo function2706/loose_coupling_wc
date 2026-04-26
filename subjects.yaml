@@ -17,7 +17,7 @@ subjects:
     rabbit-girl:
       - rabbit girl,white hair,medium hair,curly bangs,ponytail,red eyes,tareme,rabbit ears,whiskers,[short],medium breasts{|,[rabbit tail]}
     sheep-girl:
-      - sheep girl,white hair,long hair,curly hair,long bangs,red eyes,horizontal pupils,tareme,animal ears,sheep horns,((white fur))
+      - sheep girl,white hair,long hair,curly hair,long bangs,red eyes,horizontal pupils,tareme,animal ears,sheep horns,(white fur:1.2)
     wolf-girl:
       - wolf girl,grey hair,short hair,hair between eyes,golden eyes,animal ears,whiskers,fangs,medium breasts,tall,slim{|,[wolf tail]}
     angel-girl:

@@ -1,8 +1,12 @@
 latex:
-  do: |-
+  random: >-
     __latex/equipments/*__{|,from below},
     __latex/expressions__,looking at viewer,
-    {1::|2::__latex/poses__}
+    {1::|2::__latex/poses__},
+    __SUBJECT_HERE__,
+    __bp_solo_q__
+    __NEG...__
+    __footwear/negative__
   expressions:
     - light smile
     - naughty face

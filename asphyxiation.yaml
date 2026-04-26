@@ -2,15 +2,33 @@ asphyxiation:
   random:
     - __asphyxiation/casual__
     - __asphyxiation/cosplay__
-  casual: |-
+  core: >-
     (strangling boy's neck:1.2),(hands on boy's neck:1.2),femdom,boy asphyxiation,
     (sitting on boy),wariza,__asphyxiation/expressions__,(looking down),
     shota,(boy on back),boy crying with eyes open,boy {upturned eyes|white pupils},
     {0-$$,$$boy trembling|boy's tongue out|boy shaded face}
-  cosplay: |-
-    __asphyxiation/casual__,
-    __costumes/*__
+  casual: >-
+    __SUBJECT_HERE__,
+    __asphyxiation/core__,
+    __bp_pair_q__
+    __NEG...__
+    __asphyxiation/negative__
+  cosplay: >-
+    __SUBJECT_HERE__,
+    __asphyxiation/core__,
+    __costumes/*__,
+    __bp_pair_q__
+    __NEG...__
+    __asphyxiation/negative__
   expressions:
     - evil smile
     - light smile
     - smirk{|,closed mouth}
+  negative: >-
+    (blood from gril's mouth:1.2),(girl's tongue out:1.2),girl's shaded face,
+    (amputee),(bad anatomy),(extra limbs),(missing limb),multiple heads,
+    worst quality,low quality,(monochrome),motion lines,speed lines,3d,(shiny skin:1.2),worst detail,text,logo,cropped,deformed,blurry,
+    extra digits,fewer digits,missing digits,bad hands,mutated hands,
+    six toes,extra toes,fewer toes,missing toes,bad feet,mutated feet,
+    extra feet,missing foot,bad leg,extra legs,missing leg,
+    extra hands,missing hand,bad arm,extra arms,missing arm

@@ -4,26 +4,60 @@ giantess:
       random:
         - __giantess/barefoot/on_boy/casual__
         - __giantess/barefoot/on_boy/cosplay__
-      casual: |-
+      core: >-
         giantess,(stepped on boy),(trample boy),five toes,foot focus,from below{|,foreshortening},barefoot,{0-$$,$$toes|soles|toenails}{7::|1::,spread toes},
         (__giantess/expressions__),(looking down),
         __trample/poses__,
-        __giantess/object/boy__
-      cosplay: |-
-        __giantess/barefoot/on_boy/casual__,
-        __barefoot/equipments/*__
+        __giantess/object/boy__,
+      casual: >-
+        __SUBJECT_HERE__,
+        __giantess/barefoot/on_boy/core__,
+        __bp_pair_q__
+        __NEG...__
+        __giantess/barefoot/on_boy/negative__
+      cosplay: >-
+        __SUBJECT_HERE__,
+        __giantess/barefoot/on_boy/core__,
+        __barefoot/equipments/*__,
+        __bp_pair_q__
+        __NEG...__
+        __giantess/barefoot/on_boy/negative__
+      negative: >-
+        (footjob:1.2),(multiple girls:1.2),(multiple boys:1.2),(mini girl:1.2),
+        __giantess/barefoot/negative__
     on_city:
       random:
         - __giantess/barefoot/on_city/casual__
         - __giantess/barefoot/on_city/cosplay__
-      casual: |-
+      core: >-
         giantess,five toes,foot focus,from below{|,foreshortening},barefoot,{0-$$,$$toes|soles|toenails}{7::|1::,spread toes},dirty sole,
         (__giantess/expressions__),(looking down),
         {standing on one leg{|,hand on hip|,claw pose}|sitting,{knees up,spread legs|legs together,feet together,extending legs,stretched legs out},arms behind back},
         __giantess/object/city__
-      cosplay: |-
-        __giantess/barefoot/on_city/casual__,
-        __barefoot/equipments/*__
+      casual: >-
+        __giantess/barefoot/on_city/core__,
+        __SUBJECT_HERE__,
+        __bp_solo_q__
+        __NEG...__
+        __giantess/barefoot/on_city/negative__
+      cosplay: >-
+        __giantess/barefoot/on_city/core__,
+        __barefoot/equipments/*__,
+        __SUBJECT_HERE__,
+        __bp_solo_q__
+        __NEG...__
+        __giantess/barefoot/on_city/negative__
+      negative: >-
+        (footjob:1.2),(mini girl:1.2),
+        __giantess/barefoot/negative__
+    negative: >-
+      (six toes:1.5),(extra toes:1.5),fewer toes,missing toes,bad feet,mutated feet,
+      (extra feet:1.2),(missing foot),(bad leg),(extra legs:1.2),(missing leg),
+      (extra digits),fewer digits,missing digits,bad hands,mutated hands,
+      extra hands,missing hand,bad arm,extra arms,missing arm,
+      (amputee),(bad anatomy),(extra limbs),(missing limb),multiple heads,shaded face,
+      (monochrome),motion lines,speed lines,3d,(shiny skin:1.2),worst detail,text,logo,cropped,deformed,blurry,
+      worst quality,low quality
   footwear:
     random:
       - __giantess/footwear/on_boy/random__
@@ -32,35 +66,65 @@ giantess:
       random:
         - __giantess/footwear/on_boy/casual__
         - __giantess/footwear/on_boy/cosplay__
-      casual: |-
-        __giantess/footwear/on_boy/core__,
-        {__boots_maker/knee_boots__|__boots_maker/thigh_boots__}
-      cosplay: |-
-        __giantess/footwear/on_boy/core__,
-        __footwear/equipments/*__
-      core: |-
+      core: >-
         (__giantess/expressions__:1.2),(looking down:1.2),(full body:1.2),
         giantess,(stepped on boy),(trample boy),(footwear focus:0.9),from below{|,foreshortening}{|,outsoles},
         __trample/poses__,
         __giantess/object/boy__,
+      casual: >-
+        __SUBJECT_HERE__,
+        __giantess/footwear/on_boy/core__,
+        {__boots_maker/knee_boots__|__boots_maker/thigh_boots__},
+        __bp_pair_q__
+        __NEG...__
+        __giantess/footwear/on_boy/negative__
+      cosplay: >-
+        __SUBJECT_HERE__,
+        __giantess/footwear/on_boy/core__,
+        __footwear/equipments/*__,
+        __bp_pair_q__
+        __NEG...__
+        __giantess/footwear/on_boy/negative__
+      negative:
+        (barefoot:1.5),(multiple girls:1.2),(multiple boys:1.2),(mini girl:1.2),
+        __giantess/footwear/negative__
     on_city:
       random:
         - __giantess/footwear/on_city/casual__
         - __giantess/footwear/on_city/cosplay__
-      casual: |-
-        __giantess/footwear/on_city/core__,
-        {__boots_maker/knee_boots__|__boots_maker/thigh_boots__}
-      cosplay: |-
-        __giantess/footwear/on_city/core__,
-        __footwear/equipments/*__
-      core: |-
+      core: >-
         (__giantess/expressions__),(looking down),(full body),
         giantess,footwear focus,from below{|,foreshortening},{|,outsoles},dirty sole,
         standing on one leg{|,hand on hip|,claw pose},
         __giantess/object/city__
+      casual: >-
+        __giantess/footwear/on_city/core__,
+        {__boots_maker/knee_boots__|__boots_maker/thigh_boots__},
+        __SUBJECT_HERE__,
+        __bp_solo_q__
+        __NEG...__
+        __giantess/footwear/on_city/negative__
+      cosplay: >-
+        __giantess/footwear/on_city/core__,
+        __footwear/equipments/*__,
+        __SUBJECT_HERE__,
+        __bp_solo_q__
+        __NEG...__
+        __giantess/footwear/on_city/negative__
+      negative: >-
+        (barefoot:1.5),(mini girl:1.2),
+        __giantess/footwear/negative__
+    negative: >-
+      (extra feet:1.2),(missing foot),(bad leg),(extra legs:1.2),(missing leg),
+      (extra digits),fewer digits,missing digits,bad hands,mutated hands,
+      extra hands,missing hand,bad arm,extra arms,missing arm,
+      six toes,extra toes,fewer toes,missing toes,bad feet,mutated feet,
+      (amputee),(bad anatomy),(extra limbs),(missing limb),multiple heads,shaded face,
+      (monochrome),motion lines,speed lines,3d,(shiny skin:1.2),worst detail,text,logo,cropped,deformed,blurry,
+      worst quality,low quality
   object:
     boy:
-      - "{|mini }boy,(boy crawling){|,boy's corpse},blood on sole,guro"
+      - "{|mini }boy,(boy {crawling|on back}){|,boy's corpse},blood on sole,guro"
     city:
       - city,building,destruction,{0-$$,$${|red }sky,cloud|ground vehicle|(fire on whole city),smoke|{day|night}}
   expressions:

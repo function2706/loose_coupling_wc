@@ -2,13 +2,23 @@ pussy:
   random:
     - __pussy/casual__
     - __pussy/cosplay__
-  casual: |-
+  core: >-
     (pussy),clitoris{|,(pussy juice)|,(peeing{| on viewer})},pov,from below,
     __pussy/expressions__,
     {|spread pussy},__pussy/poses__,spread legs
-  cosplay: |-
-    __pussy/casual__,
-    __pussy/equipments/*__
+  casual: >-
+    __pussy/core__,
+    __SUBJECT_HERE__,
+    __bp_solo_q__
+    __NEG...__
+    __negative/general__
+  cosplay: >-
+    __pussy/core__,
+    __pussy/equipments/*__,
+    __SUBJECT_HERE__,
+    __bp_solo_q__
+    __NEG...__
+    __negative/general__
   expressions:
     - light smile
     - naughty face

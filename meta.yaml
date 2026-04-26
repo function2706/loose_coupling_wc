@@ -1,0 +1,24 @@
+SUBJECT_HERE:
+  - SuBjEcThErE
+NEG...:
+  - negneGnEgnEGNegNeGNEgNEG
+regex_for_neg:
+  - (.*)__NEG...__(.*)
+bp_quality:
+  - masterpiece,best quality,amaizing quality
+bp_solo:
+  - 1girl,solo
+bp_solo_q:
+  - __bp_solo__,__bp_quality__
+bp_pair:
+  - (1girl),(1boy:1.2)
+bp_pair_q:
+  - __bp_pair__,__bp_quality__
+negative:
+  general: >-
+    (amputee),(bad anatomy),(extra limbs),(missing limb),multiple heads,shaded face,
+    worst quality,low quality,(monochrome),motion lines,speed lines,3d,(shiny skin:1.2),worst detail,text,logo,cropped,deformed,blurry,
+    extra digits,fewer digits,missing digits,bad hands,mutated hands,
+    six toes,extra toes,fewer toes,missing toes,bad feet,mutated feet,
+    extra feet,missing foot,bad leg,extra legs,missing leg,
+    extra hands,missing hand,bad arm,extra arms,missing arm

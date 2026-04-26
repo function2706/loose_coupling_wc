@@ -2,16 +2,26 @@ urethra:
   random:
     - __urethra/casual__
     - __urethra/cosplay__
-  random_with_lora_token: |-
-    <lora:urethra:0.6:0.6>,
+  random_with_lora_token: >-
     __urethra/random__
-  casual: |-
+  core: >-
+    <lora:urethra:0.6:0.6>,
     urethra,(urethral fingering),(finger in penis),blood from urethra{|,blood on penis{|,blood on face}},guro,
     __urethra/expressions__,{0-$$,$${one eye closed|narrowed eyes}|{{closed|open} mouth|licking lips}},looking at {viewer|penis},
     pov,penis{|,twitching penis}
-  cosplay: |-
-    __urethra/casual__,
-    __urethra/equipments/*__
+  casual: >-
+    __SUBJECT_HERE__,
+    __urethra/core__,
+    __bp_pair_q__
+    __NEG...__
+    __urethra/negative__
+  cosplay: >-
+    __SUBJECT_HERE__,
+    __urethra/core__,
+    __urethra/equipments/*__,
+    __bp_pair_q__
+    __NEG...__
+    __urethra/negative__
   expressions:
     - light smile
     - naughty face
@@ -217,3 +227,11 @@ urethra:
     y2k: >-
       {|low-rise }{mini skirt|cargo pants|flared pants},{|crop }top,
       {0-$$,$$platform {boots|sneakers|sandals}|{|butterfly |heart }hair clip|{|tinted }sunglasses|{1-$$,$$choker|pendant|bracelet|belly chain|tube top}}
+  negative: >-
+    (fellatio:1.5),(pussy:1.5),urethral beads,finger to mouth,finger in own mouth,
+    (extra digits:1.5),(fewer digits:1.5),(missing digits:1.5),bad hands,mutated hands,
+    extra hands,missing hand,bad arm,extra arms,missing arm,
+    (amputee),(bad anatomy),(extra limbs),(missing limb),multiple heads,shaded face,
+    worst quality,low quality,(monochrome),motion lines,speed lines,3d,((shiny skin)),worst detail,text,logo,cropped,deformed,blurry,
+    six toes,extra toes,fewer toes,missing toes,bad feet,mutated feet,
+    extra feet,missing foot,bad leg,extra legs,missing leg

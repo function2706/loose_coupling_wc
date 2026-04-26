@@ -3,31 +3,60 @@ crotch_kicking:
     random:
       - __crotch_kicking/barefoot/casual__
       - __crotch_kicking/barefoot/cosplay__
-    casual: |-
+    core: >-
       <lora:crotch_kicking:0.6:0.6>,
       (crotch kick),(ball busting),high kick,
       (five toes:1.2),(foot focus),from below,pov,barefoot,
       standing on one leg,__barefoot/expressions__{|,wide-eyed},
       clothed female nude male,testicles,penis,blood from penis,guro
-    cosplay: |-
-      __crotch_kicking/barefoot/casual__,
-      __barefoot/equipments/*__
+    casual: >-
+      __SUBJECT_HERE__,
+      __crotch_kicking/barefoot/core__,
+      __bp_pair_q__
+      __NEG...__
+      __crotch_kicking/negative__
+    cosplay: >-
+      __SUBJECT_HERE__,
+      __crotch_kicking/barefoot/core__,
+      __barefoot/equipments/*__,
+      __bp_pair_q__
+      __NEG...__
+      __crotch_kicking/negative__
   footwear:
     random:
       - __crotch_kicking/footwear/casual__
       - __crotch_kicking/footwear/cosplay__
-    casual: |-
+    core: >-
       <lora:crotch_kicking:0.6:0.6>,
       (crotch kick),(ball busting),high kick,
       (footwear focus){|,outsoles},from below,pov,
       standing on one leg,__barefoot/expressions__{|,wide-eyed},
       clothed female nude male,testicles,penis,(blood from penis),guro,
       {|knee |thigh }boots
-    cosplay: |-
-      __crotch_kicking/footwear/casual__,
+    casual: >-
+      __SUBJECT_HERE__,
+      __crotch_kicking/footwear/core__
+      __bp_pair_q__
+      __NEG...__
+      __crotch_kicking/negative__
+    cosplay: >-
+      __SUBJECT_HERE__,
+      __crotch_kicking/footwear/core__,
       __footwear/equipments/*__
+      __bp_pair_q__
+      __NEG...__
+      __crotch_kicking/negative__
   expressions:
     - excited
     - naughty face
     - smirk{|,closed mouth}
     - smug
+  negative: >-
+    (footjob:1.2),blood from pussy,blood on foot,multiple boys,
+    (six toes:1.5),(extra toes:1.5),fewer toes,missing toes,bad feet,mutated feet,
+    (extra feet:1.2),(missing foot),(bad leg),(extra legs:1.2),(missing leg),
+    (extra digits),fewer digits,missing digits,bad hands,mutated hands,
+    extra hands,missing hand,bad arm,extra arms,missing arm,
+    (amputee),(bad anatomy),(extra limbs),(missing limb),multiple heads,shaded face,
+    (monochrome),3d,(shiny skin:1.2),worst detail,text,logo,cropped,deformed,blurry,
+    worst quality,low quality
