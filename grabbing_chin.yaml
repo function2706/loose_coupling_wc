@@ -17,10 +17,10 @@ grabbing_chin:
   kneeling:
     random: >-
       __SUBJECT_HERE__,
+      <lora:grabbing_chin_kneeling_v2:0.6:0.6>,
       femdom,hetero,(girl standing:1.5),(boy kneeling:1.5),(grabbing boy's chin:1.2),
       __grabbing_chin/core__,
-      __bp_pair_q__,
-      <lora:grabbing_chin_kneeling>
+      __bp_pair_q__
       __NEG...__
       __grabbing_chin/kneeling/negative__
     negative: >-
