@@ -1,0 +1,27 @@
+peeing:
+  random:
+    - __peeing/casual__
+    - __peeing/cosplay__
+  core: >-
+    femdom,pussy,(peeing),(peeing on boy face:1.2),from below,
+    smirk{|,spread pussy},standing,hand on hip,
+    shota,
+  casual: >-
+    __SUBJECT_HERE__,
+    __peeing/core__,
+    __bp_pair_q__
+    __NEG...__
+    __peeing/negative__
+  cosplay: >-
+    __SUBJECT_HERE__,
+    __peeing/core__,
+    __pussy/equipments/*__,
+    __bp_pair_q__
+    __NEG...__
+    __peeing/negative__
+  expressions:
+    - light smile
+    - naughty face
+    - smirk{|,closed mouth}
+  negative: >-
+    pink background,(multiple girls:1.2),__cunni/negative__
