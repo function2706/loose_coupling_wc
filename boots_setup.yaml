@@ -8,11 +8,11 @@ boots_show: >-
   __negative/general__
 boots_maker:
   ankle_boots: >-
-    ankle boots,{|buckled |fur{|-trimmed} |{cross-laced|lace-up} |zipper }boots{|,{stiletto heels|wedge heels|high heel boots}|,platform boots}
+    ankle boots,{|buckled |{cross-laced|lace-up} |zipper }boots{|,{stiletto heels|wedge heels|high heel boots}|,platform boots}
   knee_boots: >-
-    knee boots,{|buckled |fur{|-trimmed} |{cross-laced|lace-up} |zipper }boots{|,{stiletto heels|wedge heels|high heel boots}|,platform boots}
+    knee boots,{|buckled |{cross-laced|lace-up} |zipper }boots{|,{stiletto heels|wedge heels|high heel boots}|,platform boots}
   thigh_boots: >-
-    thigh boots,{|buckled |fur{|-trimmed} |{cross-laced|lace-up} |zipper }boots{|,{stiletto heels|wedge heels|high heel boots}|,platform boots}
+    thigh boots,{|buckled |{cross-laced|lace-up} |zipper }boots{|,{stiletto heels|wedge heels|high heel boots}|,platform boots}
 boots_setups:
   tailor: >-
     {__tailor/tops/random__,{__boots_maker/ankle_boots__{|,socks},{4::|3::denim |1::bell-bottom,}pants|

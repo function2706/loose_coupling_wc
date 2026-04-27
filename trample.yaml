@@ -20,11 +20,11 @@ trample:
         __NEG...__
         __trample/on_face/barefoot/negative__
       core: >-
-        (stepped on boy's face:1.2),(five toes:1.2),from below{|,foreshortening},barefoot,
+        femdom,hetero,(stepped on boy's face:1.2),(five toes:1.2),from below{|,foreshortening},barefoot,
         (looking down:1.2),(__barefoot/expressions__:1.2),
         __trample/poses__
       boy: >-
-        shota,{|boy licking feet,}boy {ly|kneel}ing
+        shota,{|boy licking feet,}boy on back
       negative: >-
         (footjob:1.2),(multiple boys:1.2),(monochrome),
         (six toes:1.5),(extra toes:1.5),fewer toes,missing toes,bad feet,mutated feet,
@@ -55,11 +55,11 @@ trample:
         __NEG...__
         __trample/negative_footwear__
       core: >-
-        (stepped on boy's face:1.2),{|,outsoles},from below{|,foreshortening},guro,
+        femdom,hetero,(stepped on boy's face:1.2),{|,outsoles},from below{|,foreshortening},guro,
         (looking down:1.2),(__trample/expressions__:1.2),
         __trample/poses__
       boy: >-
-        shota,boy lying,blood on boy's face{|,blood splatter}{|,boy's corpse}{|,boy {0-$$,$${closed eyes|narrowed eyes}|no pupils}}
+        shota,boy on back,blood on boy's face{|,blood splatter}{|,boy's corpse}{|,boy {0-$$,$${closed eyes|narrowed eyes}|no pupils}}
   on_penis:
     random:
       - __trample/on_penis/casual__
