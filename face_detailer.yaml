@@ -1,0 +1,18 @@
+face_detailer:
+  simple: >-
+    detailed skin,__face_detailer/expression__{8::|1::,__face_detailer/option__},
+    embedding:Stable_Yogis_Illustrious_Positives
+  japanese: >-
+    detailed skin,(japanese girl:1.5),{black|brown} eyes,__face_detailer/expression__,{8::|1::,__face_detailer/option__},
+    embedding:Stable_Yogis_Illustrious_Positives
+  expression:
+    - angry{|,closed mouth|,parted lips}
+    - expressionless{|,closed mouth|,parted lips}
+    - smile{|,closed mouth|,parted lips}
+    - light smile{|,closed mouth|,parted lips}
+  option:
+    - mole under eye
+    - mole under mouth
+  negative: >-
+    (makeup:1.2),loli,narrowed eyes,(cheekbones),(thick lips:1.2),(big nose),
+    embedding:Stable_Yogis_Illustrious_Negatives-neg
