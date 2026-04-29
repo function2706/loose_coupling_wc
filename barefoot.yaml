@@ -1,13 +1,17 @@
 barefoot:
   random:
-    - __barefoot/casual__
-    - __barefoot/cosplay__
+    - __barefoot/casual/*__
+    - __barefoot/cosplay/*__
   casual:
-    - __barefoot/below/make__,__SUBJECT_HERE__,__bp_solo_q____NEG...____barefoot/negative__
-    - __barefoot/not_below/make__,__SUBJECT_HERE__,__bp_solo_q____NEG...____barefoot/negative__
+    below:
+      - __barefoot/below/make__,__SUBJECT_HERE__,__bp_solo_q____NEG...____barefoot/negative__
+    not_below:
+      - __barefoot/not_below/make__,__SUBJECT_HERE__,__bp_solo_q____NEG...____barefoot/negative__
   cosplay:
-    - __barefoot/below/make__,__barefoot/equipments/*__,__SUBJECT_HERE__,__bp_solo_q____NEG...____barefoot/negative__
-    - __barefoot/not_below/make__,__barefoot/equipments/*__,__SUBJECT_HERE__,__bp_solo_q____NEG...____barefoot/negative__
+    below:
+      - __barefoot/below/make__,__barefoot/equipments/*__,__SUBJECT_HERE__,__bp_solo_q____NEG...____barefoot/negative__
+    not_below:
+      - __barefoot/not_below/make__,__barefoot/equipments/*__,__SUBJECT_HERE__,__bp_solo_q____NEG...____barefoot/negative__
   below:
     make: >-
       (five toes:1.2),(foot focus),from below,pov,barefoot,{0-$$,$$toes|soles|toenails}{7::|1::,spread toes},

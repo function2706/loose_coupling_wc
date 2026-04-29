@@ -4,14 +4,18 @@ pantyhose_maker: >-
   {|black |beige |brown |red |white |fishnet }pantyhose
 socks:
   random:
-    - __socks/casual__
-    - __socks/cosplay__
+    - __socks/casual/*__
+    - __socks/cosplay/*__
   casual:
-    - __socks/below/make__,{__socks_maker__|__pantyhose_maker__},__SUBJECT_HERE__,__bp_solo_q____NEG...____socks/negative__
-    - __socks/not_below/make__,{__socks_maker__|__pantyhose_maker__},__SUBJECT_HERE__,__bp_solo_q____NEG...____socks/negative__
+    below:
+      - __socks/below/make__,{__socks_maker__|__pantyhose_maker__},__SUBJECT_HERE__,__bp_solo_q____NEG...____socks/negative__
+    not_below:
+      - __socks/not_below/make__,{__socks_maker__|__pantyhose_maker__},__SUBJECT_HERE__,__bp_solo_q____NEG...____socks/negative__
   cosplay:
-    - __socks/below/make__,__socks/equipments/*__,__SUBJECT_HERE__,__bp_solo_q____NEG...____socks/negative__
-    - __socks/not_below/make__,__socks/equipments/*__,__SUBJECT_HERE__,__bp_solo_q____NEG...____socks/negative__
+    below:
+      - __socks/below/make__,__socks/equipments/*__,__SUBJECT_HERE__,__bp_solo_q____NEG...____socks/negative__
+    not_below:
+      - __socks/not_below/make__,__socks/equipments/*__,__SUBJECT_HERE__,__bp_solo_q____NEG...____socks/negative__
   below:
     make: >-
       five toes,(foot focus),from below,pov,{0-$$,$$toes|soles},

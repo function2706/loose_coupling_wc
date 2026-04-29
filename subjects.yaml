@@ -3157,7 +3157,7 @@ subjects:
       - __subjects/profiles_favorite/hair__,__subjects/profiles_favorite/eye/demi_human__,{|,{dark|fair|pale} skin}{|,{flat chest|small breasts|medium breasts}},{0-$$,$${halo|horns|{animal|{|long }pointy} ears}|{|bat }wings|tail}
       - __subjects/profiles_favorite/species/*__,__subjects/profiles_favorite/hair__,__subjects/profiles_favorite/eye/human__,{|,{flat chest|small breasts|medium breasts}}
     hair: >-
-      {|black hair,|grey hair,|white hair,}{bob cut|pixie cut|short hair|very short hair}{|,{curly|flipped|straight|wavy} hair}{7::|1::,blunt ends},
+      {|2::black hair,|2::brown hair,|grey hair,|white hair,}{bob cut|pixie cut|short hair|very short hair}{|,{curly|flipped|straight|wavy} hair}{7::|1::,blunt ends},
       {0-$$,$${4::{asymmetrical|blunt|swept} bangs|1::hair between eyes}|{{|low }{|short }ponytail|side single braid}|sidelocks}
     eye:
       human:
