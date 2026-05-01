@@ -1,6 +1,8 @@
 subjects:
   random:
     - "{__subjects/original/*__|__subjects/copyrights/*__|__subjects/copyrights_pickup/*__|__subjects/profiles/random__|__subjects/profiles_favorite/random__}"
+  random_with_furry:
+    - "{__subjects/original/*__|__subjects/copyrights/*__|__subjects/copyrights_pickup/*__|__subjects/profiles/random_with_furry__|__subjects/profiles_favorite/random_with_furry__}"
   original:
     human-girl-1:
       - girl,brown hair,short hair,asymmetrical bangs,brown eyes,tsurime,tan skin,small breasts
@@ -2917,11 +2919,17 @@ subjects:
     random:
       - __subjects/profiles/human__
       - __subjects/profiles/demi_human__
+    random_with_furry:
+      - __subjects/profiles/human__
+      - __subjects/profiles/demi_human__
+      - __subjects/profiles/furry__
     human:
       - __subjects/profiles/hair/do__,__subjects/profiles/eye/human__,__subjects/profiles/skin/human__{|,__subjects/profiles/age__}
     demi_human:
       - __subjects/profiles/hair/do__,__subjects/profiles/eye/demi_human__,__subjects/profiles/skin/demi_human__{|,__subjects/profiles/age__},__subjects/profiles/misc/do__
       - __subjects/profiles/species/*__,__subjects/profiles/hair/do__,__subjects/profiles/eye/human__{|,__subjects/profiles/age__}
+    furry:
+      - __subjects/profiles/species/real__,furry,__subjects/profiles/hair/do__,__subjects/profiles/eye/human__{|,__subjects/profiles/age__}
     hair:
       do:
         - __subjects/profiles/hair/colors__ {1::__subjects/profiles/hair/wholes__|3::__subjects/profiles/hair/random__}
@@ -3156,11 +3164,17 @@ subjects:
     random:
       - __subjects/profiles_favorite/human__
       - __subjects/profiles_favorite/demi_human__
+    random_with_furry:
+      - __subjects/profiles_favorite/human__
+      - __subjects/profiles_favorite/demi_human__
+      - __subjects/profiles_favorite/furry__
     human:
-      - __subjects/profiles_favorite/hair__,__subjects/profiles_favorite/eye/human__{|,{dark|fair|pale} skin}{|,__subjects/profiles_favorite/age__}}
+      - __subjects/profiles_favorite/hair__,__subjects/profiles_favorite/eye/human__{|,{dark|fair|pale} skin}{|,__subjects/profiles_favorite/age__}
     demi_human:
       - __subjects/profiles_favorite/hair__,__subjects/profiles_favorite/eye/demi_human__,{|,{dark|fair|pale} skin}{|,__subjects/profiles_favorite/age__}},{0-$$,$${halo|horns|{animal|{|long }pointy} ears}|{|bat }wings|tail}
-      - __subjects/profiles_favorite/species/*__,__subjects/profiles_favorite/hair__,__subjects/profiles_favorite/eye/human__,{|,__subjects/profiles_favorite/age__}}
+      - __subjects/profiles_favorite/species/*__,__subjects/profiles_favorite/hair__,__subjects/profiles_favorite/eye/human__,{|,__subjects/profiles_favorite/age__}
+    furry:
+      - __subjects/profiles_favorite/species/real__,furry,__subjects/profiles_favorite/hair__,__subjects/profiles_favorite/eye/human__,{|,__subjects/profiles_favorite/age__}
     hair: >-
       {|2::black hair,|2::brown hair,|grey hair,|white hair,}{bob cut|pixie cut|short hair|very short hair}{|,{curly|flipped|straight|wavy} hair}{7::|1::,blunt ends},
       {0-$$,$${4::{asymmetrical|blunt|swept} bangs|1::hair between eyes}|{{|low }{|short }ponytail|side single braid}|sidelocks}

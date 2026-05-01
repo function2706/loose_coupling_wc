@@ -1,5 +1,5 @@
 hang_out:
-  - __subject_here__,__behavior/*__,__bp_solo_q____NEG...____negative/general__
+  - __SUBJECT_HERE__,__behavior/*__,__bp_solo_q____NEG...____negative/general__
 behavior:
   acrobatic: >-
     {jumping|running},{|looking at viewer},{city|park|street},
