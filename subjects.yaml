@@ -7,7 +7,7 @@ subjects:
     human-girl-2:
       - girl,black hair,hime cut,black eyes,tsurime,fair skin,tall,skinny,medium breasts
     human-girl-3:
-      - girl,silver hair,short bob,straight bangs,light blue eyes,pale skin,slim,short,flat chest
+      - girl,silver hair,short bob,straight bangs,light blue eyes,pale skin,slim,short,flat chest,female child
     cat-girl:
       - cat girl,blonde hair,medium hair,blunt bangs,ponytail,sidelocks,blue eyes,slit pupils,tsurime,cat ears,whiskers,fangs,golden furs,medium breasts,slim{|,[cat tail]}
     fox-girl:
@@ -2918,10 +2918,10 @@ subjects:
       - __subjects/profiles/human__
       - __subjects/profiles/demi_human__
     human:
-      - __subjects/profiles/hair/do__,__subjects/profiles/eye/human__,__subjects/profiles/skin/human__{|,{flat chest|small breasts|middle breasts|large breasts}}
+      - __subjects/profiles/hair/do__,__subjects/profiles/eye/human__,__subjects/profiles/skin/human__{|,__subjects/profiles/age__}
     demi_human:
-      - __subjects/profiles/hair/do__,__subjects/profiles/eye/demi_human__,__subjects/profiles/skin/demi_human__{|,{flat chest|small breasts|middle breasts|large breasts}},__subjects/profiles/misc/do__
-      - __subjects/profiles/species/*__,__subjects/profiles/hair/do__,__subjects/profiles/eye/human__{|,{flat chest|small breasts|middle breasts|large breasts}}
+      - __subjects/profiles/hair/do__,__subjects/profiles/eye/demi_human__,__subjects/profiles/skin/demi_human__{|,__subjects/profiles/age__},__subjects/profiles/misc/do__
+      - __subjects/profiles/species/*__,__subjects/profiles/hair/do__,__subjects/profiles/eye/human__{|,__subjects/profiles/age__}
     hair:
       do:
         - __subjects/profiles/hair/colors__ {1::__subjects/profiles/hair/wholes__|3::__subjects/profiles/hair/random__}
@@ -3081,6 +3081,11 @@ subjects:
         - "{dark|fair|pale|{|tanlines,}tanned} skin"
       demi_human:
         - "{4::__subjects/profiles/skin/human__|6::{blue|green|grey|pink|purple|red} skin}"
+    age:
+      - "{flat chest|small breasts|middle breasts|large breasts}"
+      - female child{1::|2::,flat chest|2::,small breasts|1::,middle breasts}
+      - teenage{|,small breasts|,middle breasts|,large breasts}
+      - mature female{|,middle breasts|,large breasts}
     misc:
       do:
         - "{1-3$$,$$__subjects/profiles/misc/option__}"
@@ -3152,10 +3157,10 @@ subjects:
       - __subjects/profiles_favorite/human__
       - __subjects/profiles_favorite/demi_human__
     human:
-      - __subjects/profiles_favorite/hair__,__subjects/profiles_favorite/eye/human__{|,{dark|fair|pale} skin}{|,{flat chest|small breasts|medium breasts}}
+      - __subjects/profiles_favorite/hair__,__subjects/profiles_favorite/eye/human__{|,{dark|fair|pale} skin}{|,__subjects/profiles_favorite/age__}}
     demi_human:
-      - __subjects/profiles_favorite/hair__,__subjects/profiles_favorite/eye/demi_human__,{|,{dark|fair|pale} skin}{|,{flat chest|small breasts|medium breasts}},{0-$$,$${halo|horns|{animal|{|long }pointy} ears}|{|bat }wings|tail}
-      - __subjects/profiles_favorite/species/*__,__subjects/profiles_favorite/hair__,__subjects/profiles_favorite/eye/human__,{|,{flat chest|small breasts|medium breasts}}
+      - __subjects/profiles_favorite/hair__,__subjects/profiles_favorite/eye/demi_human__,{|,{dark|fair|pale} skin}{|,__subjects/profiles_favorite/age__}},{0-$$,$${halo|horns|{animal|{|long }pointy} ears}|{|bat }wings|tail}
+      - __subjects/profiles_favorite/species/*__,__subjects/profiles_favorite/hair__,__subjects/profiles_favorite/eye/human__,{|,__subjects/profiles_favorite/age__}}
     hair: >-
       {|2::black hair,|2::brown hair,|grey hair,|white hair,}{bob cut|pixie cut|short hair|very short hair}{|,{curly|flipped|straight|wavy} hair}{7::|1::,blunt ends},
       {0-$$,$${4::{asymmetrical|blunt|swept} bangs|1::hair between eyes}|{{|low }{|short }ponytail|side single braid}|sidelocks}
@@ -3164,6 +3169,11 @@ subjects:
         - __subjects/profiles/eye/color/make__{6::|1::,tsurime}
       demi_human:
         - __subjects/profiles_favorite/eye/human__{6::|1::,slit pupils}
+    age:
+      - "{flat chest|small breasts|middle breasts}"
+      - female child{1::|2::,flat chest|2::,small breasts}
+      - teenage{|,small breasts|,middle breasts}
+      - mature female{|,middle breasts}
     species:
       real:
         - cat girl,animal ears{|,slit pupils},whiskers{|,fangs}{|,tail}
