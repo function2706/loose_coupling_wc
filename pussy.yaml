@@ -38,7 +38,7 @@ pussy:
     athleisure: >-
       {sports bra|crop top|athletic top},bike shorts,shorts {around one leg|aside},{0-$$,$${sneakers|running shoes}|{|zip-up }hoodie|{1-$$,$$scrunchie|cap|headband|wristband|socks}}
     barbiecore: >-
-      {|hot |bubblegum }pink {|mini }{dress|skirt,shirt}{|,panties {around one leg|aside}},{0-$$,$${|pink }{heels|mules|sneakers}|{|pink }sunglasses|{1-$$,$$bracelet|earrings|hair ribbon|tiara}}
+      {|hot |bubblegum }pink {|mini }{dress|skirt,shirt}{|,panties {around one leg|aside}},{0-$$,$${|pink }{heels|mules|sneakers}|{5::|1::{|pink }sunglasses}|{1-$$,$$bracelet|earrings|hair ribbon|tiara}}
     barista: >-
       barista{|,panties {around one leg|aside}},apron,{|t-}shirt,sleeves rolled up,{bow|neck}tie{|,cap}
     bartender: >-
@@ -80,16 +80,16 @@ pussy:
       decora,{|pastel |colorful }{dress|skirt,top}{|,panties {around one leg|aside}},
       {0-$$,$$platform shoes|{|colorful |striped |printed }{thighhighs|kneehighs}|{1-$$,$$hair clip|bracelet|earrings|pins}}
     disco_70s: >-
-      {|sequined |metallic }{halter top|wrap dress|jumpsuit}{|,panties {around one leg|aside}},{0-$$,$${platform shoes|platform boots|heels}|{|wide }belt|{1-$$,$$hoop earrings|pendant|bracelet|sunglasses}}
+      {|sequined |metallic }{halter top|wrap dress|jumpsuit}{|,panties {around one leg|aside}},{0-$$,$${platform shoes|platform boots|heels}|{|wide }belt|{1-$$,$$hoop earrings|pendant|bracelet|{5::|1::sunglasses}}}
     demon: >-
       demon,cosplay,{black |deep red |deep purple }dress{|,panties {around one leg|aside}},demon horns,bat wings,
       {0-$$,$${{|thighhighs,}knee boots|thigh boots,short skirt}|demon tail|{1-$$,$$bracelet|choker|earrings|pendant}}
     detective: >-
       detective{|,panties {around one leg|aside}},trench coat,{0-$$,$${capelet|vest}|{1-$$,$$gloves|hat|pen in pocket}}
     disco: >-
-      {|sequined |metallic }{halter top|wrap dress}{|,panties {around one leg|aside}},{0-$$,$${platform shoes|platform boots|heels}|{|wide }belt|{1-$$,$$hoop earrings|pendant|bracelet|sunglasses}}
+      {|sequined |metallic }{halter top|wrap dress}{|,panties {around one leg|aside}},{0-$$,$${platform shoes|platform boots|heels}|{|wide }belt|{1-$$,$$hoop earrings|pendant|bracelet|{5::|1::sunglasses}}}
     doctor: >-
-      doctor,lab coat,{0-$$,$${1-$$,$${1-$$,$$skirt|panties {around one leg|aside}},heels}|{1-$$,$${10::|1::{|light blue |white }surgical mask}|glasses|lanyard|stethoscope on neck}}
+      doctor,lab coat,{0-$$,$${1-$$,$${1-$$,$$skirt|panties {around one leg|aside}},heels}|{1-$$,$${10::|1::{|light blue |white }surgical mask}|{5::|1::glasses}|lanyard|stethoscope on neck}}
     dress: >-
       {|black |red |white }{cocktail |halter |high slit |pencil |tube }dress{|,panties {around one leg|aside}},
       {0-$$,$${|lace }{|elbow }gloves|heels|{1-$$,$${{|sun }hat|tiara|veil}|earrings|{ascot|brooch|locket|pendant|scarf|shawl}|{|badge|corsage}}}
@@ -161,7 +161,7 @@ pussy:
     nurse: >-
       nurse,{lab coat|scrub suit},{0-$$,$${1-$$,$$skirt|panties {around one leg|aside}}|sandals|{1-$$,$$lanyard|nurse cap}}
     office_lady: >-
-      office lady,{0-$$,$${blazer jacket|shirt|office-lady suit|cardigan}|{1-$$,$$pencil skirt|panties {around one leg|aside}}|{pumps|heels}|{1-$$,$$glasses|lanyard}}
+      office lady,{0-$$,$${blazer jacket|shirt|office-lady suit|cardigan}|{1-$$,$$pencil skirt|panties {around one leg|aside}}|{pumps|heels}|{1-$$,$${5::|1::glasses}|lanyard}}
     pirate: >-
       pirate hat,open coat{|,panties {around one leg|aside}},boots,{0-$$,$${pistol|sword} on waist|eye patch|sash}
     police: >-
@@ -186,7 +186,7 @@ pussy:
       school uniform,
       {shirt,{{|loose }necktie|bowtie},{short sleeves|long sleeves{|,sleeves pushed up|sleeves rolled up}}|blazer jacket,shirt,{{|loose }necktie|bowtie}|sailor collar,neckerchief,{short sleeves|long sleeves{|,sleeves pushed up|sleeves rolled up}}|sailor collar,neckerchief,cardigan},
       {1-$$,$${long|short} pleated skirt|panties {around one leg|aside}},
-      {0-$$,$${{|black |white }kneehighs|ankle socks|loose socks|socks},{loafers|mary janes|sneakers|uwabaki}|{1-$$,$$glasses|name tag}}
+      {0-$$,$${{|black |white }kneehighs|ankle socks|loose socks|socks},{loafers|mary janes|sneakers|uwabaki}|{1-$$,$${5::|1::glasses}|name tag}}
     shady: >-
       {|thief,}dagger on waist,sash on waist,{1-$$,$${|black |purple |deep red }{long sleeves|short sleeves|sleeveless} shirt|{|black |purple |deep red }{cape|cloak|tunic}}{|,panties {around one leg|aside}},{0-$$,$$gloves|boots|scarf}
     soldier: >-
@@ -206,7 +206,7 @@ pussy:
       {0-$$,$${flip-flops|sandals}|{1-$$,$${necklace|pendant}|anklet|bracelet|earrings|open jacket{|,hood up}|{{|sun |straw }hat|flower ornament|{sunglasses|goggles} on head}}}
     teacher: >-
       teacher,{formal jacket|shirt|vest},{1-$$,$$pencil skirt|panties {around one leg|aside}},
-      {0-$$,$${heels|pumps|sandals|shoes}|{1-$$,$$glasses|lanyard|necktie}}
+      {0-$$,$${heels|pumps|sandals|shoes}|{1-$$,$${5::|1::glasses}|lanyard|necktie}}
     travel_attendant: >-
       travel attendant,{|pencil }skirt{|,panties {around one leg|aside}},
       {0-$$,$${heels|pumps}|white {|elbow }gloves|{1-$$,$${|blue |green |orange |red |white |yellow }neckerchief|lanyard|sash on waist|badge|hat|name tag|corsage}}
@@ -232,4 +232,4 @@ pussy:
       witch hat,{|black |blue |green |purple |red }{cocktail|evening|long} dress{|,long sleeves|,off-shoulder|,puffy {|long |short }sleeves|,short sleeves|,sleeveless}{|,panties {around one leg|aside}},
       {0-$$,$${2::{|thighhighs,}{ankle|knee} boots|1::thigh boots}|{1-$$,$${|elbow }gloves|choker|hoop earrings|pentagram charm}}
     y2k: >-
-      {|low-rise }mini skirt{|,panties {around one leg|aside}},{|crop }top,{0-$$,$$platform {boots|sneakers|sandals}|{|butterfly |heart }hair clip|{|tinted }sunglasses|{1-$$,$$choker|pendant|bracelet|belly chain|tube top}}
+      {|low-rise }mini skirt{|,panties {around one leg|aside}},{|crop }top,{0-$$,$$platform {boots|sneakers|sandals}|{|butterfly |heart }hair clip|{5::|1::{|tinted }sunglasses}|{1-$$,$$choker|pendant|bracelet|belly chain|tube top}}

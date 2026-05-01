@@ -43,7 +43,7 @@ barefoot:
     athleisure: >-
       {sports bra|crop top|athletic top},{|high-waist }{bike shorts|jogger pants},{0-$$,$${|zip-up }hoodie|{1-$$,$$scrunchie|cap|headband|wristband}}
     barbiecore: >-
-      {|hot |bubblegum }pink {|mini }{dress|skirt,shirt},{0-$$,$${|pink }sunglasses|{1-$$,$$bracelet|earrings|hair ribbon|tiara}}
+      {|hot |bubblegum }pink {|mini }{dress|skirt,shirt},{0-$$,$${5::|1::{|pink }sunglasses}|{1-$$,$$bracelet|earrings|hair ribbon|tiara}}
     barista: >-
       barista,apron,{|t-}shirt,sleeves rolled up,{bow|neck}tie,{0-$$,$${{|skinny }jeans|pants}|cap}
     bartender: >-
@@ -86,9 +86,9 @@ barefoot:
     detective: >-
       detective,trench coat,{0-$$,$${capelet|vest}|{1-$$,$$gloves|hat|pen in pocket}}
     disco: >-
-      {|sequined |metallic }{halter top|wrap dress},{|bell-bottom |flared }pants,{0-$$,$${|wide }belt|{1-$$,$$hoop earrings|pendant|bracelet|sunglasses}}
+      {|sequined |metallic }{halter top|wrap dress},{|bell-bottom |flared }pants,{0-$$,$${|wide }belt|{1-$$,$$hoop earrings|pendant|bracelet|{5::|1::sunglasses}}}
     doctor: >-
-      doctor,lab coat,{0-$$,$$skirt|{1-$$,$${10::|1::{|light blue |white }surgical mask}|glasses|lanyard|stethoscope on neck}}
+      doctor,lab coat,{0-$$,$$skirt|{1-$$,$${10::|1::{|light blue |white }surgical mask}|{5::|1::glasses}|lanyard|stethoscope on neck}}
     dress: >-
       {|black |red |white }{cocktail |halter |high slit |pencil |tube }dress,
       {0-$$,$${|lace }{|elbow }gloves|{1-$$,$${{|sun }hat|tiara|veil}|earrings|{ascot|brooch|locket|pendant|scarf|shawl}|{|badge|corsage}}}
@@ -149,7 +149,7 @@ barefoot:
     nurse: >-
       nurse,{lab coat|scrub suit},{0-$$,$$skirt|{1-$$,$$lanyard|nurse cap}}
     office_lady: >-
-      office lady,{0-$$,$${blazer jacket|shirt|office-lady suit|cardigan}|pencil skirt|{1-$$,$$glasses|lanyard}}
+      office lady,{0-$$,$${blazer jacket|shirt|office-lady suit|cardigan}|pencil skirt|{1-$$,$${5::|1::glasses}|lanyard}}
     pirate: >-
       pirate hat,open coat,{0-$$,$${pistol|sword} on waist|eye patch|sash}
     police: >-
@@ -171,7 +171,7 @@ barefoot:
     school: >-
       school uniform,
       {shirt,{{|loose }necktie|bowtie},{short sleeves|long sleeves{|,sleeves pushed up|sleeves rolled up}}|blazer jacket,shirt,{{|loose }necktie|bowtie}|sailor collar,neckerchief,{short sleeves|long sleeves{|,sleeves pushed up|sleeves rolled up}}|sailor collar,neckerchief,cardigan},
-      {long|short} pleated skirt,{0-$$,$$glasses|name tag}
+      {long|short} pleated skirt,{0-$$,$${5::|1::glasses}|name tag}
     shady: >-
       {|thief,}dagger on waist,sash on waist,{1-$$,$${|black |purple |deep red }{long sleeves|short sleeves|sleeveless} shirt|{|black |purple |deep red }{cape|cloak|tunic}},{0-$$,$$gloves|scarf}
     soldier: >-
@@ -190,7 +190,7 @@ barefoot:
       {one-piece swimsuit|{|competition |old |new }school swimsuit|{front-tie|side-tie} bikini|backless swimsuit|bikini shorts,swimsuit|competition swimsuit|cross halter neck bikini|dress swimsuit|front zipper swimsuit|micro bikini|monokini|o-ring bikini|o-ring swimsuit|sailor bikini|sarong bikini|side-tie swimsuit|slingshot bikini|slingshot swimsuit|sports bikini|strapless bikini|string bikini|swim briefs,swimsuit|swimsuit|swimsuit skirt,swimsuit|tankini},
       {0-$$,$${1-$$,$${necklace|pendant}|anklet|bracelet|earrings|open jacket{|,hood up}|{{|sun |straw }hat|flower ornament|{sunglasses|goggles} on head}}}
     teacher: >-
-      teacher,{formal jacket|shirt|vest},pencil skirt,{0-$$,$$glasses|lanyard|necktie}
+      teacher,{formal jacket|shirt|vest},pencil skirt,{0-$$,$${5::|1::glasses}|lanyard|necktie}
     travel_attendant: >-
       travel attendant,{|pencil }skirt,{0-$$,$$white {|elbow }gloves|{1-$$,$${|blue |green |orange |red |white |yellow }neckerchief|lanyard|sash on waist|badge|hat|name tag|corsage}}
     vampire: >-
@@ -216,7 +216,7 @@ barefoot:
       {0-$$,$${|elbow }gloves|choker|hoop earrings|pentagram charm}
     y2k: >-
       {|low-rise }{mini skirt|cargo pants|flared pants},{|crop }top,
-      {0-$$,$${|butterfly |heart }hair clip|{|tinted }sunglasses|{1-$$,$$choker|pendant|bracelet|belly chain|tube top}}
+      {0-$$,$${|butterfly |heart }hair clip|{5::|1::{|tinted }sunglasses}|{1-$$,$$choker|pendant|bracelet|belly chain|tube top}}
   negative: >-
     (footjob:1.2),
     (six toes:1.5),(extra toes:1.5),fewer toes,missing toes,bad feet,mutated feet,

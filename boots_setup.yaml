@@ -41,9 +41,9 @@ boots_setups:
   bakery: >-
     {black|brown} __boots_maker/ankle_boots__,{white|light brown} knit sweater,{beige|navy} wide pants{|,necklace}
   bookstore: >-
-    {black|brown} __boots_maker/knee_boots__,{grey|white} long coat,{black|white} turtleneck sweater,{black|grey} skinny pants,pants tucked in{3::|1::,round glasses}
+    {black|brown} __boots_maker/knee_boots__,{grey|white} long coat,{black|white} turtleneck sweater,{black|grey} skinny pants,pants tucked in{5::|1::,round glasses}
   cafe: >-
-    {brown|black} __boots_maker/ankle_boots__,{beige|brown|white} cardigan,{white|black} shirt,{denim|navy} straight pants,{0-$$,$${|{|brown} glasses}|simple bracelet}
+    {brown|black} __boots_maker/ankle_boots__,{beige|brown|white} cardigan,{white|black} shirt,{denim|navy} straight pants,{0-$$,$${5::|1::{|brown} glasses}|simple bracelet}
   campus: >-
     {black|brown} __boots_maker/ankle_boots__,{grey|navy|white} hoodie,denim shorts,{black|white} thighhigh socks
   illumination: >-
@@ -53,13 +53,13 @@ boots_setups:
   riverbed: >-
     {brown|white} __boots_maker/ankle_boots__,{white|light pink} loose shirt,{beige|denim} shorts,{0-$$,$${white|pink} hat|bracelet}
   snap: >-
-    {black|white} {__boots_maker/ankle_boots__|__boots_maker/knee_boots__|__boots_maker/thigh_boots__},{black|grey} cropped jacket,{black|white|red} miniskirt,black pantyhose,{0-$$,$${|black sunglasses}|choker}
+    {black|white} {__boots_maker/ankle_boots__|__boots_maker/knee_boots__|__boots_maker/thigh_boots__},{black|grey} cropped jacket,{black|white|red} miniskirt,black pantyhose,{0-$$,$${5::|1::black sunglasses}|choker}
   all_night: >-
     {black|red} __boots_maker/ankle_boots__,{black|red|white} cropped top,{black|red} miniskirt,{black|brown} pantyhose,{0-$$,$$necklace|bracelet}
   cherry_blossom: >-
     {white|pink} __boots_maker/knee_boots__,{white|pink} cardigan,white pleated skirt{|,white pantyhose}{|,white hair ribbon}
   library: >-
-    {brown|black} __boots_maker/ankle_boots__,{beige|brown} knit sweater,{black|navy} long skirt{3::|1::,brown glasses}
+    {brown|black} __boots_maker/ankle_boots__,{beige|brown} knit sweater,{black|navy} long skirt{5::|1::,brown glasses}
   picnic: >-
     {brown|white} __boots_maker/ankle_boots__,{beige|light green} cardigan,{white|light yellow} blouse,{beige|denim} wide pants{|,straw hat}{|,simple bracelet}
   hospital_visit: >-
@@ -83,7 +83,7 @@ boots_setups:
   flea_market: >-
     {brown|tan} {__boots_maker/ankle_boots__|__boots_maker/knee_boots__},{olive|mustard} oversized jacket,{white|cream} loose shirt,{beige|black} wide pants{|,belt}
   vintage_shop: >-
-    {brown|tan} {__boots_maker/ankle_boots__|__boots_maker/knee_boots__},{olive|burgundy} {long coat|oversized cardigan},{white|cream} shirt,{brown|black} {corduroy|straight} pants{|,belt}{3::|1::,round glasses}
+    {brown|tan} {__boots_maker/ankle_boots__|__boots_maker/knee_boots__},{olive|burgundy} {long coat|oversized cardigan},{white|cream} shirt,{brown|black} {corduroy|straight} pants{|,belt}{5::|1::,round glasses}
   garden_party: >-
     {white|nude} {__boots_maker/ankle_boots__|__boots_maker/knee_boots__},{white|floral} midi dress,{0-$$,$$flower hair clip|pearl bracelet|sun hat}
   sunday_brunch: >-
