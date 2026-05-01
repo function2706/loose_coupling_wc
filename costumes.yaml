@@ -12,20 +12,20 @@ tailor:
     random: >-
       {__tailor/tops/outer__|__tailor/tops/inner__{8::|1::,cape}|__tailor/tops/outer__,__tailor/tops/inner__}
     outer: >-
-      {|open }{{6::{|hooded |blazer |down |jean |leather |suit }jacket|1::cardigan}|{{|duffel |hooded |trench }coat}}
+      {|open }{{6::{|hooded |blazer |down |denim |leather |suit |tied }jacket|1::cardigan}|{{|duffel |hooded |long |trench }coat}}
     inner: >-
-      {1::camisole|1::{|{off|single}-shoulder }sweater|1::blouse|3::{{polo |turtleneck }shirt|{|{off|single}-shoulder |turtleneck }t-shirt|tunic}{8::|1::,vest}}{|,long sleeves|,short sleeves|,sleeves {pushed|rolled} up}
+      {1::camisole|1::{|{off|single}-shoulder }sweater|1::blouse|3::{{polo |turtleneck |side-tie }shirt|{|{off|single}-shoulder |turtleneck }t-shirt|tunic}{8::|1::,vest}}{|,long sleeves|,short sleeves|,sleeves {pushed|rolled} up}
   bottoms: >-
-    {{4::|3::denim |1::bell-bottom,}pants|{3::|1::bike |1::dolphin |2::denim }shorts|{|short |long |layered |pencil |pleated }skirt}
+    {{1::bell-bottoms|1::jeans|3::{|cargo |tight }pants}|{3::|1::bike |1::cargo |1::dolphin |2::denim }shorts|{|bubble |circle |hoop |short |side-tie |long |layered |pencil |pleated }skirt}
   unis: >-
-    {8::{|long |short }{|casual |cocktail |evening |halter |pencil |pinafore |sun}dress|1::tuxedo}
+    {10::{|long |short }{|casual |cocktail |evening |halter |pencil |pinafore |sailor |sun|tube }dress|1::tuxedo|1::overall{s| skirt}|1::suspender {pants|shorts|skirt}}
   footwear:
     random: >-
       {3::__tailor/footwear/boots__|2::__tailor/footwear/heels__|1::__tailor/footwear/sandals__|3::__tailor/footwear/shoes__}
     boots: >-
       {__boots_maker/ankle_boots__{|,socks|,kneehighs|,thighhighs|,{4::|1::fishnet }pantyhose}|__boots_maker/knee_boots__{|,thighhighs|,{4::|1::fishnet }pantyhose}|__boots_maker/thigh_boots__{|,{4::|1::fishnet }pantyhose}}
     heels: >-
-      {|platform |stiletto |strappy }heels{|,{4::|1::fishnet }pantyhose}
+      {{|platform |stiletto |strappy |wedge }heels|pumps}{|,{4::|1::fishnet }pantyhose}
     sandals: >-
       {2::{|wedge }sandals|1::flip-flops}
     shoes: >-
@@ -34,7 +34,7 @@ tailor:
     random: >-
       {0-$$,$$__tailor/accessories/head__|__tailor/accessories/face__|__tailor/accessories/neck__|__tailor/accessories/gloves__|__tailor/accessories/one_point__}
     head: >-
-      {hat|cap|hair{pin| ornament| ribbon| scrunchie}}
+      {6::{|boater |bowler |bucket |cabbie |sun }hat|3::{|flat |peaked }cap|fedora|hairband|bandana|beanie|beret|hair{pin| ornament| ribbon| scrunchie}}
     face: >-
       {1-$$,$$earrings|{|sun}glasses{| on head}}
     neck: >-
@@ -42,7 +42,7 @@ tailor:
     gloves: >-
       {8::|1::gloves}
     one_point: >-
-      {badge|corsage}
+      {badge|corsage|sash on waist}
 costumes:
   angel: >-
     angel,cosplay,white dress,yellow halo,white feather wings,{0-$$,$$sandals|{1-$$,$$anklet|bracelet|earrings|pendant}}
