@@ -82,7 +82,7 @@ barefoot:
     decora: >-
       decora,{|pastel |colorful |printed }{dress|skirt,top},{0-$$,$$hair clip|bracelet|earrings|pins}
     demon: >-
-      demon,cosplay,{black |deep red |deep purple }dress,demon horns,bat wings,{0-$$,$$short skirt|demon tail|{1-$$,$$bracelet|choker|earrings|pendant}}
+      demon,cosplay,{black |dark red |dark purple }dress,demon horns,bat wings,{0-$$,$$short skirt|demon tail|{1-$$,$$bracelet|choker|earrings|pendant}}
     detective: >-
       detective,trench coat,{0-$$,$${capelet|vest}|{1-$$,$$gloves|hat|pen in pocket}}
     disco: >-
@@ -157,7 +157,7 @@ barefoot:
     priest: >-
       priest,{{cassock|surplice}|{|black |blue |white }wimple},{0-$$,$${|elbow }gloves|{1-$$,$${|cross }pendant|mitre|rosary}}
     prince: >-
-      {deep green|white|wine red} jacket,epaulettes,pants,{0-$$,$$aiguillette|ascot|gloves}
+      {dark green|white|wine red} jacket,epaulettes,pants,{0-$$,$$aiguillette|ascot|gloves}
     princess: >-
       princess,tiara,{|frilled |fur trimmed |lace trimmed }{dress|gown}{|,{layered|long|short} skirt},{|puffy }{long sleeves{|,gloves}|short sleeves{|,elbow gloves}}
     punk: >-
@@ -173,7 +173,7 @@ barefoot:
       {shirt,{{|loose }necktie|bowtie},{short sleeves|long sleeves{|,sleeves pushed up|sleeves rolled up}}|blazer jacket,shirt,{{|loose }necktie|bowtie}|sailor collar,neckerchief,{short sleeves|long sleeves{|,sleeves pushed up|sleeves rolled up}}|sailor collar,neckerchief,cardigan},
       {long|short} pleated skirt,{0-$$,$${5::|1::glasses}|name tag}
     shady: >-
-      {|thief,}dagger on waist,sash on waist,{1-$$,$${|black |purple |deep red }{long sleeves|short sleeves|sleeveless} shirt|{|black |purple |deep red }{cape|cloak|tunic}},{0-$$,$$gloves|scarf}
+      {|thief,}dagger on waist,sash on waist,{1-$$,$${|black |purple |dark red }{long sleeves|short sleeves|sleeveless} shirt|{|black |purple |dark red }{cape|cloak|tunic}},{0-$$,$$gloves|scarf}
     soldier: >-
       military uniform,{||brown |green }fatigues{|,camouflage uniform},pants,{0-$$,$${garrison cap|helmet}|name tag}
     sports: >-
@@ -194,7 +194,7 @@ barefoot:
     travel_attendant: >-
       travel attendant,{|pencil }skirt,{0-$$,$$white {|elbow }gloves|{1-$$,$${|blue |green |orange |red |white |yellow }neckerchief|lanyard|sash on waist|badge|hat|name tag|corsage}}
     vampire: >-
-      vampire,cosplay,{|deep red |black |dark }{{cape|cloak},{|gothic }{|lace |ruffled }{dress|gown}{|,{|lace }{|elbow }gloves}|formal clothes,pants{|,gloves}},
+      vampire,cosplay,{|dark red |black |dark }{{cape|cloak},{|gothic }{|lace |ruffled }{dress|gown}{|,{|lace }{|elbow }gloves}|formal clothes,pants{|,gloves}},
       {0-$$,$$choker|pendant|earrings|brooch|fangs}
     victorian: >-
       {|black |white }{|elaborate }victorian dress,{|puffed |leg-of-mutton }sleeves,{|ruffled }skirt,

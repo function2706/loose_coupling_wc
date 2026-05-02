@@ -7,21 +7,21 @@ subjects:
     human-girl-1:
       - girl,brown hair,short hair,asymmetrical bangs,brown eyes,tsurime,tan skin,small breasts
     human-girl-2:
-      - girl,black hair,hime cut,black eyes,tsurime,fair skin,tall,skinny,medium breasts
+      - girl,black hair,hime cut,dark brown eyes,tsurime,fair skin,tall,skinny,medium breasts
     human-girl-3:
       - girl,silver hair,short bob,straight bangs,light blue eyes,pale skin,slim,short,flat chest,female child
     cat-girl:
       - cat girl,blonde hair,medium hair,blunt bangs,ponytail,sidelocks,blue eyes,slit pupils,tsurime,cat ears,whiskers,fangs,golden furs,medium breasts,slim{|,[cat tail]}
     fox-girl:
-      - fox girl,white hair,medium hair,fluffy bangs,amber eyes,slit pupils,fox ears,whiskers,slim,medium breasts{|,[fox tail]}
+      - fox girl,white hair,medium hair,fluffy bangs,yellow eyes,slit pupils,fox ears,whiskers,slim,medium breasts{|,[fox tail]}
     mouse-girl:
-      - mouse girl,grey hair,medium hair,swept bangs,deep red eyes,mouse ears,whiskers,slim,small breasts,short{|,[mouse tail]}
+      - mouse girl,grey hair,medium hair,swept bangs,dark red eyes,mouse ears,whiskers,slim,small breasts,short{|,[mouse tail]}
     rabbit-girl:
       - rabbit girl,white hair,medium hair,curly bangs,ponytail,red eyes,tareme,rabbit ears,whiskers,[short],medium breasts{|,[rabbit tail]}
     sheep-girl:
       - sheep girl,white hair,long hair,curly hair,long bangs,red eyes,horizontal pupils,tareme,animal ears,sheep horns,(white fur:1.2)
     wolf-girl:
-      - wolf girl,grey hair,short hair,hair between eyes,golden eyes,animal ears,whiskers,fangs,medium breasts,tall,slim{|,[wolf tail]}
+      - wolf girl,grey hair,short hair,hair between eyes,yellow eyes,animal ears,whiskers,fangs,medium breasts,tall,slim{|,[wolf tail]}
     angel-girl:
       - angel girl,golden hair,long hair,wavy hair,curly bangs,light blue eyes,tareme,fair skin,wings,halo,large breasts
     dark-elf-girl:
@@ -29,19 +29,19 @@ subjects:
     demon-girl:
       - demon girl,crimson hair,long hair,loose waves,side bangs,red eyes,tsurime,demon horns,dark skin,tall,large breasts,dark horns,bat wings
     elf-girl-1:
-      - elf girl,silver hair,long hair,braided bangs,pointy ears,emerald eyes,fair skin,slim,tall,medium breasts
+      - elf girl,silver hair,long hair,braided bangs,pointy ears,green eyes,fair skin,slim,tall,medium breasts
     elf-girl-2:
-      - elf girl,blonde hair,medium hair,braided strands,emerald eyes,tsurime,fair skin,pointy ears,tall,medium breasts
+      - elf girl,blonde hair,medium hair,braided strands,green eyes,tsurime,fair skin,pointy ears,tall,medium breasts
     fallen-angel-girl:
-      - fallen angel girl,white hair,long hair,messy hair,hair between eyes,deep blue eyes,dark skin,halo,black wings,large breasts
+      - fallen angel girl,white hair,long hair,messy hair,hair between eyes,dark blue eyes,dark skin,halo,black wings,large breasts
     goddess-girl:
-      - goddess girl,mature female,blonde hair,long hair,parted bangs,long sidelocks,gold eyes,tareme,fair skin,halo,tall,large breasts
+      - goddess girl,mature female,blonde hair,long hair,parted bangs,long sidelocks,yellow eyes,tareme,fair skin,halo,tall,large breasts
     succubus-girl:
-      - succubus,magenta hair,long hair,straight hair,medium bangs,violet eyes,tsurime,pale skin,horns,large breasts{|,[demon tail]}
+      - succubus,magenta hair,long hair,straight hair,medium bangs,purple eyes,tsurime,pale skin,horns,large breasts{|,[demon tail]}
     vampire-girl:
-      - vampire girl,black hair,long hair,blunt bangs,crimson eyes,tsurime,slit pupils,pale skin,[fangs],slim,medium breasts
+      - vampire girl,black hair,long hair,blunt bangs,red eyes,tsurime,slit pupils,pale skin,[fangs],slim,medium breasts
     devil-girl:
-      - devil girl,white hair,very short hair,wavy hair,swept bangs,side single braid,yellow eye,black horns,black bat wings,dark skin,small breasts{|,[demon tail]}
+      - devil girl,white hair,very short hair,wavy hair,swept bangs,side single braid,yellow eyes,black horns,black bat wings,dark skin,small breasts{|,[demon tail]}
   copyrights:
     arknights:
       - absinthe \(arknights\)
@@ -3051,7 +3051,7 @@ subjects:
         - blonde
         - blue
         - brown
-        - deep blue
+        - dark blue
         - grey
         - green
         - light brown
@@ -3068,22 +3068,17 @@ subjects:
         make:
           - "{20::__subjects/profiles/eye/color/normal__|1::__subjects/profiles/eye/color/heterochromia__}"
         normal:
-          - __subjects/profiles/eye/color/list__
+          - __subjects/profiles/eye/color/list__s
         heterochromia:
           - heterochromia,{2$$,$$__subjects/profiles/eye/color/list__}
         list:
-          - aqua eye
-          - black eye
-          - blue eye
-          - brown eye
-          - grey eye
-          - green eye
-          - hazel eye
-          - orange eye
-          - pink eye
-          - purple eye
-          - red eye
-          - yellow eye
+          - "{|dark |light }blue eye"
+          - "{|dark |light }brown eye"
+          - "{|dark |light }grey eye"
+          - "{|dark |light }green eye"
+          - "{|dark |light }purple eye"
+          - "{|dark |light }red eye"
+          - "{|dark |light }yellow eye"
     skin:
       human:
         - "{dark|fair|pale|{|tanlines,}tanned} skin"

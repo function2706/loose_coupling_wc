@@ -56,7 +56,7 @@ footwear:
     cottage_core: >-
       {|ankle }boots,{|floral |linen }{|prairie }dress,{|puff }sleeves,{|floral |lace }apron,{0-$$,$${|straw }hat|{1-$$,$$hair ribbon|floral hairpin|cardigan}}
     demon: >-
-      {{|fishnet pantyhose,|pantyhose,|thighhighs,}knee boots|thigh boots,short skirt},demon,cosplay,{black |deep red |deep purple }dress,demon horns,bat wings,
+      {{|fishnet pantyhose,|pantyhose,|thighhighs,}knee boots|thigh boots,short skirt},demon,cosplay,{black |dark red |dark purple }dress,demon horns,bat wings,
       {0-$$,$$demon tail|{1-$$,$$bracelet|choker|earrings|pendant}}
     disco: >-
       {{|platform }boots|heels},{|sequined |metallic }{halter top|wrap dress},{|bell-bottom |flared }pants,{0-$$,$${|wide }belt|{1-$$,$$hoop earrings|pendant|bracelet|{5::|1::sunglasses}}}
@@ -124,7 +124,7 @@ footwear:
     santa: >-
       fur {|ankle |knee |thigh }boots,{black|red} santa costume,{0-$$,$${black|brown|white} pantyhose|{1-$$,$${|elbow }gloves|hat}}
     shady: >-
-      boots,{|thief,}dagger on waist,sash on waist,{1-$$,$${|black |purple |deep red }{long sleeves|short sleeves|sleeveless} shirt|{|black |purple |deep red }{cape|cloak|tunic}},{0-$$,$$gloves|scarf}
+      boots,{|thief,}dagger on waist,sash on waist,{1-$$,$${|black |purple |dark red }{long sleeves|short sleeves|sleeveless} shirt|{|black |purple |dark red }{cape|cloak|tunic}},{0-$$,$$gloves|scarf}
     soldier: >-
       combat boots,military uniform,{||brown |green }fatigues{|,camouflage uniform},pants,{0-$$,$${garrison cap|helmet}|name tag}
     succubus: >-
@@ -136,7 +136,7 @@ footwear:
     travel_attendant: >-
       heels,travel attendant,{|pencil }skirt,{0-$$,$$pantyhose|white {|elbow }gloves|{1-$$,$${|blue |green |orange |red |white |yellow }neckerchief|lanyard|sash on waist|badge|hat|name tag|corsage}}
     vampire: >-
-      boots{|,stiletto heels},vampire,cosplay,{|deep red |black |dark }{cape|cloak},{|gothic }{|lace |ruffled }{dress|gown}{|,{|lace }{|elbow }gloves},
+      boots{|,stiletto heels},vampire,cosplay,{|dark red |black |dark }{cape|cloak},{|gothic }{|lace |ruffled }{dress|gown}{|,{|lace }{|elbow }gloves},
       {0-$$,$$choker|pendant|earrings|brooch|fangs}
     victorian: >-
       {1-$$,$$cross-laced |stiletto }{ankle|knee} boots,{|black |white }{|elaborate }victorian dress,{|puffed |leg-of-mutton }sleeves,{|ruffled }skirt,
