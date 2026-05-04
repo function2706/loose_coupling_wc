@@ -19,7 +19,7 @@ footwear:
   core: >-
     __footwear/expressions__,
     __footwear/poses__,
-    (footwear focus),(outsoles),from below,looking at viewer
+    (foot focus),(shoe soles),from below,looking at viewer
   expressions:
     - expressionless
     - light smile

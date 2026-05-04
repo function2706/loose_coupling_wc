@@ -18,16 +18,16 @@ socks:
       - __socks/not_below/make__,__socks/equipments/*__,__SUBJECT_HERE__,__bp_solo_q____NEG...____socks/negative__
   below:
     make: >-
-      five toes,(foot focus),from below,pov,{0-$$,$$toes|soles},
+      five toes,(foot focus),from below,pov,{0-$$,$$toes|soles},{8::|1::,smell},
       __socks/expressions__,
       __socks/below/poses__
     poses:
-      - standing on one leg,{hand on hip|crossed arms}
-      - sitting on chair,{|crossed legs},{|head rest}
+      - standing on one leg{|,hand on hip}
+      - sitting on chair,{|crossed legs}{|,head rest}
   not_below:
     make: >-
       (foot focus),__socks/expressions__,(looking at viewer),full body,
-      five toes,{0-$$,$$toes|soles},
+      five toes,{0-$$,$$toes|soles}{8::|1::,smell},
       __socks/not_below/poses__
     poses:
       - sitting,legs together,feet together,extending legs,stretched legs out,arms behind back,
@@ -173,8 +173,7 @@ socks:
     y2k: >-
       {|striped |polka dot }{|frilled }{socks|ankle socks|kneehighs|thighhighs},__barefoot/equipments/y2k__
   negative: >-
-    (barefoot:1.5),(footjob:1.2),(leggings:1.2),
-    (six toes:1.5),(extra toes:1.5),fewer toes,missing toes,bad feet,mutated feet,
+    (barefoot:1.5),(baretoes:1.5),(six toes:1.5),(extra toes:1.5),fewer toes,missing toes,bad feet,mutated feet,(footjob:1.2),
     (extra feet:1.2),(missing foot),(bad leg),(extra legs:1.2),(missing leg),
     (extra digits),fewer digits,missing digits,bad hands,mutated hands,
     extra hands,missing hand,bad arm,extra arms,missing arm,

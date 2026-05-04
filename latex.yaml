@@ -14,8 +14,8 @@ latex:
     - smirk{|,closed mouth}
     - smug
   poses:
-    - standing{| on one leg}{|,hand on hip}{|,outsoles}
-    - sitting on chair{|,crossed legs{|,outsoles}|knee up}{|,head rest}
+    - standing{| on one leg}{|,hand on hip}{|,shoe soles}
+    - sitting on chair{|,crossed legs{|,shoe soles}|knee up}{|,head rest}
   equipments:
     black: >-
       black {latex thigh boots|latex knee boots{|,garter belt|,{|fishnet }thighhighs}|{|stiletto }heels{|,garter belt|,{|fishnet }thighhighs}},

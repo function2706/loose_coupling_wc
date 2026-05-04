@@ -5,7 +5,7 @@ giantess:
         - __giantess/barefoot/on_boy/casual__
         - __giantess/barefoot/on_boy/cosplay__
       core: >-
-        giantess,(stepped on boy),(trample boy),five toes,foot focus,from below{|,foreshortening},barefoot,{0-$$,$$toes|soles|toenails}{7::|1::,spread toes},
+        giantess,(stepped on boy),(trample boy),five toes,foot focus,from below{|,foreshortening},barefoot,{0-$$,$$toes|soles|toenails},
         (__giantess/expressions__),(looking at boy),
         __trample/poses__,
         __giantess/object/boy__
@@ -23,7 +23,7 @@ giantess:
         __NEG...__
         __giantess/barefoot/on_boy/negative__
       negative: >-
-        (footjob:1.2),(multiple girls:1.2),(multiple boys:1.2),(mini girl:1.2),face out of frame,hip focus,
+        (footjob:1.2),(multiple girls:1.2),(multiple boys:1.2),(mini girl:1.2),(face out of frame:1.2),
         __giantess/barefoot/negative__
     on_city:
       random:
@@ -68,10 +68,10 @@ giantess:
         - __giantess/footwear/on_boy/cosplay__
       core: >-
         (girl's face:1.2),
-        (giantess),(stepped on boy),(trample boy){|,outsoles},(from below:1.2),(foreshortening:1.2),
+        (giantess),(stepped on boy),(trample boy){|,shoe soles},(from below:1.2),(foreshortening:1.2),
         __giantess/expressions__,looking at boy,
         __trample/poses__,
-        __giantess/object/boy__,
+        __giantess/object/boy__
       casual: >-
         __SUBJECT_HERE__,
         __giantess/footwear/on_boy/core__,
@@ -87,7 +87,7 @@ giantess:
         __NEG...__
         __giantess/footwear/on_boy/negative__
       negative:
-        (face out of frame:1.2),(upside-down:1.2),looking back,(multiple girls:1.2),(multiple boys:1.2),(mini girl:1.2),looking at viewer,(barefoot:1.2),hip focus,
+        (face out of frame:1.2),(upside-down:1.2),looking back,(multiple girls:1.2),(multiple boys:1.2),(mini girl:1.2),looking at viewer,(barefoot:1.2),
         __giantess/footwear/negative__
     on_city:
       random:
@@ -95,7 +95,7 @@ giantess:
         - __giantess/footwear/on_city/cosplay__
       core: >-
         (__giantess/expressions__),(looking down),(full body),
-        giantess,footwear focus,from below{|,foreshortening},{|,outsoles},dirty sole,
+        giantess,foot focus,from below{|,foreshortening},{|,shoe soles},dirty sole,
         standing on one leg{|,hand on hip|,claw pose},
         __giantess/object/city__
       casual: >-

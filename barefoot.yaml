@@ -14,7 +14,7 @@ barefoot:
       - __barefoot/not_below/make__,__barefoot/equipments/*__,__SUBJECT_HERE__,__bp_solo_q____NEG...____barefoot/negative__
   below:
     make: >-
-      (five toes:1.2),(foot focus),from below,pov,barefoot,{0-$$,$$toes|soles|toenails}{7::|1::,spread toes},
+      (five toes:1.2),(foot focus),from below,pov,barefoot,{0-$$,$$toes|soles|toenails}{7::|1::,spread toes}{8::|1::,sweaty foot{|,smell}}{12::|1::,dirty foot},
       __barefoot/expressions__,looking at viewer,
       __barefoot/below/poses__
     poses:
@@ -23,7 +23,7 @@ barefoot:
   not_below:
     make: >-
       __barefoot/expressions__,(looking at viewer),full body,
-      (five toes:1.2),(foot focus),barefoot,{0-$$,$$toes|soles|toenails}{7::|1::,spread toes},
+      (five toes:1.2),(foot focus),barefoot,{0-$$,$$toes|soles|toenails}{7::|1::,spread toes}{8::|1::,sweaty foot{|,smell}}{12::|1::,dirty foot},
       __barefoot/not_below/poses__
     poses:
       - sitting,legs together,feet together,extending legs,stretched legs out,arms behind back

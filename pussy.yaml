@@ -54,7 +54,7 @@ pussy:
     bedding: >-
       {negligee|nightwear|pajamas}{|,{mob cap|nightcap}}{|,panties {around one leg|aside}}
     bikini_armor: >-
-      {|blue |gold |green |red |silver |yellow }bikini armor,{0-$$,$${|elbow }gloves|{|knee }boots}
+      {|blue |gold |green |red |silver |yellow }bikini armor,panties {around one leg|aside},{0-$$,$${|elbow }gloves|{|knee }boots}
     bodycon: >-
       {|black |red |white }{|strapless |off-shoulder }bodycon dress{|,panties {around one leg|aside}},{0-$$,$${|fishnet }thighhighs|{|stiletto |block }heels|{1-$$,$$choker|earrings|bracelet|clutch}}
     boho: >-
@@ -131,14 +131,15 @@ pussy:
       {0-$$,$${cape|cloak}|{|leather {|cuirass }}gloves|{socks,boots|knee boots}|{1-$$,$$bracer|belt|hood|binoculars on neck|knife on waist|quiver}}
     idol: >-
       {|{|light }blue |{|light }green |{|light }magenta |{|light }orange |{|light }pink |{|light }purple |{|light }red |{|light }yellow |black |white }idol clothes,
-      {crop top|frilled shirt|stage dress},puffy {|short }sleeves,{1-$$,$${long|short} {frilled|pleated} skirt},
+      {crop top|frilled shirt|stage dress},puffy {|short }sleeves,{1-$$,$${long|short} {frilled|pleated} skirt}{|,panties {around one leg|aside}},
       {0-$$,$${|elbow }gloves|{kneehighs|thighhighs}|{{ankle|knee|thigh} boots|{flat shoes|mary janes}}|{1-$$,$${hair{ ornament|pin}|{|mini }hat|headset}|{{bow|neck}tie|choker}|ribbons}}
     japan: >-
-      {1::miko,red hakama|4::{|{|light }blue |{|light }green |{|light }pink |{|light }purple |{|light }red |{|light }yellow }{furisode|jinbei|kimono|yukata}},{0-$$,$${geta|sandals|tabi}|kanzashi}
+      {1::miko,red hakama|4::{|{|light }blue |{|light }green |{|light }pink |{|light }purple |{|light }red |{|light }yellow }{furisode|jinbei|kimono|yukata}}{|,panties {around one leg|aside}},
+      {0-$$,$${geta|sandals|tabi}|kanzashi}
     jirai_kei: >-
       {|black |white }{|lace }blouse,{|black |white }{|plaid |lace }mini skirt{|,panties {around one leg|aside}},{0-$$,$$platform {boots|mary janes}|{|striped }{thighhighs|kneehighs}|{1-$$,$$choker|hair clip|bow|bandage|wristband}}
     kunoichi: >-
-      {|black |purple |red }ninja,{1-$$,$$dagger on waist|cloak|scarf|sash on waist},{0-$$,$${long sleeves|short sleeves|sleeveless}|hakama|tabi{|,sandal}}
+      {|black |purple |red }ninja,{1-$$,$$dagger on waist|cloak|scarf|sash on waist},{0-$$,$${long sleeves|short sleeves|sleeveless}|hakama{|,panties {around one leg|aside}}|tabi{|,sandal}}
     lingerie: >-
       {|black |white |red |pink }{bra,panties|babydoll,{thong|panties}|chemise}{|,panties {around one leg|aside}},
       {0-$$,$${|lace }{|elbow }gloves|{{garter belt|garter straps}|thighhighs}|{|stiletto }heels|{1-$$,$$choker|earrings|necklace|bracelet}}
@@ -150,7 +151,7 @@ pussy:
       maid,apron,
       {0-$$,$${shirt|maid dress{|,puffy sleeves}}|{1-$$,$$frilled skirt|panties {around one leg|aside}}|{|lace }{|elbow }gloves|{1::white socks|2::{black|brown|white} {garter belt|thighhighs}}|{cross-laced ankle boots|heels|mary janes}|{1-$$,$$choker|headdress|ribbon}}
     medieval_noble: >-
-      {|elaborate }medieval {|court }{gown|dress},{|puffed }{|long }sleeves,
+      {|elaborate }medieval {|court }{gown|dress},{|puffed }{|long }sleeves{|,panties {around one leg|aside}},
       {0-$$,$${|lace }{|elbow }gloves|{|pearl |jeweled }{|stiletto }heels|{|jeweled }{belt|girdle}|{|fur }{capelet|shawl}|{1-$$,$$tiara|crown|brooch|pendant|earrings|veil}}
     mori_girl: >-
       {|floral |linen |lace }{|layered }dress{|,panties {around one leg|aside}},{|knit |lace }cardigan,
@@ -203,7 +204,7 @@ pussy:
       {0-$$,$${flip-flops|sandals|sneakers,{black|white} {ankle socks|knee socks|kneehighs|thighhighs}}|{1-2$$,$${{|visor }cap|snapback}|{|straw |sun }hat{|,hat {bow|flower}}|bandana|boater|bucket hat|headpin|panama hat}}
     swimwear: >-
       {{one-piece swimsuit|{|competition |old |new }school swimsuit|{front-tie|side-tie} bikini|backless swimsuit|bikini shorts,swimsuit|competition swimsuit|cross halter neck bikini|dress swimsuit|front zipper swimsuit|micro bikini|monokini|o-ring bikini|o-ring swimsuit|sailor bikini|sarong bikini|side-tie swimsuit|slingshot bikini|slingshot swimsuit|sports bikini|strapless bikini|string bikini|swim briefs,swimsuit|swimsuit|swimsuit skirt,swimsuit|tankini}},
-      {0-$$,$${flip-flops|sandals}|{1-$$,$${necklace|pendant}|anklet|bracelet|earrings|open jacket{|,hood up}|{{|sun |straw }hat|flower ornament|{sunglasses|goggles} on head}}}
+      {|swimwear {around one leg|aside},}{0-$$,$${flip-flops|sandals}|{1-$$,$${necklace|pendant}|anklet|bracelet|earrings|open jacket{|,hood up}|{{|sun |straw }hat|flower ornament|{sunglasses|goggles} on head}}}
     teacher: >-
       teacher,{formal jacket|shirt|vest},{1-$$,$$pencil skirt|panties {around one leg|aside}},
       {0-$$,$${heels|pumps|sandals|shoes}|{1-$$,$${5::|1::glasses}|lanyard|necktie}}

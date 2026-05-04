@@ -5,10 +5,10 @@ grabbing_chin:
   standing:
     random: >-
       __SUBJECT_HERE__,
+      <lora:grabbing_chin_standing_v2:0.6:0.6>,
       femdom,hetero,(grabbing boy's chin:1.2),(height difference:1.2),standing,
       __grabbing_chin/core__,
-      __bp_pair_q__,
-      <lora:grabbing_chin_standing>
+      __bp_pair_q__
       __NEG...__
       __grabbing_chin/standing/negative__
     negative: >-
@@ -36,7 +36,7 @@ grabbing_chin:
     - naughty face
     - smirk{|,closed mouth}
   negative: >-
-    (amputee),(bad anatomy),(extra limbs),(missing limb),multiple heads,shaded face,
+    (amputee),(bad anatomy),(extra limbs),(missing limb),multiple heads,shaded face,bar censored,censored,
     worst quality,low quality,(monochrome),motion lines,speed lines,3d,(shiny skin:1.2),worst detail,text,logo,cropped,deformed,blurry,
     extra digits,fewer digits,missing digits,bad hands,mutated hands,
     six toes,extra toes,fewer toes,missing toes,bad feet,mutated feet,
