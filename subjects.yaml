@@ -10,6 +10,10 @@ subjects:
       - girl,black hair,hime cut,dark brown eyes,tsurime,fair skin,tall,skinny,medium breasts
     human-girl-3:
       - girl,silver hair,short bob,straight bangs,light blue eyes,pale skin,slim,short,flat chest,female child
+    human-girl-4:
+      - girl,black hair,wavy hair,medium hair,dark brown eyes,hairpin,flat chest,female child
+    human-girl-5:
+      - girl,blonde hair,blunt bangs,low ponytail,sidelocks,light blue eyes,fair skin,teenage,small breasts
     cat-girl:
       - cat girl,blonde hair,medium hair,blunt bangs,ponytail,sidelocks,blue eyes,slit pupils,tsurime,cat ears,whiskers,fangs,golden furs,medium breasts,slim{|,[cat tail]}
     fox-girl:
@@ -31,7 +35,9 @@ subjects:
     elf-girl-1:
       - elf girl,silver hair,long hair,braided bangs,pointy ears,green eyes,fair skin,slim,tall,medium breasts
     elf-girl-2:
-      - elf girl,blonde hair,medium hair,braided strands,green eyes,tsurime,fair skin,pointy ears,tall,medium breasts
+      - elf girl,blonde hair,medium hair,blunt bangs,braided strands,green eyes,tsurime,fair skin,pointy ears,tall,medium breasts
+    elf-girl-3:
+      - elf girl,blonde hair,medium hair,side braid,sidelocks,light blue eyes,fair skin,pointy ears,medium breasts
     fallen-angel-girl:
       - fallen angel girl,white hair,long hair,messy hair,hair between eyes,dark blue eyes,dark skin,halo,black wings,large breasts
     goddess-girl:
