@@ -1,5 +1,8 @@
 hang_out:
-  - __SUBJECT_HERE__,__behavior/*__,__bp_solo_q____NEG...____negative/general__
+  random: >-
+    __behavior/*__,__hang_out/of__
+  of: >-
+    __SUBJECT_HERE__,__bp_solo_q____NEG...____negative/general__
 behavior:
   acrobatic: >-
     {jumping|running},{|looking at viewer},{city|park|street},
@@ -23,6 +26,10 @@ behavior:
     bicycle{|,cycling uniform}
   dancing: >-
     {ballet{|,__costumes/ballerina__}|ballroom dancing|belly dancing{|,__costumes/harem__}|dancing|pole dancing}
+  drinking: >-
+    holding wine glass,sitting on chair,looking at viewer,
+    table,{0-$$,$$candle on table|table cloth|dishes|{0-$$,$$knife|fork|spoon}|wine bottle},
+    {0-$$,$$straight-on,{|pov}|{{|light }smile|grin},{0-$$,$${closed eyes|one eye closed}|open mouth}}
   eating: >-
     eating {apple|banana|cake|donut|egg|fig|grape|honey|icecream|jam|kiwi|lemon|mango|noodle|
             orange|pizza|quinoa|ramen|strawberry|tomato|udon|vanilla|watermelon|xnipec|yogurt|zucchini}
@@ -63,8 +70,8 @@ behavior:
     standing,{holding {book|clipboard|pointer}},{|looking at viewer},classroom,indoors,{0-$$,$$lectern|blackboard},__costumes/teacher__,
     {0-$$,$$straight-on,{|pov}|{expressionless|smile},{|open mouth}}
   teatime: >-
-    sitting,looking at viewer,{|head rest|holding cup},
-    {{cafe|restaurant|room},indoors,table,coffee,{0-$$,$$cake|table cloth|window}},
+    sitting on chair,looking at viewer,{|head rest|holding cup},
+    {cafe|restaurant|room},indoors,table,coffee,{0-$$,$$cake|table cloth|window},
     {0-$$,$$straight-on,{|pov}|{{|light }smile|grin},{0-$$,$${closed eyes|one eye closed}|open mouth}}
   working: >-
     {standing,{crossed arms|hand on own {chin|hip|shoulder}|holding {cup|paper{|s}|smartphone|tablet pc}}|

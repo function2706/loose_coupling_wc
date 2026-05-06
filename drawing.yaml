@@ -45,6 +45,6 @@ drawing:
     {6::__drawing/cosplay__|1::__drawing/costume__}
   costume:
     - __latex/random__
-    - __boots_show__
-    - __fashion_show__
-    - __hang_out__
+    - __boots_show/random__
+    - __fashion_show/random__
+    - __hang_out/random__
