@@ -31,17 +31,28 @@ behavior:
     table,{0-$$,$$candle on table|table cloth|dishes|{0-$$,$$knife|fork|spoon}|wine bottle},
     {0-$$,$$straight-on,{|pov}|{{|light }smile|grin},{0-$$,$${closed eyes|one eye closed}|open mouth}}
   eating: >-
-    eating {apple|banana|cake|donut|egg|fig|grape|honey|icecream|jam|kiwi|lemon|mango|noodle|
-            orange|pizza|quinoa|ramen|strawberry|tomato|udon|vanilla|watermelon|xnipec|yogurt|zucchini}
+    eating {apple|banana|cake|donut|egg|fig|grape|honey|icecream|jam|kiwi|lemon|mango|noodle|orange|pizza|quinoa|ramen|strawberry|tomato|udon|vanilla|watermelon|xnipec|yogurt|zucchini}
   exercise: >-
     {running|stretching},{city|street|gym|outdoors},{__costumes/cheerleader__|__costumes/gym__|__costumes/sports__},
     {0-$$,$${expressionless|{|light }smile|tired},{0-$$,$$one eye closed|open mouth|v-shaped eyebrows}}
+  festival: >-
+    festival{|,holding {food|drink}},{walking|standing},looking at viewer,outdoors,night{|,festival},{{light }smile|excited},{0-$$,$$open mouth|one eye closed},
+    {|{|light }blue |{|light }green |{|light }pink |{|light }purple |{|light }red |{|light }yellow }{furisode|yukata},{0-$$,$${geta|sandals}|kanzashi}
+  garden: >-
+    holding {watering can|potted plant|flower pot},looking at viewer,garden{|,outdoors}{|,day},
+    {0-$$,$${__costumes/cottage_core__|__costumes/mori_girl__|__costumes/summer__|__costumes/warm_sets__}|{|light }smile,{0-$$,$$open mouth|closed eyes}}
   giving: >-
     incoming {gift|letter|food|drink},{0-$$,$$blush|v-shaped eyebrows|looking away|closed mouth}
   hiking: >-
     hiking,{mountain|forest|river|lake},{0-$$,$$backpack|{smile|excited|tired}}
   loving: >-
     incoming {hug|kiss|pocky kiss},{0-$$,$$blush|looking away|closed mouth|smile}
+  petting: >-
+    petting {cat|dog|rabbit},{kneeling|sitting|squatting},looking at animal,{|light }smile|excited}{|,open mouth},{room|park}
+    {|,__costumes/cottage_core__|,__costumes/mori_girl__|,__costumes/street_casual__|,__costumes/summer__|,__costumes/winter__}
+  photography: >-
+    holding camera{|,looking at {another|viewer}},{city|street|forest|park|mountain},
+    {0-$$,$${__costumes/explorer__|__costumes/mori_girl__|__costumes/street_casual__|__costumes/summer__|__costumes/y2k__}|{{|light }smile|excited|expressionless},{0-$$,$$one eye closed|open mouth}}
   picnick: >-
     sitting,{wariza|seiza|indian style},{|drinking|,eating},{|looking at viewer},{outdoors,{day|night},picnick sheet,{|{|cherry blossom |maple }tree}},
     {0-$$,$${__barefoot/equipments/fairy_kei__|__barefoot/equipments/jirai_kei__|__barefoot/equipments/mori_girl__|__barefoot/equipments/ryousangata__|
@@ -53,6 +64,9 @@ behavior:
     {excited|laughing|smile},{0-$$,$$open mouth|v-shaped eyebrows}}
   reading: >-
     reading{| book| letter| newspaper| paper}{|,room|,forest|,park|,city|,school|,lake|,river}
+  shopping: >-
+    holding {shopping bag|basket},{standing|walking},looking at viewer,{shop|street},
+    {0-$$,$${__costumes/cool_sets__|__costumes/summer__|__costumes/warm_sets__|__costumes/winter__}|{smile|excited},{0-$$,$$one eye closed|open mouth}}
   showering: >-
     showering,{|sitting},{|hand{|s} on own {chest|head|hip}|,holding shower head},{|looking at viewer},
     {0-$$,$$steam|nipples|full body,{|pov}|{happy|relaxing},{|closed eyes}}
@@ -64,8 +78,19 @@ behavior:
     {sleeping|yawning}{|,on back{|,arms behind heads}|,on stomach{|,head rest}|,on side{|,head rest}|,fetal position}{|,__costumes/bedding__|,__costumes/cool_sets__}
   smoking: >-
     smoking{1::|1::,room|1::,through window|3::{|,park|,street|,ocean}{|,day|,evening|,night}}
+  snowplay: >-
+    holding snowball,looking at viewer,outdoors,snow{|,snowman},
+    __costumes/winter__,{excited|{light |}smile},{0-$$,$$open mouth|v-shaped eyebrows}
   soaking: >-
     {soaking feet,{|pool}|wading,bare legs,{|ocean|,river|,pool}}{|,standing|,sitting}
+  stargazing: >-
+    {standing|sitting,{wariza|seiza|indian style|holding own legs}},looking up,outdoors,night,stars{|,moon}{|,from below},
+    {0-$$,$${__costumes/cool_sets__|__costumes/warm_sets__|__costumes/winter__}|{{light }smile|excited|grin},{|,open mouth}}
+  stretching: >-
+    stretching{|,looking at viewer},{room|outdoors},{__costumes/athleisure__|__costumes/gym__},{|{light }smile},{0-$$,$$one eye closed|open mouth}
+  studying: >-
+    {holding {pen|pencil}|writing},sitting,looking at notebook,desk,notebook,{room|library|cafe},
+    {0-$$,$${__costumes/cool_sets__|__costumes/school__|__costumes/warm_sets__}|{expressionless|light smile|tired},{0-$$,$$open mouth|v-shaped eyebrows}|{head rest|hand on own chin}}
   teaching: >-
     standing,{holding {book|clipboard|pointer}},{|looking at viewer},classroom,indoors,{0-$$,$$lectern|blackboard},__costumes/teacher__,
     {0-$$,$$straight-on,{|pov}|{expressionless|smile},{|open mouth}}
@@ -73,6 +98,9 @@ behavior:
     sitting on chair,looking at viewer,{|head rest|holding cup},
     {cafe|restaurant|room},indoors,table,coffee,{0-$$,$$cake|table cloth|window},
     {0-$$,$$straight-on,{|pov}|{{|light }smile|grin},{0-$$,$${closed eyes|one eye closed}|open mouth}}
+  wating: >-
+    {sitting on bench|standing},{crossed arms|holding {bag|smartphone}},looking at another{|,from side},{street|park|station,indoors|cafe},
+    {0-$$,$${__costumes/office_lady__|__costumes/school__|__costumes/street_casual__|__costumes/winter__}|{yawning|bored{|,v-shaped eyebrows}|expressionless{|,v-shaped eyebrows}}}
   working: >-
     {standing,{crossed arms|hand on own {chin|hip|shoulder}|holding {cup|paper{|s}|smartphone|tablet pc}}|
     sitting,{|crossed legs},{crossed arms|hand on own {chin|ear|shoulder}|hands on own {head|knee|neck}|head rest|holding {cup|paper{|s}|smartphone}|typing}},
