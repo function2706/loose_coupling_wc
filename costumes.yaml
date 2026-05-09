@@ -38,7 +38,7 @@ tailor:
     random: >-
       {0-$$,$$__tailor/accessories/head__|__tailor/accessories/face__|__tailor/accessories/neck__|__tailor/accessories/gloves__|__tailor/accessories/one_point__}
     head: >-
-      {6::{|boater |bowler |bucket |cabbie |sun }hat|3::{|flat |peaked }cap|fedora|hairband|bandana|beanie|beret|hair{pin| ornament| ribbon| scrunchie}}
+      {6::{|boater |bowler |cabbie |sun }hat|3::{|flat |peaked }cap|fedora|hairband|bandana|beanie|beret|hair{pin| ornament| ribbon| scrunchie}}
     face: >-
       {1-$$,$$earrings|{|sun}glasses{| on head}}
     neck: >-
@@ -211,7 +211,7 @@ costumes:
     {0-$$,$${2::{|{garter belt|garter straps},|fishnet pantyhose,|pantyhose,|thighhighs,}{knee boots|{|stiletto }heels}|{|{garter belt|garter straps},}thigh boots}|demon tail|{1-$$,$${|latex }elbow gloves|bracelet|choker|earrings|necklace|pendant}}
   summer: >-
     {{strapless shirt|{short sleeves,|sleeves {rolled|pushed} up,}t-shirt|camisole},{{|short }{shorts|skirt}|hot pants|pants,sleeves {rolled|pushed} up|pleated skirt}|{{short sleeves,|sleeves {rolled|pushed} up,}casual |{short sleeves,|sleeves {rolled|pushed} up,}pinafore |sailor |sun}dress},
-    {0-$$,$${flip-flops|sandals|sneakers,{black|white} {ankle socks|knee socks|kneehighs|thighhighs}}|{1-2$$,$${{|visor }cap|snapback}|{|straw |sun }hat{|,hat {bow|flower}}|bandana|boater|bucket hat|headpin|panama hat}}
+    {0-$$,$${flip-flops|sandals|sneakers,{black|white} {ankle socks|knee socks|kneehighs|thighhighs}}|{1-2$$,$${{|visor }cap|snapback}|{|straw |sun }hat{|,hat {bow|flower}}|bandana|boater|headpin|panama hat}}
   swimwear: >-
     {one-piece swimsuit|{|competition |old |new }school swimsuit|{front-tie|side-tie} bikini|backless swimsuit|bikini shorts,swimsuit|competition swimsuit|cross halter neck bikini|dress swimsuit|front zipper swimsuit|micro bikini|monokini|o-ring bikini|o-ring swimsuit|sailor bikini|sarong bikini|side-tie swimsuit|slingshot bikini|slingshot swimsuit|sports bikini|strapless bikini|string bikini|swim briefs,swimsuit|swimsuit|swimsuit skirt,swimsuit|tankini},
     {0-$$,$${flip-flops|sandals}|{1-$$,$${necklace|pendant}|anklet|bracelet|earrings|open jacket{|,hood up}|{{|sun |straw }hat|flower ornament|{sunglasses|goggles} on head}}}
