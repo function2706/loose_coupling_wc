@@ -14,7 +14,7 @@ behavior:
     {0-$$,$${__costumes/explorer__|__costumes/hunter__}|{determined{|,v-shaped eyebrows}|{excited|smile},{0-$$,$$open mouth|v-shaped eyebrows}|scared,{0-$$,$$open mouth|furrowed brow}}}
   after_rain: >-
     {standing|walking}{|,looking {at viewer|down|up}}{|,looking at puddle|,holding wet umbrella},{street|park|garden,outdoors},puddle,rainbow,clearing sky,
-    {0-$$,$${__costumes/summer__|__costumes/mori_girl__|__costumes/school__|__costumes/winter__}|smile,{0-$$,$$one eye closed|half-closed eyes}}
+    {0-$$,$${__costumes/summer__|__costumes/mori_girl__|__costumes/school__|__costumes/winter__}|smile{|,{one eye closed|half-closed eyes}}}
   anxious: >-
     worried,{0-$$,$$v-shaped eyebrows|open mouth|sweat|trembling},{standing|sitting}{|,looking away|,looking down},{holding own {sleeve|skirt|arm}|hand on own {chest|shoulder}},
     {|{__costumes/cool_sets__|__costumes/office_lady__|__costumes/school__|__costumes/warm_sets__}}
@@ -174,9 +174,6 @@ behavior:
   stargazing: >-
     {standing|sitting,{wariza|seiza|indian style|holding own legs}},looking up,outdoors,night,stars{|,moon}{|,from below},
     {0-$$,$${__costumes/cool_sets__|__costumes/warm_sets__|__costumes/winter__}|{{light }smile|excited|grin}{|,open mouth}}
-  storm: >-
-    standing,looking up{|,shielding face},{{|field,}outdoors},storm,dark sky{|,rain}{|,wind},
-    {0-$$,$${__costumes/explorer__|__costumes/hunter__|__costumes/soldier__}|{determined|serious},{0-$$,$$open mouth|v-shaped eyebrows|one eye closed}}
   stretching: >-
     stretching{|,looking at viewer},{room|outdoors},{__costumes/athleisure__|__costumes/gym__}{|,{light }smile},{0-$$,$$one eye closed|open mouth}
   studying: >-
