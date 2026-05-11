@@ -53,7 +53,7 @@ behavior:
       {standing|sitting},{angry|annoyed},open mouth,{0-$$,$$v-shaped eyebrows|tears},looking at viewer,{pointing at viewer|crossed arms|hand on own hip},
       {1::|15::__costumes/usually/everywhere__}
     - >-
-      worried,{0-$$,$$v-shaped eyebrows|open mouth|sweat|trembling},{standing|sitting}{|,looking away|,looking down},{holding own {sleeve|skirt|arm}|hand on own {chest|shoulder}},
+      worried,{0-$$,$$v-shaped eyebrows|open mouth|sweat},{standing|sitting}{|,looking away|,looking down},{holding own {sleeve|skirt|arm}|hand on own {chest|shoulder}},
       {1::|15::__costumes/usually/everywhere__}
     - >-
       bored,{0-$$,$${half-closed eyes|one eye closed}|open mouth},{sitting|on {back|stomach}}{|,looking at viewer|,looking away},{head on arms|head rest},
