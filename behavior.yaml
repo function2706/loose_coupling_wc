@@ -5,196 +5,197 @@ hang_out:
     __SUBJECT_HERE__,__bp_solo_q____NEG...____negative/general__
 behavior:
   acrobatic: >-
-    {jumping|running}{|,looking at viewer},{city|park|street},
-    {0-$$,$${__costumes/athleisure__|__costumes/barbiecore__|__costumes/boho__|__costumes/cheerleader__|__costumes/cool_sets__|__costumes/e_girl__|
-      __costumes/fairy_kei__|__costumes/grunge__|__costumes/jirai_kei__|__costumes/mori_girl__|__costumes/ryousangata__|__costumes/school__|
-      __costumes/street_casual__|__costumes/summer__|__costumes/warm_sets__|__costumes/winter__|__costumes/y2k__}|{1-$$,$${excited|smile}|open mouth}}
+    {jumping|running}{|,looking at viewer},{city|gym|park|street|outdoors},
+    {0-$$,$${__costumes/athleisure__|__costumes/cheerleader__|__costumes/gym__|__costumes/sports__|15::__costumes/usually/outdoors__}|{serious|{|light }smile|tired},{0-$$,$$one eye closed|open mouth|v-shaped eyebrows}}
   adventuring: >-
     holding {torch|lantern},walking{|,looking at viewer},{dungeon|forest|mountain|ruins},
     {0-$$,$${__costumes/explorer__|__costumes/hunter__}|{determined{|,v-shaped eyebrows}|{excited|smile},{0-$$,$$open mouth|v-shaped eyebrows}|scared,{0-$$,$$open mouth|furrowed brow}}}
   after_rain: >-
     {standing|walking}{|,looking {at viewer|down|up}}{|,looking at puddle|,holding wet umbrella},{street|park|garden,outdoors},puddle,rainbow,clearing sky,
-    {0-$$,$${__costumes/summer__|__costumes/mori_girl__|__costumes/school__|__costumes/winter__}|smile{|,{one eye closed|half-closed eyes}}}
-  anxious: >-
-    worried,{0-$$,$$v-shaped eyebrows|open mouth|sweat|trembling},{standing|sitting}{|,looking away|,looking down},{holding own {sleeve|skirt|arm}|hand on own {chest|shoulder}},
-    {|{__costumes/cool_sets__|__costumes/office_lady__|__costumes/school__|__costumes/warm_sets__}}
-  arguing: >-
-    {standing|sitting},{angry|annoyed},open mouth,{0-$$,$$v-shaped eyebrows|tears},looking at viewer,{pointing at viewer|crossed arms|hand on own hip},
-    {room,indoors|street,outdoors|office,indoors}{|,{__costumes/cool_sets__|__costumes/office_lady__|__costumes/school__|__costumes/warm_sets__}}
-  atacking: >-
-    {{kicking|incoming kick}{|,high kick}|{punching|incoming punch}|incoming attack},{0-$$,$$v-shaped eyebrows|open mouth}
-  bathing: >-
-    bathing,{head on arm|hand on own {chest|shoulder}|hugging own legs}{|,looking at viewer},
-    {0-$$,$${1-$$,$$onsen|steam}|towel {around neck|on head}{4::|1::,nipples}|{happy|relaxing}{|,closed eyes}}
+    {0-$$,$$__costumes/usually/outdoors__|smile{|,{one eye closed|half-closed eyes}}}
+  bathing:
+    - >-
+      bathing,{head on arm|hand on own {chest|shoulder}|hugging own legs}{|,looking at viewer},
+      {0-$$,$${1-$$,$$onsen|steam}|towel {around neck|on head}{4::|1::,nipples}|{happy|relaxing}{|,closed eyes}}
+    - >-
+      showering{|,sitting}{|,hand{|s} on own {chest|head|hip}|,holding shower head}{|,looking at viewer},{0-$$,$$steam|nipples|full body{|,pov}|{happy|relaxing}{|,closed eyes}}
   bartending: >-
     {standing{|,looking at viewer}},bar,indoors,{holding {shaker|bottle|glass}},__costumes/bartender__,{0-$$,$${light smile|smile|serious},{0-$$,$$open mouth|one eye closed}}
-  bored: >-
-    bored,{0-$$,$${half-closed eyes|one eye closed}|open mouth},{sitting|on {back|stomach}}{|,looking at viewer|,looking away},{head on arms|head rest},
-    {|{__costumes/cool_sets__|__costumes/school__|__costumes/warm_sets__}}
   boxing: >-
     boxing{|,looking at viewer},{0-$$,$$boxer briefs|{1-$$,$$v-shaped eyebrows|open mouth}|{punching|incoming punch}}
-  casting: >-
-    casting spell{|,looking at viewer},{forest|dungeon|ruins|altar}{|,magic circle,}{|,magic circle above},
-    {0-$$,$${__costumes/elf__|__costumes/magical__|__costumes/priest__|__costumes/witch__}|{determined|expressionless|serious},{0-$$,$$open mouth|v-shaped eyebrows}}
   celebrating: >-
-    holding party popper,{standing|sitting}{|,looking at viewer}{0-$$,$$confetti|balloons},room,indoors,
-    {excited|smile|laughing},{0-$$,$$open mouth|one eye closed},{__socks/equipments/cool_sets__|__socks/equipments/warm_sets__}
+    holding party popper,{standing|sitting}{|,looking at viewer}{0-$$,$$confetti|balloons},room,indoors,{excited|smile|laughing},
+    {0-$$,$${0-$$,$$open mouth|one eye closed}|__costumes/usually/indoors__}
   cleaning: >-
     sweeping{|,looking at viewer},{room,indoors|outdoors},
-    {0-$$,$${__costumes/artist__|__costumes/barista__|__costumes/bartender__|__costumes/cool_sets__|__costumes/cottage_core__|__costumes/employee__|__costumes/maid__|
-          __costumes/nurse__|__costumes/office_lady__|__costumes/school__|__costumes/summer__|__costumes/teacher__|__costumes/warm_sets__|__costumes/winter__}|{|light }smile{|,open mouth}}
+    {0-$$,$${__costumes/barista__|__costumes/bartender__|__costumes/employee__|__costumes/maid__|__costumes/teacher__|15::__costumes/usually/everywhere__}|{|light }smile{|,open mouth}}
   coaching: >-
     standing,shouting,looking at another,{__costumes/gym__|__costumes/sports__},{crossed arms|hand on own hip|pointing|holding {clipboard|whistle}},{gym,indoors|schoolyard,outdoors},
     {serious|smile},open mouth{|,v-shaped eyebrows}
-  confessing: >-
-    {standing|sitting}{|,looking at viewer|,looking away},{park,cherry blossom{|,__costumes/summer__}|{school|rooftop},indoors{|,__costumes/school__}|room{|,__costumes/cool_sets__}}
-    {|,sunset},{holding letter|hands behind back},blush,{smile|embarrassed|grin|worried},{0-$$,$$open mouth|one eye closed|v-shaped eyebrows}
   cooking: >-
-    cooking,{__costumes/chef__|__costumes/cool_sets__|__costumes/maid__|__costumes/warm_sets__}{|,apron}
+    cooking,{__costumes/chef__|__costumes/maid__|__costumes/usually/indoors__}{|,apron}
   cycling: >-
-    bicycle{|,cycling uniform}
+    bicycle,{0-$$,$${|cycling uniform{|,bike shorts}}|{excited|smile|serious}}
   dancing: >-
     {ballet{|,__costumes/ballerina__}|ballroom dancing|belly dancing{|,__costumes/harem__}|dancing|pole dancing}
   daydreaming: >-
     {sitting{|,head rest}|standing,leaning to the side},looking away,window,indoors{|,day|,sunset|,night},
-    {0-$$,$${__costumes/cool_sets__|__costumes/mori_girl__|__costumes/school__|__costumes/warm_sets__}|{expressionless|light smile}{|,half-closed eyes}}
+    {0-$$,$${__costumes/mori_girl__|__costumes/school__|2::__costumes/usually/indoors__}|{expressionless|light smile}{|,half-closed eyes}}
   drinking: >-
     holding wine glass,sitting on chair,looking at viewer,
     table,{0-$$,$$candle on table|table cloth|dishes|{0-$$,$$knife|fork|spoon}|wine bottle},
-    {0-$$,$$straight-on{|,pov}|{{|light }smile|grin},{0-$$,$${closed eyes|one eye closed}|open mouth}}
-  dueling: >-
-    {sword fight|magic duel}{|,looking at viewer},{arena|dungeon|forest|ruins},
-    {0-$$,$${__costumes/bikini_armor__|__costumes/hunter__|__costumes/kunoichi__|__costumes/shady__|__costumes/soldier__}|{determined|serious},{0-$$,$$open mouth|v-shaped eyebrows}}
+    {0-$$,$$straight-on{|,pov}|{{|light }smile|grin},{0-$$,$${closed eyes|one eye closed}|open mouth}|__costumes/dress__}
   eating: >-
-    eating {apple|banana|cake|donut|egg|fig|grape|honey|icecream|jam|kiwi|lemon|mango|noodle|orange|pizza|quinoa|ramen|strawberry|tomato|udon|vanilla|watermelon|xnipec|yogurt|zucchini}
-  exercise: >-
-    {running|stretching},{city|street|gym|outdoors},{__costumes/cheerleader__|__costumes/gym__|__costumes/sports__},
-    {0-$$,$${expressionless|{|light }smile|tired},{0-$$,$$one eye closed|open mouth|v-shaped eyebrows}}
+    eating {apple|banana|cake|donut|egg|fig|grape|honey|icecream|jam|kiwi|lemon|mango|noodle|orange|pizza|quinoa|ramen|strawberry|tomato|udon|vanilla|watermelon|xnipec|yogurt|zucchini},
+    {1::|15::__costumes/usually/everywhere__}
+  emotions:
+    - >-
+      {standing|sitting},{angry|annoyed},open mouth,{0-$$,$$v-shaped eyebrows|tears},looking at viewer,{pointing at viewer|crossed arms|hand on own hip},
+      {1::|15::__costumes/usually/everywhere__}
+    - >-
+      worried,{0-$$,$$v-shaped eyebrows|open mouth|sweat|trembling},{standing|sitting}{|,looking away|,looking down},{holding own {sleeve|skirt|arm}|hand on own {chest|shoulder}},
+      {1::|15::__costumes/usually/everywhere__}
+    - >-
+      bored,{0-$$,$${half-closed eyes|one eye closed}|open mouth},{sitting|on {back|stomach}}{|,looking at viewer|,looking away},{head on arms|head rest},
+      {1::|15::__costumes/usually/everywhere__}
+    - >-
+      frustrated,{0-$$,$$v-shaped eyebrows|open mouth},{standing|sitting}{|,looking at viewer|,looking away},{crossed arms|clenched fist|hand on own {hip|forehead}},
+      {1::|15::__costumes/usually/everywhere__}
+    - >-
+      {sad|expressionless}{|,open mouth},{sitting|kneeling},looking down{|,tears}{|,hand{|s} on own {face|knees}},{1::|15::__costumes/usually/everywhere__}
+    - >-
+      hugging own legs{|,looking down|,looking away},window,room,indoors{|,sunset|,night|,evening},
+      {|{sad|expressionless},{0-$$,$${half-closed eyes|closed eyes}|tears}},{1::|15::__costumes/usually/everywhere__}
+    - >-
+      {smirk|smug|grin},{0-$$,$$one eye closed|open mouth|tongue out},{2::{standing|sitting},{finger on own lips|hand on own {chin|hip}|arms behind back}|1::on stomach,{head on arms|head rest}},looking at viewer,
+      {1::|15::__costumes/usually/everywhere__}
+    - >-
+      {{|light }smile}{|,open mouth|,parted lips}{|,closed eyes|,one eye closed},{standing|sitting}{|,looking at viewer|,looking up},hand on own {chest|forehead},
+      {1::|15::__costumes/usually/everywhere__}
+    - >-
+      surprised,{0-$$,$$open mouth|wide eyes|sweat},{standing|sitting}{|,looking at viewer},{hand on own {mouth|chest}|arms raised},
+      {1::|15::__costumes/usually/everywhere__}
   festival: >-
     festival{|,holding {food|drink}},{walking|standing},looking at viewer,outdoors,night{|,festival},{{light }smile|excited},{0-$$,$$open mouth|one eye closed},
     {|{|light }blue |{|light }green |{|light }pink |{|light }purple |{|light }red |{|light }yellow }{furisode|yukata},{0-$$,$${geta|sandals}|kanzashi}
-  firing: >-
-    firing,aiming,{standing|on stomach|on one knee},{__costumes/soldier__,holding {gun|rifle}|{__costumes/police__|black formal clothes,pants,necktie},holding gun}
+  fighting:
+    - >-
+      {{kicking|incoming kick}{|,high kick}|{punching|incoming punch}|incoming attack},
+      {0-$$,$${__costumes/bikini_armor__|__costumes/hunter__|__costumes/kunoichi__|__costumes/shady__|__costumes/soldier__}|{v-shaped eyebrows|open mouth}}
+    - >-
+      casting spell{|,looking at viewer},{forest|dungeon|ruins|altar}{|,magic circle,}{|,magic circle above},
+      {0-$$,$${__costumes/elf__|__costumes/magical__|__costumes/priest__|__costumes/witch__}|{determined|expressionless|serious},{0-$$,$$open mouth|v-shaped eyebrows}}
+    - >-
+      {sword fight|magic duel}{|,looking at viewer},{arena|dungeon|forest|ruins},
+      {0-$$,$${__costumes/bikini_armor__|__costumes/hunter__|__costumes/kunoichi__|__costumes/shady__|__costumes/soldier__}|{determined|serious},{0-$$,$$open mouth|v-shaped eyebrows}}
+    - >-
+      firing,aiming,{standing|on stomach|on one knee},{__costumes/soldier__,holding {gun|rifle}|{__costumes/police__|black formal clothes,pants,necktie},holding gun}
+    - >-
+      {gate|door},standing,{|,looking at viewer},{expressionless|serious}{|,v-shaped eyebrows},
+      {{__costumes/police__|__costumes/soldier__},{crossed arms|salute|hand{|s} on hip|holding gun|rifle slung on chest|aiming}|black formal clothes,pants,necktie,{salute|arms at sides|hand{|s} on hip|holding gun|aiming}}
+    - >-
+      walking{|,looking to the side|,looking away},{holding {baton|gun|flashlight}|hand on hip},{street,outdoors|corridor,indoors},night,
+      {__costumes/police__|__costumes/soldier__},{expressionless|serious}{|,v-shaped eyebrows}
   foggy: >-
     fog,{night|dawn},{standing|walking}{|,looking at viewer|,looking to the side}{|,arms at sides},{forest|street|river},
-    {|{__costumes/mori_girl__|__costumes/warm_sets__|__costumes/winter__}},expressionless,{|,half-closed eyes}
-  frustrated: >-
-    frustrated,{0-$$,$$v-shaped eyebrows|open mouth},{standing|sitting}{|,looking at viewer|,looking away},{crossed arms|clenched fist|hand on own {hip|forehead}},
-    {room,indoors,{__costumes/cool_sets__|__costumes/warm_sets__}|office,indoors,__costumes/office_lady__|street,outdoors,{__costumes/school__|__costumes/summer__|__costumes/street_casual__|__costumes/winter__}}
+    {|__costumes/usually/outdoors__},expressionless
   funeral: >-
     funeral dress,{sad|expressionless}{|,tears}{|,looking down},{hands clasped|holding flowers},{church,indoors,sitting|cemetery,outdoors,{standing|sitting|on one knee}}{|,flowers}
-  garden: >-
+  gardening: >-
     holding {watering can|potted plant|flower pot},looking at viewer,garden{|,outdoors}{|,day},
-    {0-$$,$${__costumes/cottage_core__|__costumes/mori_girl__|__costumes/summer__|__costumes/warm_sets__}|{|light }smile,{0-$$,$$open mouth|closed eyes}}
-  giving: >-
-    incoming {gift|letter|food|drink},{0-$$,$$blush|v-shaped eyebrows|looking away|closed mouth}
-  grieving: >-
-    {sitting|kneeling},looking down,tears{|,hand{|s} on own {face|knees}},
-    {0-$$,$${__costumes/bedding__|__costumes/cool_sets__|__costumes/dress__|__costumes/warm_sets__}|{sad|expressionless},{0-$$,$$|open mouth}}
-  guarding: >-
-    {gate|door},standing,{|,looking at viewer},{expressionless|serious}{|,v-shaped eyebrows}
-    {{__costumes/police__|__costumes/soldier__},{crossed arms|salute|hand{|s} on hip|holding gun|rifle slung on chest|aiming}|black formal clothes,pants,necktie,{salute|arms at sides|hand{|s} on hip|holding gun|aiming}}
+    {0-$$,$${__costumes/cottage_core__|__costumes/mori_girl__|__costumes/summer__}|{|light }smile,{0-$$,$$open mouth|closed eyes}}
   hiking: >-
     hiking,{mountain|forest|river|lake},{0-$$,$$backpack|{smile|excited|tired}}
   investigating: >-
     {{standing|squatting|on on knee},{indoors|alley,outdoors|office,indoors},{{{holding|reading} notebook|holding magnifying glass|holding flashlight}|hand on own chin}|
       sitting on chair,library,{reading book|writing,notebook}}{|,looking at viewer|,looking down},
     __costumes/detective__,{expressionless|serious},{0-$$,$$open mouth|one eye closed|narrowed eyes}
-  lonely: >-
-    hugging own legs{|,looking down|,looking away},window,room,indoors{|,sunset|,night|,evening},
-    {0-$$,$${__costumes/bedding__|__costumes/cool_sets__|__costumes/warm_sets__}|{sad|expressionless},{0-$$,$${half-closed eyes|closed eyes}|tears}}
-  lovestruck: >-
-    {standing|sitting}{|,looking at viewer|,looking away},{hands on own cheeks|hand on own chest|hugging own arms},{street,outdoors|cafe,indoors},
-    blush,{light smile|smile|grin},{0-$$,$$closed eyes|open mouth|raised eyebrows},
-    {|__costumes/barbiecore__|__costumes/school__|__costumes/street_casual__|__costumes/summer__|__costumes/warm_sets__|__costumes/winter__}
-  loving: >-
-    incoming {hug|kiss|pocky kiss},{0-$$,$$blush|looking away|closed mouth|smile}
-  mischievous: >-
-    {smirk|smug|grin},{0-$$,$$one eye closed|open mouth|tongue out},{2::{standing|sitting},{finger on own lips|hand on own {chin|hip}|arms behind back}|1::on stomach,{head on arms|head rest}},looking at viewer,
-    {|{__costumes/cool_sets__|__costumes/school__|__costumes/warm_sets__}}
+  loving:
+    - >-
+      {standing|sitting}{|,looking at viewer|,looking away},{park,cherry blossom{|,__costumes/summer__}|{school|rooftop}{|,__costumes/school__}|room{|,__costumes/usually/indoors__}},
+      {|sunset,}{holding letter|hands behind back},blush,{smile|embarrassed|grin|worried},{0-$$,$$open mouth|one eye closed|v-shaped eyebrows}
+    - >-
+      incoming {gift|letter|food|drink},{0-$$,$$blush|v-shaped eyebrows|looking away|closed mouth},{1::|15::__costumes/usually/everywhere__}
+    - >-
+      {standing|sitting}{|,looking at viewer|,looking away},{hands on own cheeks|hand on own chest|hugging own arms},{street,outdoors|cafe,indoors},
+      blush,{light smile|smile|grin},{0-$$,$$closed eyes|open mouth|raised eyebrows},
+      {1::|15::__costumes/usually/everywhere__}
+    - >-
+      incoming {hug|kiss|pocky kiss},{0-$$,$$blush|looking away|closed mouth|smile},{1::|15::__costumes/usually/everywhere__}
   negotiating: >-
     holding drink,sitting{|,looking at viewer},{crossed arms|hand on own chin|hand on own hip},tavern,indoors,
     {0-$$,$${__costumes/commander__|__costumes/pirate__|__costumes/hunter__|__costumes/shady__|__costumes/witch__}|{expressionless|serious|smug}{|,open mouth}}
-  patrolling: >-
-    walking{|,looking to the side|,looking away},{holding {baton|gun|flashlight}|hand on hip},{street,outdoors|corridor,indoors},night,
-    {__costumes/police__|__costumes/soldier__},{expressionless|serious}{|,v-shaped eyebrows}
   performing: >-
-    {singing,{holding microphone|headset}{|,__costumes/idol__|,__costumes/musician__}|{standing,arms outstretched|dancing}{|,looking up}{|__costumes/idol__|__costumes/ballerina__}}
+    {singing,{holding microphone|headset}{|,__costumes/idol__|,__costumes/musician__}|{standing,arms outstretched|dancing}{|,looking up}{|,__costumes/idol__|,__costumes/ballerina__}}
     on stage,{hall|theater}{|,spotlight},{excited|smile}
   parting: >-
     {standing|walking away}{|,looking back|,looking to the side},{hand raised|waving|arms at sides},{station,indoors|street,outdoors}{|,sunset|,night},
-    {0-$$,$${__costumes/school__|__costumes/summer__|__costumes/winter__}|light smile,one eye closed}
+    {0-$$,$$__costumes/usually/outdoors__|light smile,one eye closed}
   petting: >-
-    petting {cat|dog|rabbit},{kneeling|sitting|squatting},looking at animal{|,light }smile|excited}{|,open mouth},{room|park}
-    {|,__costumes/cottage_core__|,__costumes/mori_girl__|,__costumes/street_casual__|,__costumes/summer__|,__costumes/winter__}
+    petting {cat|dog|rabbit},{kneeling|sitting|squatting},looking at animal{|,{|light }smile|excited}{|,open mouth},{room|park}{|,__costumes/usually/outdoors__}
   photography: >-
     holding camera{|,looking at {another|viewer}},{city|street|forest|park|mountain},
-    {0-$$,$${__costumes/explorer__|__costumes/mori_girl__|__costumes/street_casual__|__costumes/summer__|__costumes/y2k__}|{{|light }smile|excited|expressionless},{0-$$,$$one eye closed|open mouth}}
+    {0-$$,$${15::__costumes/usually/outdoors__|1::__costumes/explorer__}|{{|light }smile|excited|expressionless},{0-$$,$$one eye closed|open mouth}}
   picnick: >-
     sitting,{wariza|seiza|indian style}{|,drinking|,eating}{|,looking at viewer},{outdoors,{day|night},picnick sheet,{|{|cherry blossom |maple }tree}},
-    {0-$$,$${__barefoot/equipments/fairy_kei__|__barefoot/equipments/jirai_kei__|__barefoot/equipments/mori_girl__|__barefoot/equipments/ryousangata__|
-      __barefoot/equipments/summer__|__barefoot/equipments/warm_sets__|__barefoot/equipments/winter__}|{{|light }smile|grin},{0-$$,$${closed eyes|one eye closed}|open mouth}}
+    {0-$$,$$__costumes/usually/outdoors__|{{|light }smile|grin},{0-$$,$${closed eyes|one eye closed}|open mouth}}
   playing: >-
     holding gamepad,sitting on {chair|floor|sofa}{|,indian style|,seiza|,wariza}{|,looking at viewer},room,indoors,{0-$$,$$table|television},
-    {0-$$,$${__barefoot/equipments/cool_sets__|__barefoot/equipments/e_girl__|__barefoot/equipments/fairy_kei__|__barefoot/equipments/mori_girl__|
-      __barefoot/equipments/ryousangata__|__barefoot/equipments/school__|__barefoot/equipments/warm_sets__}|
-    {excited|laughing|smile},{0-$$,$$open mouth|v-shaped eyebrows}}
+    {0-$$,$${2::__costumes/usually/indoors__|__barefoot/equipments/e_girl__|__barefoot/equipments/fairy_kei__|__barefoot/equipments/mori_girl__|
+      __barefoot/equipments/ryousangata__|__barefoot/equipments/school__}|{excited|laughing|smile},{0-$$,$$open mouth|v-shaped eyebrows}}
   praying: >-
     praying,{hands clasped,{kneeling|on one knee|standing},{church|altar|ruins}{|,__costumes/priest__}|palms together,standing,shrine{|,__costumes/japan__}},
     {serious|expressionless|light smile},closed eyes
   rainy: >-
-    {standing,looking up{|,shelting|,hand up,open hand}{|{|,surplised},open mouth}|walking{holding umbrella|raincoat{|rain boots}{|,light smile|,open mouth}}|running,wet clothes,wet hair{|,surprised},opened eyes,open mouth},
-    outdoors,rain{|,puddle}{|,day|,evening|,night}{|,__costumes/school__|,__costumes/summer__|,__costumes/winter__}
+    {standing,looking up{|,shelting|,hand up,open hand}{|{|,surplised},open mouth}|walking{holding umbrella|{1-$$,$$raincoat|rain boots}{|,light smile|,open mouth}}|running,wet clothes,wet hair{|,surprised},opened eyes,open mouth},
+    outdoors,rain{|,puddle}{|,day|,evening|,night}{|15::,__costumes/usually/outdoors__}
   reading: >-
-    reading{| book| letter| newspaper| paper}{|,room|,forest|,park|,city|,school|,lake|,river}
-  relieved: >-
-    {{|light }smile}{|,open mouth|,parted lips}{|,closed eyes|,one eye closed},{standing|sitting}{|,looking at viewer|,looking up},hand on own {chest|forehead},
-    {|{__costumes/cool_sets__|__costumes/office_lady__|__costumes/school__|__costumes/warm_sets__}}
+    reading{| book| letter| newspaper| paper}
+    {|1::,room{|2::,__costumes/usually/indoors__}|6::,{forest|park|city|library|school|lake|river}{|13::,__costumes/usually/outdoors__}}
   serving: >-
     {standing|walking}{|,looking at viewer},{holding {tray|plate|cup}}{|,table|,counter},
     {__costumes/bunny_girl__,{{bar|tavern},indoors}|{__costumes/maid__|__costumes/waitress__},{{cafe|restaurant},indoors}},{light smile|smile},{0-$$,$$open mouth|one eye closed}
   shopping: >-
     holding {shopping bag|basket},{standing|walking},looking at viewer,{shop|street},
-    {0-$$,$${__costumes/cool_sets__|__costumes/summer__|__costumes/warm_sets__|__costumes/winter__}|{smile|excited},{0-$$,$$one eye closed|open mouth}}
-  showering: >-
-    showering{|,sitting}{|,hand{|s} on own {chest|head|hip}|,holding shower head}{|,looking at viewer},
-    {0-$$,$$steam|nipples|full body{|,pov}|{happy|relaxing}{|,closed eyes}}
+    {0-$$,$$__costumes/usually/outdoors__|{smile|excited},{0-$$,$$one eye closed|open mouth}}
   skating: >-
-    {figure |}skating
+    {figure |}skating{|,smile|,serious}
   sleeping: >-
-    {sleeping|yawning}{|,on back{|,arms behind heads}|,on stomach{|,head rest}|,on side{|,head rest}|,fetal position}{|,__costumes/bedding__|,__costumes/cool_sets__}
+    {sleeping|yawning}{|,on back{|,arms behind heads}|,on stomach{|,head rest}|,on side{|,head rest}|,fetal position}{|1::,__costumes/bedding__|2::,__costumes/usually/indoors__}
   smoking: >-
-    smoking{1::|1::,room|1::,through window|3::{|,park|,street|,ocean}{|,day|,evening|,night}}
+    smoking{1::|1::,room|1::,through window|3::{|,park|,street|,ocean}{|,day|,evening|,night}}{1::|15::,__costumes/usually/everywhere__}
   snowy: >-
-    {standing|walking},looking up{|,hand up,open hand},{street|park|forest|garden},snow{|,day|,night},{0-$$,$${__costumes/warm_sets__|__costumes/winter__}|{0-$$,$${smile|excited}|open mouth}}
+    {standing|walking},looking up{|,hand up,open hand},{street|park|forest|garden},snow{|,day|,night},{0-$$,$$__costumes/winter__|{0-$$,$${smile|excited}|open mouth}}
   snowplay: >-
     holding snowball,looking at viewer,outdoors,snow{|,snowman},__costumes/winter__,{excited|{light |}smile},{0-$$,$$open mouth|v-shaped eyebrows}
   soaking: >-
-    {soaking feet{|,pool}|wading,bare legs{|,ocean|,river|,pool}}{|,standing|,sitting}
+    {soaking feet{|,pool}|wading,bare legs{|,ocean|,river|,pool}}{|,standing|,sitting}{|,__costumes/summer__}
   stargazing: >-
     {standing|sitting,{wariza|seiza|indian style|holding own legs}},looking up,outdoors,night,stars{|,moon}{|,from below},
-    {0-$$,$${__costumes/cool_sets__|__costumes/warm_sets__|__costumes/winter__}|{{light }smile|excited|grin}{|,open mouth}}
-  stretching: >-
-    stretching{|,looking at viewer},{room|outdoors},{__costumes/athleisure__|__costumes/gym__}{|,{light }smile},{0-$$,$$one eye closed|open mouth}
+    {0-$$,$$__costumes/usually/outdoors__|{{light }smile|excited|grin}{|,open mouth}}
+  stretching:
+    - >-
+      stretching,standing{|,looking at viewer},outdoors,
+      {0-$$,$${|light }smile,{0-$$,$$one eye closed|open mouth}|{__costumes/athleisure__|__costumes/cheerleader__|__costumes/gym__|__costumes/sports__|13::__costumes/usually/outdoors__}}
+    - >-
+      stretching,{standing|sitting},room,{0-$$,$${|,{light }smile},{0-$$,$$one eye closed|open mouth}|__costumes/usually/indoors__}
   studying: >-
-    {holding {pen|pencil}|writing},sitting,looking at notebook,desk,notebook,{room|library|cafe},
-    {0-$$,$${__costumes/cool_sets__|__costumes/school__|__costumes/warm_sets__}|{expressionless|light smile|tired},{0-$$,$$open mouth|v-shaped eyebrows}|{head rest|hand on own chin}}
+    {holding {pen|pencil}|writing},sitting,looking at notebook,desk,notebook,
+    {1::room{|,__costumes/cool_sets__|,__costumes/school__|,__costumes/warm_sets__}|2::{library|cafe}{1::|13::,__costumes/usually/outdoors__}},
+    {0-$$,$$|{expressionless|light smile|tired},{0-$$,$$open mouth|v-shaped eyebrows}|{head rest|hand on own chin}}
   sunny: >-
     {standing|sitting}{|,looking at viewer},{hand on own {neck|forehead}|fanning with hand|wiping sweat|holding drink|holding umbrella},sunny,day,
     {2::{street|park}{|,__costumes/cool_sets__|,__costumes/summer__}|1::beach,outdoors{|,__costumes/cool_sets__|,__costumes/summer__|,__costumes/swimwear__}},
     {tired,{0-$$,$${open mouth|tongue out}|half-closed eyes|raised eyebrows}|smile{|,open mouth}}{|,sweat}
   sunset: >-
-    {standing{|,arms behind back}|sitting{|,hugging own knees}}{|,looking at viewer|,from side},{beach|rooftop|hill|river},sunset,orange sky,{light smile|expressionless}{|,half-closed eyes}
-  surprised: >-
-    surprised,{0-$$,$$open mouth|wide eyes|sweat},{standing|sitting}{|,looking at viewer},{hand on own {mouth|chest}|arms raised},
-    {|{__costumes/cool_sets__|__costumes/school__|__costumes/warm_sets__}}
+    {standing{|,arms behind back}|sitting{|,hugging own knees}}{|,looking at viewer|,from side},{beach|rooftop|hill|river},sunset,orange sky,{light smile|expressionless}{|,half-closed eyes},
+    {1::|13::__costumes/usually/outdoors__}
   teaching: >-
     standing,{holding {book|clipboard|pointer}}{|,looking at viewer},classroom,indoors,{0-$$,$$lectern|blackboard},__costumes/teacher__,
     {0-$$,$$straight-on{|,pov}|{expressionless|smile}{|,open mouth}}
   teatime: >-
-    sitting on chair,looking at viewer{|,head rest|holding cup},
-    {cafe|restaurant|room},indoors,table,coffee,{0-$$,$$cake|table cloth|window},
-    {0-$$,$$straight-on{|,pov}|{{|light }smile|grin},{0-$$,$${closed eyes|one eye closed}|open mouth}}
+    sitting on chair,looking at viewer{|,head rest|holding cup},{cafe|restaurant|room},indoors,table,coffee,{0-$$,$$cake|table cloth|window},
+    {0-$$,$$straight-on{|,pov}|{{|light }smile|grin},{0-$$,$${closed eyes|one eye closed}|open mouth}|__costumes/usually/everywhere__}
   throne: >-
     sitting on throne{|,looking at viewer},{castle|palace},{1-$$,$$crossed legs|head rest|hand on armrest},
     {0-$$,$${__costumes/commander__|__costumes/dress__|__costumes/medieval_noble__|__costumes/princess__}|{expressionless|serious|smug}}
@@ -206,7 +207,7 @@ behavior:
     {__costumes/doctor__|__costumes/nurse__},{0-$$,$${5::|1::glasses}|{expressionless|light smile},{0-$$,$$open mouth}}
   wating: >-
     {sitting on bench|standing},{crossed arms|holding {bag|smartphone}},looking at another{|,from side},{street|park|station,indoors|cafe},
-    {0-$$,$${__costumes/office_lady__|__costumes/school__|__costumes/street_casual__|__costumes/winter__}|{yawning|bored{|,v-shaped eyebrows}|expressionless{|,v-shaped eyebrows}}}
+    {0-$$,$$__costumes/usually/outdoors__|{yawning|bored{|,v-shaped eyebrows}|expressionless{|,v-shaped eyebrows}}}
   wedding_scene: >-
     {standing|walking}{|,looking at viewer},holding {bouquet|veil},__costumes/wedding__,{|light }smile{|,tears},{church,indoors|garden,outdoors}{|,flower petals,}{|,day}
   working: >-

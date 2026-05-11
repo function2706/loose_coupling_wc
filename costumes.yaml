@@ -48,6 +48,26 @@ tailor:
     one_point: >-
       {badge|corsage|sash on waist}
 costumes:
+  usually:
+    everywhere: >-
+      {3::__costumes/usually/indoors__|13::__costumes/usually/outdoors__}
+    indoors:
+      - __costumes/cool_sets__
+      - __costumes/warm_sets__
+    outdoors:
+      - __costumes/barbiecore__
+      - __costumes/boho__
+      - __costumes/cottage_core__
+      - __costumes/office_lady__
+      - __costumes/e_girl__
+      - __costumes/fairy_kei__
+      - __costumes/grunge__
+      - __costumes/ryousangata__
+      - __costumes/street_casual__
+      - __costumes/school__
+      - __costumes/summer__
+      - __costumes/winter__
+      - __costumes/y2k__
   angel: >-
     angel,cosplay,white dress,yellow halo,white feather wings,{0-$$,$$sandals|{1-$$,$$anklet|bracelet|earrings|pendant}}
   artist: >-
@@ -69,7 +89,7 @@ costumes:
     {0-$$,$$latex elbow gloves|{latex thigh boots|latex knee boots{|,garter belt|,{|fishnet }thighhighs}|{|stiletto }heels{|,garter belt|,{|fishnet }thighhighs}}},
     {0-$$,$$corset|choker|earrings|pendant}
   bedding: >-
-    {negligee|nightwear|pajamas}{|,{mob cap|nightcap}}
+    {negligee|nightwear|pajamas|babydoll|camisole}{|,{mob cap|nightcap}}
   bikini_armor: >-
     {|blue |gold |green |red |silver |yellow }bikini armor,{0-$$,$${|elbow }gloves|{|knee }boots}
   bodycon: >-
@@ -87,7 +107,7 @@ costumes:
   commander: >-
     military uniform,{0-$$,$${fatigues|suit}|{skirt{|,pantyhose}|pants}|{|white }gloves|{flats|heels|loafers}|{1-$$,$$aiguillette|badge|epaulettes|peaked cap|ribbon bar}}
   cool_sets: >-
-    {{t-shirt,short sleeves|tank top},{denim shorts|dolphin shorts|skirt|shorts{|,drawstring}}|{babydoll|camisole}}
+    {{t-shirt,short sleeves|tank top},{denim shorts|dolphin shorts|skirt|shorts{|,drawstring}}}
   cottage_core: >-
     {|floral |linen }{|prairie }dress,{|puff }sleeves,{|floral |lace }apron,{0-$$,$${{|ankle }boots|{flat shoes|mary janes}}|{|straw }hat|{1-$$,$$hair ribbon|floral hairpin|cardigan}}
   cross_dressing: >-
