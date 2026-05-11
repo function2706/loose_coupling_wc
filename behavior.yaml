@@ -21,8 +21,6 @@ behavior:
       showering{|,sitting}{|,hand{|s} on own {chest|head|hip}|,holding shower head}{|,looking at viewer},{0-$$,$$steam|nipples|full body{|,pov}|{happy|relaxing}{|,closed eyes}}
   bartending: >-
     {standing{|,looking at viewer}},bar,indoors,{holding {shaker|bottle|glass}},__costumes/bartender__,{0-$$,$${light smile|smile|serious},{0-$$,$$open mouth|one eye closed}}
-  boxing: >-
-    boxing{|,looking at viewer},{0-$$,$$boxer briefs|{1-$$,$$v-shaped eyebrows|open mouth}|{punching|incoming punch}}
   celebrating: >-
     holding party popper,{standing|sitting}{|,looking at viewer}{0-$$,$$confetti|balloons},room,indoors,{excited|smile|laughing},
     {0-$$,$${0-$$,$$open mouth|one eye closed}|__costumes/usually/indoors__}
@@ -79,6 +77,8 @@ behavior:
     festival{|,holding {food|drink}},{walking|standing},looking at viewer,outdoors,night{|,festival},{{light }smile|excited},{0-$$,$$open mouth|one eye closed},
     {|{|light }blue |{|light }green |{|light }pink |{|light }purple |{|light }red |{|light }yellow }{furisode|yukata},{0-$$,$${geta|sandals}|kanzashi}
   fighting:
+    - >-
+      boxing{|,looking at viewer},{0-$$,$$boxer briefs|{1-$$,$$v-shaped eyebrows|open mouth}|{punching|incoming punch}}
     - >-
       {{kicking|incoming kick}{|,high kick}|{punching|incoming punch}|incoming attack},
       {0-$$,$${__costumes/bikini_armor__|__costumes/hunter__|__costumes/kunoichi__|__costumes/shady__|__costumes/soldier__}|{v-shaped eyebrows|open mouth}}
