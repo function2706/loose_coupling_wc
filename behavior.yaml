@@ -169,7 +169,7 @@ behavior:
   snowplay: >-
     holding snowball,looking at viewer,outdoors,snow{|,snowman},__costumes/winter__,{excited|{light |}smile},{0-$$,$$open mouth|v-shaped eyebrows}
   soaking: >-
-    {soaking feet{|,pool}|wading,bare legs{|,ocean|,river|,pool}}{|,standing|,sitting}{|,__costumes/summer__}
+    {soaking feet{|,pool}|wading,bare legs{|,ocean|,river|,pool}}{|,standing|,sitting}{|,__costumes/summer__|,__costumes/swimwear__}
   stargazing: >-
     {standing|sitting,{wariza|seiza|indian style|holding own legs}},looking up,outdoors,night,stars{|,moon}{|,from below},
     {0-$$,$$__costumes/usually/outdoors__|{{light }smile|excited|grin}{|,open mouth}}
