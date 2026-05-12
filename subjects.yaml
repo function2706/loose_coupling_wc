@@ -2942,7 +2942,7 @@ subjects:
       random:
         - __subjects/profiles/hair/bases/do__,{0-4$$,$$__subjects/profiles/hair/list__}
       list:
-        - __subjects/profiles/hair/decorations/do__
+        - "{|__subjects/profiles/hair/decorations/do__}"
         - __subjects/profiles/hair/bangs__
         - __subjects/profiles/hair/extensions/do__
         - __subjects/profiles/hair/sidelocks__

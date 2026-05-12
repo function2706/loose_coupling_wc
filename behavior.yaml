@@ -13,6 +13,9 @@ behavior:
   after_rain: >-
     {standing|walking}{|,looking {at viewer|down|up}}{|,looking at puddle|,holding wet umbrella},{street|park|garden,outdoors},puddle,rainbow,clearing sky,
     {0-$$,$$__costumes/usually/outdoors__|smile{|,{one eye closed|half-closed eyes}}}
+  autumn_scene: >-
+    {standing|sitting|walking}{|,looking at viewer},{park|riverside|path},outdoors,{day|sunset},autumn leaves{|,falling leaves},
+    {0-$$,$$__costumes/usually/outdoors__|{|light }smile,{closed eyes|one eye closed}}
   bathing:
     - >-
       bathing,{head on arm|hand on own {chest|shoulder}|hugging own legs}{|,looking at viewer},
@@ -164,12 +167,11 @@ behavior:
     {sleeping|yawning}{|,on back{|,arms behind heads}|,on stomach{|,head rest}|,on side{|,head rest}|,fetal position}{|1::,__costumes/bedding__|2::,__costumes/usually/indoors__}
   smoking: >-
     smoking{1::|1::,room|1::,through window|3::{|,park|,street|,ocean}{|,day|,evening|,night}}{1::|15::,__costumes/usually/everywhere__}
-  snowy: >-
-    {standing|walking},looking up{|,hand up,open hand},{street|park|forest|garden},snow{|,day|,night},{0-$$,$$__costumes/winter__|{0-$$,$${smile|excited}|open mouth}}
-  snowplay: >-
-    holding snowball,looking at viewer,outdoors,snow{|,snowman},__costumes/winter__,{excited|{light |}smile},{0-$$,$$open mouth|v-shaped eyebrows}
   soaking: >-
     {soaking feet{|,pool}|wading,bare legs{|,ocean|,river|,pool}}{|,standing|,sitting}{|,__costumes/summer__|,__costumes/swimwear__}
+  spring_scene: >-
+    {standing|sitting|walking}{|,looking at viewer},{park|riverside|field},outdoors,day,cherry blossom{|,petals},
+    {0-$$,$$__costumes/usually/outdoors__|{{|light }smile|excited},{closed eyes|one eye closed}}
   stargazing: >-
     {standing|sitting,{wariza|seiza|indian style|holding own legs}},looking up,outdoors,night,stars{|,moon}{|,from below},
     {0-$$,$$__costumes/usually/outdoors__|{{light }smile|excited|grin}{|,open mouth}}
@@ -183,6 +185,9 @@ behavior:
     {holding {pen|pencil}|writing},sitting,looking at notebook,desk,notebook,
     {1::room{|,__costumes/cool_sets__|,__costumes/school__|,__costumes/warm_sets__}|2::{library|cafe}{1::|13::,__costumes/usually/outdoors__}},
     {0-$$,$$|{expressionless|light smile|tired},{0-$$,$$open mouth|v-shaped eyebrows}|{head rest|hand on own chin}}
+  summer_scene: >-
+    {sitting|standing|on back}{|,looking at viewer},{hand on own {neck|forehead}|fanning with hand|holding {drink|fan}},sweat{|,day|,night},
+    {room,indoors,__costumes/cool_sets__|veranda,outdoors,{__costumes/summer__|__costumes/cool_sets__}},{tired,{0-$$,$$open mouth|half-closed eyes}|{|light }smile}
   sunny: >-
     {standing|sitting}{|,looking at viewer},{hand on own {neck|forehead}|fanning with hand|wiping sweat|holding drink|holding umbrella},sunny,day,
     {2::{street|park}{|,__costumes/cool_sets__|,__costumes/summer__}|1::beach,outdoors{|,__costumes/cool_sets__|,__costumes/summer__|,__costumes/swimwear__}},
@@ -210,6 +215,17 @@ behavior:
     {0-$$,$$__costumes/usually/outdoors__|{yawning|bored{|,v-shaped eyebrows}|expressionless{|,v-shaped eyebrows}}}
   wedding_scene: >-
     {standing|walking}{|,looking at viewer},holding {bouquet|veil},__costumes/wedding__,{|light }smile{|,tears},{church,indoors|garden,outdoors}{|,flower petals,}{|,day}
+  winter_scene:
+    - >-
+      kotatsu,{|,looking at viewer},room,indoors{|,mandarin orange on kotatsu},{cardigan|hooded shirt|loungewear|polo shirt|sweater|turtleneck shirt}{|,sleeves {pushed|rolled} up},
+      {{|light }smile|sleeping,head on arm}
+    - >-
+      {standing|walking},looking up{|,hand up,open hand},{street|park|forest|garden},snow{|,day|,night},{0-$$,$$__costumes/winter__|{0-$$,$${smile|excited}|open mouth}}
+    - >-
+      holding snowball,looking at viewer,outdoors,snow{|,snowman},__costumes/winter__,{excited|{light |}smile},{0-$$,$$open mouth|v-shaped eyebrows}
+    - >-
+      {sitting|standing}{|,looking at viewer},{hand on own cheek|hugging own arms},
+      {room,indoors,fireplace{|,blanket},__costumes/usually/indoors__|street,outdoors,snow,__costumes/winter__},{|light }smile,{closed eyes|half-closed eyes}
   working: >-
     {standing,{crossed arms|hand on own {chin|hip|shoulder}|holding {cup|paper{|s}|smartphone|tablet pc}}|
     sitting{|,crossed legs},{crossed arms|hand on own {chin|ear|shoulder}|hands on own {head|knee|neck}|head rest|holding {cup|paper{|s}|smartphone}|typing}},
