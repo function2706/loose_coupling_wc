@@ -121,7 +121,7 @@ behavior:
     holding {watering can|potted plant|flower pot},looking at viewer,garden{|,outdoors}{|,day},
     {0-$$,$${__costumes/cottage_core__|__costumes/mori_girl__|__costumes/summer__}|{|light }smile,{0-$$,$$open mouth|closed eyes}}
   hiking: >-
-    hiking,{mountain|forest|river|lake},{0-$$,$$backpack|{smile|excited|tired}}
+    hiking,{mountain|forest|river|lake},__costumes/athleisure__,{0-$$,$$backpack|{smile|excited|tired}}
   investigating: >-
     {{standing|squatting|on on knee},{indoors|alley,outdoors|office,indoors},{{{holding|reading} notebook|holding magnifying glass|holding flashlight}|hand on own chin}|
       sitting on chair,library,{reading book|writing,notebook}}{|,looking at viewer|,looking down},
