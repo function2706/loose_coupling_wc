@@ -77,7 +77,7 @@ behavior:
       surprised,{0-$$,$$open mouth|wide eyes|sweat},{standing|sitting}{|,looking at viewer},{hand on own {mouth|chest}|arms raised},
       {1::|15::__costumes/usually/everywhere__}
   festival: >-
-    festival{|,holding {food|drink}},{walking|standing},looking at viewer,outdoors,night{|,festival},{{light }smile|excited},{0-$$,$$open mouth|one eye closed},
+    festival{|,holding {food|drink}},{walking|standing},looking at viewer,outdoors,night{|,festival},{{|light }smile|excited},{0-$$,$$open mouth|one eye closed},
     {|{|light }blue |{|light }green |{|light }pink |{|light }purple |{|light }red |{|light }yellow }{furisode|yukata},{0-$$,$${geta|sandals}|kanzashi}
   fighting:
     - >-
@@ -174,13 +174,13 @@ behavior:
     {0-$$,$$__costumes/usually/outdoors__|{{|light }smile|excited},{closed eyes|one eye closed}}
   stargazing: >-
     {standing|sitting,{wariza|seiza|indian style|holding own legs}},looking up,outdoors,night,stars{|,moon}{|,from below},
-    {0-$$,$$__costumes/usually/outdoors__|{{light }smile|excited|grin}{|,open mouth}}
+    {0-$$,$$__costumes/usually/outdoors__|{{|light }smile|excited|grin}{|,open mouth}}
   stretching:
     - >-
       stretching,standing{|,looking at viewer},outdoors,
       {0-$$,$${|light }smile,{0-$$,$$one eye closed|open mouth}|{__costumes/athleisure__|__costumes/cheerleader__|__costumes/gym__|__costumes/sports__|13::__costumes/usually/outdoors__}}
     - >-
-      stretching,{standing|sitting},room,{0-$$,$${|,{light }smile},{0-$$,$$one eye closed|open mouth}|__costumes/usually/indoors__}
+      stretching,{standing|sitting},room,{0-$$,$${|,{|light }smile},{0-$$,$$one eye closed|open mouth}|__costumes/usually/indoors__}
   studying: >-
     {holding {pen|pencil}|writing},sitting,looking at notebook,desk,notebook,
     {1::room{|,__costumes/cool_sets__|,__costumes/school__|,__costumes/warm_sets__}|2::{library|cafe}{1::|13::,__costumes/usually/outdoors__}},
@@ -209,7 +209,7 @@ behavior:
     {0-$$,$${__costumes/dress__|__costumes/prince__|__costumes/princess__}|{{|light }smile|grin},{0-$$,$$open mouth|one eye closed}}
   treating: >-
     {standing|sitting on chair}{|,looking at viewer},{holding {syringe|clipboard|stethoscope}|writing},hospital,indoors,{0-$$,$$bed|desk},
-    {__costumes/doctor__|__costumes/nurse__},{0-$$,$${5::|1::glasses}|{expressionless|light smile},{0-$$,$$open mouth}}
+    {__costumes/doctor__|__costumes/nurse__},{0-$$,$${5::|1::glasses}|{expressionless|light smile}{|,open mouth}}
   wating: >-
     {sitting on bench|standing},{crossed arms|holding {bag|smartphone}},looking at another{|,from side},{street|park|station,indoors|cafe},
     {0-$$,$$__costumes/usually/outdoors__|{yawning|bored{|,v-shaped eyebrows}|expressionless{|,v-shaped eyebrows}}}
@@ -229,4 +229,4 @@ behavior:
   working: >-
     {standing,{crossed arms|hand on own {chin|hip|shoulder}|holding {cup|paper{|s}|smartphone|tablet pc}}|
     sitting{|,crossed legs},{crossed arms|hand on own {chin|ear|shoulder}|hands on own {head|knee|neck}|head rest|holding {cup|paper{|s}|smartphone}|typing}},
-    {|looking at viewer},{office,indoors},__costumes/office_lady__{|,expressionless|,light smile|,serious}
+    {|looking at viewer},office,indoors,__costumes/office_lady__{|,expressionless|,light smile|,serious}
