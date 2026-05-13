@@ -27,6 +27,19 @@ behavior:
   celebrating: >-
     holding party popper,{standing|sitting}{|,looking at viewer}{0-$$,$$confetti|balloons},room,indoors,{excited|smile|laughing},
     {0-$$,$${0-$$,$$open mouth|one eye closed}|__costumes/usually/indoors__}
+  christmas:
+    - >-
+      standing{|,looking at viewer},holding sack,arm at side,{room,indoors,christmas tree{|,ornaments|,lights}|street,outdoors,night,christmas lights,snow},
+      __costumes/santa__,{|light }smile,{0-$$,$$open mouth|one eye closed}
+    - >-
+      sitting on chair,looking at viewer,table,{0-$$,$$candle|wine glass|cake|dishes},room,indoors,christmas tree,
+      {__costumes/dress__|__costumes/warm_sets__},{{|light }smile|grin},{0-$$,$$open mouth|one eye closed}
+    - >-
+      {standing|sitting}{|,looking at viewer},holding {gift|ornament},room,indoors,christmas tree{|,ornaments|,lights},
+      __costumes/warm_sets__,{{|light }smile|excited},{0-$$,$$open mouth|one eye closed}
+    - >-
+      {standing|walking}{|,looking at viewer},holding shopping bag,street,outdoors,night,christmas lights,snow,shop window,
+      __costumes/winter__,{{|light }smile|excited},{0-$$,$$open mouth|one eye closed}
   cleaning: >-
     sweeping{|,looking at viewer},{room,indoors|outdoors},
     {0-$$,$${__costumes/barista__|__costumes/bartender__|__costumes/employee__|__costumes/maid__|__costumes/teacher__|15::__costumes/usually/everywhere__}|{|light }smile{|,open mouth}}
@@ -186,7 +199,7 @@ behavior:
     {1::room{|,__costumes/cool_sets__|,__costumes/school__|,__costumes/warm_sets__}|2::{library|cafe}{1::|13::,__costumes/usually/outdoors__}},
     {0-$$,$$|{expressionless|light smile|tired},{0-$$,$$open mouth|v-shaped eyebrows}|{head rest|hand on own chin}}
   summer_scene: >-
-    {sitting|standing|on back}{|,looking at viewer},{hand on own {neck|forehead}|fanning with hand|holding {drink|fan}},sweat{|,day|,night},
+    {sitting|standing|on back}{|,looking at viewer},{hand on own {neck|forehead}|fanning with hand|holding {drink|fan|uchiwa}},sweat{|,day|,night},
     {room,indoors,__costumes/cool_sets__|veranda,outdoors,{__costumes/summer__|__costumes/cool_sets__}},{tired,{0-$$,$$open mouth|half-closed eyes}|{|light }smile}
   sunny: >-
     {standing|sitting}{|,looking at viewer},{hand on own {neck|forehead}|fanning with hand|wiping sweat|holding drink|holding umbrella},sunny,day,
@@ -220,12 +233,11 @@ behavior:
       kotatsu,{|,looking at viewer},room,indoors{|,mandarin orange on kotatsu},{cardigan|hooded shirt|loungewear|polo shirt|sweater|turtleneck shirt}{|,sleeves {pushed|rolled} up},
       {{|light }smile|sleeping,head on arm}
     - >-
-      {standing|walking},looking up{|,hand up,open hand},{street|park|forest|garden},snow{|,day|,night},{0-$$,$$__costumes/winter__|{0-$$,$${smile|excited}|open mouth}}
+      {standing|walking},{looking up{|,hand up,open hand}{|,{smile|excited}}|warming hands},{street|park|forest|garden},snow{|,day|,night},{0-$$,$$__costumes/winter__|open mouth}
     - >-
       holding snowball,looking at viewer,outdoors,snow{|,snowman},__costumes/winter__,{excited|{light |}smile},{0-$$,$$open mouth|v-shaped eyebrows}
     - >-
-      {sitting|standing}{|,looking at viewer},{hand on own cheek|hugging own arms},
-      {room,indoors,fireplace{|,blanket},__costumes/usually/indoors__|street,outdoors,snow,__costumes/winter__},{|light }smile,{closed eyes|half-closed eyes}
+      sitting{|,looking at viewer}{|,holding cup|,reading book},room,indoors,fireplace{|,blanket},__costumes/warm_sets__,{0-$$,$${|light }smile|half-closed eyes}
   working: >-
     {standing,{crossed arms|hand on own {chin|hip|shoulder}|holding {cup|paper{|s}|smartphone|tablet pc}}|
     sitting{|,crossed legs},{crossed arms|hand on own {chin|ear|shoulder}|hands on own {head|knee|neck}|head rest|holding {cup|paper{|s}|smartphone}|typing}},
