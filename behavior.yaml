@@ -120,6 +120,9 @@ behavior:
   gardening: >-
     holding {watering can|potted plant|flower pot},looking at viewer,garden{|,outdoors}{|,day},
     {0-$$,$${__costumes/cottage_core__|__costumes/mori_girl__|__costumes/summer__}|{|light }smile,{0-$$,$$open mouth|closed eyes}}
+  halloween:
+    halloween,halloween costume,{standing|walking}{|,looking at viewer},{claw pose|{1-$$,$$victory pose|holding {bag|lantern}}},{street,outdoors|park,outdoors|room,indoors},night,
+    {0-$$,$$decorations|jack-o'-lantern},{__costumes/demon__|__costumes/vampire__|__costumes/witch__|__costumes/magical__},{{|light }smile|excited|smug|smirk},{0-$$,$$open mouth|one eye closed}
   hiking: >-
     hiking,{mountain|forest|river|lake},__costumes/athleisure__,{0-$$,$$backpack|{smile|excited|tired}}
   investigating: >-
@@ -141,6 +144,13 @@ behavior:
   negotiating: >-
     holding drink,sitting{|,looking at viewer},{crossed arms|hand on own chin|hand on own hip},tavern,indoors,
     {0-$$,$${__costumes/commander__|__costumes/pirate__|__costumes/hunter__|__costumes/shady__|__costumes/witch__}|{expressionless|serious|smug}{|,open mouth}}
+  new_year:
+    - >-
+      praying,palms together,standing,shrine,shrine,outdoors,{day|morning}{|,snow},__costumes/japan__,{serious|expressionless|light smile},closed eyes
+    - >-
+      seiza,looking at viewer,holding {cup|chopsticks},room,indoors,new year,{osechi|kadomatsu},{|__costumes/japan__|__costumes/usually/indoors__},{{|light }smile|smile}{|,open mouth}
+    - >-
+      {1-$$,$$standing|looking up},outdoors,night,fireworks{|,snow},__costumes/winter__,{excited|smile},{0-$$,$$open mouth|one eye closed}
   performing: >-
     {singing,{holding microphone|headset}{|,__costumes/idol__|,__costumes/musician__}|{standing,arms outstretched|dancing}{|,looking up}{|,__costumes/idol__|,__costumes/ballerina__}}
     on stage,{hall|theater}{|,spotlight},{excited|smile}
@@ -160,7 +170,7 @@ behavior:
     {0-$$,$${2::__costumes/usually/indoors__|__barefoot/equipments/e_girl__|__barefoot/equipments/fairy_kei__|__barefoot/equipments/mori_girl__|
       __barefoot/equipments/ryousangata__|__barefoot/equipments/school__}|{excited|laughing|smile},{0-$$,$$open mouth|v-shaped eyebrows}}
   praying: >-
-    praying,{hands clasped,{kneeling|on one knee|standing},{church|altar|ruins}{|,__costumes/priest__}|palms together,standing,shrine{|,__costumes/japan__}},
+    praying,hands clasped,{kneeling|on one knee|standing},{church|altar|ruins}{|,__costumes/priest__},
     {serious|expressionless|light smile},closed eyes
   rainy: >-
     {standing,looking up{|,shelting|,hand up,open hand}{|{|,surplised},open mouth}|walking{holding umbrella|{1-$$,$$raincoat|rain boots}{|,light smile|,open mouth}}|running,wet clothes,wet hair{|,surprised},opened eyes,open mouth},
@@ -223,6 +233,9 @@ behavior:
   treating: >-
     {standing|sitting on chair}{|,looking at viewer},{holding {syringe|clipboard|stethoscope}|writing},hospital,indoors,{0-$$,$$bed|desk},
     {__costumes/doctor__|__costumes/nurse__},{0-$$,$${5::|1::glasses}|{expressionless|light smile}{|,open mouth}}
+  valentines:
+    holding heart-shaped {box|gift}{|,looking at viewer|,looking away},{school,indoors|park,outdoors|room,indoors},
+    blush,{{|light }smile|smile|embarrassed},{0-$$,$$open mouth|one eye closed},{1::|15::__costumes/usually/everywhere__}
   wating: >-
     {sitting on bench|standing},{crossed arms|holding {bag|smartphone}},looking at another{|,from side},{street|park|station,indoors|cafe},
     {0-$$,$$__costumes/usually/outdoors__|{yawning|bored{|,v-shaped eyebrows}|expressionless{|,v-shaped eyebrows}}}
