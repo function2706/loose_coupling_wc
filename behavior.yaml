@@ -24,6 +24,15 @@ behavior:
       showering{|,sitting}{|,hand{|s} on own {chest|head|hip}|,holding shower head}{|,looking at viewer},{0-$$,$$steam|nipples|full body{|,pov}|{happy|relaxing}{|,closed eyes}}
   bartending: >-
     {standing{|,looking at viewer}},bar,indoors,{holding {shaker|bottle|glass}},__costumes/bartender__,{0-$$,$${light smile|smile|serious},{0-$$,$$open mouth|one eye closed}}
+  breakfast:
+    - >-
+      sitting,{eating toast,coffee|{drinking coffee|holding cup},toast}{|,looking at viewer},table,dish,room,indoors,morning,
+      {__costumes/bedding__|__costumes/usually/indoors__|__costumes/office_lady__|__costumes/school__},{{|light }smile|expressionless},{0-$$,$$open mouth|half-closed eyes}
+    - >-
+      sitting,seiza{|,looking at viewer},{rice,miso soup,{grilled fish|tamagoyaki}}{|,chopsticks},room,indoors,morning,table,zabuton,
+      {__costumes/bedding__|__costumes/usually/indoors__|yukata},{{|light }smile|expressionless},{0-$$,$$open mouth|half-closed eyes}
+    - >-
+      sitting{|,looking at viewer},{coffee|tea}{|,toast|,sandwich},cafe,indoors,morning,window{|,sunlight},{0-$$,$$__costumes/usually/outdoors__|{calm|{|light }smile},{0-$$,$$half-closed eyes|open mouth}}
   celebrating: >-
     holding party popper,{standing|sitting}{|,looking at viewer}{0-$$,$$confetti|balloons},room,indoors,{excited|smile|laughing},
     {0-$$,$${0-$$,$$open mouth|one eye closed}|__costumes/usually/indoors__}
@@ -89,9 +98,13 @@ behavior:
     - >-
       surprised,{0-$$,$$open mouth|wide eyes|sweat},{standing|sitting}{|,looking at viewer},{hand on own {mouth|chest}|arms raised},
       {1::|15::__costumes/usually/everywhere__}
-  festival: >-
-    festival{|,holding {food|drink}},{walking|standing},looking at viewer,outdoors,night{|,festival},{{|light }smile|excited},{0-$$,$$open mouth|one eye closed},
-    {|{|light }blue |{|light }green |{|light }pink |{|light }purple |{|light }red |{|light }yellow }{furisode|yukata},{0-$$,$${geta|sandals}|kanzashi}
+  festival:
+    - >-
+      festival{|,holding {food|drink}},{walking|standing},looking at viewer,outdoors,night{|,festival},{{|light }smile|excited},{0-$$,$$open mouth|one eye closed},
+      {|{|light }blue |{|light }green |{|light }pink |{|light }purple |{|light }red |{|light }yellow }{furisode|yukata},{0-$$,$${geta|sandals}|kanzashi}
+    - >-
+      {walking|standing|sitting}{|,looking {at viewer|up}}{|,holding {food|drink|lantern}},outdoors,night,festival,{1-$$,$$fireworks|stall},{{|light }smile|excited},{0-$$,$$open mouth|one eye closed}
+      {|{|light }blue |{|light }green |{|light }pink |{|light }purple |{|light }red |{|light }yellow }{furisode|yukata},{0-$$,$${geta|sandals}|kanzashi}
   fighting:
     - >-
       boxing{|,looking at viewer},{0-$$,$$boxer briefs|{1-$$,$$v-shaped eyebrows|open mouth}|{punching|incoming punch}}
@@ -141,6 +154,13 @@ behavior:
       {1::|15::__costumes/usually/everywhere__}
     - >-
       incoming {hug|kiss|pocky kiss},{0-$$,$$blush|looking away|closed mouth|smile},{1::|15::__costumes/usually/everywhere__}
+  lunch:
+    - >-
+      sitting{|,eating}{|,looking at viewer},lunchbox,chopsticks,{rooftop,outdoors|park,outdoors|classroom,indoors}{|,day},
+      {0-$$,$${__costumes/school__|__costumes/office_lady__|__costumes/usually/outdoors__}|{{|light }smile|grin}}
+    - >-
+      sitting,{|,eating}{|,looking at viewer},table,{pasta|salad|sandwich|hamburger}{|,drink},{cafe|restaurant},indoors,day,
+      {0-$$,$$__costumes/usually/outdoors__|{{|light }smile|grin}}
   negotiating: >-
     holding drink,sitting{|,looking at viewer},{crossed arms|hand on own chin|hand on own hip},tavern,indoors,
     {0-$$,$${__costumes/commander__|__costumes/pirate__|__costumes/hunter__|__costumes/shady__|__costumes/witch__}|{expressionless|serious|smug}{|,open mouth}}
@@ -218,6 +238,9 @@ behavior:
   sunset: >-
     {standing{|,arms behind back}|sitting{|,hugging own knees}}{|,looking at viewer|,from side},{beach|rooftop|hill|river},sunset,orange sky,{light smile|expressionless}{|,half-closed eyes},
     {1::|13::__costumes/usually/outdoors__}
+  tanabata: >-
+    {standing|walking}{|,looking {at viewer|up}|,holding tanzaku},{shrine|street},outdoors,night,tanabata,bamboo decoration,
+    __costumes/japan__,{{|light }smile|smile},{0-$$,$$open mouth|one eye closed}
   teaching: >-
     standing,{holding {book|clipboard|pointer}}{|,looking at viewer},classroom,indoors,{0-$$,$$lectern|blackboard},__costumes/teacher__,
     {0-$$,$$straight-on{|,pov}|{expressionless|smile}{|,open mouth}}
