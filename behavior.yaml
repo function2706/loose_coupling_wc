@@ -64,13 +64,13 @@ behavior:
   daydreaming: >-
     {sitting{|,head rest}|standing,leaning to the side},looking away,window,indoors{|,day|,sunset|,night},
     {0-$$,$${__costumes/mori_girl__|__costumes/school__|2::__costumes/usually/indoors__}|{expressionless|light smile}{|,half-closed eyes}}
-  drinking: >-
-    holding wine glass,sitting on chair,looking at viewer,
-    table,{0-$$,$$candle on table|table cloth|dishes|{0-$$,$$knife|fork|spoon}|wine bottle},
-    {0-$$,$$straight-on{|,pov}|{{|light }smile|grin},{0-$$,$${closed eyes|one eye closed}|open mouth}|__costumes/dress__}
-  eating: >-
-    eating {apple|banana|cake|donut|egg|fig|grape|honey|icecream|jam|kiwi|lemon|mango|noodle|orange|pizza|quinoa|ramen|strawberry|tomato|udon|vanilla|watermelon|xnipec|yogurt|zucchini},
-    {1::|15::__costumes/usually/everywhere__}
+  dinner:
+    - >-
+      holding wine glass,sitting on chair{|,looking at viewer{|,straight-on{|,pov}}},table,{0-$$,$$candle on table|table cloth|dishes|{0-$$,$$knife|fork|spoon}|wine bottle},
+      {0-$$,$${{|light }smile|grin},{0-$$,$${closed eyes|one eye closed}|open mouth}|__costumes/dress__}
+    - >-
+      sitting,seiza{|,looking at viewer{|,straight-on{|,pov}}},{rice,{miso soup|soup},{side dish|okazu}}{|,chopsticks},table,room,indoors,night,
+      {0-$$,$${{|light }smile|grin},{0-$$,$${closed eyes|one eye closed}|open mouth}|__costumes/usually/indoors__|__costumes/japan__}
   emotions:
     - >-
       {standing|sitting},{angry|annoyed},open mouth,{0-$$,$$v-shaped eyebrows|tears},looking at viewer,{pointing at viewer|crossed arms|hand on own hip},
@@ -125,6 +125,8 @@ behavior:
     - >-
       walking{|,looking to the side|,looking away},{holding {baton|gun|flashlight}|hand on hip},{street,outdoors|corridor,indoors},night,
       {__costumes/police__|__costumes/soldier__},{expressionless|serious}{|,v-shaped eyebrows}
+  fishing: >-
+    fishing,holding fishing rod{|,sitting|,standing}{|,ocean|,river},{0-$$,$$|{serious|smile|excited},{|v-shaped eyebrows|open mouth}}
   foggy: >-
     fog,{night|dawn},{standing|walking}{|,looking at viewer|,looking to the side}{|,arms at sides},{forest|street|river},
     {|__costumes/usually/outdoors__},expressionless
@@ -142,6 +144,9 @@ behavior:
     {{standing|squatting|on on knee},{indoors|alley,outdoors|office,indoors},{{{holding|reading} notebook|holding magnifying glass|holding flashlight}|hand on own chin}|
       sitting on chair,library,{reading book|writing,notebook}}{|,looking at viewer|,looking down},
     __costumes/detective__,{expressionless|serious},{0-$$,$$open mouth|one eye closed|narrowed eyes}
+  izakaya: >-
+    sitting{|,seiza,zabuton}{|,looking at viewer{|,straight-on{|,pov}}},holding {glass,{beer|wine}|cup,sake|bottle,{sake|wine}},table{|,yakitori},izakaya,indoors,night,
+    {0-$$,$${__barefoot/equipments/summer__|__barefoot/equipments/winter__|__barefoot/equipments/office_lady__}|{{|light }smile|grin},{0-$$,$$drunk|open mouth|{one eye closed|closed eyes}}}
   loving:
     - >-
       {standing|sitting}{|,looking at viewer|,looking away},{park,cherry blossom{|,__costumes/summer__}|{school|rooftop}{|,__costumes/school__}|room{|,__costumes/usually/indoors__}},
@@ -156,10 +161,10 @@ behavior:
       incoming {hug|kiss|pocky kiss},{0-$$,$$blush|looking away|closed mouth|smile},{1::|15::__costumes/usually/everywhere__}
   lunch:
     - >-
-      sitting{|,eating}{|,looking at viewer},lunchbox,chopsticks,{rooftop,outdoors|park,outdoors|classroom,indoors}{|,day},
+      sitting{|,eating}{|,looking at viewer{|,straight-on{|,pov}}},lunchbox,chopsticks,{rooftop,outdoors|park,outdoors|classroom,indoors}{|,day},
       {0-$$,$${__costumes/school__|__costumes/office_lady__|__costumes/usually/outdoors__}|{{|light }smile|grin}}
     - >-
-      sitting,{|,eating}{|,looking at viewer},table,{pasta|salad|sandwich|hamburger}{|,drink},{cafe|restaurant},indoors,day,
+      sitting,{|,eating}{|,looking at viewer{|,straight-on{|,pov}}},table,{pasta|salad|sandwich|hamburger}{|,drink},{cafe|restaurant},indoors,day,
       {0-$$,$$__costumes/usually/outdoors__|{{|light }smile|grin}}
   negotiating: >-
     holding drink,sitting{|,looking at viewer},{crossed arms|hand on own chin|hand on own hip},tavern,indoors,
@@ -168,7 +173,7 @@ behavior:
     - >-
       praying,palms together,standing,shrine,shrine,outdoors,{day|morning}{|,snow},__costumes/japan__,{serious|expressionless|light smile},closed eyes
     - >-
-      seiza,looking at viewer,holding {cup|chopsticks},room,indoors,new year,{osechi|kadomatsu},{|__costumes/japan__|__costumes/usually/indoors__},{{|light }smile|smile}{|,open mouth}
+      seiza,looking at viewer,holding {cup|chopsticks},room,indoors,table,new year,{osechi|kadomatsu},{|__costumes/japan__|__costumes/usually/indoors__},{{|light }smile|smile}{|,open mouth}
     - >-
       {1-$$,$$standing|looking up},outdoors,night,fireworks{|,snow},__costumes/winter__,{excited|smile},{0-$$,$$open mouth|one eye closed}
   performing: >-
@@ -183,8 +188,8 @@ behavior:
     holding camera{|,looking at {another|viewer}},{city|street|forest|park|mountain},
     {0-$$,$${15::__costumes/usually/outdoors__|1::__costumes/explorer__}|{{|light }smile|excited|expressionless},{0-$$,$$one eye closed|open mouth}}
   picnick: >-
-    sitting,{wariza|seiza|indian style}{|,drinking|,eating}{|,looking at viewer},{outdoors,{day|night},picnick sheet,{|{|cherry blossom |maple }tree}},
-    {0-$$,$$__costumes/usually/outdoors__|{{|light }smile|grin},{0-$$,$${closed eyes|one eye closed}|open mouth}}
+    sitting,{wariza|seiza|indian style}{|,drinking|,eating|,holding {sandwich|onigiri|drink}}{|,looking at viewer{|,straight-on{|,pov}}},{outdoors,{day|night},picnick sheet,{|{|cherry blossom |maple }tree}},
+    {0-$$,$${__barefoot/equipments/school__|__barefoot/equipments/summer__|__barefoot/equipments/winter__}|{{|light }smile|grin},{0-$$,$${closed eyes|one eye closed}|open mouth}}
   playing: >-
     holding gamepad,sitting on {chair|floor|sofa}{|,indian style|,seiza|,wariza}{|,looking at viewer},room,indoors,{0-$$,$$table|television},
     {0-$$,$${2::__costumes/usually/indoors__|__barefoot/equipments/e_girl__|__barefoot/equipments/fairy_kei__|__barefoot/equipments/mori_girl__|
@@ -195,6 +200,9 @@ behavior:
   rainy: >-
     {standing,looking up{|,shelting|,hand up,open hand}{|{|,surplised},open mouth}|walking{holding umbrella|{1-$$,$$raincoat|rain boots}{|,light smile|,open mouth}}|running,wet clothes,wet hair{|,surprised},opened eyes,open mouth},
     outdoors,rain{|,puddle}{|,day|,evening|,night}{|15::,__costumes/usually/outdoors__}
+  ramen_shop: >-
+    sitting{|,looking at viewer{|,straight-on{|,pov}}},{holding chopsticks|eating noodle},ramen,indoors{|,counter},
+    {0-$$,$$__costumes/usually/outdoors__|{expressionless|{|light }smile},{0-$$,$$open mouth}}
   reading: >-
     reading{| book| letter| newspaper| paper}
     {|1::,room{|2::,__costumes/usually/indoors__}|6::,{forest|park|city|library|school|lake|river}{|13::,__costumes/usually/outdoors__}}
@@ -210,6 +218,16 @@ behavior:
     {sleeping|yawning}{|,on back{|,arms behind heads}|,on stomach{|,head rest}|,on side{|,head rest}|,fetal position}{|1::,__costumes/bedding__|2::,__costumes/usually/indoors__}
   smoking: >-
     smoking{1::|1::,room|1::,through window|3::{|,park|,street|,ocean}{|,day|,evening|,night}}{1::|15::,__costumes/usually/everywhere__}
+  snack_time:
+    - >-
+      sitting on chair,looking at viewer{|,head rest|holding cup},{cafe|restaurant|room},indoors,table{|,tea|,milk},{0-$$,$$cake|table cloth|window},
+      {0-$$,$$straight-on{|,pov}|{{|light }smile|grin},{0-$$,$${closed eyes|one eye closed}|open mouth}|__costumes/usually/everywhere__}
+    - >-
+      {sitting{|,{wariza|seiza|indian style}}|on stomach}{|,looking at viewer},{holding {cookie|candy|dango}|eating {popcorn|chips|instant ramen}},room,indoors{|,day|,evening},
+      {0-$$,$$__costumes/bedding__|__costumes/usually/indoors__|{{|light }smile|excited}{|,open mouth}}
+    - >-
+      {sitting|standing}{|,looking at viewer},{holding {crepe|taiyaki|takoyaki|soft serve}},{street,outdoors|park,outdoors}{|,day},
+      {0-$$,$$__costumes/usually/outdoors__|{{|light }smile|excited},{0-$$,$$open mouth|one eye closed}}
   soaking: >-
     {soaking feet{|,pool}|wading,bare legs{|,ocean|,river|,pool}}{|,standing|,sitting}{|,__costumes/summer__|,__costumes/swimwear__}
   spring_scene: >-
@@ -245,8 +263,8 @@ behavior:
     standing,{holding {book|clipboard|pointer}}{|,looking at viewer},classroom,indoors,{0-$$,$$lectern|blackboard},__costumes/teacher__,
     {0-$$,$$straight-on{|,pov}|{expressionless|smile}{|,open mouth}}
   teatime: >-
-    sitting on chair,looking at viewer{|,head rest|holding cup},{cafe|restaurant|room},indoors,table,coffee,{0-$$,$$cake|table cloth|window},
-    {0-$$,$$straight-on{|,pov}|{{|light }smile|grin},{0-$$,$${closed eyes|one eye closed}|open mouth}|__costumes/usually/everywhere__}
+    sitting on chair,{|,looking at viewer{|,straight-on{|,pov}}}{|,head rest|,holding cup},{cafe|restaurant|room},indoors,table,coffee,{0-$$,$$cake|table cloth|window},
+    {0-$$,$${{|light }smile|grin},{0-$$,$${closed eyes|one eye closed}|open mouth}|__costumes/usually/everywhere__}
   throne: >-
     sitting on throne{|,looking at viewer},{castle|palace},{1-$$,$$crossed legs|head rest|hand on armrest},
     {0-$$,$${__costumes/commander__|__costumes/dress__|__costumes/medieval_noble__|__costumes/princess__}|{expressionless|serious|smug}}
