@@ -38,7 +38,7 @@ boots_setups:
   skirt: >-
     {__boots_maker/ankle_boots__{|,kneehighs|,thighhighs}|__boots_maker/knee_boots__{|,thighhighs}|__boots_maker/thigh_boots__},{2::{{|frilled }shirt|{|oversized }sweater}{|,{off|single}-shoulder}|1::fur coat},{flare|pleated} {|mini}skirt{|,belt}
   after_rain: >-
-    {black|dark brown} __boots_maker/knee_boots__,{navy|grey} trench coat,{black|denim} pants,pants rolled up,pantyhose
+    {black|brown} __boots_maker/knee_boots__,{navy|grey} trench coat,{black|denim} pants,pants rolled up,pantyhose
   after_cooking_class: >-
     {brown|brown} __boots_maker/ankle_boots__,{white|light brown} knit sweater,{navy|grey} wide pants
   bakery: >-
@@ -52,7 +52,7 @@ boots_setups:
   illumination: >-
     {black|white} {__boots_maker/ankle_boots__|__boots_maker/knee_boots__|__boots_maker/thigh_boots__},stiletto heels,{white|light grey} coat,{black|white} miniskirt{|,white scarf}
   museum: >-
-    {black|dark brown} {__boots_maker/ankle_boots__|__boots_maker/knee_boots__},{black|white} turtleneck top,grey long coat,{black|dark green} pleated long skirt,black pantyhose
+    {black|brown} {__boots_maker/ankle_boots__|__boots_maker/knee_boots__},{black|white} turtleneck top,grey long coat,{black|dark green} pleated long skirt,black pantyhose
   riverbed: >-
     {brown|white} __boots_maker/ankle_boots__,{white|light pink} loose shirt,{beige|denim} shorts,{0-$$,$${white|pink} hat|bracelet}
   snap: >-
@@ -78,11 +78,11 @@ boots_setups:
   rainy_day: >-
     {black|dark navy} __boots_maker/knee_boots__,{yellow|beige} trench coat,{white|grey} shirt,{dark grey|navy} straight pants,pants tucked in,pantyhose
   winter_market: >-
-    {black|dark brown} {__boots_maker/knee_boots__|__boots_maker/thigh_boots__},{grey|navy} long coat,{black|white} turtleneck sweater,{grey|charcoal} skinny pants,pantyhose,{0-$$,$$knit hat|plaid scarf}
+    {black|brown} {__boots_maker/knee_boots__|__boots_maker/thigh_boots__},{grey|navy} long coat,{black|white} turtleneck sweater,{grey|charcoal} skinny pants,pantyhose,{0-$$,$$knit hat|plaid scarf}
   art_gallery: >-
     {black|white} {__boots_maker/ankle_boots__|__boots_maker/knee_boots__},{black|ivory} turtleneck top,{camel|grey} wide trousers,{3::|1::,simple {necklace|bracelet}}
   autumn_walk: >-
-    {brown|dark brown} {__boots_maker/ankle_boots__|__boots_maker/knee_boots__},{camel|rust} long coat,{cream|beige} turtleneck knit,{brown|olive} {straight pants|wide pants},pants tucked in{|,scarf}
+    {brown|brown} {__boots_maker/ankle_boots__|__boots_maker/knee_boots__},{camel|rust} long coat,{cream|beige} turtleneck knit,{brown|olive} {straight pants|wide pants},pants tucked in{|,scarf}
   flea_market: >-
     {brown|tan} {__boots_maker/ankle_boots__|__boots_maker/knee_boots__},{olive|mustard} oversized jacket,{white|cream} loose shirt,{beige|black} wide pants{|,belt}
   vintage_shop: >-
