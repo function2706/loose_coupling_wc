@@ -1,8 +1,8 @@
 subjects:
   random:
-    - "{__subjects/original/*__|__subjects/copyrights/*__|__subjects/copyrights_pickup/*__|__subjects/profiles/random__|__subjects/profiles_favorite/random__}"
+    - "{1::__subjects/original/*__|8::__subjects/copyrights/*__|8::__subjects/profiles/random__}"
   random_with_furry:
-    - "{__subjects/original/*__|__subjects/copyrights/*__|__subjects/copyrights_pickup/*__|__subjects/profiles/random_with_furry__|__subjects/profiles_favorite/random_with_furry__}"
+    - "{1::__subjects/original/*__|8::__subjects/copyrights/*__|8::__subjects/profiles/random_with_furry__}"
   original:
     human-girl-1:
       - girl,brown hair,short hair,asymmetrical bangs,brown eyes,tsurime,tan skin,small breasts
@@ -2354,7 +2354,7 @@ subjects:
       - aki shizuha
       - alice margatroid
       - alice margatroid \(pc-98\)
-      - chen
+      - chen,cat ears
       - cirno
       - clownpiece
       - daiyousei
@@ -2793,7 +2793,7 @@ subjects:
       - aki minoriko
       - aki shizuha
       - alice margatroid
-      - chen
+      - chen,cat ears
       - cirno
       - clownpiece
       - daiyousei

@@ -33,9 +33,8 @@ behavior:
       {__costumes/bedding__|__costumes/usually/indoors__|yukata},{{|light }smile|expressionless},{0-$$,$$open mouth|half-closed eyes}
     - >-
       sitting{|,looking at viewer},{coffee|tea}{|,toast|,sandwich},cafe,indoors,morning,window{|,sunlight},{0-$$,$$__costumes/usually/outdoors__|{calm|{|light }smile},{0-$$,$$half-closed eyes|open mouth}}
-  celebrating: >-
-    holding party popper,{standing|sitting}{|,looking at viewer}{0-$$,$$confetti|balloons},room,indoors,{excited|smile|laughing},
-    {0-$$,$${0-$$,$$open mouth|one eye closed}|__costumes/usually/indoors__}
+  brushing: >-
+    brushing teeth,standing,indoors{|,window,{morning|night}}{0-$$,$${1::__costumes/bedding__|2::__costumes/usually/indoors__}|{1-$$,$$expressionless|half-closed eyes}}
   christmas:
     - >-
       standing{|,looking at viewer},holding sack,arm at side,{room,indoors,christmas tree{|,ornaments|,lights}|street,outdoors,night,christmas lights,snow},

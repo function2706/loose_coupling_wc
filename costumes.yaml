@@ -90,7 +90,7 @@ costumes:
     {0-$$,$$latex elbow gloves|{latex thigh boots|latex knee boots{|,garter belt|,{|fishnet }thighhighs}|{|stiletto }heels{|,garter belt|,{|fishnet }thighhighs}}},
     {0-$$,$$corset|choker|earrings|pendant}
   bedding: >-
-    {negligee|nightwear|pajamas|babydoll|camisole}{|,{mob cap|nightcap}}
+    {negligee|nightwear|pajamas|babydoll|camisole}{10::|1::,{mob cap|nightcap}}
   bikini_armor: >-
     {|blue |gold |green |red |silver |yellow }bikini armor,{0-$$,$${|elbow }gloves|{|knee }boots}
   bodycon: >-
