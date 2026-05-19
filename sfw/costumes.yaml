@@ -4,7 +4,7 @@ fashion_show:
     __fashion_show/of__
   of: >-
     {|,city}{|,{|light }smile{|,open mouth}},
-    {standing,{0-$$,$${v{| over {eye|mouth}}|double v|arms behind {head|back}}|crossed legs}|sitting,{0-$$,$${v{| over {eye|mouth}}|double v|head rest|arms behind {head|back}}|crossed legs}|contrapposto},
+    {standing,{0-$$,$${v{| over {eye|mouth}}|double v|arms behind {head|back}}|crossed legs}|sitting,{0-$$,$${v{| over {eye|mouth}}|double v|head rest|arms behind {head|back}}|crossed legs}|contrapposto|__posture/random__},
     __SUBJECT_HERE__,
     __bp_solo_q__
     __NEG...__
