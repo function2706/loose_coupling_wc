@@ -1,6 +1,14 @@
 drawing:
   all: >-
-    {6::__drawing/casual__|6::__drawing/cosplay__|1::__drawing/costume__}
+    {10::__drawing/nsfw__|1::__drawing/costume__}
+  nsfw:
+    - __drawing/casual__
+    - __drawing/cosplay__
+  sfw:
+    - "{__boots_show/random__|__boots_show/without_ankle__}"
+    - __latex/random__
+    - __fashion_show/random__
+    - __hang_out/random__
   casual:
     - __asphyxiation/casual__
     - __barefoot/casual/*__
@@ -21,8 +29,6 @@ drawing:
     - __trample/on_face/footwear/casual__
     - __trample/on_penis/casual__
     - __urethra/casual__
-  casual_costume: >-
-    {6::__drawing/casual__|1::__drawing/costume__}
   cosplay:
     - __asphyxiation/cosplay__
     - __barefoot/cosplay/*__
@@ -41,10 +47,3 @@ drawing:
     - __trample/on_face/footwear/cosplay__
     - __trample/on_penis/cosplay__
     - __urethra/cosplay__
-  cosplay_costume: >-
-    {6::__drawing/cosplay__|1::__drawing/costume__}
-  costume:
-    - "{__boots_show/random__|__boots_show/without_ankle__}"
-    - __latex/random__
-    - __fashion_show/random__
-    - __hang_out/random__
