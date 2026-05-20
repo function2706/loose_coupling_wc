@@ -1,251 +1,85 @@
 posture:
   random: >-
-    {10::{20::|1::head tilt}{10::|1::,looking {at another|at viewer|away|down|up}},{1-2$$,$$__posture/list__}|1::__posture/pose__}
+    {10::{10::|1::looking {at another|at viewer|away|down|up},}{1-2$$,$$__posture/list__}|1::__posture/pose__}
   list:
-    - __posture/upper/do__
-    - __posture/lower/do__
+    - __posture/upper/*__
+    - "{__posture/lower/standing__|__posture/lower/sitting__}"
   pose:
-    - "{on back|on side|on stomach}"
+    - "{on back{|,hand{|s} behind head}|on side{|,head rest}|on stomach{|,head rest}}"
     - all fours
-    - contrapposto
     - crawling
     - fetal position
+    - hugging own legs{|,crossed {ankles|legs}}
   upper:
-    do:
-      - __posture/upper/pose/do__
-      - __posture/upper/touching/do__
-      - __posture/upper/misc__
     pose:
-      do:
-        - __posture/upper/pose/one-hand/do__
-        - __posture/upper/pose/both-hands/do__
-      one-hand:
-        do:
-          - "{1-2$$,$$__posture/upper/pose/one-hand/list__}"
-        list:
-          - __posture/upper/pose/one-hand/positions__
-          - __posture/upper/pose/one-hand/signs__
-        positions:
-          - arm above head
-          - arm across waist
-          - arm at side
-          - arm between legs
-          - arm on knee
-          - arm on own head
-          - arm up
-          - outstretched arm
-          - spread arm
-          - v arm
-          - w arm
-        signs:
-          - clenched hand
-          - finger gun
-          - index finger raised
-          - open hand
-          - outstretched hand
-          - spread fingers
-          - thumb down
-          - thumb up
-          - v
-          - w
-      both-hands:
-        do:
-          - "{1-2$$,$$__posture/upper/pose/both-hands/list__}"
-        list:
-          - __posture/upper/pose/both-hands/positions__
-          - __posture/upper/pose/both-hands/signs__
-        positions:
-          - arms above head
-          - arms across waist
-          - arms at sides
-          - arms between legs
-          - arms on knee
-          - arms on own head
-          - arms up
-          - outstretched arms
-          - spread arms
-          - v arms
-          - w arms
-        signs:
-          - clenched hands
-          - double v
-          - double w
-          - finger gun
-          - index fingers raised
-          - open hands
-          - outstretched hand
-          - own hands clasped
-          - own hands together
-          - spread fingers
-          - thumbs down
-          - thumbs up
+      - arm{|s} above head
+      - arm{|s} across waist
+      - arm{|s} at side{|,clenched hand}
+      - arm{|s} between legs
+      - arm{|s} on knee
+      - arm{|s} on own head
+      - arm{|s} up{|,clenched hand|,thumbs up}
+      - thumbs up
+      - outstretched arms
+      - spread arms
+      - v arms
+      - w arms
+      - finger gun
+      - v{| over {eye|mouth}}
+      - double v
+      - own hands clasped
     touching:
-      do:
-        - __posture/upper/touching/one-hand/do__
-        - __posture/upper/touching/both-hands/do__
-        - __posture/upper/touching/misc__
-      one-hand:
-        do:
-          - hand __posture/upper/touching/one-hand/parts__
-        parts:
-          - between legs
-          - in own hair
-          - on own arm
-          - on own breast
-          - on own cheek
-          - on own chest
-          - on own chin
-          - on own ear
-          - on own face
-          - on own forehead
-          - on own head
-          - on own hip
-          - on own knee
-          - on own leg
-          - on own neck
-          - on own shoulder
-          - on own stomach
-          - on own thigh
-          - over eye
-          - over own mouth
-          - to own mouth
-      both-hands:
-        do:
-          - hands __posture/upper/touching/both-hands/parts__
-        parts:
-          - between legs
-          - in own hair
-          - on own breasts
-          - on own cheeks
-          - on own chest
-          - on own chin
-          - on own face
-          - on own head
-          - on own hip
-          - on own knees
-          - on own legs
-          - on own neck
-          - on own shoulders
-          - on own stomach
-          - on own thighs
-          - over eyes
-          - over own mouth
-      misc:
-        - breast lift
-        - breast suppress
-        - cheek rest
-        - covering breasts
-        - covering face
-        - covering one eye
-        - covering own ears
-        - covering own eyes
-        - covering own mouth
-        - finger to cheek
-        - finger to face
-        - finger to mouth
-        - finger to own chin
-        - fingers to cheeks
-        - head rest
-        - holding hair
-        - holding own arm
-        - holding own hair
-        - holding own wrist
-        - playing with own hair
-        - scratching cheek
-        - scratching head
-        - stroking own chin
-        - twirling hair
+      - hand on own arm
+      - hand{|s} between legs
+      - hand{|s} in own hair
+      - hand on own cheek
+      - hand on own chest
+      - hand on own chin
+      - hand on own ear
+      - hand{|s} on own face
+      - hand on own forehead
+      - hand{|s} on own head
+      - hand{|s} on own hip
+      - hand{|s} on own knee
+      - hand on own neck
+      - hand on own shoulder
+      - hand{|s} on own stomach
+      - covering own mouth
+      - finger{|s} to cheek
+      - head rest
+      - holding own arm
+      - holding own wrist
+      - scratching cheek
     misc:
-      - 4-finger heart hands
-      - arm rest
       - arm{|s} behind back
       - arm{|s} behind head
       - claw pose
       - crossed arms
-      - cupping hands
-      - curled fingers
-      - double middle finger
-      - elbow rest
       - finger frame
       - finger heart
-      - fist pump
-      - flexing
-      - ghost pose
-      - hand rest
-      - index fingers together
-      - middle finger
       - ok sign
-      - palms together
       - paw pose
-      - pinky out
       - pointing at self
       - pointing at viewer
-      - pointing up
       - rabbit pose
-      - raised fist
-      - reaching towards viewer
       - salute
       - shushing
       - steepled fingers
-      - surprised arms
       - v over eye
       - v over mouth
-      - victory pose
       - waving
-      - zombie pose
   lower:
-    do:
-      - __posture/lower/standing/do__
-      - __posture/lower/sitting/do__
     standing:
-      do:
-        - contrapposto
-        - standing on one leg
-        - standing,__posture/lower/standing/crossing/do__
-        - standing,__posture/lower/standing/splitting/do__
-        - tiptoes,__posture/lower/standing/crossing/do__
-        - tiptoes,__posture/lower/standing/splitting/do__
-      crossing:
-        do:
-          - " "
-          - __posture/lower/standing/crossing/option__
-        option:
-          - crossed ankles
-          - crossed legs
-      splitting:
-        do:
-          - " "
-          - __posture/lower/standing/splitting/option__
-        option:
-          - legs apart
+      - contrapposto
+      - standing{| on one leg|,crossed {ankles|legs}|,legs apart}
     sitting:
-      do:
-        - hugging own legs,__posture/lower/sitting/crossing/do__
-        - indian style
-        - kneeling,__posture/lower/sitting/splitting/do__
-        - knees apart feet together
-        - knees together feet apart
-        - on one knee
-        - outstretched legs,__posture/lower/sitting/crossing/do__
-        - seiza,__posture/lower/sitting/splitting/do__
-        - sitting,__posture/lower/sitting/crossing/do__
-        - sitting,__posture/lower/sitting/crossing/option__,__posture/lower/sitting/splitting/option__
-        - sitting,__posture/lower/sitting/splitting/do__
-        - squatting,__posture/lower/sitting/splitting/do__
-        - wariza
-        - yokozuwari
-      crossing:
-        do:
-          - " "
-          - __posture/lower/sitting/crossing/option__
-        option:
-          - crossed ankles
-          - crossed legs
-      splitting:
-        do:
-          - " "
-          - __posture/lower/sitting/splitting/option__
-        option:
-          - legs together
-          - spread legs
-          - wide spread legs
+      - indian style
+      - kneeling{|,legs together|,spread legs}
+      - knees apart feet together
+      - knees together feet apart
+      - on one knee{|,spread legs}
+      - seiza
+      - sitting{|,crossed {ankles|legs}|,legs apart|,spread legs}
+      - squatting{|,legs together|,spread legs}
+      - wariza
+      - yokozuwari
