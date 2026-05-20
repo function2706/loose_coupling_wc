@@ -1,6 +1,6 @@
 drawing:
   all: >-
-    {10::__drawing/nsfw__|1::__drawing/costume__}
+    {10::__drawing/nsfw__|1::__drawing/sfw__}
   nsfw:
     - __drawing/casual__
     - __drawing/cosplay__
