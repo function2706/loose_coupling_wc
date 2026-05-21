@@ -19,7 +19,7 @@ behavior:
   bathing:
     - >-
       bathing,{head on arm|hand on own {chest|shoulder}|hugging own legs}{|,looking at viewer},
-      {0-$$,$${1-$$,$$onsen|steam}|towel {around neck|on head}{4::|1::,nipples}|{happy|relaxing}{|,closed eyes}}
+      {0-$$,$${1-100$$,$$onsen|steam}|towel {around neck|on head}{4::|1::,nipples}|{happy|relaxing}{|,closed eyes}}
     - >-
       showering{|,sitting}{|,hand{|s} on own {chest|head|hip}|,holding shower head}{|,looking at viewer},{0-$$,$$steam|nipples|full body{|,pov}|{happy|relaxing}{|,closed eyes}}
   bartending: >-
@@ -34,7 +34,7 @@ behavior:
     - >-
       sitting{|,looking at viewer},{coffee|tea}{|,toast|,sandwich},cafe,indoors,morning,window{|,sunlight},{0-$$,$$__costumes/usually/outdoors__|{calm|{|light }smile},{0-$$,$$half-closed eyes|open mouth}}
   brushing: >-
-    brushing teeth,standing,indoors{|,window,{morning|night}}{0-$$,$${1::__costumes/bedding__|2::__costumes/usually/indoors__}|{1-$$,$$expressionless|half-closed eyes}}
+    brushing teeth,standing,indoors{|,window,{morning|night}}{0-$$,$${1::__costumes/bedding__|2::__costumes/usually/indoors__}|{1-100$$,$$expressionless|half-closed eyes}}
   christmas:
     - >-
       standing{|,looking at viewer},holding sack,arm at side,{room,indoors,christmas tree{|,ornaments|,lights}|street,outdoors,night,christmas lights,snow},
@@ -102,11 +102,11 @@ behavior:
       festival{|,holding {food|drink}},{walking|standing},looking at viewer,outdoors,night{|,festival},{{|light }smile|excited},{0-$$,$$open mouth|one eye closed},
       {|{|light }blue |{|light }green |{|light }pink |{|light }purple |{|light }red |{|light }yellow }{furisode|yukata},{0-$$,$${geta|sandals}|kanzashi}
     - >-
-      {walking|standing|sitting}{|,looking {at viewer|up}}{|,holding {food|drink|lantern}},outdoors,night,festival,{1-$$,$$fireworks|stall},{{|light }smile|excited},{0-$$,$$open mouth|one eye closed}
+      {walking|standing|sitting}{|,looking {at viewer|up}}{|,holding {food|drink|lantern}},outdoors,night,festival,{1-100$$,$$fireworks|stall},{{|light }smile|excited},{0-$$,$$open mouth|one eye closed}
       {|{|light }blue |{|light }green |{|light }pink |{|light }purple |{|light }red |{|light }yellow }{furisode|yukata},{0-$$,$${geta|sandals}|kanzashi}
   fighting:
     - >-
-      boxing{|,looking at viewer},{0-$$,$$boxer briefs|{1-$$,$$v-shaped eyebrows|open mouth}|{punching|incoming punch}}
+      boxing{|,looking at viewer},{0-$$,$$boxer briefs|{1-100$$,$$v-shaped eyebrows|open mouth}|{punching|incoming punch}}
     - >-
       {{kicking|incoming kick}{|,high kick}|{punching|incoming punch}|incoming attack},
       {0-$$,$${__costumes/bikini_armor__|__costumes/hunter__|__costumes/kunoichi__|__costumes/shady__|__costumes/soldier__}|{v-shaped eyebrows|open mouth}}
@@ -135,7 +135,7 @@ behavior:
     holding {watering can|potted plant|flower pot},looking at viewer,garden{|,outdoors}{|,day},
     {0-$$,$${__costumes/cottage_core__|__costumes/mori_girl__|__costumes/summer__}|{|light }smile,{0-$$,$$open mouth|closed eyes}}
   halloween:
-    halloween,halloween costume,{standing|walking}{|,looking at viewer},{claw pose|{1-$$,$$victory pose|holding {bag|lantern}}},{street,outdoors|park,outdoors|room,indoors},night,
+    halloween,halloween costume,{standing|walking}{|,looking at viewer},{claw pose|{1-100$$,$$victory pose|holding {bag|lantern}}},{street,outdoors|park,outdoors|room,indoors},night,
     {0-$$,$$decorations|jack-o'-lantern},{__costumes/demon__|__costumes/vampire__|__costumes/witch__|__costumes/magical__},{{|light }smile|excited|smug|smirk},{0-$$,$$open mouth|one eye closed}
   hiking: >-
     hiking,{mountain|forest|river|lake},__costumes/athleisure__,{0-$$,$$backpack|{smile|excited|tired}}
@@ -174,7 +174,7 @@ behavior:
     - >-
       seiza,looking at viewer,holding {cup|chopsticks},room,indoors,table,new year,{osechi|kadomatsu},{|__costumes/japan__|__costumes/usually/indoors__},{{|light }smile|smile}{|,open mouth}
     - >-
-      {1-$$,$$standing|looking up},outdoors,night,fireworks{|,snow},__costumes/winter__,{excited|smile},{0-$$,$$open mouth|one eye closed}
+      {1-100$$,$$standing|looking up},outdoors,night,fireworks{|,snow},__costumes/winter__,{excited|smile},{0-$$,$$open mouth|one eye closed}
   performing: >-
     {singing,{holding microphone|headset}{|,__costumes/idol__|,__costumes/musician__}|{standing,arms outstretched|dancing}{|,looking up}{|,__costumes/idol__|,__costumes/ballerina__}}
     on stage,{hall|theater}{|,spotlight},{excited|smile}
@@ -197,7 +197,7 @@ behavior:
     praying,hands clasped,{kneeling|on one knee|standing},{church|altar|ruins}{|,__costumes/priest__},
     {serious|expressionless|light smile},closed eyes
   rainy: >-
-    {standing,looking up{|,shelting|,hand up,open hand}{|{|,surplised},open mouth}|walking{holding umbrella|{1-$$,$$raincoat|rain boots}{|,light smile|,open mouth}}|running,wet clothes,wet hair{|,surprised},opened eyes,open mouth},
+    {standing,looking up{|,shelting|,hand up,open hand}{|{|,surplised},open mouth}|walking{holding umbrella|{1-100$$,$$raincoat|rain boots}{|,light smile|,open mouth}}|running,wet clothes,wet hair{|,surprised},opened eyes,open mouth},
     outdoors,rain{|,puddle}{|,day|,evening|,night}{|15::,__costumes/usually/outdoors__}
   ramen_shop: >-
     sitting{|,looking at viewer{|,straight-on{|,pov}}},{holding chopsticks|eating noodle},ramen,indoors{|,counter},
@@ -265,7 +265,7 @@ behavior:
     sitting on chair,{|,looking at viewer{|,straight-on{|,pov}}}{|,head rest|,holding cup},{cafe|restaurant|room},indoors,table,coffee,{0-$$,$$cake|table cloth|window},
     {0-$$,$${{|light }smile|grin},{0-$$,$${closed eyes|one eye closed}|open mouth}|__costumes/usually/everywhere__}
   throne: >-
-    sitting on throne{|,looking at viewer},{castle|palace},{1-$$,$$crossed legs|head rest|hand on armrest},
+    sitting on throne{|,looking at viewer},{castle|palace},{1-100$$,$$crossed legs|head rest|hand on armrest},
     {0-$$,$${__costumes/commander__|__costumes/dress__|__costumes/medieval_noble__|__costumes/princess__}|{expressionless|serious|smug}}
   toast: >-
     {standing|sitting}{|,looking at viewer},holding wine glass,raised glass,{hall,indoors|restaurant,indoors|rooftop,outdoors}{|,chandelier}{|,night},
