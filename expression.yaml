@@ -1,6 +1,6 @@
 expression:
   random: >-
-    {1-$$,$$__expression/set/*__|__expression/make__}
+    {__expression/set/*__{3::|1::,__expression/make__}|__expression/make__}
   set:
     anger:
       - angry
@@ -33,4 +33,4 @@ expression:
       - naughty face
       - seductive smile
   make: >-
-    {1-$$,$${closed eyes|half-closed eyes|narrowed eyes|one eye closed|wide-eyed}|{closed mouth|open mouth|split mouth}|{|{raised eyebrow{|s}|v-shaped eyebrows}}|{|blush}}
+    {1-2$$,$${closed eyes|half-closed eyes|narrowed eyes|one eye closed|wide-eyed}|{closed mouth|open mouth|parted lips}}{8::|1::,{raised eyebrow{|s}|v-shaped eyebrows}}{8::|1::,blush}
