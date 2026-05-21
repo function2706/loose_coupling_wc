@@ -5,7 +5,7 @@ NEG...:
 regex_for_neg:
   - (.*)__NEG...__(.*)
 bp_quality:
-  - masterpiece,best quality,amaizing quality
+  - masterpiece,best quality,amazing quality
 bp_solo:
   - 1girl,solo
 bp_solo_q:
@@ -17,7 +17,7 @@ bp_pair_q:
 negative:
   general: >-
     (amputee),(bad anatomy),(extra limbs),(missing limb),multiple heads,shaded face,
-    worst quality,low quality,(monochrome),motion lines,speed lines,3d,(shiny skin:1.2),worst detail,text,logo,cropped,deformed,blurry,
+    worst quality,bad quality,(monochrome),motion lines,speed lines,3d,(shiny skin:1.2),worst detail,text,logo,cropped,deformed,blurry,sketch,censor,
     extra digits,fewer digits,missing digits,bad hands,mutated hands,
     six toes,extra toes,fewer toes,missing toes,bad feet,mutated feet,
     extra feet,missing foot,bad leg,extra legs,missing leg,

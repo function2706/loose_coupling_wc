@@ -56,8 +56,8 @@ giantess:
       (extra digits),fewer digits,missing digits,bad hands,mutated hands,
       extra hands,missing hand,bad arm,extra arms,missing arm,
       (amputee),(bad anatomy),(extra limbs),(missing limb),multiple heads,shaded face,
-      (monochrome),motion lines,speed lines,3d,(shiny skin:1.2),worst detail,text,logo,cropped,deformed,blurry,
-      worst quality,low quality
+      (monochrome),motion lines,speed lines,3d,(shiny skin:1.2),worst detail,text,logo,cropped,deformed,blurry,sketch,censor,
+      worst quality,bad quality
   footwear:
     random:
       - __giantess/footwear/on_boy/random__
@@ -121,8 +121,8 @@ giantess:
       extra hands,missing hand,bad arm,extra arms,missing arm,
       six toes,extra toes,fewer toes,missing toes,bad feet,mutated feet,
       (amputee),(bad anatomy),(extra limbs),(missing limb),multiple heads,shaded face,
-      (monochrome),motion lines,speed lines,3d,(shiny skin:1.2),worst detail,text,logo,cropped,deformed,blurry,
-      worst quality,low quality
+      (monochrome),motion lines,speed lines,3d,(shiny skin:1.2),worst detail,text,logo,cropped,deformed,blurry,sketch,censor,
+      worst quality,bad quality
   object:
     boy:
       - "{|(mini boy:1.2),}(boy on back){|,(boy's corpse)},(blood on sole),(guro)"

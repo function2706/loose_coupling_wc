@@ -37,7 +37,7 @@ grabbing_chin:
     - smirk{|,closed mouth}
   negative: >-
     (amputee),(bad anatomy),(extra limbs),(missing limb),multiple heads,shaded face,bar censored,censored,
-    worst quality,low quality,(monochrome),motion lines,speed lines,3d,(shiny skin:1.2),worst detail,text,logo,cropped,deformed,blurry,
+    worst quality,bad quality,(monochrome),motion lines,speed lines,3d,(shiny skin:1.2),worst detail,text,logo,cropped,deformed,blurry,sketch,censor,
     extra digits,fewer digits,missing digits,bad hands,mutated hands,
     six toes,extra toes,fewer toes,missing toes,bad feet,mutated feet,
     extra feet,missing foot,bad leg,extra legs,missing leg,
