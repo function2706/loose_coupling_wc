@@ -3,7 +3,7 @@ fashion_show:
     {5::__costumes/*__|3::__boots_setups/*__|1::__boots_maker/*__|1::__tailor/make__},
     __fashion_show/of__
   of: >-
-    {|,city}{|,{|light }smile{|,open mouth}},
+    {|,city}{|,{|light }smile{|,open mouth}|__expression/random__},
     {standing,{0-$$,$${v{| over {eye|mouth}}|double v|arms behind {head|back}}|crossed legs}|sitting,{0-$$,$${v{| over {eye|mouth}}|double v|head rest|arms behind {head|back}}|crossed legs}|contrapposto|__posture/random__},
     __SUBJECT_HERE__,
     __bp_solo_q__

@@ -1,0 +1,36 @@
+expression:
+  random: >-
+    {1-$$,$$__expression/set/*__|__expression/make__}
+  set:
+    anger:
+      - angry
+      - annoyed
+      - bored
+      - disgust
+      - frustrated
+      - grimace
+    happiness:
+      - excited
+      - giggling
+      - grin
+      - light smile
+      - smile
+      - smirk
+      - smug
+    sadness:
+      - crying
+    surprise:
+      - embarrassed
+      - scared
+      - surprised
+      - worried
+    misc:
+      - curious
+      - evil grin
+      - evil smile
+      - expressionless
+      - in heat
+      - naughty face
+      - seductive smile
+  make: >-
+    {1-$$,$${closed eyes|half-closed eyes|narrowed eyes|one eye closed|wide-eyed}|{closed mouth|open mouth|split mouth}|{|{raised eyebrow{|s}|v-shaped eyebrows}}|{|blush}}
