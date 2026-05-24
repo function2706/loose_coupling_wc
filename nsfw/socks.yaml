@@ -1,7 +1,7 @@
 socks_maker: >-
-  {4::{|black |blue |brown |green |red |white |yellow |striped |polka dot }{socks|ankle socks|kneehighs|thighhighs}|1::{fishnet {socks|thighhighs}|garter belt|garter straps|loose socks}}
+  {4::{|black |white |{blue |brown |green |red |yellow |striped |polka dot }}{socks|ankle socks|kneehighs|thighhighs}|1::{fishnet {socks|thighhighs}|garter belt|garter straps|loose socks}}
 pantyhose_maker: >-
-  {|black |beige |brown |red |white |fishnet }pantyhose
+  {|black |white |{beige |brown |red |fishnet }}pantyhose
 socks:
   random:
     - __socks/casual/*__
@@ -36,7 +36,6 @@ socks:
     - naughty face
     - seductive smile
     - smirk{|,closed mouth}
-    - smug
   equipments:
     tailor: >-
       {__tailor/tops/random__,{socks,{4::|3::denim |1::bell-bottom,}pants|{socks|kneehighs|thighhighs|pantyhose},{3::|1::bike |1::dolphin |2::denim }shorts|{socks|kneehighs|thighhighs|pantyhose},{|short |long |layered |pencil |pleated }skirt}|

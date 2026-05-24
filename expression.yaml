@@ -19,8 +19,11 @@ expression:
       - smug
     sadness:
       - crying
+      - sad
+      - sad smile
     surprise:
       - embarrassed
+      - nervous
       - scared
       - surprised
       - worried

@@ -32,7 +32,6 @@ barefoot:
     - naughty face
     - seductive smile
     - smirk{|,closed mouth}
-    - smug
   equipments:
     tailor: >-
       {__tailor/tops/random__,__tailor/bottoms__|__tailor/unis__},__tailor/accessories/random__
