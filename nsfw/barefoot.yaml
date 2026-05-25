@@ -20,9 +20,9 @@ barefoot:
     - __SUBJECT_HERE__,__bp_solo_q____NEG...____barefoot/negative__
   below:
     standing: >-
-      __barefoot/below/core__,standing on one leg{|,hand{|s} on hip|,hand in own hair}
+      __barefoot/below/core__,standing on one leg{|,hand{|s} on hip}
     sitting: >-
-      __barefoot/below/core__,sitting{| on chair}{|,crossed legs}{|,head rest|,hand{|s} on own knee}
+      __barefoot/below/core__,sitting{| on chair}{|,crossed legs}{|,head rest}
     core: >-
       (five toes:1.2),(foot focus),from below,pov,barefoot,{0-$$,$$toes|soles|toenails},__barefoot/foot_state__,
       __barefoot/expressions__,looking at viewer

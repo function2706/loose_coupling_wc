@@ -19,11 +19,11 @@ footwear:
     __footwear/negative__
   standing: >-
     __footwear/expressions__,
-    standing{ on one leg|,knee up}{|,hand{|s} on hip|,hand in own hair},
+    standing{ on one leg|,knee up}{|,hand{|s} on hip},
     (foot focus),(shoe soles),from below,looking at viewer
   sitting: >-
     __footwear/expressions__,
-    sitting{| on chair}{|,crossed legs}{|,head rest|,hand{|s} on own knee},
+    sitting{| on chair}{|,crossed legs}{|,head rest},
     (foot focus),(shoe soles),from below,looking at viewer
   expressions:
     - expressionless

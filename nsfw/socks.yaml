@@ -24,9 +24,9 @@ socks:
     - __SUBJECT_HERE__,__bp_solo_q____NEG...____socks/negative__
   below:
     standing: >-
-      __socks/below/core__,standing on one leg{|,hand{|s} on hip|,hand in own hair}
+      __socks/below/core__,standing on one leg{|,hand{|s} on hip}
     sitting: >-
-      __socks/below/core__,sitting{| on chair}{|,crossed legs}{|,head rest|,hand{|s} on own knee}
+      __socks/below/core__,sitting{| on chair}{|,crossed legs}{|,head rest}
     core: >-
       five toes,(foot focus),from below,pov,{0-$$,$$toes|soles},{8::|1::,smell},
       __socks/expressions__,looking at viewer
