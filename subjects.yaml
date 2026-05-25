@@ -1174,27 +1174,27 @@ subjects:
       - megumi \(girls und panzer\)
       - mika \(girls und panzer\)
       - mikko \(girls und panzer\)
-      - momogaa \(girls und panzer\),{|eyepatch}
+      - momogaa \(girls und panzer\){|,eyepatch}
       - murakami \(girls und panzer\)
       - nakajima \(girls und panzer\)
       - naomi \(girls und panzer\)
-      - nekonyaa \(girls und panzer\),{|glasses}
+      - nekonyaa \(girls und panzer\){|,glasses}
       - nishi kinuyo
       - nishizumi maho
       - nishizumi miho
       - nishizumi shiho
       - nonna \(girls und panzer\)
       - ogin \(girls und panzer\)
-      - oono aya,{|glasses}
+      - oono aya{|,glasses}
       - orange pekoe \(girls und panzer\)
-      - oryou \(girls und panzer\),{|glasses}
+      - oryou \(girls und panzer\){|,glasses}
       - oshida \(girls und panzer\)
       - pepperoni \(girls und panzer\)
       - piyotan \(girls und panzer\)
       - reizei mako
       - rosehip \(girls und panzer\)
       - rukuriri \(girls und panzer\)
-      - rumi \(girls und panzer\),{|glasses}
+      - rumi \(girls und panzer\){|,glasses}
       - saemonza \(girls und panzer\)
       - sakaguchi karina
       - sawa azusa
@@ -1319,10 +1319,10 @@ subjects:
       - akizuki ryo
       - amami haruka
       - anastasia \(idolmaster\)
-      - araki hina,{|glasses}
+      - araki hina{|,glasses}
       - arisugawa natsuha
       - asakura toru
-      - asano fuka,{|glasses}
+      - asano fuka{|,glasses}
       - asari nanami
       - baba konomi
       - domyoji karin
@@ -1361,7 +1361,7 @@ subjects:
       - ichihara nina
       - ichinose shiki
       - igarashi kyoko
-      - ikebukuro akiha,{|glasses}
+      - ikebukuro akiha{|,glasses}
       - imai kana
       - izumi mei
       - jougasaki mika
@@ -1489,7 +1489,7 @@ subjects:
       - tokugawa matsuri
       - totoki airi
       - toyokawa fuka
-      - tsuchiya ako,{|glasses}
+      - tsuchiya ako{|,glasses}
       - tsujino akari
       - tsukioka kogane
       - ueda suzuho
@@ -1498,7 +1498,7 @@ subjects:
       - wakiyama tamami
       - wakui rumi
       - yabuki kana
-      - yagami makino,{|glasses}
+      - yagami makino{|,glasses}
       - yamato aki
       - yanagi kiyora
       - yanase miyuki
@@ -1517,12 +1517,12 @@ subjects:
       - hirasawa ui
       - hirasawa yui
       - kotobuki tsumugi
-      - manabe nodoka,{|glasses}
+      - manabe nodoka{|,glasses}
       - nakano azusa
       - suzuki jun
       - tachibana himeko
       - tainaka ritsu
-      - yamanaka sawako,{|glasses}
+      - yamanaka sawako{|,glasses}
     kaguya_sama:
       - fujiwara chika
       - hayasaka ai
@@ -2329,9 +2329,9 @@ subjects:
       - perrine h. clostermann
       - raisa pottgen
       - rosalie de hemricourt de grunne
-      - sakamoto mio,{|eyepatch}
+      - sakamoto mio{|,eyepatch}
       - sanya v. litvyak
-      - ursula hartmann,{|glasses}
+      - ursula hartmann{|,glasses}
       - waltrud krupinski
       - wilma bishop
     suzumiya_haruhi:
@@ -3172,10 +3172,10 @@ subjects:
     human:
       - __subjects/profiles_favorite/hair__,__subjects/profiles_favorite/eye/human__{|,{dark|fair|pale} skin}{|,__subjects/profiles_favorite/age__}
     demi_human:
-      - __subjects/profiles_favorite/hair__,__subjects/profiles_favorite/eye/demi_human__,{|,{dark|fair|pale} skin}{|,__subjects/profiles_favorite/age__}},{0-$$,$${halo|horns|{animal|{|long }pointy} ears}|{|bat }wings|tail}
-      - __subjects/profiles_favorite/species/*__,__subjects/profiles_favorite/hair__,__subjects/profiles_favorite/eye/human__,{|,__subjects/profiles_favorite/age__}
+      - __subjects/profiles_favorite/hair__,__subjects/profiles_favorite/eye/demi_human__{|,{dark|fair|pale} skin}{|,__subjects/profiles_favorite/age__}},{0-$$,$${halo|horns|{animal|{|long }pointy} ears}|{|bat }wings|tail}
+      - __subjects/profiles_favorite/species/*__,__subjects/profiles_favorite/hair__,__subjects/profiles_favorite/eye/human__{|,__subjects/profiles_favorite/age__}
     furry:
-      - __subjects/profiles_favorite/species/real__,furry,__subjects/profiles_favorite/hair__,__subjects/profiles_favorite/eye/human__,{|,__subjects/profiles_favorite/age__}
+      - __subjects/profiles_favorite/species/real__,furry,__subjects/profiles_favorite/hair__,__subjects/profiles_favorite/eye/human__{|,__subjects/profiles_favorite/age__}
     hair: >-
       {|2::black hair,|2::brown hair,|grey hair,|white hair,}{bob cut|pixie cut|short hair|very short hair}{|,{curly|flipped|straight|wavy} hair}{7::|1::,blunt ends},
       {0-$$,$${4::{asymmetrical|blunt|swept} bangs|1::hair between eyes}|{{|low }{|short }ponytail|side single braid}|sidelocks}

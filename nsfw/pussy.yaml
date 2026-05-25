@@ -191,7 +191,7 @@ pussy:
     shady: >-
       {|thief,}dagger on waist,sash on waist,{1-100$$,$${|black |purple |dark red }{long sleeves|short sleeves|sleeveless} shirt|{|black |purple |dark red }{cape|cloak|tunic}}{|,panties {around one leg|aside}},{0-$$,$$gloves|boots|scarf}
     soldier: >-
-      military uniform,{||brown |green }fatigues{|,camouflage uniform}{|,panties {around one leg|aside}},{0-$$,$$combat boots|{1-100$$,$${garrison cap|helmet}|name tag}}
+      military uniform,{|brown |green }fatigues{|,camouflage uniform}{|,panties {around one leg|aside}},{0-$$,$$combat boots|{1-100$$,$${garrison cap|helmet}|name tag}}
     sports: >-
       {basketball uniform,{0-$$,$$tank top|shorts,shorts {around one leg|aside}}|tennis uniform,{0-$$,$$short sleeves|{|pleated }skirt{|,panties {around one leg|aside}}}|track uniform,{0-$$,$${|cropped }tank top|{|bike }shorts,shorts {around one leg|aside}}}{|,towel on neck}
     street_casual: >-

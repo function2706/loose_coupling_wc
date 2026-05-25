@@ -6,7 +6,7 @@ boots_show:
     {3::__boots_setups_without_ankle/*__|1::{__boots_maker/knee_boots__|__boots_maker/thigh_boots__}},
     __boots_show/of__
   of: >-
-    {|,city}{|,{|light }smile{|,open mouth}},
+    {|city,}{|{|light }smile{|,open mouth},}
     {standing,{0-$$,$${v{| over {eye|mouth}}|double v|arms behind {head|back}}|crossed legs}|sitting,{0-$$,$${v{| over {eye|mouth}}|double v|head rest|arms behind {head|back}}|crossed legs}|contrapposto},
     __SUBJECT_HERE__,
     __bp_solo_q__

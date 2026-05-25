@@ -23,7 +23,7 @@ socks:
       __socks/below/poses__
     poses:
       - standing on one leg{|,hand on hip}
-      - sitting on chair,{|crossed legs}{|,head rest}
+      - sitting on chair{|,crossed legs}{|,head rest}
   not_below:
     make: >-
       (foot focus),__socks/expressions__,(looking at viewer),full body,

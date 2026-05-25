@@ -19,7 +19,7 @@ barefoot:
       __barefoot/below/poses__
     poses:
       - standing on one leg{|,hand on hip}
-      - sitting on chair,{|crossed legs},{|head rest}
+      - sitting on chair{|,crossed legs}{|,head rest}
   not_below:
     make: >-
       __barefoot/expressions__,(looking at viewer),full body,
@@ -174,7 +174,7 @@ barefoot:
     shady: >-
       {|thief,}dagger on waist,sash on waist,{1-100$$,$${|black |purple |dark red }{long sleeves|short sleeves|sleeveless} shirt|{|black |purple |dark red }{cape|cloak|tunic}},{0-$$,$$gloves|scarf}
     soldier: >-
-      military uniform,{||brown |green }fatigues{|,camouflage uniform},pants,{0-$$,$${garrison cap|helmet}|name tag}
+      military uniform,{|brown |green }fatigues{|,camouflage uniform},pants,{0-$$,$${garrison cap|helmet}|name tag}
     sports: >-
       {basketball uniform,{0-$$,$$tank top|shorts}|tennis uniform,{0-$$,$$short sleeves|{|pleated }skirt}|track uniform,{0-$$,$${|cropped }tank top|{|bike }shorts}}{|,towel on neck}
     street_casual: >-

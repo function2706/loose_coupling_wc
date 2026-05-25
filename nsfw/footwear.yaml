@@ -125,7 +125,7 @@ footwear:
     shady: >-
       boots,{|thief,}dagger on waist,sash on waist,{1-100$$,$${|black |purple |dark red }{long sleeves|short sleeves|sleeveless} shirt|{|black |purple |dark red }{cape|cloak|tunic}},{0-$$,$$gloves|scarf}
     soldier: >-
-      combat boots,military uniform,{||brown |green }fatigues{|,camouflage uniform},pants,{0-$$,$${garrison cap|helmet}|name tag}
+      combat boots,military uniform,{|brown |green }fatigues{|,camouflage uniform},pants,{0-$$,$${garrison cap|helmet}|name tag}
     succubus: >-
       {2::{|{garter belt|garter straps},|fishnet pantyhose,|pantyhose,|thighhighs,}{knee boots|{|stiletto }heels}|{|{garter belt|garter straps},}thigh boots},
       succubus,cosplay,{|demon horns,}bat wings,{black |red |pink |purple }{|latex }{{corset|bra,{|latex }panties}},
