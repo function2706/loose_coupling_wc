@@ -1,32 +1,34 @@
 footwear:
   random:
-    - __footwear/casual__
-    - __footwear/cosplay__
-  casual: >-
-    __footwear/core__,
-    {__boots_maker/knee_boots__|__boots_maker/thigh_boots__},
+    - __footwear/casual/*__
+    - __footwear/cosplay/*__
+  casual:
+    standing:
+      - __footwear/standing__,{__boots_maker/knee_boots__|__boots_maker/thigh_boots__},__footwear/meta__
+    sitting:
+      - __footwear/sitting__,{__boots_maker/knee_boots__|__boots_maker/thigh_boots__},__footwear/meta__
+  cosplay:
+    standing:
+      - __footwear/standing__,__footwear/equipments/*__,__footwear/meta__
+    sitting:
+      - __footwear/sitting__,__footwear/equipments/*__,__footwear/meta__
+  meta: >-
     __SUBJECT_HERE__,
     __bp_solo_q__
     __NEG...__
     __footwear/negative__
-  cosplay: >-
-    __footwear/core__,
-    __footwear/equipments/*__,
-    __SUBJECT_HERE__,
-    __bp_solo_q__
-    __NEG...__
-    __footwear/negative__
-  core: >-
+  standing: >-
     __footwear/expressions__,
-    __footwear/poses__,
+    standing{ on one leg|,knee up}{|,hand{|s} on hip|,hand in own hair},
+    (foot focus),(shoe soles),from below,looking at viewer
+  sitting: >-
+    __footwear/expressions__,
+    sitting{| on chair}{|,crossed legs}{|,head rest|,hand{|s} on own knee},
     (foot focus),(shoe soles),from below,looking at viewer
   expressions:
     - expressionless
     - light smile
     - smirk
-  poses:
-    - standing{ on one leg|,knee up},hand on hip
-    - sitting on chair{|,crossed legs}{|,head rest}
   equipments:
     tailor: >-
       {__tailor/tops/random__,{{__boots_maker/ankle_boots__{|,socks}|heels},{4::|3::denim |1::bell-bottom,}pants|

@@ -7,30 +7,35 @@ socks:
     - __socks/casual/*__
     - __socks/cosplay/*__
   casual:
-    below:
-      - __socks/below/make__,{__socks_maker__|__pantyhose_maker__},__SUBJECT_HERE__,__bp_solo_q____NEG...____socks/negative__
-    not_below:
-      - __socks/not_below/make__,{__socks_maker__|__pantyhose_maker__},__SUBJECT_HERE__,__bp_solo_q____NEG...____socks/negative__
+    standing:
+      - __socks/below/standing__,{__socks_maker__|__pantyhose_maker__},__socks/meta__
+    sitting:
+      - __socks/below/sitting__,{__socks_maker__|__pantyhose_maker__},__socks/meta__
+    extending_legs:
+      - __socks/not_below/extending_legs__,{__socks_maker__|__pantyhose_maker__},__socks/meta__
   cosplay:
-    below:
-      - __socks/below/make__,__socks/equipments/*__,__SUBJECT_HERE__,__bp_solo_q____NEG...____socks/negative__
-    not_below:
-      - __socks/not_below/make__,__socks/equipments/*__,__SUBJECT_HERE__,__bp_solo_q____NEG...____socks/negative__
+    standing:
+      - __socks/below/standing__,__socks/equipments/*__,__socks/meta__
+    sitting:
+      - __socks/below/sitting__,__socks/equipments/*__,__socks/meta__
+    extending_legs:
+      - __socks/not_below/extending_legs__,__socks/equipments/*__,__socks/meta__
+  meta:
+    - __SUBJECT_HERE__,__bp_solo_q____NEG...____socks/negative__
   below:
-    make: >-
+    standing: >-
+      __socks/below/core__,standing on one leg{|,hand{|s} on hip|,hand in own hair}
+    sitting: >-
+      __socks/below/core__,sitting{| on chair}{|,crossed legs}{|,head rest|,hand{|s} on own knee}
+    core: >-
       five toes,(foot focus),from below,pov,{0-$$,$$toes|soles},{8::|1::,smell},
-      __socks/expressions__,
-      __socks/below/poses__
-    poses:
-      - standing on one leg{|,hand on hip}
-      - sitting on chair{|,crossed legs}{|,head rest}
+      __socks/expressions__,looking at viewer
   not_below:
-    make: >-
+    extending_legs: >-
+      __socks/not_below/core__,sitting,legs together,feet together,extending legs,stretched legs out,arms behind back
+    core: >-
       (foot focus),__socks/expressions__,(looking at viewer),full body,
-      five toes,{0-$$,$$toes|soles}{8::|1::,smell},
-      __socks/not_below/poses__
-    poses:
-      - sitting,legs together,feet together,extending legs,stretched legs out,arms behind back,
+      five toes,{0-$$,$$toes|soles}{8::|1::,smell}
   expressions:
     - light smile
     - naughty face
@@ -78,7 +83,7 @@ socks:
     decora: >-
       {|striped |polka dot }{|frilled }{socks|ankle socks|kneehighs|thighhighs},__barefoot/equipments/decora__
     demon: >-
-      {fishnet pantyhose|pantyhose|thighhighs}__barefoot/equipments/demon__
+      {fishnet pantyhose|pantyhose|thighhighs},__barefoot/equipments/demon__
     detective: >-
       white socks,__barefoot/equipments/detective__
     doctor: >-

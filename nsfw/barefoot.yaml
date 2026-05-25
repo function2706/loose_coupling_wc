@@ -3,30 +3,37 @@ barefoot:
     - __barefoot/casual/*__
     - __barefoot/cosplay/*__
   casual:
-    below:
-      - __barefoot/below/make__,__SUBJECT_HERE__,__bp_solo_q____NEG...____barefoot/negative__
-    not_below:
-      - __barefoot/not_below/make__,__SUBJECT_HERE__,__bp_solo_q____NEG...____barefoot/negative__
+    standing:
+      - __barefoot/below/standing__,__barefoot/meta__
+    sitting:
+      - __barefoot/below/sitting__,__barefoot/meta__
+    extending_legs:
+      - __barefoot/not_below/extending_legs__,__barefoot/meta__
   cosplay:
-    below:
-      - __barefoot/below/make__,__barefoot/equipments/*__,__SUBJECT_HERE__,__bp_solo_q____NEG...____barefoot/negative__
-    not_below:
-      - __barefoot/not_below/make__,__barefoot/equipments/*__,__SUBJECT_HERE__,__bp_solo_q____NEG...____barefoot/negative__
+    standing:
+      - __barefoot/below/standing__,__barefoot/equipments/*__,__barefoot/meta__
+    sitting:
+      - __barefoot/below/sitting__,__barefoot/equipments/*__,__barefoot/meta__
+    extending_legs:
+      - __barefoot/not_below/extending_legs__,__barefoot/equipments/*__,__barefoot/meta__
+  meta:
+    - __SUBJECT_HERE__,__bp_solo_q____NEG...____barefoot/negative__
   below:
-    make: >-
-      (five toes:1.2),(foot focus),from below,pov,barefoot,{0-$$,$$toes|soles|toenails}{7::|1::,spread toes}{8::|1::,sweaty foot{|,smell}}{12::|1::,dirty foot},
-      __barefoot/expressions__,looking at viewer,
-      __barefoot/below/poses__
-    poses:
-      - standing on one leg{|,hand on hip}
-      - sitting on chair{|,crossed legs}{|,head rest}
+    standing: >-
+      __barefoot/below/core__,standing on one leg{|,hand{|s} on hip|,hand in own hair}
+    sitting: >-
+      __barefoot/below/core__,sitting{| on chair}{|,crossed legs}{|,head rest|,hand{|s} on own knee}
+    core: >-
+      (five toes:1.2),(foot focus),from below,pov,barefoot,{0-$$,$$toes|soles|toenails},__barefoot/foot_state__,
+      __barefoot/expressions__,looking at viewer
   not_below:
-    make: >-
+    extending_legs: >-
+      __barefoot/not_below/core__,sitting,legs together,feet together,extending legs,stretched legs out,arms behind back
+    core: >-
       __barefoot/expressions__,(looking at viewer),full body,
-      (five toes:1.2),(foot focus),barefoot,{0-$$,$$toes|soles|toenails}{7::|1::,spread toes}{8::|1::,sweaty foot{|,smell}}{12::|1::,dirty foot},
-      __barefoot/not_below/poses__
-    poses:
-      - sitting,legs together,feet together,extending legs,stretched legs out,arms behind back
+      (five toes:1.2),(foot focus),barefoot,{0-$$,$$toes|soles|toenails},__barefoot/foot_state__
+  foot_state: >-
+    {16::|1::,spread toes}{12::|1::,smell}{32::|1::,sweaty foot}{64::|1::,dirty foot}
   expressions:
     - light smile
     - naughty face
