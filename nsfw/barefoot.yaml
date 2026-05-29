@@ -33,7 +33,7 @@ barefoot:
       __barefoot/expressions__,(looking at viewer),full body,
       (five toes:1.2),(foot focus),barefoot,{0-$$,$$toes|soles|toenails},__barefoot/foot_state__
   foot_state: >-
-    {16::|1::,spread toes}{12::|1::,smell}{32::|1::,sweaty foot}{64::|1::,dirty foot}
+    {16::|1::,spread toes}{12::|1::,smell}{64::|1::,sweaty foot}
   expressions:
     - light smile
     - naughty face

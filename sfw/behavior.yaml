@@ -55,7 +55,7 @@ behavior:
     standing,shouting,looking at another,{__costumes/gym__|__costumes/sports__},{crossed arms|hand on own hip|pointing|holding {clipboard|whistle}},{gym,indoors|schoolyard,outdoors},
     {serious|smile},open mouth{|,v-shaped eyebrows}
   cooking: >-
-    cooking{|,stirring|,chopping|,holding ladle},kitchen,indoors,{__costumes/chef__|__costumes/maid__|__costumes/usually/indoors__}{|,apron}{|,{|light }smile|,serious}{0-$$,$$sweat|v-shaped eyebrows}
+    cooking{|,stirring|,{|holding }frying pan},kitchen,indoors,{__costumes/chef__|__costumes/maid__|__costumes/usually/indoors__}{|,apron}{|,{|light }smile}{0-$$,$$sweat|v-shaped eyebrows}
   cycling: >-
     bicycle,{street,outdoors|park,outdoors|mountain,outdoors},{0-$$,$${|cycling uniform{|,bike shorts}|__costumes/usually/outdoors__}|{excited|smile|serious}}
   dancing: >-
@@ -212,8 +212,7 @@ behavior:
     holding {shopping bag|basket},{standing|walking},looking at viewer,{shop|street},
     {0-$$,$$__costumes/usually/outdoors__|{smile|excited},{0-$$,$$one eye closed|open mouth}}
   skating: >-
-    {|figure }skating{|,looking at viewer},{white|black|light {blue|brown|green|orange|purple|red|yellow}} dress,ice skates,
-    {0-$$,$${|light }smile|serious|excited},{0-$$,$$arms outstretched|one leg raised|spinning}
+    {|figure }skating{|,looking at viewer},{white|black|light {blue|brown|green|orange|purple|red|yellow}} dress,ice skates{|,{|light }smile|,serious|,excited}
   sleeping: >-
     {sleeping|yawning}{|,on back{|,arms behind head}|,on stomach{|,head rest}|,on side{|,head rest}|,fetal position}{|1::,__costumes/bedding__|2::,__costumes/usually/indoors__}
   smoking: >-
