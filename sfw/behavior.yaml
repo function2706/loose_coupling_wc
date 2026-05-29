@@ -55,11 +55,11 @@ behavior:
     standing,shouting,looking at another,{__costumes/gym__|__costumes/sports__},{crossed arms|hand on own hip|pointing|holding {clipboard|whistle}},{gym,indoors|schoolyard,outdoors},
     {serious|smile},open mouth{|,v-shaped eyebrows}
   cooking: >-
-    cooking,{__costumes/chef__|__costumes/maid__|__costumes/usually/indoors__}{|,apron}
+    cooking{|,stirring|,chopping|,holding ladle},kitchen,indoors,{__costumes/chef__|__costumes/maid__|__costumes/usually/indoors__}{|,apron}{|,{|light }smile|,serious}{0-$$,$$sweat|v-shaped eyebrows}
   cycling: >-
-    bicycle,{0-$$,$${|cycling uniform{|,bike shorts}}|{excited|smile|serious}}
+    bicycle,{street,outdoors|park,outdoors|mountain,outdoors},{0-$$,$${|cycling uniform{|,bike shorts}|__costumes/usually/outdoors__}|{excited|smile|serious}}
   dancing: >-
-    {ballet{|,__costumes/ballerina__}|ballroom dancing|belly dancing{|,__costumes/harem__}|dancing|pole dancing}
+    {ballet{|,__costumes/ballerina__}|ballroom dancing|belly dancing{|,__costumes/harem__}|dancing|pole dancing}{|,looking at viewer}{|,{|light }smile|,excited|,serious}
   daydreaming: >-
     {sitting{|,head rest}|standing,leaning to the side},looking away,window,indoors{|,day|,sunset|,night},
     {0-$$,$${__costumes/mori_girl__|__costumes/school__|2::__costumes/usually/indoors__}|{expressionless|light smile}{|,half-closed eyes}}
@@ -212,9 +212,10 @@ behavior:
     holding {shopping bag|basket},{standing|walking},looking at viewer,{shop|street},
     {0-$$,$$__costumes/usually/outdoors__|{smile|excited},{0-$$,$$one eye closed|open mouth}}
   skating: >-
-    {figure |}skating{|,smile|,serious}
+    {|figure }skating{|,looking at viewer},{white|black|light {blue|brown|green|orange|purple|red|yellow}} dress,ice skates,
+    {0-$$,$${|light }smile|serious|excited},{0-$$,$$arms outstretched|one leg raised|spinning}
   sleeping: >-
-    {sleeping|yawning}{|,on back{|,arms behind heads}|,on stomach{|,head rest}|,on side{|,head rest}|,fetal position}{|1::,__costumes/bedding__|2::,__costumes/usually/indoors__}
+    {sleeping|yawning}{|,on back{|,arms behind head}|,on stomach{|,head rest}|,on side{|,head rest}|,fetal position}{|1::,__costumes/bedding__|2::,__costumes/usually/indoors__}
   smoking: >-
     smoking{1::|1::,room|1::,through window|3::{|,park|,street|,ocean}{|,day|,evening|,night}}{1::|15::,__costumes/usually/everywhere__}
   snack_time:
@@ -228,7 +229,8 @@ behavior:
       {sitting|standing}{|,looking at viewer},{holding {crepe|taiyaki|takoyaki|soft serve}},{street,outdoors|park,outdoors}{|,day},
       {0-$$,$$__costumes/usually/outdoors__|{{|light }smile|excited},{0-$$,$$open mouth|one eye closed}}
   soaking: >-
-    {soaking feet{|,pool}|wading,bare legs{|,ocean|,river|,pool}}{|,standing|,sitting}{|,__costumes/summer__|,__costumes/swimwear__}
+    {soaking feet{|,pool}|wading,bare legs{|,ocean|,river|,pool}}{|,standing|,sitting}{|,looking at viewer|,looking down},
+    {|,__costumes/summer__|,__costumes/swimwear__}{|,{|light }smile|,relaxed|,expressionless}
   spring_scene: >-
     {standing|sitting|walking}{|,looking at viewer},{park|riverside|field},outdoors,day,cherry blossom{|,petals},
     {0-$$,$$__costumes/usually/outdoors__|{{|light }smile|excited},{closed eyes|one eye closed}}
