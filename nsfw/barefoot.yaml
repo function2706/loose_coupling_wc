@@ -35,6 +35,7 @@ barefoot:
   foot_state: >-
     {16::|1::,spread toes}{12::|1::,smell}{64::|1::,sweaty foot}
   expressions:
+    - "{expressionless|bored}{|,narrowed eyes}"
     - light smile
     - naughty face
     - seductive smile

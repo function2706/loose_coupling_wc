@@ -37,6 +37,7 @@ socks:
       (foot focus),__socks/expressions__,(looking at viewer),full body,
       five toes,{0-$$,$$toes|soles}{8::|1::,smell}
   expressions:
+    - "{expressionless|bored}{|,narrowed eyes}"
     - light smile
     - naughty face
     - seductive smile
