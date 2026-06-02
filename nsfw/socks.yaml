@@ -1,7 +1,7 @@
 socks_maker: >-
-  {4::{|black |white |{blue |brown |green |red |yellow |striped |polka dot }}{socks|ankle socks|kneehighs|thighhighs}|1::{fishnet {socks|thighhighs}|garter belt|garter straps|loose socks}}
+  {4::{|black |white |{brown |green }}{socks|ankle socks|kneehighs|thighhighs}|1::{fishnet thighhighs|garter {belt|straps}|loose socks}}
 pantyhose_maker: >-
-  {|black |white |{beige |brown |red |fishnet }}pantyhose
+  {2::|2::black |2::white |2::brown |1::fishnet }pantyhose
 socks:
   random:
     - __socks/casual/*__
