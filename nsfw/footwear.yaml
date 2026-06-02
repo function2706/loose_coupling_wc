@@ -62,7 +62,7 @@ footwear:
     disco: >-
       {{|platform }boots|heels},{|sequined |metallic }{halter top|wrap dress},{|bell-bottom |flared }pants,{0-$$,$${|wide }belt|{1-100$$,$$hoop earrings|pendant|bracelet|{5::|1::sunglasses}}}
     doctor: >-
-      heels,{white|beige|black|brown} pantyhose,doctor,lab coat,skirt,{0-$$,$$|{1-100$$,$${10::|1::{|light blue |white }surgical mask}|{5::|1::glasses}|lanyard|stethoscope on neck}}
+      heels,{white|beige|black|brown} pantyhose,doctor,labcoat,skirt,{0-$$,$$|{1-100$$,$${10::|1::{|light blue |white }surgical mask}|{5::|1::glasses}|lanyard|stethoscope on neck}}
     dress: >-
       {|stiletto }heels,{|black |red |white }{cocktail |halter |high slit |pencil |tube }dress,
       {0-$$,$${|lace }{|elbow }gloves|pantyhose|{1-100$$,$${{|sun }hat|tiara|veil}|earrings|{ascot|brooch|locket|pendant|scarf|shawl}|{|badge|corsage}}}
