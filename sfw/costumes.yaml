@@ -3,7 +3,7 @@ fashion_show:
     {5::__costumes/*__|3::__boots_setups/*__|1::__boots_maker/*__|1::__tailor/make__},
     __fashion_show/of__
   of: >-
-    {|city,}{|{|light }smile{|,open mouth},|__expression/random__,}
+    {|{|light }smile{|,open mouth},|__expression/random__,}
     {standing,{0-$$,$${v{| over {eye|mouth}}|double v|arms behind {head|back}}|crossed legs}|sitting,{0-$$,$${v{| over {eye|mouth}}|double v|head rest|arms behind {head|back}}|crossed legs}|contrapposto|__posture/random__},
     __SUBJECT_HERE__,
     __bp_solo_q__
@@ -11,16 +11,159 @@ fashion_show:
     __negative/general__
 tailor:
   make: >-
-    {__tailor/tops/random__,__tailor/bottoms__|__tailor/unis__},__tailor/footwear/random__,__tailor/accessories/random__
+    {__tailor/tops/random__,__tailor/bottoms/random__|__tailor/unis__},__tailor/footwear/random__,__tailor/accessories/random__
   tops:
     random: >-
-      {__tailor/tops/outer__|__tailor/tops/inner__{8::|1::,cape}|__tailor/tops/outer__,__tailor/tops/inner__}
-    outer: >-
-      {|open }{{6::{|hooded |blazer |down |denim |leather |suit |tied }jacket|1::cardigan}|{{|duffel |hooded |long |trench }coat}}
-    inner: >-
-      {1::camisole|1::{|{off|single}-shoulder }sweater|1::blouse|3::{{polo |turtleneck |side-tie }shirt|{|{off|single}-shoulder |turtleneck }t-shirt|tunic}{8::|1::,vest}}{|,long sleeves|,short sleeves|,sleeves {pushed|rolled} up}
-  bottoms: >-
-    {{1::bell-bottoms|1::jeans|3::{|cargo |tight }pants}|{3::|1::bike |1::cargo |1::dolphin |2::denim }shorts|{|bubble |circle |hoop |short |side-tie |long |layered |pencil |pleated }skirt}
+      {__tailor/tops/outer/*__|__tailor/tops/inner/without_outer__|__tailor/tops/outer__,__tailor/tops/inner/with_outer__}
+    outer:
+      jackets:
+        - blazer
+        - bomber jacket
+        - cardigan
+        - collared jacket
+        - cropped jacket
+        - down jacket
+        - female butler
+        - frilled jacket
+        - fur{|-trimmed} jacket
+        - hooded jacket
+        - leather jacket
+        - letterman jacket
+        - military jacket
+        - padded jacket
+        - quilted jacket
+        - safari jacket
+        - sleeveless jacket
+        - suit jacket
+        - sukajan
+        - tied jacket
+        - track jacket
+        - tuxedo
+        - vest
+        - waistcoat
+        - windbreaker
+      coats:
+        - collared coat
+        - duffel coat
+        - fur{|-trimmed} coat
+        - hooded coat
+        - labcoat
+        - long coat
+        - overcoat
+        - trench coat
+        - winter coat
+      cloaks:
+        - cloak
+        - collared cloak
+        - fur{|-trimmed} cloak
+        - hooded cloak
+        - two-sided cloak
+      capes:
+        - cape
+        - collared cape
+        - frilled cape
+        - fur{|-trimmed} cape
+        - hooded cape
+      misc:
+        - apron
+        - hanten \(clothes\)
+        - haori
+        - happi
+        - poncho
+    inners:
+      without_outer: >-
+        {5::__tailor/tops/inners/with_outer__{|,__tailor/tops/inners/sleeves__}|1::__tailor/tops/inners/misc__}
+      with_outer: >-
+        {0-2$$ $$__tailor/decorations__|__tailor/patterns__} __tailor/tops/inners/type/*__
+      type:
+        shirt:
+          - "{off|single}-shoulder shirt"
+          - cropped shirt
+          - collared shirt
+          - hooded shirt
+          - long shirt
+          - loose shirt
+          - oversized shirt
+          - polo shirt
+          - scoop neck shirt
+          - shirt
+          - side-tie shirt
+          - t-shirt
+          - taut shirt
+          - tied shirt
+          - turtleneck shirt
+          - v-neck shirt
+        misc:
+          - blouse
+          - cropped sweater
+          - off-shoulder sweater
+          - sweater
+          - v-neck sweater
+          - turtleneck sweater
+      sleeves:
+        - long sleeves
+        - short sleeves
+        - sleeveless
+        - sleeves {pushed|rolled} up
+      misc:
+        - "{|camouflage |plaid |polka dot |striped }strapless shirt"
+        - "{|camouflage |plaid |polka dot |striped }tank top"
+        - gym shirt{|,{long|short} sleeves|sleeves {pushed|rolled} up}
+        - hawaiian shirt
+        - tunic
+  bottoms:
+    random: >-
+      {{3::__tailor/bottoms/pants/type/*__|1::__tailor/bottoms/pants/random__}|{2::__tailor/bottoms/skirts/type__|1::__tailor/bottoms/skirts/random__}}
+    pants:
+      type:
+        pants:
+          - baggy pants
+          - bell-bottoms
+          - cargo pants
+          - hakama pants
+          - harem pants
+          - jeans
+          - sweatpants
+          - tight pants
+          - track pants
+          - yoga pants
+        shorts:
+          - bike shorts
+          - buruma
+          - cargo shorts
+          - denim shorts
+          - dolphin shorts
+          - hakama shorts
+      random: >-
+        {0-3$$ $${denim|{latex|leather}}|{belted|torn}|__tailor/patterns__} {{|capri }pants|{|micro |short }shorts}
+    skirts:
+      type:
+        - bubble skirt
+        - circle skirt
+        - hakama {|short }skirt
+        - hoop skirt
+        - layered skirt
+        - pencil skirt
+        - petticoat
+        - pleated skirt
+        - side-tie skirt
+        - taut skirt
+        - tied skirt
+      random: >-
+        {0-3$$ $${denim|lace|{latex|leather}}|{belted|cross-laced|frilled|fur-trimmed|lace-trimmed|ribbon-trimmed}|__tailor/patterns__} {|long |mini|micro}skirt
+  decorations:
+    - frilled
+    - fur-trimmed
+    - lace-trimmed
+    - ribbon-trimmed
+  patterns:
+    - camouflage
+    - checkered
+    - pinstripe
+    - plaid
+    - polka dot
+    - striped
+    - vertical-striped
   unis: >-
     {10::{|long |short }{|casual |cocktail |evening |halter |pencil |pinafore |sailor |sun|tube }dress|1::tuxedo|1::overall{s| skirt}|1::suspender {pants|shorts|skirt}}
   footwear:
@@ -125,7 +268,7 @@ costumes:
   disco: >-
     {|sequined |metallic }{halter top|wrap dress},{|bell-bottom |flared }pants,{0-$$,$${platform shoes|platform boots|heels}|{|wide }belt|{1-100$$,$$hoop earrings|pendant|bracelet|{5::|1::sunglasses}}}
   doctor: >-
-    doctor,lab coat,{0-$$,$$skirt,{white|beige|black|brown} pantyhose,heels|{1-100$$,$${10::|1::{|light blue |white }surgical mask}|{5::|1::glasses}|lanyard|stethoscope on neck}}
+    doctor,labcoat,{0-$$,$$skirt,{white|beige|black|brown} pantyhose,heels|{1-100$$,$${10::|1::{|light blue |white }surgical mask}|{5::|1::glasses}|lanyard|stethoscope on neck}}
   dress: >-
     {|black |red |white }{cocktail |halter |high slit |pencil |tube }dress,
     {0-$$,$${|lace }{|elbow }gloves|pantyhose|heels|{1-100$$,$${{|sun }hat|tiara|veil}|earrings|{ascot|brooch|locket|pendant|scarf|shawl}|{|badge|corsage}}}
@@ -192,7 +335,7 @@ costumes:
   musician: >-
     {1-100$$,$${|print }t-shirt|{leather jacket|vest}},{|leather |torn }{shorts|skirt},{0-$$cross-laced|platform} {knee boots{|,fishnet pantyhose}|thigh boots},{0-$$,$$choker|headset|wristband}
   nurse: >-
-    nurse,{lab coat|scrub suit},{0-$$,$$skirt,{white|beige|black|brown} pantyhose|sandals|{1-100$$,$$lanyard|nurse cap}}
+    nurse,{labcoat|scrub suit},{0-$$,$$skirt,{white|beige|black|brown} pantyhose|sandals|{1-100$$,$$lanyard|nurse cap}}
   office_lady: >-
     office lady,{0-$$,$${blazer jacket|shirt|office-lady suit|cardigan}|pencil skirt,{beige|brown|black} pantyhose|{pumps|heels}|{1-100$$,$${5::|1::glasses}|lanyard}}
   pirate: >-
