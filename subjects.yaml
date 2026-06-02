@@ -4,49 +4,49 @@ subjects:
   random_with_furry:
     - "{1::__subjects/original/*__|8::__subjects/copyrights/*__|8::__subjects/profiles/random_with_furry__}"
   original:
-    human-girl-1:
+    human_girl_1:
       - girl,brown hair,short hair,asymmetrical bangs,brown eyes,tsurime,tan skin,small breasts
-    human-girl-2:
+    human_girl_2:
       - girl,black hair,hime cut,dark brown eyes,tsurime,fair skin,tall,skinny,medium breasts
-    human-girl-3:
+    human_girl_3:
       - girl,silver hair,short bob,straight bangs,light blue eyes,pale skin,slim,short,flat chest,female child
-    human-girl-4:
+    human_girl_4:
       - girl,black hair,wavy hair,medium hair,dark brown eyes,hairpin,flat chest,female child
-    human-girl-5:
+    human_girl_5:
       - girl,blonde hair,blunt bangs,low ponytail,sidelocks,light blue eyes,fair skin,teenage,small breasts
-    cat-girl:
+    cat_girl:
       - cat girl,blonde hair,medium hair,blunt bangs,ponytail,sidelocks,blue eyes,slit pupils,tsurime,cat ears,whiskers,fangs,golden furs,medium breasts,slim{|,[cat tail]}
-    fox-girl:
+    fox_girl:
       - fox girl,white hair,medium hair,fluffy bangs,yellow eyes,slit pupils,fox ears,whiskers,slim,medium breasts{|,[fox tail]}
-    mouse-girl:
+    mouse_girl:
       - mouse girl,grey hair,medium hair,swept bangs,dark red eyes,mouse ears,whiskers,slim,small breasts,short{|,[mouse tail]}
-    rabbit-girl:
+    rabbit_girl:
       - rabbit girl,white hair,medium hair,curly bangs,ponytail,red eyes,tareme,rabbit ears,whiskers,[short],medium breasts{|,[rabbit tail]}
-    sheep-girl:
+    sheep_girl:
       - sheep girl,white hair,long hair,curly hair,long bangs,red eyes,horizontal pupils,tareme,animal ears,sheep horns,(white fur:1.2)
-    wolf-girl:
+    wolf_girl:
       - wolf girl,grey hair,short hair,hair between eyes,yellow eyes,animal ears,whiskers,fangs,medium breasts,tall,slim{|,[wolf tail]}
-    angel-girl:
+    angel_girl:
       - angel girl,golden hair,long hair,wavy hair,curly bangs,light blue eyes,tareme,fair skin,wings,halo,large breasts
-    dark-elf-girl:
+    dark_elf_girl:
       - dark elf girl,light purple hair,long hair,side swept bangs,pointy ears,yellow eyes,dark skin,slim,tall,medium breasts
-    demon-girl:
+    demon_girl:
       - demon girl,crimson hair,long hair,loose waves,side bangs,red eyes,tsurime,demon horns,dark skin,tall,large breasts,dark horns,bat wings
-    elf-girl-1:
+    elf_girl_1:
       - elf girl,silver hair,long hair,braided bangs,pointy ears,green eyes,fair skin,slim,tall,medium breasts
-    elf-girl-2:
+    elf_girl_2:
       - elf girl,blonde hair,medium hair,blunt bangs,braided strands,green eyes,tsurime,fair skin,pointy ears,tall,medium breasts
-    elf-girl-3:
+    elf_girl_3:
       - elf girl,blonde hair,medium hair,side braid,sidelocks,light blue eyes,fair skin,pointy ears,medium breasts
-    fallen-angel-girl:
+    fallen_angel_girl:
       - fallen angel girl,white hair,long hair,messy hair,hair between eyes,dark blue eyes,dark skin,halo,black wings,large breasts
-    goddess-girl:
+    goddess_girl:
       - goddess girl,mature female,blonde hair,long hair,parted bangs,long sidelocks,yellow eyes,tareme,fair skin,halo,tall,large breasts
-    succubus-girl:
+    succubus_girl:
       - succubus,magenta hair,long hair,straight hair,medium bangs,purple eyes,tsurime,pale skin,horns,large breasts{|,[demon tail]}
-    vampire-girl:
+    vampire_girl:
       - vampire girl,black hair,long hair,blunt bangs,red eyes,tsurime,slit pupils,pale skin,[fangs],slim,medium breasts
-    devil-girl:
+    devil_girl:
       - devil girl,white hair,very short hair,wavy hair,swept bangs,side single braid,yellow eyes,black horns,black bat wings,dark skin,small breasts{|,[demon tail]}
   copyrights:
     arknights:
@@ -2697,7 +2697,7 @@ subjects:
       - sheeta \(tenkuu no shiro laputa\)
     gochi_usa:
       - kafuu chino
-    granblue-fantasy:
+    granblue_fantasy:
       - djeeta \(granblue fantasy\)
     idolmaster:
       - amami haruka
