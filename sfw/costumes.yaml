@@ -14,8 +14,8 @@ tailor:
     {__tailor/tops/random__,__tailor/bottoms/random__|__tailor/unis__},__tailor/footwear/random__,__tailor/accessories/random__
   tops:
     random: >-
-      {__tailor/tops/outer/*__|__tailor/tops/inner/without_outer__|__tailor/tops/outer__,__tailor/tops/inner/with_outer__}
-    outer:
+      {__tailor/tops/outers/*__|__tailor/tops/inners/without_outer__|__tailor/tops/outers/*__,__tailor/tops/inners/with_outer__}
+    outers:
       jackets:
         - blazer
         - bomber jacket

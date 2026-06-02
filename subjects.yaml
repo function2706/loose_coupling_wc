@@ -3087,7 +3087,7 @@ subjects:
           - "{|dark |light }yellow eye"
     skin:
       human:
-        - "{dark|fair|pale|{|tanlines,}tanned} skin"
+        - "{{dark|{|tanlines,}tanned}|fair|pale} skin"
       demi_human:
         - "{4::__subjects/profiles/skin/human__|6::{blue|green|grey|pink|purple|red} skin}"
     age:
