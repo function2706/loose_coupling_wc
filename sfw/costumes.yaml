@@ -11,7 +11,7 @@ fashion_show:
     __negative/general__
 tailor:
   make: >-
-    {__tailor/tops/random__,__tailor/bottoms/random__|__tailor/unis__},__tailor/footwear/random__,__tailor/accessories/random__
+    {__tailor/tops/random__,__tailor/bottoms/random__|__tailor/unis/random__},__tailor/footwear/random__,__tailor/accessories/random__
   tops:
     random: >-
       {__tailor/tops/outers/*__|__tailor/tops/inners/without_outer__|__tailor/tops/outers/*__,__tailor/tops/inners/with_outer__}
@@ -123,6 +123,7 @@ tailor:
           - hakama pants
           - harem pants
           - jeans
+          - overalls
           - sweatpants
           - tight pants
           - track pants
@@ -134,6 +135,7 @@ tailor:
           - denim shorts
           - dolphin shorts
           - hakama shorts
+          - overall shorts
       random: >-
         {0-3$$ $${denim|{latex|leather}}|{belted|torn}|__tailor/patterns__} {{|capri }pants|{|micro |short }shorts}
     skirts:
@@ -143,6 +145,7 @@ tailor:
         - hakama {|short }skirt
         - hoop skirt
         - layered skirt
+        - overall skirt
         - pencil skirt
         - petticoat
         - pleated skirt
@@ -151,6 +154,46 @@ tailor:
         - tied skirt
       random: >-
         {0-3$$ $${denim|lace|{latex|leather}}|{belted|cross-laced|frilled|fur-trimmed|lace-trimmed|ribbon-trimmed}|__tailor/patterns__} {|long |mini|micro}skirt
+  unis:
+    random: >-
+      {__tailor/unis/type__|__tailor/unis/make/do__}
+    type:
+      - cocktail dress
+      - evening gown
+      - funeral dress
+      - highleg dress
+      - hooded dress
+      - pencil dress
+      - pinafore dress
+      - sailor dress
+      - smock
+      - sundress
+      - sweater dress
+      - tabard
+      - tube dress
+      - turtleneck dress
+      - v-neck dress
+    make:
+      do: >-
+        {|__tailor/unis/make/structions__ }__tailor/unis/make/type__ {|long |short }dress,{0-2$$,$$dress bow|dress flower}
+      type:
+        - cross-laced
+        - frilled
+        - fur-trimmed
+        - lace-trimmed
+        - latex
+        - taut
+      structions:
+        - backless
+        - collared
+        - halter
+        - layered
+        - off-shoulder
+        - pleated
+        - side-tie
+        - single-shoulder
+        - sleeveless
+        - strapless
   decorations:
     - frilled
     - fur-trimmed
@@ -164,8 +207,6 @@ tailor:
     - polka dot
     - striped
     - vertical-striped
-  unis: >-
-    {10::{|long |short }{|casual |cocktail |evening |halter |pencil |pinafore |sailor |sun|tube }dress|1::tuxedo|1::overall{s| skirt}|1::suspender {pants|shorts|skirt}}
   footwear:
     random: >-
       {3::__tailor/footwear/boots__|2::__tailor/footwear/heels__|1::__tailor/footwear/sandals__|3::__tailor/footwear/shoes__}
