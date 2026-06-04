@@ -117,10 +117,7 @@ tailor:
     pants:
       with_footwear: >-
         {__tailor/bottoms/pants/type__|__tailor/bottoms/pants/random__},
-        {__tailor/footwears/boots/ankle__|
-         __tailor/footwears/boots/knee__,pants tucked in|
-         __tailor/footwears/boots/shoes__{|,__tailor/footwears/socks/ankle__}|
-         __tailor/footwears/socks/ankle__}
+        {__tailor/footwears/boots/ankle__|__tailor/footwears/boots/knee__,pants tucked in|__tailor/footwears/shoes__{|,__tailor/footwears/socks/ankle__}|__tailor/footwears/socks/ankle__}
       type:
         - baggy pants
         - bell-bottoms
@@ -138,11 +135,7 @@ tailor:
     shorts:
       with_footwear: >-
         {__tailor/bottoms/shorts/type__|__tailor/bottoms/shorts/random__},
-        {{__tailor/footwears/boots/ankle__{|,{__tailor/footwears/socks/calf__|__tailor/footwears/socks/knee__|__tailor/footwears/socks/thigh__|__tailor/footwears/pantyhoses__}}|
-          __tailor/footwears/boots/knee__{|,{__tailor/footwears/socks/thigh__|__tailor/footwears/pantyhoses__}}|
-          __tailor/footwears/boots/thigh__{|,__tailor/footwears/pantyhoses__}}|
-          __tailor/footwears/shoes__{|,__tailor/footwears/socks/*__}|
-          __tailor/footwears/socks/*__}
+        {{__tailor/footwears/setups/ankle_boots__|__tailor/footwears/setups/knee_boots__|__tailor/footwears/setups/thigh_boots__}|__tailor/footwears/setups/shoes__|__tailor/footwears/setups/socks__}
       type:
         - bike shorts
         - buruma
@@ -157,22 +150,13 @@ tailor:
       with_footwear:
         micro_mini: >-
           {__tailor/bottoms/skirts/type__|__tailor/bottoms/skirts/random__},{micro|mini}skirt,
-          {{__tailor/footwears/boots/ankle__{|,{__tailor/footwears/socks/calf__|__tailor/footwears/socks/knee__|__tailor/footwears/socks/thigh__|__tailor/footwears/pantyhoses__}}|
-            __tailor/footwears/boots/knee__{|,{__tailor/footwears/socks/thigh__|__tailor/footwears/pantyhoses__}}|
-            __tailor/footwears/boots/thigh__{|,__tailor/footwears/pantyhoses__}}|
-            __tailor/footwears/shoes__{|,__tailor/footwears/socks/*__}|
-            __tailor/footwears/socks/*__}
+          {{__tailor/footwears/setups/ankle_boots__|__tailor/footwears/setups/knee_boots__|__tailor/footwears/setups/thigh_boots__}|__tailor/footwears/setups/shoes__|__tailor/footwears/setups/socks__}
         medium: >-
           {__tailor/bottoms/skirts/type__|__tailor/bottoms/skirts/random__},
-          {{__tailor/footwears/boots/ankle__{|,{__tailor/footwears/socks/calf__|__tailor/footwears/socks/knee__|__tailor/footwears/socks/thigh__|__tailor/footwears/pantyhoses__}}|
-            __tailor/footwears/boots/knee__{|,{__tailor/footwears/socks/thigh__|__tailor/footwears/pantyhoses__}}}|
-            __tailor/footwears/shoes__{|,__tailor/footwears/socks/*__}|
-            __tailor/footwears/socks/*__}
+          {{__tailor/footwears/setups/ankle_boots__|__tailor/footwears/setups/knee_boots__}|__tailor/footwears/setups/shoes__|__tailor/footwears/setups/socks__}
         long: >-
           {__tailor/bottoms/skirts/type__|__tailor/bottoms/skirts/random__},long skirt,
-          {__tailor/footwears/boots/ankle__|
-           __tailor/footwears/shoes__{|,__tailor/footwears/socks/ankle__}|
-           __tailor/footwears/socks/ankle__}
+          {__tailor/footwears/boots/ankle__|__tailor/footwears/shoes__{|,__tailor/footwears/socks/ankle__}|__tailor/footwears/socks/ankle__}
       type:
         - bubble skirt
         - circle skirt
@@ -205,22 +189,13 @@ tailor:
     random:
       short: >-
         {__tailor/unis/type__|__tailor/unis/make/do__},short dress,
-        {{__tailor/footwears/boots/ankle__{|,{__tailor/footwears/socks/calf__|__tailor/footwears/socks/knee__|__tailor/footwears/socks/thigh__|__tailor/footwears/pantyhoses__}}|
-          __tailor/footwears/boots/knee__{|,{__tailor/footwears/socks/thigh__|__tailor/footwears/pantyhoses__}}|
-          __tailor/footwears/boots/thigh__{|,__tailor/footwears/pantyhoses__}}|
-          __tailor/footwears/shoes__{|,__tailor/footwears/socks/*__}|
-          __tailor/footwears/socks/*__}
+        {{__tailor/footwears/setups/ankle_boots__|__tailor/footwears/setups/knee_boots__|__tailor/footwears/setups/thigh_boots__}|__tailor/footwears/setups/shoes__|__tailor/footwears/setups/socks__}
       medium: >-
         {__tailor/unis/type__|__tailor/unis/make/do__},
-        {{__tailor/footwears/boots/ankle__{|,{__tailor/footwears/socks/calf__|__tailor/footwears/socks/knee__|__tailor/footwears/socks/thigh__|__tailor/footwears/pantyhoses__}}|
-          __tailor/footwears/boots/knee__{|,{__tailor/footwears/socks/thigh__|__tailor/footwears/pantyhoses__}}}|
-          __tailor/footwears/shoes__{|,__tailor/footwears/socks/*__}|
-          __tailor/footwears/socks/*__}
+        {{__tailor/footwears/setups/ankle_boots__|__tailor/footwears/setups/knee_boots__}|__tailor/footwears/setups/shoes__|__tailor/footwears/setups/socks__}
       long: >-
         {__tailor/unis/type__|__tailor/unis/make/do__},long dress,
-        {__tailor/footwears/boots/ankle__|
-         __tailor/footwears/shoes__{|,__tailor/footwears/socks/ankle__}|
-         __tailor/footwears/socks/ankle__}
+        {__tailor/footwears/boots/ankle__|__tailor/footwears/shoes__{|,__tailor/footwears/socks/ankle__}|__tailor/footwears/socks/ankle__}
     type:
       - cocktail dress
       - evening gown
@@ -259,6 +234,19 @@ tailor:
         - sleeveless
         - strapless
   footwears:
+    random:
+      - __tailor/footwears/setups/*__
+    setups:
+      ankle_boots: >-
+        __tailor/footwears/boots/ankle__{|,{__tailor/footwears/socks/calf__|__tailor/footwears/socks/knee__|__tailor/footwears/socks/thigh__|__tailor/footwears/pantyhoses__}}
+      knee_boots: >-
+        __tailor/footwears/boots/knee__{|,{__tailor/footwears/socks/thigh__|__tailor/footwears/pantyhoses__}}
+      thigh_boots: >-
+        __tailor/footwears/boots/thigh__{|,__tailor/footwears/pantyhoses__}
+      shoes: >-
+        __tailor/footwears/shoes__{|,__tailor/footwears/socks/*__}
+      socks: >-
+        __tailor/footwears/socks/*__
     boots:
       ankle: >-
         ankle boots,{|buckled |{cross-laced|lace-up} |zipper }boots{|,{stiletto heels|wedge heels|high heel boots}|,platform boots}
