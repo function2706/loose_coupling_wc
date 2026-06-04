@@ -1,6 +1,6 @@
 fashion_show:
   random: >-
-    {5::__costumes/*__|3::__boots_setups/*__|1::__boots_maker/*__|1::__tailor/make__},
+    {5::__costumes/*__|3::__boots_setups/*__|1::__tailor/make__},
     __fashion_show/of__
   of: >-
     {|{|light }smile{|,open mouth},|__expression/random__,}
@@ -11,7 +11,7 @@ fashion_show:
     __negative/general__
 tailor:
   make: >-
-    {__tailor/tops/random__,__tailor/bottoms/random__|__tailor/unis/random__},__tailor/footwear/random__,__tailor/accessories/random__
+    {__tailor/tops/random__,__tailor/bottoms/random__|__tailor/unis/random/*__},__tailor/accessories/random__
   tops:
     random: >-
       {__tailor/tops/outers/*__|__tailor/tops/inners/without_outer__|__tailor/tops/outers/*__,__tailor/tops/inners/with_outer__}
@@ -113,32 +113,66 @@ tailor:
         - tunic
   bottoms:
     random: >-
-      {{3::__tailor/bottoms/pants/type/*__|1::__tailor/bottoms/pants/random__}|{2::__tailor/bottoms/skirts/type__|1::__tailor/bottoms/skirts/random__}}
+      {__tailor/bottoms/pants/with_footwear__|__tailor/bottoms/shorts/with_footwear__|__tailor/bottoms/skirts/with_footwear/*__}
     pants:
+      with_footwear: >-
+        {__tailor/bottoms/pants/type__|__tailor/bottoms/pants/random__},
+        {__tailor/footwears/boots/ankle__|
+         __tailor/footwears/boots/knee__,pants tucked in|
+         __tailor/footwears/boots/shoes__{|,__tailor/footwears/socks/ankle__}|
+         __tailor/footwears/socks/ankle__}
       type:
-        pants:
-          - baggy pants
-          - bell-bottoms
-          - cargo pants
-          - hakama pants
-          - harem pants
-          - jeans
-          - overalls
-          - sweatpants
-          - tight pants
-          - track pants
-          - yoga pants
-        shorts:
-          - bike shorts
-          - buruma
-          - cargo shorts
-          - denim shorts
-          - dolphin shorts
-          - hakama shorts
-          - overall shorts
+        - baggy pants
+        - bell-bottoms
+        - cargo pants
+        - hakama pants
+        - harem pants
+        - jeans
+        - overalls
+        - sweatpants
+        - tight pants
+        - track pants
+        - yoga pants
       random: >-
-        {0-3$$ $${denim|{latex|leather}}|{belted|torn}|__tailor/patterns__} {{|capri }pants|{|micro |short }shorts}
+        {0-3$$ $${denim|{latex|leather}}|{belted|torn}|__tailor/patterns__} {|capri }pants
+    shorts:
+      with_footwear: >-
+        {__tailor/bottoms/shorts/type__|__tailor/bottoms/shorts/random__},
+        {{__tailor/footwears/boots/ankle__{|,{__tailor/footwears/socks/calf__|__tailor/footwears/socks/knee__|__tailor/footwears/socks/thigh__|__tailor/footwears/pantyhoses__}}|
+          __tailor/footwears/boots/knee__{|,{__tailor/footwears/socks/thigh__|__tailor/footwears/pantyhoses__}}|
+          __tailor/footwears/boots/thigh__{|,__tailor/footwears/pantyhoses__}}|
+          __tailor/footwears/shoes__{|,__tailor/footwears/socks/*__}|
+          __tailor/footwears/socks/*__}
+      type:
+        - bike shorts
+        - buruma
+        - cargo shorts
+        - denim shorts
+        - dolphin shorts
+        - hakama shorts
+        - overall shorts
+      random: >-
+        {0-3$$ $${denim|{latex|leather}}|{belted|torn}|__tailor/patterns__} {|micro |short }shorts
     skirts:
+      with_footwear:
+        micro_mini: >-
+          {__tailor/bottoms/skirts/type__|__tailor/bottoms/skirts/random__},{micro|mini}skirt,
+          {{__tailor/footwears/boots/ankle__{|,{__tailor/footwears/socks/calf__|__tailor/footwears/socks/knee__|__tailor/footwears/socks/thigh__|__tailor/footwears/pantyhoses__}}|
+            __tailor/footwears/boots/knee__{|,{__tailor/footwears/socks/thigh__|__tailor/footwears/pantyhoses__}}|
+            __tailor/footwears/boots/thigh__{|,__tailor/footwears/pantyhoses__}}|
+            __tailor/footwears/shoes__{|,__tailor/footwears/socks/*__}|
+            __tailor/footwears/socks/*__}
+        medium: >-
+          {__tailor/bottoms/skirts/type__|__tailor/bottoms/skirts/random__},
+          {{__tailor/footwears/boots/ankle__{|,{__tailor/footwears/socks/calf__|__tailor/footwears/socks/knee__|__tailor/footwears/socks/thigh__|__tailor/footwears/pantyhoses__}}|
+            __tailor/footwears/boots/knee__{|,{__tailor/footwears/socks/thigh__|__tailor/footwears/pantyhoses__}}}|
+            __tailor/footwears/shoes__{|,__tailor/footwears/socks/*__}|
+            __tailor/footwears/socks/*__}
+        long: >-
+          {__tailor/bottoms/skirts/type__|__tailor/bottoms/skirts/random__},long skirt,
+          {__tailor/footwears/boots/ankle__|
+           __tailor/footwears/shoes__{|,__tailor/footwears/socks/ankle__}|
+           __tailor/footwears/socks/ankle__}
       type:
         - bubble skirt
         - circle skirt
@@ -153,10 +187,40 @@ tailor:
         - taut skirt
         - tied skirt
       random: >-
-        {0-3$$ $${denim|lace|{latex|leather}}|{belted|cross-laced|frilled|fur-trimmed|lace-trimmed|ribbon-trimmed}|__tailor/patterns__} {|long |mini|micro}skirt
+        {0-3$$ $${denim|lace|{latex|leather}}|{belted|cross-laced|frilled|fur-trimmed|lace-trimmed|ribbon-trimmed}|__tailor/patterns__} skirt
+  decorations:
+    - frilled
+    - fur-trimmed
+    - lace-trimmed
+    - ribbon-trimmed
+  patterns:
+    - camouflage
+    - checkered
+    - pinstripe
+    - plaid
+    - polka dot
+    - striped
+    - vertical-striped
   unis:
-    random: >-
-      {__tailor/unis/type__|__tailor/unis/make/do__}
+    random:
+      short: >-
+        {__tailor/unis/type__|__tailor/unis/make/do__},short dress,
+        {{__tailor/footwears/boots/ankle__{|,{__tailor/footwears/socks/calf__|__tailor/footwears/socks/knee__|__tailor/footwears/socks/thigh__|__tailor/footwears/pantyhoses__}}|
+          __tailor/footwears/boots/knee__{|,{__tailor/footwears/socks/thigh__|__tailor/footwears/pantyhoses__}}|
+          __tailor/footwears/boots/thigh__{|,__tailor/footwears/pantyhoses__}}|
+          __tailor/footwears/shoes__{|,__tailor/footwears/socks/*__}|
+          __tailor/footwears/socks/*__}
+      medium: >-
+        {__tailor/unis/type__|__tailor/unis/make/do__},
+        {{__tailor/footwears/boots/ankle__{|,{__tailor/footwears/socks/calf__|__tailor/footwears/socks/knee__|__tailor/footwears/socks/thigh__|__tailor/footwears/pantyhoses__}}|
+          __tailor/footwears/boots/knee__{|,{__tailor/footwears/socks/thigh__|__tailor/footwears/pantyhoses__}}}|
+          __tailor/footwears/shoes__{|,__tailor/footwears/socks/*__}|
+          __tailor/footwears/socks/*__}
+      long: >-
+        {__tailor/unis/type__|__tailor/unis/make/do__},long dress,
+        {__tailor/footwears/boots/ankle__|
+         __tailor/footwears/shoes__{|,__tailor/footwears/socks/ankle__}|
+         __tailor/footwears/socks/ankle__}
     type:
       - cocktail dress
       - evening gown
@@ -175,7 +239,7 @@ tailor:
       - v-neck dress
     make:
       do: >-
-        {|__tailor/unis/make/structions__ }__tailor/unis/make/type__ {|long |short }dress,{0-2$$,$$dress bow|dress flower}
+        {|__tailor/unis/make/structions__ }__tailor/unis/make/type__ dress,{0-2$$,$$dress bow|dress flower}
       type:
         - cross-laced
         - frilled
@@ -194,30 +258,37 @@ tailor:
         - single-shoulder
         - sleeveless
         - strapless
-  decorations:
-    - frilled
-    - fur-trimmed
-    - lace-trimmed
-    - ribbon-trimmed
-  patterns:
-    - camouflage
-    - checkered
-    - pinstripe
-    - plaid
-    - polka dot
-    - striped
-    - vertical-striped
-  footwear:
-    random: >-
-      {3::__tailor/footwear/boots__|2::__tailor/footwear/heels__|1::__tailor/footwear/sandals__|3::__tailor/footwear/shoes__}
-    boots: >-
-      {__boots_maker/ankle_boots__{|,socks|,kneehighs|,thighhighs|,{4::|1::fishnet }pantyhose}|__boots_maker/knee_boots__{|,thighhighs|,{4::|1::fishnet }pantyhose}|__boots_maker/thigh_boots__{|,{4::|1::fishnet }pantyhose}}
-    heels: >-
-      {{|platform |stiletto |strappy |wedge }heels|pumps}{|,{4::|1::fishnet }pantyhose}
-    sandals: >-
-      {2::{|wedge }sandals|1::flip-flops}
-    shoes: >-
-      {3::{|flat |leather }shoes|1::loafers|1::mary janes|1::sneakers}{|,socks|,kneehighs|,thighhighs|,{4::|1::fishnet }pantyhose}
+  footwears:
+    boots:
+      ankle: >-
+        ankle boots,{|buckled |{cross-laced|lace-up} |zipper }boots{|,{stiletto heels|wedge heels|high heel boots}|,platform boots}
+      knee: >-
+        knee boots,{|buckled |{cross-laced|lace-up} |zipper }boots{|,{stiletto heels|wedge heels|high heel boots}|,platform boots}
+      thigh: >-
+        thigh boots,{|buckled |{cross-laced|lace-up} |zipper }boots{|,{stiletto heels|wedge heels|high heel boots}|,platform boots}
+    shoes:
+      - "{high|platform|stiletto|strappy|wedge} heels"
+      - clog sandals
+      - crocs
+      - flats
+      - flip-flops
+      - geta
+      - loafers
+      - mary janes
+      - sandals
+      - sneakers
+      - uwabaki
+    pantyhoses: >-
+      {2::|2::black |2::white |2::brown |1::fishnet }pantyhose
+    socks:
+      ankle: >-
+        {|black |white |{polka dot|striped} |frilled }ankle socks
+      calf: >-
+        {|black |white |{polka dot|striped} |frilled }socks
+      knee: >-
+        {10::{|black |white |{brown|green} }kneehighs|1::loose socks}
+      thigh: >-
+        {10::{|black |white |striped |fishnet }thighhighs|1::garter {belt|straps}}
   accessories:
     random: >-
       {0-$$,$$__tailor/accessories/head__|__tailor/accessories/face__|__tailor/accessories/neck__|__tailor/accessories/gloves__|__tailor/accessories/one_point__}

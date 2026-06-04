@@ -1,9 +1,9 @@
 boots_show:
   random: >-
-    {3::__boots_setups/*__|1::__boots_maker/*__},
+    {3::__boots_setups/*__|1::__tailor/footwears/boots/*__},
     __boots_show/of__
   without_ankle: >-
-    {3::__boots_setups_without_ankle/*__|1::{__boots_maker/knee_boots__|__boots_maker/thigh_boots__}},
+    {3::__boots_setups_without_ankle/*__|1::{__tailor/footwears/boots/knee__|__tailor/footwears/boots/thigh__}},
     __boots_show/of__
   of: >-
     {|city,}{|{|light }smile{|,open mouth},}
@@ -12,140 +12,133 @@ boots_show:
     __bp_solo_q__
     __NEG...__
     __negative/general__
-boots_maker:
-  ankle_boots: >-
-    ankle boots,{|buckled |{cross-laced|lace-up} |zipper }boots{|,{stiletto heels|wedge heels|high heel boots}|,platform boots}
-  knee_boots: >-
-    knee boots,{|buckled |{cross-laced|lace-up} |zipper }boots{|,{stiletto heels|wedge heels|high heel boots}|,platform boots}
-  thigh_boots: >-
-    thigh boots,{|buckled |{cross-laced|lace-up} |zipper }boots{|,{stiletto heels|wedge heels|high heel boots}|,platform boots}
 boots_setups:
   tailor: >-
-    {__tailor/tops/random__,{__boots_maker/ankle_boots__{|,socks},{4::|3::denim |1::bell-bottom,}pants|
-    {__boots_maker/ankle_boots__{|,{socks|kneehighs|thighhighs|pantyhose}}|__boots_maker/knee_boots__{|,{thighhighs|pantyhose}}|__boots_maker/thigh_boots__{|,pantyhose}},{3::|1::bike |1::dolphin |2::denim }shorts|
-    {__boots_maker/ankle_boots__{|,{socks|kneehighs|thighhighs|pantyhose}}|__boots_maker/knee_boots__{|,{thighhighs|pantyhose}}|__boots_maker/thigh_boots__{|,pantyhose}},{|short |long |layered |pencil |pleated }skirt}|
-    {__boots_maker/ankle_boots__{|,{socks|kneehighs|thighhighs|pantyhose}}|__boots_maker/knee_boots__{|,{thighhighs|pantyhose}}|__boots_maker/thigh_boots__{|,pantyhose}},{|long |short }{|casual |cocktail |evening |halter |pencil |pinafore |sun}dress},
+    {__tailor/tops/random__,{__tailor/footwears/boots/ankle__{|,socks},{4::|3::denim |1::bell-bottom,}pants|
+    {__tailor/footwears/boots/ankle__{|,{socks|kneehighs|thighhighs|pantyhose}}|__tailor/footwears/boots/knee__{|,{thighhighs|pantyhose}}|__tailor/footwears/boots/thigh__{|,pantyhose}},{3::|1::bike |1::dolphin |2::denim }shorts|
+    {__tailor/footwears/boots/ankle__{|,{socks|kneehighs|thighhighs|pantyhose}}|__tailor/footwears/boots/knee__{|,{thighhighs|pantyhose}}|__tailor/footwears/boots/thigh__{|,pantyhose}},{|short |long |layered |pencil |pleated }skirt}|
+    {__tailor/footwears/boots/ankle__{|,{socks|kneehighs|thighhighs|pantyhose}}|__tailor/footwears/boots/knee__{|,{thighhighs|pantyhose}}|__tailor/footwears/boots/thigh__{|,pantyhose}},{|long |short }{|casual |cocktail |evening |halter |pencil |pinafore |sun}dress},
     __tailor/accessories/random__
   casual_dress: >-
-    {__boots_maker/knee_boots__|__boots_maker/thigh_boots__},{{|black |white }camisole|knit|oversized shirt|pinafore|slip|sweater} dress,{0-$$,$$hat|{necklace|pendant}}
+    {__tailor/footwears/boots/knee__|__tailor/footwears/boots/thigh__},{{|black |white }camisole|knit|oversized shirt|pinafore|slip|sweater} dress,{0-$$,$$hat|{necklace|pendant}}
   formal_dress: >-
-    __boots_maker/knee_boots__,{cocktail|halter|pencil|tube|turtleneck|v neck} dress,pantyhose,{0-$$,$$necklace|pendant}
+    __tailor/footwears/boots/knee__,{cocktail|halter|pencil|tube|turtleneck|v neck} dress,pantyhose,{0-$$,$$necklace|pendant}
   hakama: >-
-    __boots_maker/ankle_boots__,kimono,hakama skirt{|,kanzashi}
+    __tailor/footwears/boots/ankle__,kimono,hakama skirt{|,kanzashi}
   pants: >-
-    __boots_maker/knee_boots__,{down jacket|long coat{|,shirt|,sweater}|oversized cardigan|shirt},{{|skinny }jeans|pants},pants tucked in{|,belt}
+    __tailor/footwears/boots/knee__,{down jacket|long coat{|,shirt|,sweater}|oversized cardigan|shirt},{{|skinny }jeans|pants},pants tucked in{|,belt}
   coat_skirt: >-
-    {black|brown} __boots_maker/knee_boots__,{brown |grey |red |white }{long|trench} coat,{brown|grey|white} {shirt|sweater},{{black|brown|white} {|plaid |pleated mini}skirt|{|denim }shorts{|,pants rolled up}},{black|brown} pantyhose,{0-$$,$${|black |red |white }scarf|{necklace|pendant}|{black|brown|white} gloves}
+    {black|brown} __tailor/footwears/boots/knee__,{brown |grey |red |white }{long|trench} coat,{brown|grey|white} {shirt|sweater},{{black|brown|white} {|plaid |pleated mini}skirt|{|denim }shorts{|,pants rolled up}},{black|brown} pantyhose,{0-$$,$${|black |red |white }scarf|{necklace|pendant}|{black|brown|white} gloves}
   shorts: >-
-    {__boots_maker/knee_boots__|__boots_maker/thigh_boots__{|,zettai ryouiki}},{black leather jacket{|,sleeves {rolled|pushed} up},white short {|t-}shirt{|,navel}|black vest{|,open clothes},white {|t-}shirt{|,sleeves {rolled|pushed} up}{|,navel}|camisole},{|black |blue }{|denim }shorts{|,pants rolled up},{0-$$,$$belt|necklace}
+    {__tailor/footwears/boots/knee__|__tailor/footwears/boots/thigh__{|,zettai ryouiki}},{black leather jacket{|,sleeves {rolled|pushed} up},white short {|t-}shirt{|,navel}|black vest{|,open clothes},white {|t-}shirt{|,sleeves {rolled|pushed} up}{|,navel}|camisole},{|black |blue }{|denim }shorts{|,pants rolled up},{0-$$,$$belt|necklace}
   skirt: >-
-    {__boots_maker/ankle_boots__{|,kneehighs|,thighhighs}|__boots_maker/knee_boots__{|,thighhighs}|__boots_maker/thigh_boots__},{2::{{|frilled }shirt|{|oversized }sweater}{|,{off|single}-shoulder}|1::fur coat},{flare|pleated} {|mini}skirt{|,belt}
+    {__tailor/footwears/boots/ankle__{|,kneehighs|,thighhighs}|__tailor/footwears/boots/knee__{|,thighhighs}|__tailor/footwears/boots/thigh__},{2::{{|frilled }shirt|{|oversized }sweater}{|,{off|single}-shoulder}|1::fur coat},{flare|pleated} {|mini}skirt{|,belt}
   after_rain: >-
-    {black|brown} __boots_maker/knee_boots__,{navy|grey} trench coat,{black|denim} pants,pants rolled up,pantyhose
+    {black|brown} __tailor/footwears/boots/knee__,{navy|grey} trench coat,{black|denim} pants,pants rolled up,pantyhose
   after_cooking_class: >-
-    {brown|brown} __boots_maker/ankle_boots__,{white|light brown} knit sweater,{navy|grey} wide pants
+    {brown|brown} __tailor/footwears/boots/ankle__,{white|light brown} knit sweater,{navy|grey} wide pants
   bakery: >-
-    {black|brown} __boots_maker/ankle_boots__,{white|light brown} knit sweater,{beige|navy} wide pants{|,necklace}
+    {black|brown} __tailor/footwears/boots/ankle__,{white|light brown} knit sweater,{beige|navy} wide pants{|,necklace}
   bookstore: >-
-    {black|brown} __boots_maker/knee_boots__,{grey|white} long coat,{black|white} turtleneck sweater,{black|grey} skinny pants,pants tucked in{5::|1::,round glasses}
+    {black|brown} __tailor/footwears/boots/knee__,{grey|white} long coat,{black|white} turtleneck sweater,{black|grey} skinny pants,pants tucked in{5::|1::,round glasses}
   cafe: >-
-    {brown|black} __boots_maker/ankle_boots__,{beige|brown|white} cardigan,{white|black} shirt,{denim|navy} straight pants,{0-$$,$${5::|1::{|brown} glasses}|simple bracelet}
+    {brown|black} __tailor/footwears/boots/ankle__,{beige|brown|white} cardigan,{white|black} shirt,{denim|navy} straight pants,{0-$$,$${5::|1::{|brown} glasses}|simple bracelet}
   campus: >-
-    {black|brown} __boots_maker/ankle_boots__,{grey|navy|white} hoodie,denim shorts,{black|white} thighhigh socks
+    {black|brown} __tailor/footwears/boots/ankle__,{grey|navy|white} hoodie,denim shorts,{black|white} thighhigh socks
   illumination: >-
-    {black|white} {__boots_maker/knee_boots__|__boots_maker/thigh_boots__},stiletto heels,{white|light grey} coat,{black|white} miniskirt{|,white scarf}
+    {black|white} {__tailor/footwears/boots/knee__|__tailor/footwears/boots/thigh__},stiletto heels,{white|light grey} coat,{black|white} miniskirt{|,white scarf}
   museum: >-
-    {black|brown} __boots_maker/knee_boots__,{black|white} turtleneck top,grey long coat,{black|dark green} pleated long skirt,black pantyhose
+    {black|brown} __tailor/footwears/boots/knee__,{black|white} turtleneck top,grey long coat,{black|dark green} pleated long skirt,black pantyhose
   riverbed: >-
-    {brown|white} __boots_maker/ankle_boots__,{white|light pink} loose shirt,{beige|denim} shorts,{0-$$,$${white|pink} hat|bracelet}
+    {brown|white} __tailor/footwears/boots/ankle__,{white|light pink} loose shirt,{beige|denim} shorts,{0-$$,$${white|pink} hat|bracelet}
   snap: >-
-    {black|white} {__boots_maker/knee_boots__|__boots_maker/thigh_boots__},{black|grey} cropped jacket,{black|white|red} miniskirt,black pantyhose,{0-$$,$${5::|1::black sunglasses}|choker}
+    {black|white} {__tailor/footwears/boots/knee__|__tailor/footwears/boots/thigh__},{black|grey} cropped jacket,{black|white|red} miniskirt,black pantyhose,{0-$$,$${5::|1::black sunglasses}|choker}
   all_night: >-
-    {black|red} __boots_maker/ankle_boots__,{black|red|white} cropped top,{black|red} miniskirt,{black|brown} pantyhose,{0-$$,$$necklace|bracelet}
+    {black|red} __tailor/footwears/boots/ankle__,{black|red|white} cropped top,{black|red} miniskirt,{black|brown} pantyhose,{0-$$,$$necklace|bracelet}
   cherry_blossom: >-
-    {white|pink} __boots_maker/knee_boots__,{white|pink} cardigan,white pleated skirt{|,white pantyhose}{|,white hair ribbon}
+    {white|pink} __tailor/footwears/boots/knee__,{white|pink} cardigan,white pleated skirt{|,white pantyhose}{|,white hair ribbon}
   library: >-
-    {brown|black} __boots_maker/ankle_boots__,{beige|brown} knit sweater,{black|navy} long skirt{5::|1::,brown glasses}
+    {brown|black} __tailor/footwears/boots/ankle__,{beige|brown} knit sweater,{black|navy} long skirt{5::|1::,brown glasses}
   picnic: >-
-    {brown|white} __boots_maker/ankle_boots__,{beige|light green} cardigan,{white|light yellow} blouse,{beige|denim} wide pants{|,straw hat}{|,simple bracelet}
+    {brown|white} __tailor/footwears/boots/ankle__,{beige|light green} cardigan,{white|light yellow} blouse,{beige|denim} wide pants{|,straw hat}{|,simple bracelet}
   hospital_visit: >-
-    {black|white} __boots_maker/ankle_boots__,{white|light grey} blouse,{navy|black} straight pants{|,simple necklace}
+    {black|white} __tailor/footwears/boots/ankle__,{white|light grey} blouse,{navy|black} straight pants{|,simple necklace}
   date_night: >-
-    {black|brown} {__boots_maker/knee_boots__|__boots_maker/thigh_boots__},{black|dark red} wrap dress{|,{necklace|pendant}}
+    {black|brown} {__tailor/footwears/boots/knee__|__tailor/footwears/boots/thigh__},{black|dark red} wrap dress{|,{necklace|pendant}}
   concert: >-
-    {black|white} {__boots_maker/knee_boots__|__boots_maker/thigh_boots__},{black leather jacket,{white|grey} t-shirt|black cropped top},{black|grey} {|distressed }jeans,{0-$$,$$belt|wristband}
+    {black|white} {__tailor/footwears/boots/knee__|__tailor/footwears/boots/thigh__},{black leather jacket,{white|grey} t-shirt|black cropped top},{black|grey} {|distressed }jeans,{0-$$,$$belt|wristband}
   night_out: >-
-    {black|silver} {__boots_maker/knee_boots__|__boots_maker/thigh_boots__},stiletto heels,{black|red} {slip|tube} dress,black pantyhose,{0-$$,$$choker|earrings}
+    {black|silver} {__tailor/footwears/boots/knee__|__tailor/footwears/boots/thigh__},stiletto heels,{black|red} {slip|tube} dress,black pantyhose,{0-$$,$$choker|earrings}
   studio_session: >-
-    {black|white} {__boots_maker/knee_boots__|__boots_maker/thigh_boots__},{black|grey} oversized hoodie,{black|grey} bike shorts{|,pants rolled up}{|,scrunchie}
+    {black|white} {__tailor/footwears/boots/knee__|__tailor/footwears/boots/thigh__},{black|grey} oversized hoodie,{black|grey} bike shorts{|,pants rolled up}{|,scrunchie}
   rainy_day: >-
-    {black|dark navy} __boots_maker/knee_boots__,{yellow|beige} trench coat,{white|grey} shirt,{dark grey|navy} straight pants,pants tucked in,pantyhose
+    {black|dark navy} __tailor/footwears/boots/knee__,{yellow|beige} trench coat,{white|grey} shirt,{dark grey|navy} straight pants,pants tucked in,pantyhose
   winter_market: >-
-    {black|brown} {__boots_maker/knee_boots__|__boots_maker/thigh_boots__},{grey|navy} long coat,{black|white} turtleneck sweater,{grey|charcoal} skinny pants,pantyhose,{0-$$,$$knit hat|plaid scarf}
+    {black|brown} {__tailor/footwears/boots/knee__|__tailor/footwears/boots/thigh__},{grey|navy} long coat,{black|white} turtleneck sweater,{grey|charcoal} skinny pants,pantyhose,{0-$$,$$knit hat|plaid scarf}
   art_gallery: >-
-    {black|white} __boots_maker/knee_boots__,{black|ivory} turtleneck top,{camel|grey} wide trousers,{3::|1::,simple {necklace|bracelet}}
+    {black|white} __tailor/footwears/boots/knee__,{black|ivory} turtleneck top,{camel|grey} wide trousers,{3::|1::,simple {necklace|bracelet}}
   autumn_walk: >-
-    {brown|brown} __boots_maker/knee_boots__,{camel|rust} long coat,{cream|beige} turtleneck knit,{brown|olive} {straight pants|wide pants},pants tucked in{|,scarf}
+    {brown|brown} __tailor/footwears/boots/knee__,{camel|rust} long coat,{cream|beige} turtleneck knit,{brown|olive} {straight pants|wide pants},pants tucked in{|,scarf}
   flea_market: >-
-    {brown|tan} __boots_maker/knee_boots__,{olive|mustard} oversized jacket,{white|cream} loose shirt,{beige|black} wide pants{|,belt}
+    {brown|tan} __tailor/footwears/boots/knee__,{olive|mustard} oversized jacket,{white|cream} loose shirt,{beige|black} wide pants{|,belt}
   vintage_shop: >-
-    {brown|tan} __boots_maker/knee_boots__,{olive|burgundy} {long coat|oversized cardigan},{white|cream} shirt,{brown|black} {corduroy|straight} pants{|,belt}{5::|1::,round glasses}
+    {brown|tan} __tailor/footwears/boots/knee__,{olive|burgundy} {long coat|oversized cardigan},{white|cream} shirt,{brown|black} {corduroy|straight} pants{|,belt}{5::|1::,round glasses}
   garden_party: >-
-    {white|nude} __boots_maker/knee_boots__,{white|floral} midi dress,{0-$$,$$flower hair clip|pearl bracelet|sun hat}
+    {white|nude} __tailor/footwears/boots/knee__,{white|floral} midi dress,{0-$$,$$flower hair clip|pearl bracelet|sun hat}
   sunday_brunch: >-
-    {white|nude} __boots_maker/knee_boots__,{white|pink} blouse,{beige|white} {flare|pleated} midi skirt{|,straw hat}{|,small earrings}
+    {white|nude} __tailor/footwears/boots/knee__,{white|pink} blouse,{beige|white} {flare|pleated} midi skirt{|,straw hat}{|,small earrings}
 boots_setups_without_ankle:
   tailor: >-
     {__tailor/tops/random__,{
-    {__boots_maker/knee_boots__{|,{thighhighs|pantyhose}}|__boots_maker/thigh_boots__{|,pantyhose}},{3::|1::bike |1::dolphin |2::denim }shorts|
-    {__boots_maker/knee_boots__{|,{thighhighs|pantyhose}}|__boots_maker/thigh_boots__{|,pantyhose}},{|short |long |layered |pencil |pleated }skirt}|
-    {__boots_maker/knee_boots__{|,{thighhighs|pantyhose}}|__boots_maker/thigh_boots__{|,pantyhose}},{|long |short }{|casual |cocktail |evening |halter |pencil |pinafore |sun}dress},
+    {__tailor/footwears/boots/knee__{|,{thighhighs|pantyhose}}|__tailor/footwears/boots/thigh__{|,pantyhose}},{3::|1::bike |1::dolphin |2::denim }shorts|
+    {__tailor/footwears/boots/knee__{|,{thighhighs|pantyhose}}|__tailor/footwears/boots/thigh__{|,pantyhose}},{|short |long |layered |pencil |pleated }skirt}|
+    {__tailor/footwears/boots/knee__{|,{thighhighs|pantyhose}}|__tailor/footwears/boots/thigh__{|,pantyhose}},{|long |short }{|casual |cocktail |evening |halter |pencil |pinafore |sun}dress},
     __tailor/accessories/random__
   casual_dress: >-
-    {__boots_maker/knee_boots__|__boots_maker/thigh_boots__},{{|black |white }camisole|knit|oversized shirt|pinafore|slip|sweater} dress,{0-$$,$$hat|{necklace|pendant}}
+    {__tailor/footwears/boots/knee__|__tailor/footwears/boots/thigh__},{{|black |white }camisole|knit|oversized shirt|pinafore|slip|sweater} dress,{0-$$,$$hat|{necklace|pendant}}
   formal_dress: >-
-    __boots_maker/knee_boots__,{cocktail|halter|pencil|tube|turtleneck|v neck} dress,pantyhose,{0-$$,$$necklace|pendant}
+    __tailor/footwears/boots/knee__,{cocktail|halter|pencil|tube|turtleneck|v neck} dress,pantyhose,{0-$$,$$necklace|pendant}
   pants: >-
-    __boots_maker/knee_boots__,{down jacket|long coat{|,shirt|,sweater}|oversized cardigan|shirt},{{|skinny }jeans|pants},pants tucked in{|,belt}
+    __tailor/footwears/boots/knee__,{down jacket|long coat{|,shirt|,sweater}|oversized cardigan|shirt},{{|skinny }jeans|pants},pants tucked in{|,belt}
   coat_skirt: >-
-    {black|brown} __boots_maker/knee_boots__,{brown |grey |red |white }{long|trench} coat,{brown|grey|white} {shirt|sweater},{{black|brown|white} {|plaid |pleated mini}skirt|{|denim }shorts{|,pants rolled up}},{black|brown} pantyhose,{0-$$,$${|black |red |white }scarf|{necklace|pendant}|{black|brown|white} gloves}
+    {black|brown} __tailor/footwears/boots/knee__,{brown |grey |red |white }{long|trench} coat,{brown|grey|white} {shirt|sweater},{{black|brown|white} {|plaid |pleated mini}skirt|{|denim }shorts{|,pants rolled up}},{black|brown} pantyhose,{0-$$,$${|black |red |white }scarf|{necklace|pendant}|{black|brown|white} gloves}
   shorts: >-
-    {__boots_maker/knee_boots__|__boots_maker/thigh_boots__{|,zettai ryouiki}},{black leather jacket{|,sleeves {rolled|pushed} up},white short {|t-}shirt{|,navel}|black vest{|,open clothes},white {|t-}shirt{|,sleeves {rolled|pushed} up}{|,navel}|camisole},{|black |blue }{|denim }shorts{|,pants rolled up},{0-$$,$$belt|necklace}
+    {__tailor/footwears/boots/knee__|__tailor/footwears/boots/thigh__{|,zettai ryouiki}},{black leather jacket{|,sleeves {rolled|pushed} up},white short {|t-}shirt{|,navel}|black vest{|,open clothes},white {|t-}shirt{|,sleeves {rolled|pushed} up}{|,navel}|camisole},{|black |blue }{|denim }shorts{|,pants rolled up},{0-$$,$$belt|necklace}
   skirt: >-
-    {__boots_maker/knee_boots__{|,thighhighs}|__boots_maker/thigh_boots__},{2::{{|frilled }shirt|{|oversized }sweater}{|,{off|single}-shoulder}|1::fur coat},{flare|pleated} {|mini}skirt{|,belt}
+    {__tailor/footwears/boots/knee__{|,thighhighs}|__tailor/footwears/boots/thigh__},{2::{{|frilled }shirt|{|oversized }sweater}{|,{off|single}-shoulder}|1::fur coat},{flare|pleated} {|mini}skirt{|,belt}
   after_rain: >-
-    {black|brown} __boots_maker/knee_boots__,{navy|grey} trench coat,{black|denim} pants,pants rolled up,pantyhose
+    {black|brown} __tailor/footwears/boots/knee__,{navy|grey} trench coat,{black|denim} pants,pants rolled up,pantyhose
   bookstore: >-
-    {black|brown} __boots_maker/knee_boots__,{grey|white} long coat,{black|white} turtleneck sweater,{black|grey} skinny pants,pants tucked in{5::|1::,round glasses}
+    {black|brown} __tailor/footwears/boots/knee__,{grey|white} long coat,{black|white} turtleneck sweater,{black|grey} skinny pants,pants tucked in{5::|1::,round glasses}
   illumination: >-
-    {black|white} {__boots_maker/knee_boots__|__boots_maker/thigh_boots__},stiletto heels,{white|light grey} coat,{black|white} miniskirt{|,white scarf}
+    {black|white} {__tailor/footwears/boots/knee__|__tailor/footwears/boots/thigh__},stiletto heels,{white|light grey} coat,{black|white} miniskirt{|,white scarf}
   museum: >-
-    {black|brown} __boots_maker/knee_boots__,{black|white} turtleneck top,grey long coat,{black|dark green} pleated long skirt,black pantyhose
+    {black|brown} __tailor/footwears/boots/knee__,{black|white} turtleneck top,grey long coat,{black|dark green} pleated long skirt,black pantyhose
   snap: >-
-    {black|white} {__boots_maker/knee_boots__|__boots_maker/thigh_boots__},{black|grey} cropped jacket,{black|white|red} miniskirt,black pantyhose,{0-$$,$${5::|1::black sunglasses}|choker}
+    {black|white} {__tailor/footwears/boots/knee__|__tailor/footwears/boots/thigh__},{black|grey} cropped jacket,{black|white|red} miniskirt,black pantyhose,{0-$$,$${5::|1::black sunglasses}|choker}
   cherry_blossom: >-
-    {white|pink} __boots_maker/knee_boots__,{white|pink} cardigan,white pleated skirt{|,white pantyhose}{|,white hair ribbon}
+    {white|pink} __tailor/footwears/boots/knee__,{white|pink} cardigan,white pleated skirt{|,white pantyhose}{|,white hair ribbon}
   date_night: >-
-    {black|brown} {__boots_maker/knee_boots__|__boots_maker/thigh_boots__},{black|dark red} wrap dress{|,{necklace|pendant}}
+    {black|brown} {__tailor/footwears/boots/knee__|__tailor/footwears/boots/thigh__},{black|dark red} wrap dress{|,{necklace|pendant}}
   concert: >-
-    {black|white} {__boots_maker/knee_boots__|__boots_maker/thigh_boots__},{black leather jacket,{white|grey} t-shirt|black cropped top},{black|grey} {|distressed }jeans,{0-$$,$$belt|wristband}
+    {black|white} {__tailor/footwears/boots/knee__|__tailor/footwears/boots/thigh__},{black leather jacket,{white|grey} t-shirt|black cropped top},{black|grey} {|distressed }jeans,{0-$$,$$belt|wristband}
   night_out: >-
-    {black|silver} {__boots_maker/knee_boots__|__boots_maker/thigh_boots__},stiletto heels,{black|red} {slip|tube} dress,black pantyhose,{0-$$,$$choker|earrings}
+    {black|silver} {__tailor/footwears/boots/knee__|__tailor/footwears/boots/thigh__},stiletto heels,{black|red} {slip|tube} dress,black pantyhose,{0-$$,$$choker|earrings}
   studio_session: >-
-    {black|white} {__boots_maker/knee_boots__|__boots_maker/thigh_boots__},{black|grey} oversized hoodie,{black|grey} bike shorts{|,pants rolled up}{|,scrunchie}
+    {black|white} {__tailor/footwears/boots/knee__|__tailor/footwears/boots/thigh__},{black|grey} oversized hoodie,{black|grey} bike shorts{|,pants rolled up}{|,scrunchie}
   rainy_day: >-
-    {black|dark navy} __boots_maker/knee_boots__,{yellow|beige} trench coat,{white|grey} shirt,{dark grey|navy} straight pants,pants tucked in,pantyhose
+    {black|dark navy} __tailor/footwears/boots/knee__,{yellow|beige} trench coat,{white|grey} shirt,{dark grey|navy} straight pants,pants tucked in,pantyhose
   winter_market: >-
-    {black|brown} {__boots_maker/knee_boots__|__boots_maker/thigh_boots__},{grey|navy} long coat,{black|white} turtleneck sweater,{grey|charcoal} skinny pants,pantyhose,{0-$$,$$knit hat|plaid scarf}
+    {black|brown} {__tailor/footwears/boots/knee__|__tailor/footwears/boots/thigh__},{grey|navy} long coat,{black|white} turtleneck sweater,{grey|charcoal} skinny pants,pantyhose,{0-$$,$$knit hat|plaid scarf}
   art_gallery: >-
-    {black|white} __boots_maker/knee_boots__,{black|ivory} turtleneck top,{camel|grey} wide trousers,{3::|1::,simple {necklace|bracelet}}
+    {black|white} __tailor/footwears/boots/knee__,{black|ivory} turtleneck top,{camel|grey} wide trousers,{3::|1::,simple {necklace|bracelet}}
   autumn_walk: >-
-    {brown|brown} __boots_maker/knee_boots__,{camel|rust} long coat,{cream|beige} turtleneck knit,{brown|olive} {straight pants|wide pants},pants tucked in{|,scarf}
+    {brown|brown} __tailor/footwears/boots/knee__,{camel|rust} long coat,{cream|beige} turtleneck knit,{brown|olive} {straight pants|wide pants},pants tucked in{|,scarf}
   flea_market: >-
-    {brown|tan} __boots_maker/knee_boots__,{olive|mustard} oversized jacket,{white|cream} loose shirt,{beige|black} wide pants{|,belt}
+    {brown|tan} __tailor/footwears/boots/knee__,{olive|mustard} oversized jacket,{white|cream} loose shirt,{beige|black} wide pants{|,belt}
   vintage_shop: >-
-    {brown|tan} __boots_maker/knee_boots__,{olive|burgundy} {long coat|oversized cardigan},{white|cream} shirt,{brown|black} {corduroy|straight} pants{|,belt}{5::|1::,round glasses}
+    {brown|tan} __tailor/footwears/boots/knee__,{olive|burgundy} {long coat|oversized cardigan},{white|cream} shirt,{brown|black} {corduroy|straight} pants{|,belt}{5::|1::,round glasses}
   garden_party: >-
-    {white|nude} __boots_maker/knee_boots__,{white|floral} midi dress,{0-$$,$$flower hair clip|pearl bracelet|sun hat}
+    {white|nude} __tailor/footwears/boots/knee__,{white|floral} midi dress,{0-$$,$$flower hair clip|pearl bracelet|sun hat}
   sunday_brunch: >-
-    {white|nude} __boots_maker/knee_boots__,{white|pink} blouse,{beige|white} {flare|pleated} midi skirt{|,straw hat}{|,small earrings}
+    {white|nude} __tailor/footwears/boots/knee__,{white|pink} blouse,{beige|white} {flare|pleated} midi skirt{|,straw hat}{|,small earrings}

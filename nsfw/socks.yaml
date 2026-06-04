@@ -1,18 +1,14 @@
-socks_maker: >-
-  {4::{|black |white |{brown |green }}{socks|ankle socks|kneehighs|thighhighs}|1::{fishnet thighhighs|garter {belt|straps}|loose socks}}
-pantyhose_maker: >-
-  {2::|2::black |2::white |2::brown |1::fishnet }pantyhose
 socks:
   random:
     - __socks/casual/*__
     - __socks/cosplay/*__
   casual:
     standing:
-      - __socks/below/standing__,{__socks_maker__|__pantyhose_maker__},__socks/meta__
+      - __socks/below/standing__,{__tailor/footwears/socks/*__|__tailor/footwears/pantyhoses__},__socks/meta__
     sitting:
-      - __socks/below/sitting__,{__socks_maker__|__pantyhose_maker__},__socks/meta__
+      - __socks/below/sitting__,{__tailor/footwears/socks/*__|__tailor/footwears/pantyhoses__},__socks/meta__
     extending_legs:
-      - __socks/not_below/extending_legs__,{__socks_maker__|__pantyhose_maker__},__socks/meta__
+      - __socks/not_below/extending_legs__,{__tailor/footwears/socks/*__|__tailor/footwears/pantyhoses__},__socks/meta__
   cosplay:
     standing:
       - __socks/below/standing__,__socks/equipments/*__,__socks/meta__

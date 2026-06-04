@@ -41,7 +41,7 @@ trample:
       casual: >-
         __SUBJECT_HERE__,
         __trample/on_face/footwear/core__,
-        {8::__boots_maker/*__|1::{|stiletto }heels},
+        {8::__tailor/footwears/boots/*__|1::{|stiletto }heels},
         __trample/on_face/footwear/boy__,
         __bp_pair_q__
         __NEG...__
@@ -67,7 +67,7 @@ trample:
     casual: >-
       __SUBJECT_HERE__,
       __trample/on_penis/core__,
-      {8::__boots_maker/*__|1::{|stiletto }heels},
+      {8::__tailor/footwears/boots/*__|1::{|stiletto }heels},
       __bp_pair_q__
       __NEG...__
       __trample/negative_footwear__

@@ -75,7 +75,7 @@ giantess:
       casual: >-
         __SUBJECT_HERE__,
         __giantess/footwear/on_boy/core__,
-        {__boots_maker/knee_boots__|__boots_maker/thigh_boots__},
+        {__tailor/footwears/boots/knee__|__tailor/footwears/boots/thigh__},
         __bp_pair_q__
         __NEG...__
         __giantess/footwear/on_boy/negative__
@@ -100,7 +100,7 @@ giantess:
         __giantess/object/city__
       casual: >-
         __giantess/footwear/on_city/core__,
-        {__boots_maker/knee_boots__|__boots_maker/thigh_boots__},
+        {__tailor/footwears/boots/knee__|__tailor/footwears/boots/thigh__},
         __SUBJECT_HERE__,
         __bp_solo_q__
         __NEG...__

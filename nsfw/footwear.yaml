@@ -4,9 +4,9 @@ footwear:
     - __footwear/cosplay/*__
   casual:
     standing:
-      - __footwear/standing__,{__boots_maker/knee_boots__|__boots_maker/thigh_boots__},__footwear/meta__
+      - __footwear/standing__,{__tailor/footwears/boots/knee__|__tailor/footwears/boots/thigh__},__footwear/meta__
     sitting:
-      - __footwear/sitting__,{__boots_maker/knee_boots__|__boots_maker/thigh_boots__},__footwear/meta__
+      - __footwear/sitting__,{__tailor/footwears/boots/knee__|__tailor/footwears/boots/thigh__},__footwear/meta__
   cosplay:
     standing:
       - __footwear/standing__,__footwear/equipments/*__,__footwear/meta__
@@ -31,10 +31,10 @@ footwear:
     - smirk
   equipments:
     tailor: >-
-      {__tailor/tops/random__,{{__boots_maker/ankle_boots__{|,socks}|heels},{4::|3::denim |1::bell-bottom,}pants|
-      {__boots_maker/ankle_boots__{|,{socks|kneehighs|thighhighs|pantyhose}}|__boots_maker/knee_boots__{|,{thighhighs|pantyhose}}|__boots_maker/thigh_boots__{|,pantyhose}},{3::|1::bike |1::dolphin |2::denim }shorts|
-      {__boots_maker/ankle_boots__{|,{socks|kneehighs|thighhighs|pantyhose}}|__boots_maker/knee_boots__{|,{thighhighs|pantyhose}}|__boots_maker/thigh_boots__{|,pantyhose}|heels{|,pantyhose}},{|short |long |layered |pencil |pleated }skirt}|
-      {__boots_maker/ankle_boots__{|,{socks|kneehighs|thighhighs|pantyhose}}|__boots_maker/knee_boots__{|,{thighhighs|pantyhose}}|__boots_maker/thigh_boots__{|,pantyhose}|heels{|,pantyhose}},{|long |short }{|casual |cocktail |evening |halter |pencil |pinafore |sun}dress},
+      {__tailor/tops/random__,{{__tailor/footwears/boots/ankle__{|,socks}|heels},{4::|3::denim |1::bell-bottom,}pants|
+      {__tailor/footwears/boots/ankle__{|,{socks|kneehighs|thighhighs|pantyhose}}|__tailor/footwears/boots/knee__{|,{thighhighs|pantyhose}}|__tailor/footwears/boots/thigh__{|,pantyhose}},{3::|1::bike |1::dolphin |2::denim }shorts|
+      {__tailor/footwears/boots/ankle__{|,{socks|kneehighs|thighhighs|pantyhose}}|__tailor/footwears/boots/knee__{|,{thighhighs|pantyhose}}|__tailor/footwears/boots/thigh__{|,pantyhose}|heels{|,pantyhose}},{|short |long |layered |pencil |pleated }skirt}|
+      {__tailor/footwears/boots/ankle__{|,{socks|kneehighs|thighhighs|pantyhose}}|__tailor/footwears/boots/knee__{|,{thighhighs|pantyhose}}|__tailor/footwears/boots/thigh__{|,pantyhose}|heels{|,pantyhose}},{|long |short }{|casual |cocktail |evening |halter |pencil |pinafore |sun}dress},
       __tailor/accessories/random__
     barbiecore: >-
       {|pink }heels,{|hot |bubblegum }pink {|mini }{dress|skirt,shirt},{0-$$,$${5::|1::{|pink }sunglasses}|{1-100$$,$$bracelet|earrings|hair ribbon|tiara}}
