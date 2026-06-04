@@ -278,18 +278,161 @@ tailor:
       thigh: >-
         {10::{|black |white |striped |fishnet }thighhighs|1::garter {belt|straps}}
   accessories:
-    random: >-
-      {0-$$,$$__tailor/accessories/head__|__tailor/accessories/face__|__tailor/accessories/neck__|__tailor/accessories/gloves__|__tailor/accessories/one_point__}
-    head: >-
-      {6::{|boater |bowler |cabbie |sun }hat|3::{|flat |peaked }cap|fedora|hairband|bandana|beanie|beret|hair{pin| ornament| ribbon| scrunchie}}
-    face: >-
-      {1-100$$,$$earrings|{|sun}glasses{| on head}}
-    neck: >-
-      {necklace|choker|{|loose }necktie|ascot|bowtie|brooch|capelet|neckerchief|pendant|scarf|shawl}
-    gloves: >-
-      {8::|1::gloves}
-    one_point: >-
-      {badge|corsage|sash on waist}
+    random:
+      - "{0-6$$,$$__tailor/accessories/list__}"
+    list:
+      - __tailor/accessories/head/*__
+      - __tailor/accessories/face/do__
+      - __tailor/accessories/neck/do__
+      - __tailor/accessories/hand/do__
+      - __tailor/accessories/bags__
+      - __tailor/accessories/one-points__
+    head:
+      hats:
+        - "{|bow |frilled |lolita }hairband"
+        - "{|mini }hat{|,hat bow|,hat ribbon|,hat feather|,hat flower|,hat ornament}"
+        - "{|mini }top hat{|,hat bow|,hat ribbon|,hat feather|,hat flower|,hat ornament}"
+        - backwards hat
+        - bandana
+        - baseball cap{|,hat ornament}
+        - beanie
+        - beret{|,hat bow|,hat feather}
+        - boater hat{|,hat bow|,hat ribbon|,hat feather}
+        - bowler hat{|,hat ribbon|,hat feather}
+        - bucket hat
+        - cabbie hat
+        - cowboy hat{|,hat feather|,hat ornament}
+        - deerstalker{|,hat feather}
+        - fascinator{|,hat bow|,hat ribbon|,hat feather|,hat flower|,hat ornament}
+        - fedora{|,hat ribbon|,hat feather|,hat ornament}
+        - flat cap
+        - frilled hat{|,hat bow|,hat ribbon|,hat flower}
+        - fur hat{|,hat feather}
+        - garrison cap
+        - hachimaki
+        - headband
+        - kepi{|,hat feather|,hat ornament}
+        - military hat{|,hat feather|,hat ornament}
+        - nurse cap
+        - peaked cap{|,hat feather|,hat ornament}
+        - police hat
+        - sailor hat{|,hat bow|,hat ribbon}
+        - straw hat{|,hat bow|,hat ribbon|,hat flower}
+        - sun hat{|,hat bow|,hat ribbon|,hat flower}
+        - tiara
+        - turban{|,hat feather|,hat ornament}
+        - ushanka{|,hat feather}
+        - veil
+        - visor cap
+      ornaments:
+        - "{eyewear|goggles} on head"
+        - hair bow
+        - hair flower
+        - hair ornament
+        - hair ribbon
+        - hair scrunchie
+        - hair stick
+        - hairclip
+        - headphones
+        - headpiece
+        - hairpin
+        - kanzashi
+    face:
+      do: >-
+        {0-2$$,$$__tailor/accessories/face/list__|earrings}
+      list:
+        - "{|__tailor/accessories/face/glasses__}"
+        - "{|__tailor/accessories/face/ear__}"
+      glasses:
+        - "{semi-}rimless eyewear"
+        - glasses
+        - over-rim eyewear
+        - rectangular eyewear
+        - rimless eyewear
+        - round eyewear
+        - sunglasses
+        - under-rim eyewear
+    neck:
+      do:
+        - __tailor/accessories/neck/list__
+      list:
+        - "{|bead |chain |cross |heart |pearl }necklace"
+        - "{|bell |belt |spiked }collar"
+        - "{|frilled }choker"
+        - "{|loose }necktie"
+        - ascot
+        - bowtie
+        - brooch
+        - capelet
+        - headphones around neck
+        - lanyard
+        - locket
+        - neck ring
+        - neckerchief
+        - pendant
+        - rosary
+        - scarf
+        - shawl
+    hand:
+      do:
+        - __tailor/accessories/hand/gloves__
+        - __tailor/accessories/hand/barehand/do__
+      gloves:
+        - "{|elbow }gloves"
+        - cross-laced {|elbow }gloves
+        - fingerless gloves
+        - frilled {|elbow }gloves
+        - fur{|-lined|-trimmed} {|elbow }gloves
+        - lace{|-trimmed|-up} {|elbow }gloves
+        - latex {|elbow }gloves
+        - leather {|elbow }gloves
+        - mittens
+        - ribbon-trimmed {|elbow }gloves
+        - see-through {|elbow }gloves
+        - wedding gloves
+      barehand:
+        do:
+          - "{1-3$$,$$__tailor/accessories/hand/barehand/list__}"
+        list:
+          - __tailor/accessories/hand/barehand/accessories__
+          - __tailor/accessories/hand/barehand/nail/do__
+          - __tailor/accessories/hand/barehand/ring__
+        accessories:
+          - armlet
+          - bracelet
+          - watch
+          - wrist cuffs
+          - wristband
+        ring:
+          - " "
+          - "{silver|gold} ring"
+        nail:
+          do:
+            - " "
+            - __tailor/accessories/hand/barehand/nail/color__ fingernails
+          color:
+            - black
+            - blue
+            - green
+            - indigo
+            - orange
+            - pink
+            - purple
+            - red
+            - yellow
+    bags:
+      - "{|belt |thigh |waist }pouch"
+      - bag
+      - handbag
+      - quiver
+      - school bag
+      - shopping bag
+      - shoulder bag
+    one-points:
+      - badge
+      - belt
+      - corsage
+      - medallion
 costumes:
   usually:
     everywhere: >-
