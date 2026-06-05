@@ -30,12 +30,12 @@ pussy:
     - sitting on chair,knee up,spread legs{|,head rest}
   equipments:
     tailor: >-
-      {__tailor/tops/random__,{3::|1::bike |1::dolphin |2::denim }shorts{|,shorts {around one leg|aside}}|__tailor/unis/random__{|,panties {around one leg|aside}}},
+      {__tailor/tops/random__,{3::|1::bike |1::dolphin |2::denim }shorts,shorts {around one leg|aside}|__tailor/unis/random__{|,panties {around one leg|aside}}},
       {__tailor/footwears/boots/ankle__{|,{__tailor/footwears/socks/calf__|__tailor/footwears/socks/knee__|__tailor/footwears/socks/thigh__}}|
-      __tailor/footwears/boots/knee__{|,{__tailor/footwears/socks/thigh__|__tailor/footwears/pantyhoses__}}|
+      __tailor/footwears/boots/knee__{|,__tailor/footwears/socks/thigh__}|
       __tailor/footwears/boots/thigh__|
       __tailor/footwears/shoes__{|,{__tailor/footwears/socks/calf__|__tailor/footwears/socks/knee__|__tailor/footwears/socks/thigh__}}|
-      __tailor/footwears/sandals__|__tailor/footwears/socks/*__|barefoot{|,anklet}},
+      __tailor/footwears/sandals__|{__tailor/footwears/socks/calf__|__tailor/footwears/socks/knee__|__tailor/footwears/socks/thigh__}|barefoot{|,anklet}},
       __tailor/accessories/random__
     angel: >-
       angel,cosplay,white dress{|,panties {around one leg|aside}},yellow halo,white feather wings,{0-$$,$$sandals|{1-100$$,$$anklet|bracelet|earrings|pendant}}

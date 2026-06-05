@@ -177,7 +177,7 @@ socks:
     y2k: >-
       {|striped |polka dot }{|frilled }{socks|ankle socks|kneehighs|thighhighs},__barefoot/equipments/y2k__
   negative: >-
-    (barefoot:1.5),(baretoes:1.5),(six toes:1.5),(extra toes:1.5),fewer toes,missing toes,bad feet,mutated feet,(footjob:1.2),
+    (stirrup legwear:1.5),(barefoot:1.5),(baretoes:1.5),(six toes:1.5),(extra toes:1.5),fewer toes,missing toes,bad feet,mutated feet,(footjob:1.2),
     (extra feet:1.2),(missing foot),(bad leg),(extra legs:1.2),(missing leg),
     (extra digits),fewer digits,missing digits,bad hands,mutated hands,
     extra hands,missing hand,bad arm,extra arms,missing arm,
