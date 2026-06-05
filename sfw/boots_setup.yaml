@@ -14,10 +14,11 @@ boots_show:
     __negative/general__
 boots_setups:
   tailor: >-
-    {__tailor/tops/random__,{__tailor/footwears/boots/ankle__{|,socks},{4::|3::denim |1::bell-bottom,}pants|
-    {__tailor/footwears/boots/ankle__{|,{socks|kneehighs|thighhighs|pantyhose}}|__tailor/footwears/boots/knee__{|,{thighhighs|pantyhose}}|__tailor/footwears/boots/thigh__{|,pantyhose}},{3::|1::bike |1::dolphin |2::denim }shorts|
-    {__tailor/footwears/boots/ankle__{|,{socks|kneehighs|thighhighs|pantyhose}}|__tailor/footwears/boots/knee__{|,{thighhighs|pantyhose}}|__tailor/footwears/boots/thigh__{|,pantyhose}},{|short |long |layered |pencil |pleated }skirt}|
-    {__tailor/footwears/boots/ankle__{|,{socks|kneehighs|thighhighs|pantyhose}}|__tailor/footwears/boots/knee__{|,{thighhighs|pantyhose}}|__tailor/footwears/boots/thigh__{|,pantyhose}},{|long |short }{|casual |cocktail |evening |halter |pencil |pinafore |sun}dress},
+    {__tailor/tops/random__,
+    {__tailor/footwears/boots/ankle__{|,socks},{__tailor/bottoms/pants/type__|__tailor/bottoms/pants/random__}|
+    {__tailor/footwears/boots/ankle__{|,{socks|kneehighs|thighhighs|pantyhose}}|__tailor/footwears/boots/knee__{|,{thighhighs|pantyhose}}|__tailor/footwears/boots/thigh__{|,pantyhose}},{__tailor/bottoms/shorts/type__|__tailor/bottoms/shorts/random__}|
+    {__tailor/footwears/boots/ankle__{|,{socks|kneehighs|thighhighs|pantyhose}}|__tailor/footwears/boots/knee__{|,{thighhighs|pantyhose}}|__tailor/footwears/boots/thigh__{|,pantyhose}},{__tailor/bottoms/skirts/type__|__tailor/bottoms/skirts/random__}{|,long skirt|,{micro|mini}skirt}}|
+    {__tailor/footwears/boots/ankle__{|,{socks|kneehighs|thighhighs|pantyhose}}|__tailor/footwears/boots/knee__{|,{thighhighs|pantyhose}}|__tailor/footwears/boots/thigh__{|,pantyhose}},{__tailor/unis/type__|__tailor/unis/make/do__}{|,short dress|,long dress}},
     __tailor/accessories/random__
   casual_dress: >-
     {__tailor/footwears/boots/knee__|__tailor/footwears/boots/thigh__},{{|black |white }camisole|knit|oversized shirt|pinafore|slip|sweater} dress,{0-$$,$$hat|{necklace|pendant}}
@@ -89,10 +90,10 @@ boots_setups:
     {white|nude} __tailor/footwears/boots/knee__,{white|pink} blouse,{beige|white} {flare|pleated} midi skirt{|,straw hat}{|,small earrings}
 boots_setups_without_ankle:
   tailor: >-
-    {__tailor/tops/random__,{
-    {__tailor/footwears/boots/knee__{|,{thighhighs|pantyhose}}|__tailor/footwears/boots/thigh__{|,pantyhose}},{3::|1::bike |1::dolphin |2::denim }shorts|
-    {__tailor/footwears/boots/knee__{|,{thighhighs|pantyhose}}|__tailor/footwears/boots/thigh__{|,pantyhose}},{|short |long |layered |pencil |pleated }skirt}|
-    {__tailor/footwears/boots/knee__{|,{thighhighs|pantyhose}}|__tailor/footwears/boots/thigh__{|,pantyhose}},{|long |short }{|casual |cocktail |evening |halter |pencil |pinafore |sun}dress},
+    {__tailor/tops/random__,
+    {{__tailor/footwears/boots/knee__{|,{thighhighs|pantyhose}}|__tailor/footwears/boots/thigh__{|,pantyhose}},{__tailor/bottoms/shorts/type__|__tailor/bottoms/shorts/random__}|
+    {__tailor/footwears/boots/knee__{|,{thighhighs|pantyhose}}|__tailor/footwears/boots/thigh__{|,pantyhose}},{__tailor/bottoms/skirts/type__|__tailor/bottoms/skirts/random__}{|,long skirt|,{micro|mini}skirt}}|
+    {__tailor/footwears/boots/knee__{|,{thighhighs|pantyhose}}|__tailor/footwears/boots/thigh__{|,pantyhose}},{__tailor/unis/type__|__tailor/unis/make/do__}{|,short dress|,long dress}},
     __tailor/accessories/random__
   casual_dress: >-
     {__tailor/footwears/boots/knee__|__tailor/footwears/boots/thigh__},{{|black |white }camisole|knit|oversized shirt|pinafore|slip|sweater} dress,{0-$$,$$hat|{necklace|pendant}}

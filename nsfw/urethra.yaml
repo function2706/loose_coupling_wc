@@ -31,7 +31,8 @@ urethra:
     - in heat
   equipments:
     tailor: >-
-      {__tailor/tops/random__|__tailor/unis__},__tailor/footwears/random__,{0-$$,$$__tailor/accessories/head__|__tailor/accessories/face__|__tailor/accessories/neck__|__tailor/accessories/one_point__}
+      {__tailor/tops/random__|__tailor/unis/random__},__tailor/footwears/random_shoes__,
+      {0-$$,$$__tailor/accessories/head__|__tailor/accessories/face__|__tailor/accessories/neck__|__tailor/accessories/one_point__}
     angel: >-
       angel,cosplay,white dress,yellow halo,white feather wings,{0-$$,$$sandals|{1-100$$,$$anklet|bracelet|earrings|pendant}}
     artist: >-

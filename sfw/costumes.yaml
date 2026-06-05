@@ -11,7 +11,7 @@ fashion_show:
     __negative/general__
 tailor:
   make: >-
-    {__tailor/tops/random__,__tailor/bottoms/random__|__tailor/unis/random/*__},__tailor/accessories/random__
+    {__tailor/tops/random__,__tailor/bottoms/random_with_footwear__|__tailor/unis/random_with_footwear/*__},__tailor/accessories/random__
   tops:
     random: >-
       {__tailor/tops/outers/*__|__tailor/tops/inners/without_outer__|__tailor/tops/outers/*__,__tailor/tops/inners/with_outer__}
@@ -112,13 +112,19 @@ tailor:
         - hawaiian shirt
         - tunic
   bottoms:
-    random: >-
-      {__tailor/bottoms/pants/with_footwear__|__tailor/bottoms/shorts/with_footwear__|__tailor/bottoms/skirts/with_footwear/*__}
+    random:
+      - "{__tailor/bottoms/pants/type__|__tailor/bottoms/pants/random__}"
+      - "{__tailor/bottoms/shorts/type__|__tailor/bottoms/shorts/random__}"
+      - "{__tailor/bottoms/skirts/type__|__tailor/bottoms/skirts/random__}{|,long skirt|,{micro|mini}skirt}"
+    random_with_footwear:
+      - __tailor/bottoms/pants/with_footwear__
+      - __tailor/bottoms/shorts/with_footwear__
+      - __tailor/bottoms/skirts/with_footwear/*__
     pants:
       with_footwear: >-
         {__tailor/bottoms/pants/type__|__tailor/bottoms/pants/random__},
         {{__tailor/footwears/boots/ankle__|__tailor/footwears/boots/knee__,pants tucked in}|
-        __tailor/footwears/shoes__{|,__tailor/footwears/socks/ankle__}|__tailor/footwears/setups/sandals__|__tailor/footwears/socks/ankle__|barefoot{|,anklet}}
+        __tailor/footwears/shoes__{|,__tailor/footwears/socks/ankle__}|__tailor/footwears/setups/sandals__|__tailor/footwears/socks/ankle__|__tailor/footwears/setups/barefoot__}
       type:
         - baggy pants
         - bell-bottoms
@@ -137,7 +143,7 @@ tailor:
       with_footwear: >-
         {__tailor/bottoms/shorts/type__|__tailor/bottoms/shorts/random__},
         {{__tailor/footwears/setups/ankle_boots__|__tailor/footwears/setups/knee_boots__|__tailor/footwears/setups/thigh_boots__}|
-        __tailor/footwears/setups/shoes__|__tailor/footwears/setups/sandals__|__tailor/footwears/setups/socks__|barefoot{|,anklet}}
+        __tailor/footwears/setups/shoes__|__tailor/footwears/setups/sandals__|__tailor/footwears/setups/socks__|__tailor/footwears/setups/barefoot__}
       type:
         - bike shorts
         - buruma
@@ -153,14 +159,14 @@ tailor:
         micro_mini: >-
           {__tailor/bottoms/skirts/type__|__tailor/bottoms/skirts/random__},{micro|mini}skirt,
           {{__tailor/footwears/setups/ankle_boots__|__tailor/footwears/setups/knee_boots__|__tailor/footwears/setups/thigh_boots__}|
-          __tailor/footwears/setups/shoes__|__tailor/footwears/setups/sandals__|__tailor/footwears/setups/socks__|barefoot{|,anklet}}
+          __tailor/footwears/setups/shoes__|__tailor/footwears/setups/sandals__|__tailor/footwears/setups/socks__|__tailor/footwears/setups/barefoot__}
         medium: >-
           {__tailor/bottoms/skirts/type__|__tailor/bottoms/skirts/random__},
           {{__tailor/footwears/setups/ankle_boots__|__tailor/footwears/setups/knee_boots__}|
-          __tailor/footwears/setups/shoes__|__tailor/footwears/setups/sandals__|__tailor/footwears/setups/socks__|barefoot{|,anklet}}
+          __tailor/footwears/setups/shoes__|__tailor/footwears/setups/sandals__|__tailor/footwears/setups/socks__|__tailor/footwears/setups/barefoot__}
         long: >-
           {__tailor/bottoms/skirts/type__|__tailor/bottoms/skirts/random__},long skirt,
-          {__tailor/footwears/boots/ankle__|__tailor/footwears/shoes__{|,__tailor/footwears/socks/ankle__}|__tailor/footwears/setups/sandals__|__tailor/footwears/socks/ankle__|barefoot{|,anklet}}
+          {__tailor/footwears/boots/ankle__|__tailor/footwears/shoes__{|,__tailor/footwears/socks/ankle__}|__tailor/footwears/setups/sandals__|__tailor/footwears/setups/socks__|__tailor/footwears/setups/barefoot__}
       type:
         - bubble skirt
         - circle skirt
@@ -191,17 +197,19 @@ tailor:
     - vertical-striped
   unis:
     random:
+      - "{__tailor/unis/type__|__tailor/unis/make/do__}{|,short dress|,long dress}"
+    random_with_footwear:
       short: >-
         {__tailor/unis/type__|__tailor/unis/make/do__},short dress,
         {{__tailor/footwears/setups/ankle_boots__|__tailor/footwears/setups/knee_boots__|__tailor/footwears/setups/thigh_boots__}|
-        __tailor/footwears/setups/shoes__|__tailor/footwears/setups/sandals__|__tailor/footwears/setups/socks__|barefoot{|,anklet}}
+        __tailor/footwears/setups/shoes__|__tailor/footwears/setups/sandals__|__tailor/footwears/setups/socks__|__tailor/footwears/setups/barefoot__}
       medium: >-
         {__tailor/unis/type__|__tailor/unis/make/do__},
         {{__tailor/footwears/setups/ankle_boots__|__tailor/footwears/setups/knee_boots__}|
-        __tailor/footwears/setups/shoes__|__tailor/footwears/setups/sandals__|__tailor/footwears/setups/socks__|barefoot{|,anklet}}
+        __tailor/footwears/setups/shoes__|__tailor/footwears/setups/sandals__|__tailor/footwears/setups/socks__|__tailor/footwears/setups/barefoot__}
       long: >-
         {__tailor/unis/type__|__tailor/unis/make/do__},long dress,
-        {__tailor/footwears/boots/ankle__|__tailor/footwears/shoes__{|,__tailor/footwears/socks/ankle__}|__tailor/footwears/setups/sandals__|__tailor/footwears/socks/ankle__|barefoot{|,anklet}}
+        {__tailor/footwears/boots/ankle__|__tailor/footwears/shoes__{|,__tailor/footwears/socks/ankle__}|__tailor/footwears/setups/sandals__|__tailor/footwears/setups/socks__|__tailor/footwears/setups/barefoot__}
     type:
       - cocktail dress
       - evening gown
@@ -240,11 +248,11 @@ tailor:
         - sleeveless
         - strapless
   footwears:
-    random:
-      - __tailor/footwears/setups/*__
+    random_shoes: >-
+      {__tailor/footwears/setups/ankle_boots__|__tailor/footwears/setups/knee_boots__|__tailor/footwears/setups/thigh_boots__|__tailor/footwears/setups/shoes__|__tailor/footwears/setups/sandals__}
     setups:
       ankle_boots: >-
-        __tailor/footwears/boots/ankle__{|,{__tailor/footwears/socks/calf__|__tailor/footwears/socks/knee__|__tailor/footwears/socks/thigh__|__tailor/footwears/pantyhoses__}}
+        __tailor/footwears/boots/ankle__{|,__tailor/footwears/socks/*__}
       knee_boots: >-
         __tailor/footwears/boots/knee__{|,{__tailor/footwears/socks/thigh__|__tailor/footwears/pantyhoses__}}
       thigh_boots: >-
@@ -255,6 +263,8 @@ tailor:
         __tailor/footwears/sandals__
       socks: >-
         __tailor/footwears/socks/*__
+      barefoot: >-
+        barefoot{|,anklet}
     boots:
       ankle: >-
         ankle boots,{|buckled |{cross-laced|lace-up} |zipper }boots{|,{stiletto heels|wedge heels|high heel boots}|,platform boots}
@@ -275,6 +285,7 @@ tailor:
       - geta
       - flip-flops
       - sandals
+      - slipper
     pantyhoses: >-
       {2::|2::black |2::white |2::brown |1::fishnet }pantyhose
     socks:

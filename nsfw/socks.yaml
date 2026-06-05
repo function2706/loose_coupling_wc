@@ -40,8 +40,11 @@ socks:
     - smirk{|,closed mouth}
   equipments:
     tailor: >-
-      {__tailor/tops/random__,{socks,{4::|3::denim |1::bell-bottom,}pants|{socks|kneehighs|thighhighs|pantyhose},{3::|1::bike |1::dolphin |2::denim }shorts|{socks|kneehighs|thighhighs|pantyhose},{|short |long |layered |pencil |pleated }skirt}|
-      {socks|kneehighs|thighhighs|pantyhose},{|long |short }{|casual |cocktail |evening |halter |pencil |pinafore |sun}dress},
+      {__tailor/tops/random__,
+      {{__tailor/footwears/socks/ankle__|__tailor/footwears/socks/calf__},{__tailor/bottoms/pants/type__|__tailor/bottoms/pants/random__}|
+      __tailor/footwears/socks/*__,{__tailor/bottoms/shorts/type__|__tailor/bottoms/shorts/random__}|
+      __tailor/footwears/socks/*__,{__tailor/bottoms/skirts/type__|__tailor/bottoms/skirts/random__}{|,long skirt|,{micro|mini}skirt}|
+      __tailor/footwears/socks/*__,{__tailor/unis/type__|__tailor/unis/make/do__}{|,short dress|,long dress},
       __tailor/accessories/random__
     artist: >-
       white socks,__barefoot/equipments/artist__
