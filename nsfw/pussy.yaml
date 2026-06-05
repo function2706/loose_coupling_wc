@@ -35,7 +35,7 @@ pussy:
       __tailor/footwears/boots/knee__{|,{__tailor/footwears/socks/thigh__|__tailor/footwears/pantyhoses__}}|
       __tailor/footwears/boots/thigh__|
       __tailor/footwears/shoes__{|,{__tailor/footwears/socks/calf__|__tailor/footwears/socks/knee__|__tailor/footwears/socks/thigh__}}|
-      __tailor/footwears/sandals__|__tailor/footwears/socks/*__|barefoot{|,anklet}}
+      __tailor/footwears/sandals__|__tailor/footwears/socks/*__|barefoot{|,anklet}},
       __tailor/accessories/random__
     angel: >-
       angel,cosplay,white dress{|,panties {around one leg|aside}},yellow halo,white feather wings,{0-$$,$$sandals|{1-100$$,$$anklet|bracelet|earrings|pendant}}

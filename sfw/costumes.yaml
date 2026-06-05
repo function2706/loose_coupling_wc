@@ -305,7 +305,7 @@ tailor:
       - __tailor/accessories/face/do__
       - __tailor/accessories/neck__
       - __tailor/accessories/hand/do__
-      - __tailor/accessories/one-points__
+      - __tailor/accessories/one_points__
     head:
       hats:
         - "{|bow |frilled |lolita }hairband"
@@ -396,7 +396,7 @@ tailor:
         - watch
         - wrist cuffs
         - wristband
-    one-points:
+    one_points:
       - badge
       - corsage
       - medallion
