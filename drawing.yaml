@@ -4,9 +4,9 @@ drawing:
   nsfw:
     - __drawing/casual__
     - __drawing/cosplay__
+    - __latex/random__
   sfw:
     - "{__boots_show/random__|__boots_show/without_ankle__}"
-    - __latex/random__
     - __fashion_show/random__
     - __hang_out/random__
   casual:
