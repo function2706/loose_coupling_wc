@@ -207,148 +207,21 @@ subjects:
       - whislash \(arknights\)
       - whisperain \(arknights\)
       - zima \(arknights\)
-    blue_archive:
-      - airi \(blue archive\)
-      - akane \(blue archive\)
-      - ako \(blue archive\)
-      - aoi \(blue archive\)
-      - aris \(blue archive\)
-      - arona \(blue archive\)
-      - aru \(blue archive\)
-      - asuna \(blue archive\)
-      - atsuko \(blue archive\)
-      - ayane \(blue archive\)
-      - azusa \(blue archive\)
-      - cherino \(blue archive\)
-      - chiaki \(blue archive\)
-      - chihiro \(blue archive\)
-      - chinatsu \(blue archive\)
-      - chise \(blue archive\)
-      - eimi \(blue archive\)
-      - ein \(blue archive\)
-      - erika \(blue archive\)
-      - fubuki \(blue archive\)
-      - fuuka \(blue archive\)
-      - hanae \(blue archive\)
-      - hanako \(blue archive\)
-      - hare \(blue archive\)
-      - haruka \(blue archive\)
-      - haruna \(blue archive\)
-      - hasumi \(blue archive\)
-      - hibiki \(blue archive\)
-      - hifumi \(blue archive\)
-      - himari \(blue archive\)
-      - hina \(blue archive\)
-      - hinata \(blue archive\)
-      - hiyori \(blue archive\)
-      - hoshino \(blue archive\)
-      - ibuki \(blue archive\)
-      - ichika \(blue archive\)
-      - iori \(blue archive\)
-      - iroha \(blue archive\)
-      - izumi \(blue archive\)
-      - izuna \(blue archive\)
-      - junko \(blue archive\)
-      - kaede \(blue archive\)
-      - kaho \(blue archive\)
-      - kanna \(blue archive\)
-      - karin \(blue archive\)
-      - kasumi \(blue archive\)
-      - kaya \(blue archive\)
-      - kayoko \(blue archive\)
-      - kazusa \(blue archive\)
-      - kikyou \(blue archive\)
-      - kirara \(blue archive\)
-      - kirino \(blue archive\)
-      - kisaki \(blue archive\)
-      - koharu \(blue archive\)
-      - kokona \(blue archive\)
-      - kokuriko \(blue archive\)
-      - konoka \(blue archive\)
-      - koyuki \(blue archive\)
-      - kurumi \(blue archive\)
-      - kuzunoha \(blue archive\)
-      - maki \(blue archive\)
-      - makoto \(blue archive\)
-      - mari \(blue archive\)
-      - marina \(blue archive\)
-      - mashiro \(blue archive\)
-      - megu \(blue archive\)
-      - meru \(blue archive\)
-      - michiru \(blue archive\)
-      - midori \(blue archive\)
-      - mika \(blue archive\)
-      - mimori \(blue archive\)
-      - mina \(blue archive\)
-      - mine \(blue archive\)
-      - minori \(blue archive\)
-      - misaki \(blue archive\)
-      - miyako \(blue archive\)
-      - miyu \(blue archive\)
-      - moe \(blue archive\)
-      - momiji \(blue archive\)
-      - momoi \(blue archive\)
-      - momoka \(blue archive\)
-      - mutsuki \(blue archive\)
-      - nagisa \(blue archive\)
-      - nagusa \(blue archive\)
-      - natsu \(blue archive\)
-      - neru \(blue archive\)
-      - niko \(blue archive\)
-      - niya \(blue archive\)
-      - noa \(blue archive\)
-      - nodoka \(blue archive\)
-      - nonomi \(blue archive\)
-      - nozomi \(blue archive\)
-      - ohr \(blue archive\)
-      - otogi \(blue archive\)
-      - pina \(blue archive\)
-      - plana \(blue archive\)
-      - reijo \(blue archive\)
-      - reisa \(blue archive\)
-      - renge \(blue archive\)
-      - rin \(blue archive\)
-      - rio \(blue archive\)
-      - rumi \(blue archive\)
-      - saki \(blue archive\)
-      - sakurako \(blue archive\)
-      - saori \(blue archive\)
-      - satsuki \(blue archive\)
-      - saya \(blue archive\)
-      - seia \(blue archive\)
-      - sena \(blue archive\)
-      - serika \(blue archive\)
-      - serina \(blue archive\)
-      - shigure \(blue archive\)
-      - shiroko \(blue archive\)
-      - shizuko \(blue archive\)
-      - shun \(blue archive\)
-      - shuro \(blue archive\)
-      - sora \(blue archive\)
-      - sumire \(blue archive\)
-      - sumomo \(blue archive\)
-      - suzumi \(blue archive\)
-      - takane \(blue archive\)
-      - toki \(blue archive\)
-      - tsubaki \(blue archive\)
-      - tsukuyo \(blue archive\)
-      - tsurugi \(blue archive\)
-      - ui \(blue archive\)
-      - utaha \(blue archive\)
-      - wakamo \(blue archive\)
-      - yoshimi \(blue archive\)
-      - yukari \(blue archive\)
-      - yukino \(blue archive\)
-      - yume \(blue archive\)
-      - yuuka \(blue archive\)
-      - yuzu \(blue archive\)
+    ashita_no_nadja:
+      - nadja applefield
+    atelier:
+      - ayesha altugle
+      - corrine
+      - escha malier
+      - mimi houllier von schwarzlang
+      - rorolina frixell
+      - totori helmold
     azur_lane:
       - abercrombie \(azur lane\)
       - admiral graf spee \(azur lane\)
       - admiral hipper \(azur lane\)
       - aegir \(azur lane\)
       - ajax \(azur lane\)
-      - akagi-chan \(azur lane\)
       - akagi \(azur lane\)
       - akashi \(azur lane\)
       - alabama \(azur lane\)
@@ -357,7 +230,6 @@ subjects:
       - algerie \(azur lane\)
       - allen m. sumner \(azur lane\)
       - alsace \(azur lane\)
-      - amagi-chan \(azur lane\)
       - amagi \(azur lane\)
       - amazon \(azur lane\)
       - anchorage \(azur lane\)
@@ -379,7 +251,6 @@ subjects:
       - belfast \(azur lane\)
       - bellona \(azur lane\)
       - biloxi \(azur lane\)
-      - bismarck zwei \(azur lane\)
       - bismarck \(azur lane\)
       - black prince \(azur lane\)
       - boise \(azur lane\)
@@ -443,7 +314,6 @@ subjects:
       - grim \(azur lane\)
       - guam \(azur lane\)
       - guichen \(azur lane\)
-      - hammann ii \(azur lane\)
       - hammann \(azur lane\)
       - hanazuki \(azur lane\)
       - harbin \(azur lane\)
@@ -456,7 +326,6 @@ subjects:
       - hobby \(azur lane\)
       - honolulu \(azur lane\)
       - hornet \(azur lane\)
-      - hornet ii \(azur lane\)
       - houshou \(azur lane\)
       - howe \(azur lane\)
       - hwah jah \(azur lane\)
@@ -492,18 +361,12 @@ subjects:
       - kronshtadt \(azur lane\)
       - kumano \(azur lane\)
       - kursk \(azur lane\)
-      - laffey ii \(azur lane\)
       - laffey \(azur lane\)
       - le temeraire \(azur lane\)
       - le triomphant \(azur lane\)
       - leander \(azur lane\)
       - leipzig \(azur lane\)
       - little bel \(azur lane\)
-      - little cheshire \(azur lane\)
-      - little enterprise \(azur lane\)
-      - little illustrious \(azur lane\)
-      - little prinz eugen \(azur lane\)
-      - little renown \(azur lane\)
       - littorio \(azur lane\)
       - liverpool \(azur lane\)
       - london \(azur lane\)
@@ -630,6 +493,153 @@ subjects:
       - zara \(azur lane\)
       - zeppy \(azur lane\)
       - zuikaku \(azur lane\)
+    bleach:
+      - arisawa tatsuki
+      - bambietta basterbine
+      - dokugamine riruka
+      - inoue orihime
+      - kuchiki rukia
+      - kurotsuchi nemu
+      - matsumoto rangiku
+      - shihouin yoruichi
+      - sui-feng
+    blue_archive:
+      - airi \(blue archive\)
+      - akane \(blue archive\)
+      - ako \(blue archive\)
+      - aoi \(blue archive\)
+      - aris \(blue archive\)
+      - arona \(blue archive\)
+      - aru \(blue archive\)
+      - asuna \(blue archive\)
+      - atsuko \(blue archive\)
+      - ayane \(blue archive\)
+      - azusa \(blue archive\)
+      - cherino \(blue archive\)
+      - chiaki \(blue archive\)
+      - chihiro \(blue archive\)
+      - chinatsu \(blue archive\)
+      - chise \(blue archive\)
+      - eimi \(blue archive\)
+      - ein \(blue archive\)
+      - erika \(blue archive\)
+      - fubuki \(blue archive\)
+      - fuuka \(blue archive\)
+      - hanae \(blue archive\)
+      - hanako \(blue archive\)
+      - hare \(blue archive\)
+      - haruka \(blue archive\)
+      - haruna \(blue archive\)
+      - hasumi \(blue archive\)
+      - hibiki \(blue archive\)
+      - hifumi \(blue archive\)
+      - himari \(blue archive\)
+      - hina \(blue archive\)
+      - hinata \(blue archive\)
+      - hiyori \(blue archive\)
+      - hoshino \(blue archive\)
+      - ibuki \(blue archive\)
+      - ichika \(blue archive\)
+      - iori \(blue archive\)
+      - iroha \(blue archive\)
+      - izumi \(blue archive\)
+      - izuna \(blue archive\)
+      - junko \(blue archive\)
+      - kaede \(blue archive\)
+      - kaho \(blue archive\)
+      - kanna \(blue archive\)
+      - karin \(blue archive\)
+      - kasumi \(blue archive\)
+      - kaya \(blue archive\)
+      - kayoko \(blue archive\)
+      - kazusa \(blue archive\)
+      - kikyou \(blue archive\)
+      - kirara \(blue archive\)
+      - kirino \(blue archive\)
+      - kisaki \(blue archive\)
+      - koharu \(blue archive\)
+      - kokona \(blue archive\)
+      - kokuriko \(blue archive\)
+      - konoka \(blue archive\)
+      - kotama \(blue archive\)
+      - kotori \(blue archive\)
+      - koyuki \(blue archive\)
+      - kurumi \(blue archive\)
+      - kuzunoha \(blue archive\)
+      - maki \(blue archive\)
+      - makoto \(blue archive\)
+      - mari \(blue archive\)
+      - marina \(blue archive\)
+      - mashiro \(blue archive\)
+      - megu \(blue archive\)
+      - meru \(blue archive\)
+      - michiru \(blue archive\)
+      - midori \(blue archive\)
+      - mika \(blue archive\)
+      - mimori \(blue archive\)
+      - mina \(blue archive\)
+      - mine \(blue archive\)
+      - minori \(blue archive\)
+      - misaki \(blue archive\)
+      - miyako \(blue archive\)
+      - miyu \(blue archive\)
+      - moe \(blue archive\)
+      - momiji \(blue archive\)
+      - momoi \(blue archive\)
+      - momoka \(blue archive\)
+      - mutsuki \(blue archive\)
+      - nagisa \(blue archive\)
+      - nagusa \(blue archive\)
+      - natsu \(blue archive\)
+      - neru \(blue archive\)
+      - niko \(blue archive\)
+      - niya \(blue archive\)
+      - noa \(blue archive\)
+      - nodoka \(blue archive\)
+      - nonomi \(blue archive\)
+      - nozomi \(blue archive\)
+      - ohr \(blue archive\)
+      - otogi \(blue archive\)
+      - pina \(blue archive\)
+      - plana \(blue archive\)
+      - reijo \(blue archive\)
+      - reisa \(blue archive\)
+      - renge \(blue archive\)
+      - rin \(blue archive\)
+      - rio \(blue archive\)
+      - rumi \(blue archive\)
+      - saki \(blue archive\)
+      - sakurako \(blue archive\)
+      - saori \(blue archive\)
+      - satsuki \(blue archive\)
+      - saya \(blue archive\)
+      - seia \(blue archive\)
+      - sena \(blue archive\)
+      - serika \(blue archive\)
+      - serina \(blue archive\)
+      - shigure \(blue archive\)
+      - shiroko \(blue archive\)
+      - shizuko \(blue archive\)
+      - shun \(blue archive\)
+      - shuro \(blue archive\)
+      - sora \(blue archive\)
+      - sumire \(blue archive\)
+      - sumomo \(blue archive\)
+      - suzumi \(blue archive\)
+      - takane \(blue archive\)
+      - toki \(blue archive\)
+      - tsubaki \(blue archive\)
+      - tsukuyo \(blue archive\)
+      - tsurugi \(blue archive\)
+      - ui \(blue archive\)
+      - utaha \(blue archive\)
+      - wakamo \(blue archive\)
+      - yoshimi \(blue archive\)
+      - yukari \(blue archive\)
+      - yukino \(blue archive\)
+      - yume \(blue archive\)
+      - yuuka \(blue archive\)
+      - yuzu \(blue archive\)
     bocchi_the_rock:
       - gotoh futari
       - gotoh hitori
@@ -639,9 +649,49 @@ subjects:
       - kita ikuyo
       - pa-san
       - yamada ryo
+    boku_no_hero_academia:
+      - ashido mina
+      - asui tsuyu
+      - bakugou mitsuki
+      - burnin \(boku no hero academia\)
+      - hadou nejire
+      - hatsume mei
+      - kendou itsuka
+      - mandalay \(boku no hero academia\)
+      - midnight \(boku no hero academia\)
+      - mirko
+      - mount lady
+      - ragdoll \(boku no hero academia\)
+      - shimura nana
+      - toga himiko
+      - uraraka ochako
+      - utsushimi kemii
+      - yaoyorozu momo
     cardcaptor_sakura:
       - daidouji tomoyo
       - kinomoto sakura
+    chainsaw_man:
+      - fami \(chainsaw man\)
+      - himeno \(chainsaw man\)
+      - makima \(chainsaw man\)
+      - nayuta \(chainsaw man\)
+      - power \(chainsaw man\)
+      - quanxi \(chainsaw man\)
+      - reze \(chainsaw man\)
+      - sawatari akane \(chainsaw man\)
+      - yoru \(chainsaw man\)
+    code_geass:
+      - anya alstreim
+      - c.c.
+      - cecile croomy
+      - cornelia li britannia
+      - euphemia li britannia
+      - kallen stadtfeld
+      - milly ashford
+      - nunnally vi britannia
+      - shirley fenette
+      - tianzi
+      - villetta nu
     detective_conan:
       - haibara ai
       - mouri ran
@@ -660,6 +710,23 @@ subjects:
       - yuri \(doki doki literature club\)
     doraemon:
       - minamoto shizuka
+    dragon_ball:
+      - android 18
+      - android 21
+      - bulma
+      - caulifla
+      - cheelai
+      - chi-chi \(dragon ball\)
+      - erasa \(dragon ball\)
+      - kale \(dragon ball\)
+      - kefla \(dragon ball\)
+      - lunch \(dragon ball\)
+      - mai \(dragon ball\)
+      - majin android 21
+      - maron \(dragon ball z\)
+      - pan \(dragon ball\)
+      - vados \(dragon ball\)
+      - videl
     dragon_quest:
       - alena \(dq4\)
       - barbara \(dq6\)
@@ -681,6 +748,13 @@ subjects:
       - senya \(dq11\)
       - veronica \(dq11\)
       - warrior \(dq3\)
+    evangelion:
+      - akagi ritsuko
+      - ayanami rei
+      - ibuki maya
+      - katsuragi misato
+      - makinami mari illustrious
+      - souryuu asuka langley
     fate:
       - abigail williams \(fate\)
       - adele \(fate\)
@@ -1056,6 +1130,17 @@ subjects:
       - yunaka \(spirited envoy\)
       - zelestia \(fire emblem\)
       - zephia \(fire emblem\)
+    fullmetal_alchemist:
+      - lust \(fma\)
+      - olivier mira armstrong
+      - winry rockbell
+    fushigi_no_umi_no_nadia:
+      - nadia la arwall
+    galaxy_angel:
+      - forte stollen
+      - milfeulle sakuraba
+      - mint blancmanche
+      - ranpha franboise
     genshin_impact:
       - amber \(genshin impact\)
       - arlecchino \(genshin impact\)
@@ -1131,6 +1216,9 @@ subjects:
       - nausicaa
       - san {\(mononoke hime\)|\(princess mononoke\)}
       - sheeta \(tenkuu no shiro laputa\)
+    girlfriend_kari:
+      - chloe lemaire
+      - sakurai akane \(girlfriend\)
     girls_and_panzer:
       - akaboshi koume
       - aki \(girls und panzer\)
@@ -1174,27 +1262,27 @@ subjects:
       - megumi \(girls und panzer\)
       - mika \(girls und panzer\)
       - mikko \(girls und panzer\)
-      - momogaa \(girls und panzer\){|,eyepatch}
+      - momogaa \(girls und panzer\)
       - murakami \(girls und panzer\)
       - nakajima \(girls und panzer\)
       - naomi \(girls und panzer\)
-      - nekonyaa \(girls und panzer\){|,glasses}
+      - nekonyaa \(girls und panzer\)
       - nishi kinuyo
       - nishizumi maho
       - nishizumi miho
       - nishizumi shiho
       - nonna \(girls und panzer\)
       - ogin \(girls und panzer\)
-      - oono aya{|,glasses}
+      - oono aya
       - orange pekoe \(girls und panzer\)
-      - oryou \(girls und panzer\){|,glasses}
+      - oryou \(girls und panzer\)
       - oshida \(girls und panzer\)
       - pepperoni \(girls und panzer\)
       - piyotan \(girls und panzer\)
       - reizei mako
       - rosehip \(girls und panzer\)
       - rukuriri \(girls und panzer\)
-      - rumi \(girls und panzer\){|,glasses}
+      - rumi \(girls und panzer\)
       - saemonza \(girls und panzer\)
       - sakaguchi karina
       - sawa azusa
@@ -1216,6 +1304,11 @@ subjects:
       - nakano miku
       - nakano nino
       - nakano yotsuba
+    goblin_slayer:
+      - guild girl \(goblin slayer!\)
+      - high elf archer \(goblin slayer!\)
+      - priestess \(goblin slayer!\)
+      - sword maiden
     gochi_usa:
       - hoto cocoa
       - hoto mocha
@@ -1311,6 +1404,63 @@ subjects:
       - yuisis \(granblue fantasy\)
       - zeta \(granblue fantasy\)
       - zooey \(granblue fantasy\)
+    gundam:
+      - aida rayhunton
+      - aila jyrkiainen
+      - allenby beardsley
+      - atra mixta
+      - audrey burne
+      - ayame \(gundam build divers\)
+      - cagalli yula athha
+      - christina sierra
+      - chuatury panlunch
+      - elpeo puru
+      - fa yuiry
+      - feldt grace
+      - felsi rollo
+      - gigi andalusia
+      - haman karn
+      - hoshino fumina
+      - hots \(gundam suisei no majo\)
+      - iori rinko
+      - kamiki mirai
+      - kihel heim
+      - kousaka china
+      - kudelia aina bernstein
+      - lacus clyne
+      - lafter frankland
+      - louise halevy
+      - lunamaria hawke
+      - marina ismail
+      - may \(gundam build divers re:rise\)
+      - meer campbell
+      - mineva lao zabi
+      - miorine rembran
+      - nena trinity
+      - nika nanaura
+      - norea du noc
+      - puru two
+      - sayla mass
+      - sazaki kaoruko
+      - secelia dote
+      - soma peries
+      - sophie pulone
+      - suletta mercury
+      - sumeragi lee noriega
+    higurashi:
+      - furude hanyuu
+      - furude rika
+      - houjou satoko
+      - ryuuguu rena
+      - sonozaki mion
+      - sonozaki shion
+    hunter_x_hunter:
+      - machi komacine
+      - neferpitou
+      - shizuku murasaki
+    ichigo_mashimaro:
+      - ana coppola
+      - itou chika
     idolmaster:
       - abe nana
       - aiba yumi
@@ -1319,10 +1469,10 @@ subjects:
       - akizuki ryo
       - amami haruka
       - anastasia \(idolmaster\)
-      - araki hina{|,glasses}
+      - araki hina
       - arisugawa natsuha
       - asakura toru
-      - asano fuka{|,glasses}
+      - asano fuka
       - asari nanami
       - baba konomi
       - domyoji karin
@@ -1361,7 +1511,7 @@ subjects:
       - ichihara nina
       - ichinose shiki
       - igarashi kyoko
-      - ikebukuro akiha{|,glasses}
+      - ikebukuro akiha
       - imai kana
       - izumi mei
       - jougasaki mika
@@ -1489,7 +1639,7 @@ subjects:
       - tokugawa matsuri
       - totoki airi
       - toyokawa fuka
-      - tsuchiya ako{|,glasses}
+      - tsuchiya ako
       - tsujino akari
       - tsukioka kogane
       - ueda suzuho
@@ -1498,7 +1648,7 @@ subjects:
       - wakiyama tamami
       - wakui rumi
       - yabuki kana
-      - yagami makino{|,glasses}
+      - yagami makino
       - yamato aki
       - yanagi kiyora
       - yanase miyuki
@@ -1512,23 +1662,28 @@ subjects:
       - zaizen tokiko
     ikamusume:
       - ikamusume
+    jujutsu_kaisen:
+      - kugisaki nobara
+      - mei mei \(jujutsu kaisen\)
     k_on:
       - akiyama mio
       - hirasawa ui
       - hirasawa yui
       - kotobuki tsumugi
-      - manabe nodoka{|,glasses}
+      - manabe nodoka
       - nakano azusa
       - suzuki jun
       - tachibana himeko
       - tainaka ritsu
-      - yamanaka sawako{|,glasses}
+      - yamanaka sawako
     kaguya_sama:
       - fujiwara chika
       - hayasaka ai
       - iino miko
       - shinomiya kaguya
       - shirogane kei
+    kakegurui:
+      - jabami yumeko
     kancolle:
       - abukuma \(kancolle\)
       - abukuma kai ni \(kancolle\)
@@ -2042,6 +2197,21 @@ subjects:
       - yoneme mei
       - yuki setsuna
       - zhong lanzhu
+    lycoris_recoil:
+      - inoue takina
+      - kurumi \(lycoris recoil\)
+      - nishikigi chisato
+    lyrical_nanoha:
+      - bardiche \(nanoha\)
+      - caro ru lushe
+      - cinque \(nanoha\)
+      - einhart stratos
+      - fate testarossa
+      - takamachi nanoha
+      - takamachi vivio
+      - tsukimura suzuka
+      - vita \(nanoha\)
+      - wendi \(nanoha\)
     madoka_magica:
       - akemi homura
       - kaname madoka
@@ -2054,6 +2224,36 @@ subjects:
       - princess daisy
       - princess peach
       - rosalina \(mario\)
+    megami_tensei_persona:
+      - aegis \(persona\)
+      - amagi yukiko
+      - caroline \(persona 5\)
+      - doujima nanako
+      - elizabeth \(persona\)
+      - justine \(persona 5\)
+      - kawakami sadayo
+      - kirijou mitsuru
+      - kujikawa rise
+      - labrys \(persona\)
+      - lavenza \(persona 5\)
+      - lisa silverman
+      - margaret \(persona\)
+      - marie \(persona 4\)
+      - metis \(persona\)
+      - niijima makoto
+      - niijima sae
+      - okumura haru
+      - sakura futaba
+      - satonaka chie
+      - shiomi kotone
+      - takamaki anne
+      - takeba yukari
+      - takemi tae
+      - yamagishi fuuka
+      - yoshizawa kasumi
+      - yoshizawa sumire
+    metroid:
+      - samus aran
     monogatari:
       - araragi karen
       - araragi tsukihi
@@ -2063,33 +2263,88 @@ subjects:
       - oshino shinobu
       - sengoku nadeko
       - senjougahara hitagi
+    mother:
+      - paula \(mother 2\)
+    mushoku_tensei:
+      - aisha greyrat
+      - elinalise dragonroad
+      - eris boreas greyrat
+      - roxy migurdia
+      - sylphiette \(mushoku tensei\)
+    naruto:
+      - haruno sakura
+      - hyuuga hanabi
+      - hyuuga hinata
+      - konan \(naruto\)
+      - samui \(naruto\)
+      - shizune \(naruto\)
+      - temari \(naruto\)
+      - tenten \(naruto\)
+      - terumi mei
+      - tsunade \(naruto\)
+      - uchiha sarada
+      - uzumaki himawari
+      - uzumaki kushina
+      - yamanaka ino
     nikke:
       - admi \(nikke\)
-      - anis {|\(sparkling summer\) }\(nikke\)
-      - blanc {|\(white rabbit\) }\(nikke\)
+      - anis \(nikke\)
+      - blanc \(nikke\)
       - brid \(nikke\)
       - drake \(nikke\)
       - elegg \(nikke\)
       - exia \(nikke\)
-      - helm {|\(aqua marine\) |\(chandelier\) }\(nikke\)
+      - helm \(nikke\)
       - laplace \(nikke\)
       - liliweiss \(nikke\)
-      - ludmilla {|\(winter owner\) }\(nikke\)
-      - marciana {|\(school days\) }\(nikke\)
-      - mast {|\(a pirate's heart\) }\(nikke\)
+      - ludmilla \(nikke\)
+      - marciana \(nikke\)
+      - mast \(nikke\)
       - maxwell \(nikke\)
       - mihara \(nikke\)
-      - modernia {|\(first affection\) |\(second affection\) }\(nikke\)
+      - modernia \(nikke\)
       - moran \(nikke\)
-      - privaty {|\(unkind maid\) }\(nikke\)
-      - rapi {|\(classic vacation\) }\(nikke\)
-      - rapunzel {|\(pure grace\) }\(nikke\)
-      - rupee {|\(rabbit deluxe\) |\(winter shopper\) }\(nikke\)
-      - soda {|\(twinkling bunny\) }\(nikke\)
+      - privaty \(nikke\)
+      - rapi \(nikke\)
+      - rapunzel \(nikke\)
+      - rupee \(nikke\)
+      - soda \(nikke\)
       - syuen \(nikke\)
       - tia \(nikke\)
       - tove \(nikke\)
-      - viper {|\(shine of love\) |\(toxic rabbit\) }\(nikke\)
+      - viper \(nikke\)
+    one_piece:
+      - alvida \(one piece\)
+      - boa hancock
+      - conis \(one piece\)
+      - jewelry bonney
+      - kikunojo \(one piece\)
+      - makino \(one piece\)
+      - marguerite \(one piece\)
+      - nami \(one piece\)
+      - nefertari vivi
+      - nico robin
+      - perona
+      - rebecca \(one piece\)
+      - shirahoshi
+      - stussy \(one piece\)
+      - tashigi \(one piece\)
+      - ulti \(one piece\)
+      - uta \(one piece\)
+      - vinsmoke reiju
+      - viola \(one piece\)
+      - yamato \(one piece\)
+    one_punch_man:
+      - fubuki \(one-punch man\)
+      - kaijin hime do-s
+      - lin lin \(one-punch man\)
+      - tatsumaki
+    overlord:
+      - albedo \(overlord\)
+      - clementine \(overlord\)
+      - entoma vasilissa zeta
+      - lupusregina beta
+      - shalltear bloodfallen
     pokemon:
       - acerola \(pokemon\)
       - akari \(pokemon\)
@@ -2212,6 +2467,54 @@ subjects:
       - blossom \(ppg\)
       - bubbles \(ppg\)
       - buttercup \(ppg\)
+    precure:
+      - aida mana
+      - aino megumi
+      - aisaki emiru
+      - amanogawa kirara
+      - aoki reika
+      - aono miki
+      - asahina mirai
+      - cure {ace|ange|beat|beauty|blossom|chocolat|dream|finale|flamingo|flora|fontaine|gelato|grace|happy|heart|honey|la mer|lovely|march|marine|melody|milky|mint|miracle|moonlight|muse \(yellow\)|papaya|passion|peace|peach|pine|precious|princess|prism|rhythm|rosetta|rouge|sky|soleil|spicy|sunny|sunshine|sword|twinkle|wing|yell|yum-yum}
+      - eas \(fresh precure!\)
+      - fuwa kokone
+      - hagoromo lala
+      - hanadera nodoka
+      - hanasaki tsubomi
+      - higashi setsuna
+      - hikawa iona
+      - hino akane \(smile precure!\)
+      - hiramitsu hinata
+      - hishikawa rikka
+      - hoshina hikaru
+      - hoshizora miyuki
+      - ichinose minori{|,glasses}
+      - izayoi liko
+      - kagayaki homare
+      - kasugano urara \(yes! precure 5\)
+      - kenzaki makoto
+      - kise yayoi
+      - kurumi erika
+      - midorikawa nao
+      - minamino kanade
+      - minazuki karen
+      - misumi nagisa
+      - nagomi yui
+      - natsuki rin
+      - natsuumi manatsu
+      - nijigaoka mashiro
+      - ozora akari
+      - regina \(dokidoki! precure\)
+      - ruru amour
+      - sora harewataru
+      - suzumura sango
+      - takizawa asuka
+      - tategami aoi
+      - tsukikage yuri{|,glasses}
+      - yakushiji saaya
+      - yamabuki inori
+      - yotsuba alice
+      - yukishiro honoka
     princess_connect:
       - chieru \(princess connect!\)
       - chloe \(princess connect!\)
@@ -2286,8 +2589,26 @@ subjects:
       - mizuno ami
       - tomoe hotaru
       - tsukino usagi
+    shingeki_no_kyojin:
+      - annie leonhardt
+      - christa renz
+      - gabi braun
+      - mikasa ackerman
+      - pieck finger
+      - ymir \(shingeki no kyojin\)
     sousou_no_frieren:
       - frieren
+    splatoon:
+      - agent 3 \(splatoon {|3}\)
+      - agent 8 \(splatoon\)
+      - callie \(splatoon\)
+      - frye \(splatoon\)
+      - harmony \(splatoon\)
+      - marie \(splatoon\)
+      - marina \(splatoon {|2}\)
+      - pearl \(splatoon {|2}\)
+      - shiver \(splatoon\)
+      - tao blu \(splatoon\)
     spy_x_family:
       - anya \(spy x family\)
       - becky blackbell
@@ -2329,9 +2650,9 @@ subjects:
       - perrine h. clostermann
       - raisa pottgen
       - rosalie de hemricourt de grunne
-      - sakamoto mio{|,eyepatch}
+      - sakamoto mio
       - sanya v. litvyak
-      - ursula hartmann{|,glasses}
+      - ursula hartmann
       - waltrud krupinski
       - wilma bishop
     suzumiya_haruhi:
@@ -2339,6 +2660,34 @@ subjects:
       - nagato yuki
       - suzumiya haruhi
       - tsuruya
+    sword_art_online:
+      - alice zuberg
+      - asada shino
+      - asuna {\(sao-alo\)|\(sao\)|\(stacia\) \(sao\)}
+      - kirigaya suguha
+      - konno yuuki \(sao\)
+      - leafa {\(sao:im\)|\(sao\)|\(terraria\) \(sao\)}
+      - lisbeth {\(sao-alo\)|\(sao\)}
+      - llenn \(sao\)
+      - quinella
+      - ronye arabel
+      - sachi \(sao\)
+      - silica \(sao-alo\)
+      - sinon {\(sao-alo\)|\(sao:hf\)}
+      - strea \(sao\)
+      - tiese schtrinen
+      - yuuki \(sao\)
+    tamako_market:
+      - kitashirakawa anko
+      - kitashirakawa tamako
+    to_love_ru:
+      - konjiki no yami
+      - kotegawa yui
+      - lala satalin deviluke
+      - momo velia deviluke
+      - sairenji haruna
+      - tearju lunatique
+      - yuuki mikan
     toaru_majutsu_no_index:
       - frenda seivelun
       - index \(toaru majutsu no index\)
@@ -2460,6 +2809,7 @@ subjects:
       - shameimaru aya \(newsboy\)
       - shiki eiki
       - shinki \(touhou\)
+      - soga no tojiko
       - son biten
       - star sapphire
       - sukuna shinmyoumaru
@@ -2627,6 +2977,31 @@ subjects:
       - yuezheng ling
       - yuzuki yukari
       - zundamon
+    xenoblade:
+      - alexandria \(xenoblade\)
+      - brighid \(xenoblade\)
+      - crossette \(xenoblade\)
+      - disguised pyra \(xenoblade\)
+      - ethel \(xenoblade\)
+      - eunie \(xenoblade\)
+      - fiora \(xenoblade\)
+      - glimmer \(xenoblade\)
+      - kasandra \(xenoblade\)
+      - lora \(xenoblade\)
+      - mio \(xenoblade\)
+      - morag ladair \(xenoblade\)
+      - mythra \(xenoblade\)
+      - na'el \(xenoblade\)
+      - nia \(xenoblade\)
+      - pandoria \(xenoblade\)
+      - pneuma \(xenoblade\)
+      - poppi \(xenoblade\)
+      - poppi alpha \(xenoblade\)
+      - poppi qt \(xenoblade\)
+      - poppi qtpi \(xenoblade\)
+      - pyra \(xenoblade\)
+      - sena \(xenoblade\)
+      - shania \(xenoblade\)
     yu_gi_oh:
       - dark magician girl
       - hiiragi yuzu
@@ -2639,6 +3014,14 @@ subjects:
       - zaizen aoi
     yumenikki:
       - madotsuki
+    zelda:
+      - malon
+      - midna
+      - paya \(zelda\)
+      - princess ruto
+      - princess zelda
+      - saria \(zelda\)
+      - urbosa
   copyrights_pickup:
     arknights:
       - amiya \(arknights\)
