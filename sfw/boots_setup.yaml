@@ -81,9 +81,9 @@ boots_setups:
   autumn_walk: >-
     {brown|brown} __tailor/footwears/boots/knee__,{camel|rust} long coat,{cream|beige} turtleneck knit,{brown|olive} {straight pants|wide pants},pants tucked in{|,scarf}
   flea_market: >-
-    {brown|tan} __tailor/footwears/boots/knee__,{olive|mustard} oversized jacket,{white|cream} loose shirt,{beige|black} wide pants{|,belt}
+    brown __tailor/footwears/boots/knee__,{olive|mustard} oversized jacket,{white|cream} loose shirt,{beige|black} wide pants{|,belt}
   vintage_shop: >-
-    {brown|tan} __tailor/footwears/boots/knee__,{olive|burgundy} {long coat|oversized cardigan},{white|cream} shirt,{brown|black} {corduroy|straight} pants{|,belt}{5::|1::,round glasses}
+    brown __tailor/footwears/boots/knee__,{olive|burgundy} {long coat|oversized cardigan},{white|cream} shirt,{brown|black} {corduroy|straight} pants{|,belt}{5::|1::,round glasses}
   garden_party: >-
     {white|nude} __tailor/footwears/boots/knee__,{white|floral} midi dress,{0-$$,$$flower hair clip|pearl bracelet|sun hat}
   sunday_brunch: >-
@@ -136,9 +136,9 @@ boots_setups_without_ankle:
   autumn_walk: >-
     {brown|brown} __tailor/footwears/boots/knee__,{camel|rust} long coat,{cream|beige} turtleneck knit,{brown|olive} {straight pants|wide pants},pants tucked in{|,scarf}
   flea_market: >-
-    {brown|tan} __tailor/footwears/boots/knee__,{olive|mustard} oversized jacket,{white|cream} loose shirt,{beige|black} wide pants{|,belt}
+    brown __tailor/footwears/boots/knee__,{olive|mustard} oversized jacket,{white|cream} loose shirt,{beige|black} wide pants{|,belt}
   vintage_shop: >-
-    {brown|tan} __tailor/footwears/boots/knee__,{olive|burgundy} {long coat|oversized cardigan},{white|cream} shirt,{brown|black} {corduroy|straight} pants{|,belt}{5::|1::,round glasses}
+    brown __tailor/footwears/boots/knee__,{olive|burgundy} {long coat|oversized cardigan},{white|cream} shirt,{brown|black} {corduroy|straight} pants{|,belt}{5::|1::,round glasses}
   garden_party: >-
     {white|nude} __tailor/footwears/boots/knee__,{white|floral} midi dress,{0-$$,$$flower hair clip|pearl bracelet|sun hat}
   sunday_brunch: >-
