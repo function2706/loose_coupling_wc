@@ -1157,8 +1157,8 @@ subjects:
       - collei \(genshin impact\)
       - columbina \(genshin impact\)
       - cyno \(genshin impact\)
-      - dehya \(genshin impact\)\
-      - diona \(genshin impact\)\
+      - dehya \(genshin impact\)
+      - diona \(genshin impact\)
       - dori \(genshin impact\)
       - eula \(genshin impact\)
       - faruzan \(genshin impact\)
@@ -2197,6 +2197,14 @@ subjects:
       - yoneme mei
       - yuki setsuna
       - zhong lanzhu
+    lucky_star:
+      - hiiragi kagami
+      - hiiragi tsukasa
+      - iwasaki minami
+      - izumi konata
+      - kobayakawa yutaka
+      - kusakabe misao
+      - takara miyuki
     lycoris_recoil:
       - inoue takina
       - kurumi \(lycoris recoil\)
@@ -3022,9 +3030,16 @@ subjects:
       - princess zelda
       - saria \(zelda\)
       - urbosa
+    zero_no_tsukaima:
+      - kirche augusta frederica von anhalt zerbst
+      - louise francoise le blanc de la valliere
+      - siesta \(zero no tsukaima\)
+      - tabitha \(zero no tsukaima\)
   copyrights_pickup:
     arknights:
       - amiya \(arknights\)
+    ashita_no_nadja:
+      - nadja applefield
     blue_archive:
       - arona \(blue archive\)
       - aru \(blue archive\)
@@ -3040,9 +3055,13 @@ subjects:
       - nonomi \(blue archive\)
       - serika \(blue archive\)
       - shiroko \(blue archive\)
+    boku_no_hero_academia:
+      - toga himiko
     cardcaptor_sakura:
       - daidouji tomoyo
       - kinomoto sakura
+    code_geass:
+      - c.c.
     detective_conan:
       - haibara ai
     digimon:
@@ -3062,6 +3081,9 @@ subjects:
       - jessica albert
       - maribel \(dq7\)
       - priest \(dq3\)
+    evangelion:
+      - ayanami rei
+      - souryuu asuka langley
     fate:
       - bb {\(fate\)|\(fate/extra\)}
       - saber \(fate\)
@@ -3070,6 +3092,8 @@ subjects:
     final_fantasy:
       - tifa lockhart
       - yuna \(ff10\)
+    fushigi_no_umi_no_nadia:
+      - nadia la arwall
     genshin_impact:
       - hu tao \(genshin impact\)
     ghibli:
