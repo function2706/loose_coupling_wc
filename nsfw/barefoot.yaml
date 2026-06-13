@@ -3,35 +3,58 @@ barefoot:
     - __barefoot/casual/*__
     - __barefoot/cosplay/*__
   casual:
-    standing:
-      - __barefoot/below/standing__,__barefoot/meta__
-    sitting:
-      - __barefoot/below/sitting__,__barefoot/meta__
-    extending_legs:
-      - __barefoot/not_below/extending_legs__,__barefoot/meta__
+    below:
+      standing:
+        - __barefoot/below/standing__,__barefoot/meta__
+      sitting:
+        - __barefoot/below/sitting__,__barefoot/meta__
+      from_behind:
+        - __barefoot/below/from_behind__,__barefoot/meta__
+    not_below:
+      extending_legs:
+        - __barefoot/not_below/extending_legs__,__barefoot/meta__
+      from_behind:
+        - __barefoot/not_below/from_behind__,__barefoot/meta__
+      indian_style:
+        - __barefoot/not_below/indian_style__,__barefoot/meta__
   cosplay:
-    standing:
-      - __barefoot/below/standing__,__barefoot/equipments/*__,__barefoot/meta__
-    sitting:
-      - __barefoot/below/sitting__,__barefoot/equipments/*__,__barefoot/meta__
-    extending_legs:
-      - __barefoot/not_below/extending_legs__,__barefoot/equipments/*__,__barefoot/meta__
+    below:
+      standing:
+        - __barefoot/below/standing__,__barefoot/equipments/*__,__barefoot/meta__
+      sitting:
+        - __barefoot/below/sitting__,__barefoot/equipments/*__,__barefoot/meta__
+      from_behind_below:
+        - __barefoot/below/from_behind__,__barefoot/equipments/*__,__barefoot/meta__
+    not_below:
+      extending_legs:
+        - __barefoot/not_below/extending_legs__,__barefoot/equipments/*__,__barefoot/meta__
+      from_behind:
+        - __barefoot/not_below/from_behind__,__barefoot/equipments/*__,__barefoot/meta__
+      indian_style:
+        - __barefoot/not_below/indian_style__,__barefoot/equipments/*__,__barefoot/meta__
   meta:
     - __SUBJECT_HERE__,__bp_solo_q____NEG...____barefoot/negative__
   below:
     standing: >-
-      __barefoot/below/core__,standing on one leg{|,hand{|s} on hip}
+      __barefoot/below/core__,looking at viewer,standing on one leg{|,hand{|s} on hip}
     sitting: >-
-      __barefoot/below/core__,sitting{| on chair}{|,crossed legs}{|,head rest}
+      __barefoot/below/core__,looking at viewer,sitting{| on chair}{|,crossed legs}{|,head rest}
+    from_behind: >-
+      __barefoot/below/core__,looking back,looking at viewer,standing on one leg{|,hand{|s} on hip}
     core: >-
       (five toes:1.2),(foot focus),from below,pov,barefoot,{0-$$,$$toes|soles|toenails},__barefoot/foot_state__,
-      __barefoot/expressions__,looking at viewer
+      __barefoot/expressions__
   not_below:
     extending_legs: >-
-      __barefoot/not_below/core__,sitting,legs together,feet together,extending legs,stretched legs out,arms behind back
-    core: >-
       __barefoot/expressions__,(looking at viewer),full body,
-      (five toes:1.2),(foot focus),barefoot,{0-$$,$$toes|soles|toenails},__barefoot/foot_state__
+      (five toes:1.2),(foot focus),barefoot,{0-$$,$$toes|soles|toenails},__barefoot/foot_state__,
+      sitting,legs together,feet together,extending legs,stretched legs out,arms behind back
+    from_behind: >-
+      (five toes:1.2),(foot focus),pov,barefoot,{0-$$,$$toes|soles|toenails},__barefoot/foot_state__,
+      __barefoot/expressions__,{seiza|all fours},looking back
+    indian_style: >-
+      (five toes:1.2),(from side:0.7),pov,barefoot,soles,{0-$$,$$toes|toenails},__barefoot/foot_state__,
+      __barefoot/expressions__,indian style,looking at viewer
   foot_state: >-
     {16::|1::,spread toes}{12::|1::,smell}{64::|1::,sweaty foot}
   expressions:
