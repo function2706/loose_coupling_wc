@@ -47,7 +47,7 @@ barefoot:
       __barefoot/below/core__,looking back,looking at viewer,standing on one leg{|,hand{|s} on hip}
     core: >-
       (five toes:1.2),(foot focus),from below,pov,barefoot,{0-$$,$$toes|soles|toenails},__barefoot/foot_state__,
-      __barefoot/expressions__{4::|1::,viewer on leash,holding leash}
+      __barefoot/expressions__{3::|1::,(viewer on leash),(holding leash)}
   not_below:
     extending_legs: >-
       __barefoot/expressions__,(looking at viewer),full body,
