@@ -1,37 +1,54 @@
 socks:
   random:
-    - __socks/casual/*__
-    - __socks/cosplay/*__
+    - __socks/casual/random__
+    - __socks/cosplay/random__
   casual:
-    standing:
-      - __socks/below/standing__,{__tailor/footwears/socks/*__|__tailor/footwears/pantyhoses__},__socks/meta__
-    sitting:
-      - __socks/below/sitting__,{__tailor/footwears/socks/*__|__tailor/footwears/pantyhoses__},__socks/meta__
-    extending_legs:
-      - __socks/not_below/extending_legs__,{__tailor/footwears/socks/*__|__tailor/footwears/pantyhoses__},__socks/meta__
+    random: >-
+      {3::__socks/casual/below/*__|2::__socks/casual/not_below/*__}
+    below:
+      standing:
+        - __socks/below/standing__,{__tailor/footwears/socks/*__|__tailor/footwears/pantyhoses__},__socks/meta__
+      sitting:
+        - __socks/below/sitting__,{__tailor/footwears/socks/*__|__tailor/footwears/pantyhoses__},__socks/meta__
+      from_behind:
+        - __socks/below/from_behind__,{__tailor/footwears/socks/*__|__tailor/footwears/pantyhoses__},__socks/meta__
+    not_below:
+      extending_legs:
+        - __socks/not_below/extending_legs__,{__tailor/footwears/socks/*__|__tailor/footwears/pantyhoses__},__socks/meta__
+      from_behind:
+        - __socks/not_below/from_behind__,{__tailor/footwears/socks/*__|__tailor/footwears/pantyhoses__},__socks/meta__
   cosplay:
-    standing:
-      - __socks/below/standing__,__socks/equipments/*__,__socks/meta__
-    sitting:
-      - __socks/below/sitting__,__socks/equipments/*__,__socks/meta__
-    extending_legs:
-      - __socks/not_below/extending_legs__,__socks/equipments/*__,__socks/meta__
+    random: >-
+      {3::__socks/cosplay/below/*__|2::__socks/cosplay/not_below/*__}
+    below:
+      standing:
+        - __socks/below/standing__,__socks/equipments/*__,__socks/meta__
+      sitting:
+        - __socks/below/sitting__,__socks/equipments/*__,__socks/meta__
+      from_behind:
+        - __socks/below/from_behind__,__socks/equipments/*__,__socks/meta__
+    not_below:
+      extending_legs:
+        - __socks/not_below/extending_legs__,__socks/equipments/*__,__socks/meta__
+      from_behind:
+        - __socks/not_below/from_behind__,__socks/equipments/*__,__socks/meta__
   meta:
     - __SUBJECT_HERE__,__bp_solo_q____NEG...____socks/negative__
   below:
     standing: >-
-      __socks/below/core__,standing on one leg{|,hand{|s} on hip}
+      __socks/below/core__,looking at viewer,standing on one leg{|,hand{|s} on hip}
     sitting: >-
-      __socks/below/core__,sitting{| on chair}{|,crossed legs}{|,head rest}
+      __socks/below/core__,looking at viewer,sitting{| on chair}{|,crossed legs}{|,head rest}
+    from_behind: >-
+      __socks/below/core__,looking back,looking at viewer,standing on one leg{|,hand{|s} on hip}
     core: >-
-      five toes,(foot focus),from below,pov,{0-$$,$$toes|soles},{8::|1::,smell},
-      __socks/expressions__,looking at viewer
+      (foot focus),from below,pov,{0-$$,$$toes|soles},{8::|1::,smell},__socks/expressions__
   not_below:
     extending_legs: >-
-      __socks/not_below/core__,sitting,legs together,feet together,extending legs,stretched legs out,arms behind back
-    core: >-
-      (foot focus),__socks/expressions__,(looking at viewer),full body,
-      five toes,{0-$$,$$toes|soles}{8::|1::,smell}
+      (foot focus),__socks/expressions__,(looking at viewer),full body,{0-$$,$$toes|soles}{8::|1::,smell},
+      sitting,legs together,feet together,extending legs,stretched legs out,arms behind back
+    from_behind: >-
+      (foot focus),pov,{0-$$,$$toes|soles},{8::|1::,smell},__socks/expressions__,{seiza|all fours},looking back
   expressions:
     - "{expressionless|bored}{|,narrowed eyes}"
     - light smile

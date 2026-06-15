@@ -1,8 +1,10 @@
 barefoot:
   random:
-    - __barefoot/casual/*__
-    - __barefoot/cosplay/*__
+    - __barefoot/casual/random__
+    - __barefoot/cosplay/random__
   casual:
+    random: >-
+      {3::__barefoot/casual/below/*__|3::__barefoot/casual/not_below/*__}
     below:
       standing:
         - __barefoot/below/standing__,__barefoot/meta__
@@ -18,6 +20,8 @@ barefoot:
       indian_style:
         - __barefoot/not_below/indian_style__,__barefoot/meta__
   cosplay:
+    random: >-
+      {3::__barefoot/casual/below/*__|3::__barefoot/casual/not_below/*__}
     below:
       standing:
         - __barefoot/below/standing__,__barefoot/equipments/*__,__barefoot/meta__
