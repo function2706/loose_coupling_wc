@@ -42,7 +42,7 @@ socks:
     from_behind: >-
       __socks/below/core__,looking back,looking at viewer,standing on one leg{|,hand{|s} on hip}
     core: >-
-      (foot focus),from below,pov,{0-$$,$$toes|soles},{8::|1::,smell},__socks/expressions__
+      (foot focus),from below,pov,{0-$$,$$toes|soles},{8::|1::,smell},__socks/expressions__{4::|1::,viewer on leash,holding leash}
   not_below:
     extending_legs: >-
       (foot focus),__socks/expressions__,(looking at viewer),full body,{0-$$,$$toes|soles}{8::|1::,smell},

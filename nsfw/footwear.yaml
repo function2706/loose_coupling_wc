@@ -18,13 +18,11 @@ footwear:
     __NEG...__
     __footwear/negative__
   standing: >-
-    __footwear/expressions__,
-    standing{ on one leg|,knee up}{|,hand{|s} on hip},
-    (foot focus),(shoe soles),from below,looking at viewer
+    __footwear/expressions__,standing{ on one leg|,knee up}{|,hand{|s} on hip},
+    (foot focus),(shoe soles),from below,looking at viewer{4::|1::,viewer on leash,holding leash}
   sitting: >-
-    __footwear/expressions__,
-    sitting{| on chair}{|,crossed legs}{|,head rest},
-    (foot focus),(shoe soles),from below,looking at viewer
+    __footwear/expressions__,sitting{| on chair}{|,crossed legs}{|,head rest},
+    (foot focus),(shoe soles),from below,looking at viewer{4::|1::,viewer on leash,holding leash}
   expressions:
     - expressionless
     - light smile
