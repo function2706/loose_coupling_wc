@@ -1,6 +1,6 @@
 latex:
   random: >-
-    __latex/equipments/*__{|,from below},
+    __latex/equipments/*__,
     __latex/expressions__,looking at viewer,
     {1::|2::__latex/poses__},
     __SUBJECT_HERE__,
@@ -13,8 +13,8 @@ latex:
     - seductive smile
     - smirk{|,closed mouth}
   poses:
-    - standing{| on one leg}{|,hand on hip}{|,shoe soles}
-    - sitting on chair{|,crossed legs{|,shoe soles}|knee up}{|,head rest}
+    - standing{| on one leg{|,shoe soles}}{|,hand on hip}{|,from below,pov{{|,(viewer on leash),(holding leash)}}}
+    - sitting on chair{|,crossed legs{|,shoe soles}|knee up}{|,head rest}{|,from below,pov{{|,(viewer on leash),(holding leash)}}}
   equipments:
     black: >-
       black {latex thigh boots|latex knee boots{|,garter belt|,{|fishnet }thighhighs}|{|stiletto }heels{|,garter belt|,{|fishnet }thighhighs}},
