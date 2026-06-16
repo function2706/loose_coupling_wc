@@ -1,6 +1,6 @@
 latex:
   random: >-
-    __latex/equipments/*__,
+    {10::__latex/equipments/black__|5::__latex/equipments/red__|1::{__latex/equipments/blue__|__latex/equipments/pink__|__latex/equipments/white__}},
     __latex/expressions__,looking at viewer,
     {1::|2::__latex/poses__},
     __SUBJECT_HERE__,
