@@ -31,9 +31,13 @@ giantess:
         - __giantess/barefoot/on_city/cosplay__
       core: >-
         giantess,five toes,foot focus,from below{|,foreshortening},barefoot,{0-$$,$$toes|soles|toenails}{7::|1::,spread toes},dirty sole,
-        (__giantess/expressions__),(looking down),
-        {standing on one leg{|,hand on hip|,claw pose}|sitting,{knees up,spread legs|legs together,feet together,extending legs,stretched legs out},arms behind back},
+        (__giantess/expressions__),
+        __giantess/barefoot/on_city/poses__,
         __giantess/object/city__
+      poses:
+        - (looking {down|at viewer}),standing on one leg{|,hand on hip|,claw pose}
+        - (looking {down|at viewer}),sitting,{knees up,spread legs|legs together,feet together,extending legs,stretched legs out},arms behind back
+        - (looking back){|,(looking at viewer)},standing on one leg{|,hand{|s} on hip}
       casual: >-
         __giantess/barefoot/on_city/core__,
         __SUBJECT_HERE__,
@@ -94,10 +98,13 @@ giantess:
         - __giantess/footwear/on_city/casual__
         - __giantess/footwear/on_city/cosplay__
       core: >-
-        (__giantess/expressions__),(looking down),(full body),
+        (__giantess/expressions__),(full body),
         giantess,foot focus,from below{|,foreshortening}{|,shoe soles},dirty sole,
-        standing on one leg{|,hand on hip|,claw pose},
+        __giantess/footwear/on_city/poses__,
         __giantess/object/city__
+      poses:
+        - (looking {down|at viewer}),standing on one leg{|,hand on hip|,claw pose}
+        - (looking back){|,(looking at viewer)},standing on one leg{|,hand{|s} on hip}
       casual: >-
         __giantess/footwear/on_city/core__,
         {__tailor/footwears/boots/knee__|__tailor/footwears/boots/thigh__},
