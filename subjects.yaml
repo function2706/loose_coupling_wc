@@ -14,24 +14,44 @@ subjects:
       - girl,black hair,wavy hair,medium hair,dark brown eyes,hairpin,flat chest,female child
     human_girl_5:
       - girl,blonde hair,blunt bangs,low ponytail,sidelocks,light blue eyes,fair skin,teenage,small breasts
+    bee_girl:
+      - bee girl,blonde hair,pixie cut,blunt bangs,low ponytail,black sclera,white eyes,tsurime,antennae,bee wings,medium breasts,tall female
+    butterfly_girl:
+      - butterfly girl,pink hair,long hair,twin tails,blunt bangs,blue eyes,antennae,butterfly wings,slim,medium breasts
     cat_girl:
-      - cat girl,blonde hair,medium hair,blunt bangs,ponytail,sidelocks,blue eyes,slit pupils,tsurime,cat ears,whiskers,fangs,golden furs,medium breasts,slim{|,[cat tail]}
-    fox_girl:
-      - fox girl,white hair,medium hair,fluffy bangs,yellow eyes,slit pupils,fox ears,whiskers,slim,medium breasts{|,[fox tail]}
+      - cat girl,blonde hair,medium hair,blunt bangs,ponytail,sidelocks,blue eyes,slit pupils,tsurime,cat ears,whiskers,fangs,blonde fur,medium breasts,slim{|,(cat tail:0.9)}
+    bird_girl_1:
+      - bird girl,black hair,long hair,blunt bangs,red eyes,tsurime,sanpaku,bird ears,black feathers,small breasts,slim,bird wings{|,bird tail}
+    bird_girl_2:
+      - bird girl,white hair,short hair,flipped hair,sidelocks,red eyes,bird ears,white feathers,large breasts,slim,white bird wings{|,bird tail}
+    fish_girl:
+      - fish girl,blue hair,long hair,wavy hair,sidelocks,light blue eyes,tareme,head fins,medium breasts{|,(fish tail:0.9)}
+    fox_girl_1:
+      - fox girl,blonde hair,medium hair,fluffy bangs,yellow eyes,slit pupils,fox ears,whiskers,slim,medium breasts{|,(fox tail:0.9)}
+    fox_girl_2:
+      - fox girl,white hair,short hair,(blunt bangs:0.8),dark brown eyes,slit pupils,tsurime,fox ears,whiskers,fair skin,small breasts{|,(fox tail:0.9)}
+    lizard_girl:
+      - lizard girl,light blue hair,pixie cut,yellow eyes,slit pupils,(fangs:0.9),small breasts,slim,tall female{|,(lizard tail:0.9)}
+    moth_girl:
+      - moth girl,white hair,medium hair,parted bangs,black sclera,yellow eyes,short eyebrows,pale skin,large breasts,moth wings,antennae
     mouse_girl:
-      - mouse girl,grey hair,medium hair,swept bangs,dark red eyes,mouse ears,whiskers,slim,small breasts,short{|,[mouse tail]}
+      - mouse girl,grey hair,medium hair,swept bangs,dark red eyes,mouse ears,whiskers,slim,small breasts,short{|,(mouse tail:0.9)}
     rabbit_girl:
-      - rabbit girl,white hair,medium hair,curly bangs,ponytail,red eyes,tareme,rabbit ears,whiskers,[short],medium breasts{|,[rabbit tail]}
+      - rabbit girl,white hair,medium hair,curly bangs,ponytail,red eyes,tareme,rabbit ears,whiskers,(short:0.9),medium breasts{|,(rabbit tail:0.9)}
     sheep_girl:
       - sheep girl,white hair,long hair,curly hair,long bangs,red eyes,horizontal pupils,tareme,animal ears,sheep horns,(white fur:1.2)
+    tiger_girl:
+      - tiger girl,orange hair,bob cut,yellow eyes,slit pupils,tsurime,tiger ears,(fangs:1.1),medium breasts,tall female,toned{|,(tiger tail:0.9)}
     wolf_girl:
-      - wolf girl,grey hair,short hair,hair between eyes,yellow eyes,animal ears,whiskers,fangs,medium breasts,tall,slim{|,[wolf tail]}
+      - wolf girl,grey hair,short hair,hair between eyes,yellow eyes,animal ears,whiskers,fangs,medium breasts,tall,slim{|,(wolf tail:0.9)}
     angel_girl:
       - angel girl,golden hair,long hair,wavy hair,curly bangs,light blue eyes,tareme,fair skin,wings,halo,large breasts
     dark_elf_girl:
       - dark elf girl,light purple hair,long hair,side swept bangs,pointy ears,yellow eyes,dark skin,slim,tall,medium breasts
     demon_girl:
       - demon girl,crimson hair,long hair,loose waves,side bangs,red eyes,tsurime,demon horns,dark skin,tall,large breasts,dark horns,bat wings
+    devil_girl:
+      - devil girl,white hair,very short hair,wavy hair,swept bangs,side single braid,yellow eyes,black horns,black bat wings,dark skin,small breasts{|,(demon tail:0.9)}
     elf_girl_1:
       - elf girl,silver hair,long hair,braided bangs,pointy ears,green eyes,fair skin,slim,tall,medium breasts
     elf_girl_2:
@@ -42,12 +62,12 @@ subjects:
       - fallen angel girl,white hair,long hair,messy hair,hair between eyes,dark blue eyes,dark skin,halo,black wings,large breasts
     goddess_girl:
       - goddess girl,mature female,blonde hair,long hair,parted bangs,long sidelocks,yellow eyes,tareme,fair skin,halo,tall,large breasts
+    slime_girl:
+      - slime girl,monster girl,light blue hair,medium hair,dark blue eyes,medium breasts
     succubus_girl:
-      - succubus,magenta hair,long hair,straight hair,medium bangs,purple eyes,tsurime,pale skin,horns,large breasts{|,[demon tail]}
+      - succubus,magenta hair,long hair,straight hair,medium bangs,purple eyes,tsurime,pale skin,horns,large breasts{|,(demon tail:0.9)}
     vampire_girl:
-      - vampire girl,black hair,long hair,blunt bangs,red eyes,tsurime,slit pupils,pale skin,[fangs],slim,medium breasts
-    devil_girl:
-      - devil girl,white hair,very short hair,wavy hair,swept bangs,side single braid,yellow eyes,black horns,black bat wings,dark skin,small breasts{|,[demon tail]}
+      - vampire girl,black hair,long hair,blunt bangs,red eyes,tsurime,slit pupils,pale skin,(fangs:0.9),slim,medium breasts
   copyrights:
     arknights:
       - absinthe \(arknights\)
@@ -3476,7 +3496,7 @@ subjects:
       human:
         - __subjects/profiles/eye/color/make__{6::|1::,{tareme|tsurime}}
       demi_human:
-        - __subjects/profiles/eye/human__{6::|1::,{horizontal|slit} pupils}
+        - __subjects/profiles/eye/human__{18::|3::,{horizontal|slit} pupils|1::,black sclera}
       color:
         make:
           - "{20::__subjects/profiles/eye/color/normal__|1::__subjects/profiles/eye/color/heterochromia__}"
