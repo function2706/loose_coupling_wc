@@ -24,6 +24,8 @@ subjects:
       - bird girl,black hair,long hair,blunt bangs,red eyes,tsurime,sanpaku,bird ears,black feathers,small breasts,slim,bird wings{|,bird tail}
     bird_girl_2:
       - bird girl,white hair,short hair,flipped hair,sidelocks,red eyes,bird ears,white feathers,large breasts,slim,white bird wings{|,bird tail}
+    dryad_girl:
+      - dryad girl,white hair,long hair,braided bangs,light green eyes,pointy ears,green skin,slim,medium breasts
     fish_girl:
       - fish girl,blue hair,long hair,wavy hair,sidelocks,light blue eyes,tareme,head fins,medium breasts{|,(fish tail:0.9)}
     fox_girl_1:
@@ -58,10 +60,16 @@ subjects:
       - elf girl,blonde hair,medium hair,blunt bangs,braided strands,green eyes,tsurime,fair skin,pointy ears,tall,medium breasts
     elf_girl_3:
       - elf girl,blonde hair,medium hair,side braid,sidelocks,light blue eyes,fair skin,pointy ears,medium breasts
+    fairy_girl_1:
+      - fairy girl,blonde hair,medium hair,crown braid,green eyes,pointy ears,fairy wings,fair skin,skinny,flat chest
+    pixie_girl_2:
+      - pixie girl,grey hair,pixie cut,black eyes,black sclera,pointy ears,fairy wings,fair skin,skinny,flat chest
     fallen_angel_girl:
       - fallen angel girl,white hair,long hair,messy hair,hair between eyes,dark blue eyes,dark skin,halo,black wings,large breasts
     goddess_girl:
       - goddess girl,mature female,blonde hair,long hair,parted bangs,long sidelocks,yellow eyes,tareme,fair skin,halo,tall,large breasts
+    imp_girl:
+      - succubus,pink hair,short hair,short twintails,purple eyes,tsurime,pale skin,horns,small breasts{|,(demon tail:0.9)}
     slime_girl:
       - slime girl,monster girl,light blue hair,medium hair,dark blue eyes,medium breasts
     succubus_girl:
@@ -3591,6 +3599,7 @@ subjects:
         - ogre girl{|,horns}{|,{green|red} skin}
         - oni girl,horns{|,{red|blue} skin}
         - salamander girl{|,red skin}
+        - slime girl,monster girl
         - succubus girl,horns,wings{|,tail}{|,{dark|fair|pink} skin}
         - undine girl{|,blue skin}
         - vampire girl{|,slit pupils},pointy ears{|,fangs}{|,pale skin}
