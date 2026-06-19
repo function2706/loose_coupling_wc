@@ -60,16 +60,16 @@ subjects:
       - elf girl,blonde hair,medium hair,blunt bangs,braided strands,green eyes,tsurime,fair skin,pointy ears,tall,medium breasts
     elf_girl_3:
       - elf girl,blonde hair,medium hair,side braid,sidelocks,light blue eyes,fair skin,pointy ears,medium breasts
-    fairy_girl_1:
-      - fairy girl,blonde hair,medium hair,crown braid,green eyes,pointy ears,fairy wings,fair skin,skinny,flat chest
-    pixie_girl_2:
-      - pixie girl,grey hair,pixie cut,black eyes,black sclera,pointy ears,fairy wings,fair skin,skinny,flat chest
+    fairy_girl:
+      - fairy girl,blonde hair,medium hair,crown braid,green eyes,pointy ears,fairy wings,fair skin,small breasts
     fallen_angel_girl:
       - fallen angel girl,white hair,long hair,messy hair,hair between eyes,dark blue eyes,dark skin,halo,black wings,large breasts
     goddess_girl:
       - goddess girl,mature female,blonde hair,long hair,parted bangs,long sidelocks,yellow eyes,tareme,fair skin,halo,tall,large breasts
     imp_girl:
-      - succubus,pink hair,short hair,short twintails,purple eyes,tsurime,pale skin,horns,small breasts{|,(demon tail:0.9)}
+      - succubus,pink hair,short hair,low twintails,short twintails,purple eyes,tsurime,pale skin,horns,small breasts{|,(demon tail:0.9)}
+    pixie_girl:
+      - pixie girl,grey hair,pixie cut,dark yellow eyes,black sclera,sanpaku,pointy ears,fairy wings,fair skin,flat chest
     slime_girl:
       - slime girl,monster girl,light blue hair,medium hair,dark blue eyes,medium breasts
     succubus_girl:
