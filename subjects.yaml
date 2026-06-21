@@ -5,15 +5,17 @@ subjects:
     - "{1::__subjects/original/*__|8::__subjects/copyrights/*__|8::__subjects/profiles/random_with_furry__}"
   original:
     human_girl_1:
-      - girl,brown hair,short hair,asymmetrical bangs,brown eyes,tsurime,tan skin,small breasts
+      - brown hair,short hair,asymmetrical bangs,brown eyes,tsurime,tan skin,small breasts
     human_girl_2:
-      - girl,black hair,hime cut,dark brown eyes,tsurime,fair skin,tall,skinny,medium breasts
+      - black hair,hime cut,dark brown eyes,tsurime,fair skin,tall,skinny,medium breasts
     human_girl_3:
-      - girl,silver hair,short bob,straight bangs,light blue eyes,pale skin,slim,short,flat chest,female child
+      - silver hair,short bob,straight bangs,light blue eyes,pale skin,slim,short,flat chest,female child
     human_girl_4:
-      - girl,black hair,wavy hair,medium hair,dark brown eyes,hairpin,flat chest,female child
+      - black hair,wavy hair,medium hair,dark brown eyes,hairpin,flat chest,female child
     human_girl_5:
-      - girl,blonde hair,blunt bangs,low ponytail,sidelocks,light blue eyes,fair skin,teenage,small breasts
+      - blonde hair,blunt bangs,low ponytail,sidelocks,light blue eyes,fair skin,teenage,small breasts
+    human_girl_6:
+      - purple hair,hair bun,sidelocks,parted bangs,purple eyes,(tsurime:1.1),mole under eye,mature female,tall female,large breasts,wide hips
     bee_girl:
       - bee girl,blonde hair,pixie cut,blunt bangs,low ponytail,black sclera,white eyes,tsurime,antennae,bee wings,medium breasts,tall female
     butterfly_girl:
