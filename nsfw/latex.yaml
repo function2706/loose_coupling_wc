@@ -56,7 +56,7 @@ latex:
     __SUBJECT_HERE__,__bp_solo_q____NEG...____footwear/negative__
   equipments:
     random: >-
-      {20::__latex/equipments/black__|5::__latex/equipments/red__|1::{__latex/equipments/blue__|__latex/equipments/pink__|__latex/equipments/white__}}
+      {20::__latex/equipments/black__|5::__latex/equipments/red__|1::{__latex/equipments/blue__|__latex/equipments/green__|__latex/equipments/orange__|__latex/equipments/pink__|__latex/equipments/purple__|__latex/equipments/white__|__latex/equipments/yellow__}}
     black: >-
       black __latex/equipments/parts/footwear__,
       black __latex/equipments/parts/tops__,
@@ -67,11 +67,26 @@ latex:
       blue __latex/equipments/parts/tops__,
       blue __latex/equipments/parts/bottoms__,
       blue __latex/equipments/parts/arm__
+    green: >-
+      green __latex/equipments/parts/footwear__,
+      green __latex/equipments/parts/tops__,
+      green __latex/equipments/parts/bottoms__,
+      green __latex/equipments/parts/arm__
+    orange: >-
+      orange __latex/equipments/parts/footwear__,
+      orange __latex/equipments/parts/tops__,
+      orange __latex/equipments/parts/bottoms__,
+      orange __latex/equipments/parts/arm__
     pink: >-
       pink __latex/equipments/parts/footwear__,
       pink __latex/equipments/parts/tops__,
       pink __latex/equipments/parts/bottoms__,
       pink __latex/equipments/parts/arm__
+    purple: >-
+      purple __latex/equipments/parts/footwear__,
+      purple __latex/equipments/parts/tops__,
+      purple __latex/equipments/parts/bottoms__,
+      purple __latex/equipments/parts/arm__
     red: >-
       red __latex/equipments/parts/footwear__,
       red __latex/equipments/parts/tops__,
@@ -82,6 +97,11 @@ latex:
       white __latex/equipments/parts/tops__,
       white __latex/equipments/parts/bottoms__,
       white __latex/equipments/parts/arm__
+    yellow: >-
+      yellow __latex/equipments/parts/footwear__,
+      yellow __latex/equipments/parts/tops__,
+      yellow __latex/equipments/parts/bottoms__,
+      yellow __latex/equipments/parts/arm__
     parts:
       tops: >-
         latex {|strapless }bra
