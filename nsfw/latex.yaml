@@ -56,7 +56,7 @@ latex:
     __SUBJECT_HERE__,__bp_solo_q____NEG...____footwear/negative__
   equipments:
     random: >-
-      {20::__latex/equipments/black__|5::__latex/equipments/red__|1::{__latex/equipments/blue__|__latex/equipments/green__|__latex/equipments/orange__|__latex/equipments/pink__|__latex/equipments/purple__|__latex/equipments/white__|__latex/equipments/yellow__}}
+      {20::__latex/equipments/black__|5::__latex/equipments/red__|1::{__latex/equipments/blue__|__latex/equipments/pink__|__latex/equipments/white__|{__latex/equipments/green__|__latex/equipments/orange__|__latex/equipments/purple__|__latex/equipments/yellow__}}}
     black: >-
       black __latex/equipments/parts/footwear__,
       black __latex/equipments/parts/tops__,
