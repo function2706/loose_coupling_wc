@@ -1,54 +1,62 @@
 latex:
   random: >-
-    {1::|2::__latex/poses/normal/random__|4::__latex/poses/dominatrix/standing__|4::__latex/poses/dominatrix/sitting__},
-    {10::__latex/equipments/black__|5::__latex/equipments/red__|1::{__latex/equipments/blue__|__latex/equipments/pink__|__latex/equipments/white__}},
-    __SUBJECT_HERE__,
-    __bp_solo_q__
-    __NEG...__
-    __footwear/negative__
-  poses:
-    normal:
-      random: >-
-        {1-100$$,$$__latex/poses/normal/upper__|__latex/poses/normal/lower__},__latex/expressions__,looking at viewer
-      upper:
-        - arm{|s} above head
-        - arm{|s} across waist
-        - arm{|s} at side
-        - arm{|s} behind head
-        - arm{|s} between legs
-        - crossed arms
-        - hand on knee
-        - hand on neck
-        - hand rest
-        - hand in own hair
-        - hand{|s} on hip
-        - head rest
-        - holding own arm
-        - reaching towards viewer
-      lower:
-        - contrapposto
-        - kneeling,{|wide} spread legs
-        - on one knee,{|wide} spread legs
-        - sitting {|on chair},{|crossed legs}
-        - sitting {|on chair},{|knee up},{|{|wide }spread legs}
-        - squatting,{|{|wide} spread legs}
-        - standing
-        - standing,crossed ankles
-        - standing,legs apart
-    dominatrix:
-      standing: >-
-        __latex/poses/dominatrix/core__,standing{| on one leg{|,shoe soles}}{|,hand on hip}
-      sitting: >-
-        __latex/poses/dominatrix/core__,sitting on chair{|,crossed legs{|,shoe soles}|,knee up}{|,head rest}
-      core: >-
-        (foot focus),from below,pov,(shoe soles),
-        __latex/expressions__{3::|1::,(viewer on leash),(holding leash)},looking at viewer
-  expressions:
-    - light smile
-    - naughty face
-    - seductive smile
-    - smirk{|,closed mouth}
+    {1::__latex/equipments/random__,__latex/meta__|2::__latex/normal__|8::__latex/dominatrix/*__}
+  normal:
+    - __latex/normal_body/random__,__latex/equipments/random__,__latex/meta__
+  dominatrix:
+    standing:
+      - __latex/dominatrix_body/standing__,__latex/equipments/random__,__latex/meta__
+    sitting:
+      - __latex/dominatrix_body/sitting__,__latex/equipments/random__,__latex/meta__
+  normal_body:
+    random: >-
+      {1-100$$,$$__latex/normal_body/upper__|__latex/normal_body/lower__},__latex/normal_body/expressions__,looking at viewer
+    upper:
+      - arm{|s} behind head
+      - crossed arms
+      - hand on knee
+      - hand on neck
+      - hand in own hair
+      - hand{|s} on hip
+      - holding own arm
+    lower:
+      - kneeling,{|wide} spread legs
+      - on one knee,{|wide} spread legs
+      - sitting {|on chair}{|,crossed legs|,knee up{|,{|wide }spread legs}}
+      - squatting{|,{|wide} spread legs}
+      - standing{|,crossed ankles|,legs apart}
+    expressions:
+      - "{|light }smile"
+      - annoyed
+      - bored
+      - curious
+      - embarrassed
+      - excited
+      - expressionless
+      - in heat
+      - naughty face
+      - seductive smile
+      - smirk
+      - smug
+      - worried
+  dominatrix_body:
+    standing: >-
+      __latex/dominatrix_body/core__,standing{| on one leg{|,shoe soles}}{|,hand on hip}
+    sitting: >-
+      __latex/dominatrix_body/core__,sitting on chair{|,crossed legs{|,shoe soles}|,knee up}{|,head rest}
+    core: >-
+      (foot focus),from below,pov,(shoe soles),__latex/dominatrix_body/expressions__{3::|1::,(viewer on leash),(holding leash)},looking at viewer
+    expressions:
+      - bored
+      - light smile
+      - naughty face
+      - seductive smile
+      - smirk{|,closed mouth}
+  meta: >-
+    __SUBJECT_HERE__,__bp_solo_q____NEG...____footwear/negative__
   equipments:
+    random: >-
+      {20::__latex/equipments/black__|5::__latex/equipments/red__|1::{__latex/equipments/blue__|__latex/equipments/pink__|__latex/equipments/white__}}
     black: >-
       black __latex/equipments/parts/footwear__,
       black __latex/equipments/parts/tops__,
