@@ -287,7 +287,7 @@ tailor:
       - sandals
       - slipper
     pantyhoses: >-
-      {2::|2::black |2::white |2::brown |1::fishnet }pantyhose
+      {2::|4::black |4::white |2::brown |1::fishnet }pantyhose
     socks:
       ankle: >-
         {|black |white |{polka dot|striped} |frilled }ankle socks
@@ -296,7 +296,7 @@ tailor:
       knee: >-
         {10::{|black |white |{brown|green} }kneehighs|1::loose socks}
       thigh: >-
-        {10::{|black |white |striped |fishnet }thighhighs|1::garter {belt|straps}}
+        {10::{8::|4::black |4::white |1::striped |1::fishnet }thighhighs|1::garter {belt|straps}}
   accessories:
     random:
       - "{0-5$$,$$__tailor/accessories/list__}"
