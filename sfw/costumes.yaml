@@ -267,11 +267,11 @@ tailor:
         barefoot{|,anklet}
     boots:
       ankle: >-
-        ankle boots,{|buckled |{cross-laced|lace-up} |zipper }boots{|,{stiletto heels|wedge heels|high heel boots}|,platform boots}
+        ankle boots,{|buckled |{cross-laced|lace-up} |zipper }boots{10::|5::,high heel boots|3::,stiletto heels|2::,platform boots|1::,wedge heels}
       knee: >-
-        knee boots,{|buckled |{cross-laced|lace-up} |zipper }boots{|,{stiletto heels|wedge heels|high heel boots}|,platform boots}
+        knee boots,{|buckled |{cross-laced|lace-up} |zipper }boots{10::|5::,high heel boots|3::,stiletto heels|2::,platform boots|1::,wedge heels}
       thigh: >-
-        thigh boots,{|buckled |{cross-laced|lace-up} |zipper }boots{|,{stiletto heels|wedge heels|high heel boots}|,platform boots}
+        thigh boots,{|buckled |{cross-laced|lace-up} |zipper }boots{10::|5::,high heel boots|3::,stiletto heels|2::,platform boots|1::,wedge heels}
     shoes:
       - "{high|platform|stiletto|strappy|wedge} heels"
       - flats
