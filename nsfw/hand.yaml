@@ -1,0 +1,22 @@
+hand:
+  random:
+    - __hand/core__,__SUBJECT_HERE__,__bp_solo_q____NEG...____hand/negative__
+  core: >-
+    (palms),(fingernails),from below,pov,reaching out,hand on {hip|mouth|chest},
+    __hand/expressions__,looking at viewer
+    {|,blood on hands{|,blood on {1-100$$,$$arm|clothes|face|}}
+  expressions:
+    - evil smile
+    - expressionless
+    - light smile
+    - naughty face
+    - smirk{|,closed mouth}
+  negative: >-
+    viewer's hand,
+    (extra digits:1.5),(fewer digits:1.5),missing digits,bad hands,mutated hands,
+    (extra hands:1.2),(missing hand),(bad arm),(extra arms:1.2),(missing arm),
+    (six toes),(extra toes),fewer toes,missing toes,bad feet,mutated feet,
+    extra feet,missing foot,bad leg,extra legs,missing leg,
+    (amputee),(bad anatomy),(extra limbs),(missing limb),multiple heads,shaded face,
+    (monochrome),motion lines,speed lines,3d,(shiny skin:1.2),worst detail,text,logo,cropped,deformed,blurry,sketch,censor,
+    worst quality,bad quality
