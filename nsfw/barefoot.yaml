@@ -50,7 +50,7 @@ barefoot:
       __barefoot/expressions__{3::|1::,(viewer on leash),(holding leash)}
   not_below:
     extending_legs: >-
-      __barefoot/expressions__,(looking at viewer),full body,
+      {__barefoot/expressions__,(looking at viewer)|expressionless,({looking at another|looked away})},full body,
       (five toes:1.2),(foot focus),barefoot,{0-$$,$$toes|soles|toenails},__barefoot/foot_state__,
       sitting,legs together,feet together,extending legs,stretched legs out,arms behind back
     from_behind: >-

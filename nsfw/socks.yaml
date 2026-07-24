@@ -45,7 +45,7 @@ socks:
       (foot focus),from below,pov,{0-$$,$$toes|soles}{16::|1::,spread toes}{8::|1::,smell},__socks/expressions__{3::|1::,(viewer on leash),(holding leash)}
   not_below:
     extending_legs: >-
-      (foot focus),__socks/expressions__,(looking at viewer),full body,{0-$$,$$toes|soles}{8::|1::,smell},
+      (foot focus),{__barefoot/expressions__,(looking at viewer)|expressionless,({looking at another|looked away})},full body,{0-$$,$$toes|soles}{8::|1::,smell},
       sitting,legs together,feet together,extending legs,stretched legs out,arms behind back
     from_behind: >-
       (foot focus),pov,{0-$$,$$toes|soles},{8::|1::,smell},__socks/expressions__,{seiza|all fours},looking back
