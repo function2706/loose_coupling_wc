@@ -537,6 +537,7 @@ subjects:
       - shihouin yoruichi
       - sui-feng
     blue_archive:
+      - AobaBA,<lora:Utsumi_Aoba:0.8:0.8>,orange eyes,light blonde hair,low twintails,fluffy hair,sidelocks,halo
       - airi \(blue archive\)
       - akane \(blue archive\)
       - ako \(blue archive\)
@@ -3087,6 +3088,7 @@ subjects:
     ashita_no_nadja:
       - nadja applefield
     blue_archive:
+      - AobaBA,<lora:Utsumi_Aoba:0.8:0.8>,orange eyes,light blonde hair,low twintails,fluffy hair,sidelocks,halo
       - arona \(blue archive\)
       - aru \(blue archive\)
       - ayane \(blue archive\)
